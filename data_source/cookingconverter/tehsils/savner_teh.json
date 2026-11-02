@@ -1,0 +1,8 @@
+{
+  "id": "savner_teh",
+  "name": "Savner Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["savner_teh_depot"]
+}

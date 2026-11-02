@@ -1,0 +1,8 @@
+{
+  "id": "nanded_dist",
+  "name": "Nanded District",
+  "alphabet": "N",
+  "type": "district",
+  "division_id": "chhatrapati_sambhajinagar_div",
+  "tehsils": ["nanded_teh","aradhapur_teh","biloli_teh","degloor_teh","dharmabad_teh","hadgaon_teh","himayatnagar_teh","kandhar_teh","kinwat_teh","mudkhed_teh","naigaon_teh","umri_teh"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "yawal_teh",
+  "name": "Yawal Tehsil",
+  "alphabet": "Y",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["yawal_teh_depot"]
+}

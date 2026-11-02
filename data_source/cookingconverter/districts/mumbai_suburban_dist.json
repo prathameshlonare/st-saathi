@@ -1,0 +1,8 @@
+{
+  "id": "mumbai_suburban_dist",
+  "name": "Mumbai Suburban District",
+  "alphabet": "M",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["andheri_teh","borivali_teh","kurla_teh"]
+}

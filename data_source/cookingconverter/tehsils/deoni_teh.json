@@ -1,0 +1,8 @@
+{
+  "id": "deoni_teh",
+  "name": "Deoni Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["deoni_teh_depot"]
+}

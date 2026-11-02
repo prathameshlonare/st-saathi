@@ -1,0 +1,8 @@
+{
+  "id": "korpana_teh",
+  "name": "Korpana Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["korpana_teh_depot"]
+}

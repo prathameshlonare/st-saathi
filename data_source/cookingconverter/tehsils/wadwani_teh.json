@@ -1,0 +1,8 @@
+{
+  "id": "wadwani_teh",
+  "name": "Wadwani Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["wadwani_teh_depot"]
+}

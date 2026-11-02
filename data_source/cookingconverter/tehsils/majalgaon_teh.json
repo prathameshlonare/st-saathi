@@ -1,0 +1,8 @@
+{
+  "id": "majalgaon_teh",
+  "name": "Majalgaon Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["majalgaon_teh_depot"]
+}

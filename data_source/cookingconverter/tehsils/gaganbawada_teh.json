@@ -1,0 +1,8 @@
+{
+  "id": "gaganbawada_teh",
+  "name": "Gaganbawada Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["gaganbawada_teh_depot"]
+}

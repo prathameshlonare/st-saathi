@@ -1,0 +1,8 @@
+{
+  "id": "jalna_dist",
+  "name": "Jalna District",
+  "alphabet": "J",
+  "type": "district",
+  "division_id": "chhatrapati_sambhajinagar_div",
+  "tehsils": ["jalna_teh","ambad_teh","badnapur_teh","ghansawangi_teh","partur_teh","mantha_teh"]
+}

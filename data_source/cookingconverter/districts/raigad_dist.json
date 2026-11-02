@@ -1,0 +1,8 @@
+{
+  "id": "raigad_dist",
+  "name": "Raigad District",
+  "alphabet": "R",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["alibag_teh","murud_teh","pen_teh","panvel_teh","uran_teh","karjat_teh","khalapur_teh","roha_teh","mangaon_teh","mahad_teh","shrivardhan_teh","tala_teh","pali_teh"]
+}

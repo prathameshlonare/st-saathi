@@ -1,0 +1,8 @@
+{
+  "id": "armori_teh",
+  "name": "Armori Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["armori_teh_depot"]
+}

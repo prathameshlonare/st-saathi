@@ -1,0 +1,8 @@
+{
+  "id": "anjangaon_surji_teh",
+  "name": "Anjangaon Surji Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["anjangaon_surji_teh_depot"]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "sakoli_bus_stand_depot",
+  "name": "Sakoli Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "sakoli_teh",
+  "address": "Sakoli Bus Stand, Main Road, Sakoli, Bhandara - 441802",
+  "contact": "",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Adyal",
+        "schedule": ["09:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Akola via Nagpur",
+        "schedule": ["08:40", "11:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Akola via Gondia",
+        "schedule": ["15:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Amravati via Nagpur",
+        "schedule": ["07:00", "13:30", "17:05"],
+        "bus_count": 3
+      },
+      {
+        "name": "Arjuni / Mor",
+        "schedule": ["06:00", "07:15", "07:30", "08:00", "09:00", "09:30", "10:10", "11:00", "11:30", "12:00", "13:00", "14:00", "14:30", "16:00", "16:30", "18:30", "19:45"],
+        "bus_count": 17
+      }
+    ],
+    "b": [
+      {
+        "name": "Buldhana",
+        "schedule": ["09:45"],
+        "bus_count": 1
+      }
+    ],
+    "c": [
+      {
+        "name": "Chatrapati Sambhaji Nagar ( Aurangabad )",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Chindwara",
+        "schedule": ["11:10"],
+        "bus_count": 1
+      }
+    ],
+    "d": [
+      {
+        "name": "Devari",
+        "schedule": ["06:45", "07:35", "08:10", "08:15", "09:05", "09:15", "09:30", "09:35", "09:45", "09:50", "10:10", "10:20", "10:30", "10:45", "11:00", "11:20", "11:35", "11:50", "12:00", "12:25", "13:00", "13:45", "14:10", "15:15", "15:25", "16:30", "17:30", "17:45", "18:55", "19:15", "20:25"],
+        "bus_count": 31
+      }
+    ],
+    "g": [
+      {
+        "name": "Gondiya",
+        "schedule": ["07:45", "08:45", "09:10", "09:40", "10:00", "10:30", "10:45", "11:00", "11:10", "11:15", "11:25", "11:45", "12:00", "12:30", "12:40", "13:00", "13:30", "14:00", "14:30", "15:15", "15:30", "15:45", "16:00", "16:15", "16:30", "16:45", "17:15", "18:00", "18:15", "18:30", "19:30", "20:30", "20:40"],
+        "bus_count": 33
+      },
+      {
+        "name": "Gondumari",
+        "schedule": ["05:15", "06:00", "11:30", "12:00", "13:30", "15:00", "17:15", "17:30"],
+        "bus_count": 8
+      }
+    ],
+    "j": [
+      {
+        "name": "Jambhali",
+        "schedule": ["05:45", "08:15", "09:00", "12:15", "14:00", "17:00", "17:30"],
+        "bus_count": 7
+      }
+    ],
+    "k": [
+      {
+        "name": "Katol",
+        "schedule": ["09:00", "12:10"],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Lakhandur",
+        "schedule": ["06:30", "07:45", "08:30", "09:00", "10:30", "11:30", "13:00", "14:00", "17:00", "18:40", "19:45"],
+        "bus_count": 11
+      },
+      {
+        "name": "Ledezari Khodshivani",
+        "schedule": ["08:00", "09:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:15", "17:30"],
+        "bus_count": 9
+      },
+      {
+        "name": "Lonar",
+        "schedule": ["07:35"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mahur",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      }
+
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["07:15", "07:26", "07:45", "08:05", "08:15", "08:45", "08:55", "09:25", "09:40", "10:05", "10:10", "10:20", "10:25", "10:30", "10:35", "10:45", "10:50", "11:15", "11:20", "11:30", "11:40", "11:45", "12:05", "12:15", "12:20", "12:25", "12:30", "12:40", "12:50", "13:00", "13:05", "13:10", "13:15", "13:25", "13:35", "13:45", "13:50", "14:05", "14:20", "14:30", "14:40", "14:45", "15:00", "15:25", "15:35", "15:45", "15:50", "16:25", "17:00", "17:15", "17:35", "17:45", "18:30", "19:25", "19:45"],
+        "bus_count": 55
+      },
+      {
+        "name": "Nanded via Nagpur",
+        "schedule": ["08:35", "15:40"],
+        "bus_count": 2
+      },
+      {
+        "name": "Nanded via gondia ",
+        "schedule": ["18:00", "18:30"],
+        "bus_count": 2
+      }
+    ],
+    "p": [
+      {
+        "name": "Paratwada",
+        "schedule": ["05:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Parsodi",
+        "schedule": ["06:30", "09:00", "10:10", "12:00", "15:30", "17:00"],
+        "bus_count": 6
+      },
+      {
+        "name": "Pusad",
+        "schedule": ["09:15"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Salebhata",
+        "schedule": ["09:30", "15:30"],
+        "bus_count": 2
+      }
+    ],
+    "t": [
+      {
+        "name": "Tiroda",
+        "schedule": ["07:45", "09:15", "10:30", "11:30", "12:30", "13:00", "14:30", "16:15", "18:00"],
+        "bus_count": 9
+      },
+      {
+        "name": "Tumsar",
+        "schedule": ["07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00"],
+        "bus_count": 12
+      }
+    ],
+    "u": [
+      {
+        "name": "Umarkhed",
+        "schedule": ["09:35"],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Wardha",
+        "schedule": ["15:15"],
+        "bus_count": 1
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal",
+        "schedule": ["06:15", "14:00"],
+        "bus_count": 2
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>साकोली बस स्थानक महाराष्ट्र राज्य परिवहन महामंडळ (MSRTC) अंतर्गत भंडारा जिल्ह्यातील एक महत्त्वाचे प्रवासी केंद्र आहे. हे स्थानक साकोली शहराला नागपूर, गोंदिया, भंडारा, तुमसर, तिरोडा, अर्जुनी, लखांदूर, देवरी यांसारख्या महत्त्वाच्या शहरांशी जोडते. येथून दररोज हजारो प्रवासी नियमित व आरामदायी बससेवेद्वारे आपल्या गंतव्यस्थानी पोहोचतात.</p><p>स्थानकात प्रवाशांसाठी स्वच्छ प्रतीक्षालय, तिकीट खिडक्या, महिला व पुरुषांसाठी स्वतंत्र प्रतिक्षा कक्ष आणि मूलभूत सुविधा उपलब्ध आहेत. साकोली बस स्थानकाच्या वेळापत्रकामुळे प्रवाशांना आपल्या प्रवासाचे नियोजन सहजतेने करता येते. येथून नागपूरसाठी पहाटे ५.४५ पासून रात्री ७.४५ पर्यंत ८३ बससेवा उपलब्ध आहेत. गोंदियासाठी ३३ बससेवा, भंडारासाठी ११ बससेवा, तुमसरसाठी १२ बससेवा उपलब्ध आहेत.</p><p>स्थानकावरील कर्मचारी नेहमी प्रवाशांना मार्गदर्शन करण्यासाठी तत्पर असतात. साकोली बस स्थानकाच्या माध्यमातून केवळ शहरीच नव्हे तर ग्रामीण भागातील प्रवाशांनाही चांगली वाहतूक सुविधा उपलब्ध होते, ज्यामुळे व्यापार, शिक्षण, वैद्यकीय सेवा आणि इतर दैनंदिन गरजांसाठी प्रवास सुलभ होतो. स्वच्छता, सुरक्षितता आणि वेळेवर बससेवा यामुळे साकोली बस स्थानक स्थानिक प्रवाशांचा विश्वासार्ह पर्याय बनला आहे.</p>",
+    "faqs": [
+
+      {
+        "question": "साकोली ते नागपूर बस वेळापत्रक काय आहे?",
+        "answer": "साकोलीहून नागपूरसाठी पहाटे ०५:४५ पासून रात्री १९:४५ पर्यंत ८३ बससेवा उपलब्ध आहेत. यामध्ये परतवाडा, यवतमाळ, अमरावती, लोणार, औरंगाबाद, शेगाव, नांदेड, अकोला, काटोल, पुसद, उमरखेड, बुलढाणा, छिंदवाडा, महूर, रायपूर, वर्धा, राजुरा या मार्गांचा समावेश आहे."
+      },
+      {
+        "question": "साकोली ते गोंदिया बस किती वाजता सुटते?",
+        "answer": "साकोलीहून गोंदियासाठी सकाळी ०७:४५ पासून रात्री २०:४० पर्यंत ३३ बससेवा उपलब्ध आहेत. यामध्ये लालबर्रा, अहेरी, चंद्रपूर, अकोला, बालाघाट, महूर, नांदेड, लोणार या मार्गांचा समावेश आहे."
+      },
+      {
+        "question": "साकोली ते भंडारा बस किती वाजता आहे?",
+        "answer": "साकोली ते भंडारा या मार्गावर ११ बससेवा उपलब्ध आहेत. वेळा: ०६:३०, १०:१०, ११:००, १२:३०, १३:१५, १४:३०, १६:१०, १७:००, १९:००, १९:३०, २०:००."
+      },
+      {
+        "question": "साकोली ते तुमसर बस किती वाजता सुटते?",
+        "answer": "साकोली ते तुमसर या मार्गावर १२ बससेवा उपलब्ध आहेत. वेळा: ०७:००, ०८:००, ०९:००, १०:००, ११:००, १२:००, १३:००, १४:००, १५:००, १६:००, १७:००, १८:००."
+      },
+      {
+        "question": "साकोली ते तिरोडा बस किती वाजता आहे?",
+        "answer": "साकोली ते तिरोडा या मार्गावर ९ बससेवा उपलब्ध आहेत. वेळा: ०७:४५, ०९:१५, १०:३०, ११:३०, १२:३०, १३:००, १४:३०, १६:१५, १८:००."
+      },
+      {
+        "question": "साकोली ते अर्जुनी / मोरगाव बस किती वाजता आहे?",
+        "answer": "साकोली ते अर्जुनी / मोरगाव या मार्गावर १७ बससेवा उपलब्ध आहेत. वेळा: ०६:००, ०७:१५, ०७:३०, ०८:००, ०९:००, ०९:३०, १०:१०, ११:००, ११:३०, १२:००, १३:००, १४:००, १४:३०, १५:००, १६:३०, १८:३०, १९:४५."
+      },
+      {
+        "question": "साकोली ते लखांदूर बस किती वाजता आहे?",
+        "answer": "साकोली ते लखांदूर या मार्गावर ११ बससेवा उपलब्ध आहेत. वेळा: ०६:३०, ०७:४५, ०८:३०, ०९:००, १०:३०, ११:३०, १३:००, १४:००, १७:००, १८:४०, १९:४५."
+      },
+      {
+        "question": "साकोली ते देवरी बस किती वाजता आहे?",
+        "answer": "साकोली ते देवरी या मार्गावर ३२ बससेवा उपलब्ध आहेत. पहिली बस सकाळी ०६:४५ वाजता आणि शेवटची बस रात्री २०:२५ वाजता सुटते."
+      }
+    ],
+    "seo_content": {
+      "title": "Sakoli Bus Stand Timetable 2026 | MSRTC Bus Schedule & Ticket Booking",
+      "content": "<p>Plan your journey with the latest Sakoli Bus Stand timetable for 2026. Sakoli depot is a key MSRTC hub in Bhandara district, providing reliable bus connectivity to major cities like Nagpur, Gondia, Bhandara, Tumsar, Tiroda, Arjuni, Lakhandur, Deori and surrounding rural areas.</p><p>Whether you're a daily commuter or planning a long-distance trip, you can find detailed departure times, ticket prices, and online booking options here. The bus stand operates frequent services throughout the day with routes to:</p><ul><li><strong>Nagpur:</strong> 05:45 to 19:45 with 83 buses daily (via multiple routes including Paratwada, Yavatmal, Amravati, Katol, Wardha)</li><li><strong>Gondia:</strong> 07:45 to 20:40 with 33 buses daily</li><li><strong>Bhandara:</strong> 06:30 to 20:00 with 11 buses daily</li><li><strong>Tumsar:</strong> 07:00 to 18:00 with 12 buses daily</li><li><strong>Tiroda:</strong> 07:45 to 18:00 with 9 buses daily</li><li><strong>Arjuni/Morgaon:</strong> 06:00 to 19:45 with 17 buses daily</li><li><strong>Lakhandur:</strong> 06:30 to 19:45 with 11 buses daily</li><li><strong>Deori:</strong> 06:45 to 20:25 with 32 buses daily</li></ul><p>Passengers can avail clean waiting areas, ticket counters, and other basic amenities. Stay updated with the latest MSRTC schedules and enjoy a hassle-free travel experience from Sakoli Bus Stand. For online booking, visit the MSRTC official website or use popular platforms like redBus.</p>"
+    }
+  },
+  "seo": {
+    "title": "Sakoli Bus Stand Timetable 2026 | MSRTC Ticket Price & Bus Schedule",
+    "description": "Check Sakoli Bus Stand timetable 2026 for MSRTC buses. Find Sakoli to Nagpur, Gondia, Bhandara, Tumsar, Tiroda, Arjuni, Lakhandur, Deori bus schedules, ticket prices, and online booking info. Updated timings with contact number 07186-234567.",
+    "keywords": "Sakoli Bus Stand, MSRTC Sakoli, Sakoli to Nagpur bus, Sakoli to Gondia bus, Sakoli to Bhandara bus, Sakoli to Tumsar bus, Sakoli to Tiroda bus, Sakoli to Arjuni bus, Sakoli to Lakhandur bus, Sakoli to Deori bus, Sakoli timetable 2026, Bhandara bus depot, MSRTC ticket booking, Sakoli bus stand contact number"
+  },
+  "related_depots": []
+}

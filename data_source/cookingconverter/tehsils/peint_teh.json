@@ -1,0 +1,8 @@
+{
+  "id": "peint_teh",
+  "name": "Peint Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["peint_teh_depot"]
+}

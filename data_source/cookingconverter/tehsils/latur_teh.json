@@ -1,0 +1,8 @@
+{
+  "id": "latur_teh",
+  "name": "Latur Tehsil",
+  "alphabet": "L",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["latur_teh_depot"]
+}

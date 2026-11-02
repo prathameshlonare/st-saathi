@@ -1,0 +1,8 @@
+{
+  "id": "mandangad_teh",
+  "name": "Mandangad Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["mandangad_teh_depot"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chhatrapati_sambhajinagar_div",
+  "name": "Chhatrapati Sambhajinagar Division",
+  "alphabet": "C",
+  "type": "division",
+  "description": "Chhatrapati Sambhajinagar Division is a major administrative division in the Marathwada region of Maharashtra. It has a mix of historical cities, industrial zones, and drought-prone rural belts. MSRTC ST buses are the most affordable and trusted mode of transport for people travelling between districts and nearby villages. Students, farmers, and daily wage workers regularly rely on the bus time table to manage their travel. Long-route ST buses connect this division with Mumbai, Pune, and Hyderabad. During examination seasons and festivals, bus frequency becomes especially important. MSRTC depots in the division handle heavy passenger load throughout the year. The division’s transport network is a lifeline for social and economic activity.",
+  "districts": [
+    "chhatrapati_sambhajinagar_dist",
+    "jalna_dist",
+    "beed_dist",
+    "latur_dist",
+    "nanded_dist",
+    "dharashiv_dist",
+    "parbhani_dist",
+    "hingoli_dist"
+  ]
+}

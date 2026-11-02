@@ -1,0 +1,8 @@
+{
+  "id": "bhor_teh",
+  "name": "Bhor Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["bhor_teh_depot"]
+}

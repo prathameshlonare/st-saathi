@@ -1,0 +1,8 @@
+{
+  "id": "mulshi_teh",
+  "name": "Mulshi Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["mulshi_teh_depot"]
+}

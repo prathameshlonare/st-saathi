@@ -1,0 +1,8 @@
+{
+  "id": "ahilyanagar_dist",
+  "name": "Ahilyanagar District",
+  "alphabet": "A",
+  "type": "district",
+  "division_id": "nashik_div",
+  "tehsils": ["ahilyanagar_teh","shrirampur_teh","rahata_teh","kopargaon_teh","akole_teh","sangamner_teh","pathardi_teh","shevgaon_teh","jamkhed_teh","parner_teh","shrigonda_teh","nevasa_teh","rahuri_teh"]
+}

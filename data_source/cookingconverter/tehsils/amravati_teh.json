@@ -1,0 +1,8 @@
+{
+  "id": "amravati_teh",
+  "name": "Amravati Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["amravati_teh_depot"]
+}

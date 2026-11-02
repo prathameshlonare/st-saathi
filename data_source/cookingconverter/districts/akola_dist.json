@@ -1,0 +1,8 @@
+{
+  "id": "akola_dist",
+  "name": "Akola District",
+  "alphabet": "A",
+  "type": "district",
+  "division_id": "amravati_div",
+  "tehsils": ["akola_teh","akot_teh","telhara_teh","balapur_teh","patur_teh","murtijapur_teh","barshitakli_teh"]
+}

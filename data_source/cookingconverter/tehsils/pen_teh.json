@@ -1,0 +1,8 @@
+{
+  "id": "pen_teh",
+  "name": "Pen Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "raigad_dist",
+  "depots": ["pen_teh_depot"]
+}

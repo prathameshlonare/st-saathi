@@ -1,0 +1,8 @@
+{
+  "id": "nashik_dist",
+  "name": "Nashik District",
+  "alphabet": "N",
+  "type": "district",
+  "division_id": "nashik_div",
+  "tehsils": ["nashik_teh","igatpuri_teh","dindori_teh","peint_teh","surgana_teh","kalwan_teh","baglan_teh","yeola_teh","nandgaon_teh","chandwad_teh","malegaon_teh","sinnar_teh","trimbakeshwar_teh"]
+}

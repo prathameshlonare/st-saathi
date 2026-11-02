@@ -1,0 +1,8 @@
+{
+  "id": "sindewahi_teh",
+  "name": "Sindewahi Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["sindewahi_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "gadchiroli_teh",
+  "name": "Gadchiroli Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["gadchiroli_teh_depot"]
+}

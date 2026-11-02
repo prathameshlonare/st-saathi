@@ -1,0 +1,8 @@
+{
+  "id": "shahapur_teh",
+  "name": "Shahapur Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["shahapur_teh_depot"]
+}

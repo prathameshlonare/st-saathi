@@ -1,0 +1,8 @@
+{
+  "id": "hatkanangle_teh",
+  "name": "Hatkanangle Tehsil",
+  "alphabet": "H",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["hatkanangle_teh_depot"]
+}

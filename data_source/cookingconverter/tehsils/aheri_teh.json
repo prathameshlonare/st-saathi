@@ -1,0 +1,8 @@
+{
+  "id": "aheri_teh",
+  "name": "Aheri Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["aheri_teh_depot"]
+}

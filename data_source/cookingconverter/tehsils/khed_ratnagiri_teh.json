@@ -1,0 +1,8 @@
+{
+  "id": "khed_ratnagiri_teh",
+  "name": "Khed Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["khed_ratnagiri_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "samudrapur_teh",
+  "name": "Samudrapur Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["samudrapur_teh_depot", "jamb_bus_stand_depot"]
+}

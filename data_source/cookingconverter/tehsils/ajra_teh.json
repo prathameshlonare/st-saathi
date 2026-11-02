@@ -1,0 +1,8 @@
+{
+  "id": "ajra_teh",
+  "name": "Ajra Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["ajra_teh_depot"]
+}

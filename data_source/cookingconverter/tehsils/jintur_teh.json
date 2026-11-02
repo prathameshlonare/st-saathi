@@ -1,0 +1,8 @@
+{
+  "id": "jintur_teh",
+  "name": "Jintur Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["jintur_teh_depot"]
+}

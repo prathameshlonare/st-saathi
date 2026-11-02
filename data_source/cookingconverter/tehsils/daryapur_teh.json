@@ -1,0 +1,8 @@
+{
+  "id": "daryapur_teh",
+  "name": "Daryapur Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["daryapur_teh_depot"]
+}

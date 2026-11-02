@@ -1,0 +1,8 @@
+{
+  "id": "jamkhed_teh",
+  "name": "Jamkhed Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["jamkhed_teh_depot"]
+}

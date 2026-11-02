@@ -1,0 +1,8 @@
+{
+  "id": "kagal_teh",
+  "name": "Kagal Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["kagal_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "kamptee_teh",
+  "name": "Kamptee Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["kamptee_teh_depot"]
+}

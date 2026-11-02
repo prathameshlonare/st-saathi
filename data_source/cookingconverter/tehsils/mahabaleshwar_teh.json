@@ -1,0 +1,8 @@
+{
+  "id": "mahabaleshwar_teh",
+  "name": "Mahabaleshwar Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["mahabaleshwar_teh_depot"]
+}

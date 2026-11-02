@@ -1,0 +1,8 @@
+{
+  "id": "malshiras_teh",
+  "name": "Malshiras Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["malshiras_teh_depot"]
+}

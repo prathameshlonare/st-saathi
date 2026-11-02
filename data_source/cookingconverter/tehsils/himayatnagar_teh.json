@@ -1,0 +1,8 @@
+{
+  "id": "himayatnagar_teh",
+  "name": "Himayatnagar Tehsil",
+  "alphabet": "H",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["himayatnagar_teh_depot"]
+}

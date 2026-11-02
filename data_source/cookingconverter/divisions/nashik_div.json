@@ -1,0 +1,14 @@
+{
+  "id": "nashik_div",
+  "name": "Nashik Division",
+  "alphabet": "N",
+  "type": "division",
+  "description": "Nashik Division is an important region in northern Maharashtra, known for agriculture, industry, and pilgrimage centres. The division has strong road connectivity and high dependence on public transport. MSRTC ST buses are widely used for daily travel between districts and rural areas. Farmers and traders frequently check the bus time table to reach markets on time. Long-distance ST buses connect Nashik Division with Mumbai, Pune, and Gujarat. The division experiences heavy passenger flow during religious events and seasonal harvests. MSRTC depots here manage both short and long routes efficiently. Public bus services remain the most reliable option for common people in this division.",
+  "districts": [
+    "nashik_dist",
+    "dhule_dist",
+    "jalgaon_dist",
+    "nandurbar_dist",
+    "ahilyanagar_dist"
+  ]
+}

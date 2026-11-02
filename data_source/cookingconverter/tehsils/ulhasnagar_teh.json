@@ -1,0 +1,8 @@
+{
+  "id": "ulhasnagar_teh",
+  "name": "Ulhasnagar Tehsil",
+  "alphabet": "U",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["ulhasnagar_teh_depot"]
+}

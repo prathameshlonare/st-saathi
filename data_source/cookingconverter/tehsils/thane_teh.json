@@ -1,0 +1,8 @@
+{
+  "id": "thane_teh",
+  "name": "Thane Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["thane_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "shirpur_teh",
+  "name": "Shirpur Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "dhule_dist",
+  "depots": ["shirpur_teh_depot"]
+}

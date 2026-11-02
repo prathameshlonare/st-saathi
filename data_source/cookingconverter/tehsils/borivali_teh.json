@@ -1,0 +1,8 @@
+{
+  "id": "borivali_teh",
+  "name": "Borivali Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "mumbai_suburban_dist",
+  "depots": ["borivali_teh_depot"]
+}

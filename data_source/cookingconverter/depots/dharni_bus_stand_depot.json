@@ -1,0 +1,163 @@
+{
+  "id": "dharni_bus_stand_depot",
+  "name": "Dharni Bus Stand Timetable 2026 | Dharni MSRTC Bus",
+  "type": "depot",
+  "tehsil_id": "dharni_teh",
+  "address": "Dharni Bus Stand, Dharni Taluka, Amravati District, Maharashtra - 444702",
+  "contact": "07226-224336",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Aaki",
+        "schedule": ["10:15"],
+        "bus_count": 1
+      }
+    ],
+    "b": [
+      {
+        "name": "Bairagad",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhavar",
+        "schedule": ["17:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhulori",
+        "schedule": ["08:15", "16:15"],
+        "bus_count": 2
+      }
+    ],
+    "d": [
+      {
+        "name": "Dhaka via Paratwada",
+        "schedule": ["12:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Dhulghat",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      }
+    ],
+    "k": [
+      {
+        "name": "Kawalziri",
+        "schedule": ["19:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Khopmar",
+        "schedule": ["17:15"],
+        "bus_count": 1
+      }
+    ],
+    "p": [
+      {
+        "name": "Paratwada",
+        "schedule": ["06:00", "06:00", "06:45", "08:30", "08:45", "09:00", "10:00", "10:30", "11:30", "12:30", "13:15", "13:30", "14:00", "16:45", "17:00", "17:15", "18:30", "18:30", "18:45", "21:15"],
+        "bus_count": 20
+      }
+    ],
+    "r": [
+      {
+        "name": "Rangubeli",
+        "schedule": ["09:00", "17:50"],
+        "bus_count": 2
+      },
+      {
+        "name": "Ranigolai",
+        "schedule": ["12:15", "17:45"],
+        "bus_count": 2
+      }
+    ],
+    "s": [
+      {
+        "name": "Sawlikheda",
+        "schedule": ["09:00", "13:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Semadoh",
+        "schedule": ["11:00", "11:15"],
+        "bus_count": 2
+      }
+    ],
+    "t": [
+      {
+        "name": "Tarubandha",
+        "schedule": ["12:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Tembhli",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      }
+    ],
+    "z": [
+      {
+        "name": "Zilangpati",
+        "schedule": ["12:30", "15:00", "18:45"],
+        "bus_count": 3
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>धारणी बस स्थानक</strong> हे अमरावती जिल्ह्यातील मेलघाट परिसरातील अत्यंत महत्त्वाचे सार्वजनिक वाहतूक केंद्र आहे. महाराष्ट्र राज्य मार्ग परिवहन महामंडळ म्हणजेच <strong>MSRTC</strong> द्वारे चालवले जाणारे हे बस स्थानक धारणी तालुक्यातील अनेक आदिवासी गावांना तसेच परतवाडा, अमरावती, नागपूर आणि इतर शहरांशी जोडणारे मुख्य केंद्र म्हणून ओळखले जाते. मेलघाट हा डोंगराळ आणि जंगलांनी वेढलेला भाग असल्यामुळे येथील लोकांसाठी रस्ते वाहतूक हीच सर्वात महत्त्वाची प्रवास व्यवस्था आहे. त्यामुळे धारणी बस स्थानक स्थानिक नागरिक, विद्यार्थी, व्यापारी आणि पर्यटकांसाठी अत्यंत महत्त्वाची भूमिका बजावते.</p><p>धारणी बस स्थानकावरून सर्वात महत्त्वाचा मार्ग म्हणजे <strong>धारणी ते परतवाडा</strong>. या मार्गावर अनेक वेळा बस सेवा उपलब्ध आहे. या मार्गावर सकाळी <strong>6.00</strong> वाजता पहिली बस सुटते आणि त्यानंतर 6.45, 8.30, 8.45, 9.00, 10.00, 10.30, 11.30, 13.15, 13.30, 14.00, 16.45, 17.00, 17.15, 18.30, 18.45 आणि 21.15 अशा विविध वेळांना बस सेवा उपलब्ध आहे. या मार्गावरून दररोज अनेक प्रवासी शिक्षण, नोकरी, बाजारपेठ आणि शासकीय कामांसाठी प्रवास करतात.</p><p>धारणी बस स्थानक मेलघाटातील अनेक ग्रामीण आणि आदिवासी गावांना जोडणारे महत्त्वाचे केंद्र आहे. उदाहरणार्थ <strong>सेमाडोह</strong> या प्रसिद्ध पर्यटन स्थळासाठी 11.00 आणि 11.15 या वेळांना बस सुटतात. मेलघाट व्याघ्र प्रकल्पाचे प्रवेशद्वार म्हणून सेमाडोह ओळखले जाते आणि येथे वन पर्यटनासाठी अनेक पर्यटक येतात.</p><p><strong>तरुबांधा</strong> या गावासाठी 12.00 वाजता बस उपलब्ध आहे. तसेच <strong>ढाका मार्गे</strong> जाणारी बस 12.30 वाजता सुटते. <strong>राणीगोळाई</strong> या गावासाठी 12.15 आणि 17.45 या वेळांना बस सेवा उपलब्ध आहे.</p><p><strong>रांगुबेली</strong> या गावासाठी 9.00 आणि 17.50 या वेळांना बस सुटतात. <strong>झिलंगपाटी</strong> या गावासाठी 12.30, 15.00 आणि 18.45 या वेळांना बस उपलब्ध आहे. <strong>टेंभली</strong> या गावासाठी 10.30 वाजता बस सुटते.</p><p>धारणी बस स्थानकावरून <strong>भुलोरी</strong> या गावासाठी 8.15 आणि 16.15 या वेळांना बस सेवा उपलब्ध आहे. <strong>कावलझिरी</strong> या गावासाठी 19.00 वाजता बस सुटते. <strong>आकी</strong> या गावासाठी 10.15 वाजता बस सेवा आहे.</p><p><strong>खोपमार</strong> या गावासाठी 17.15 वाजता बस सुटते. <strong>सावलीखेडा</strong> या गावासाठी 9.00 आणि 13.00 या वेळांना बस उपलब्ध आहे. <strong>भवर</strong> या गावासाठी 17.00 वाजता बस सेवा आहे.</p><p><strong>बैऱागड</strong> या गावासाठी सकाळी 8.00 वाजता बस सुटते. <strong>धुळघाट</strong> या गावासाठी संध्याकाळी 17.30 वाजता बस सेवा उपलब्ध आहे. या बस सेवेमुळे मेलघाटातील दुर्गम भागातील लोकांना धारणी शहराशी संपर्क ठेवणे सोपे होते.</p><p>धारणी बस स्थानकावर प्रवाशांसाठी विविध सुविधा उपलब्ध आहेत. येथे <strong>तिकीट बुकिंग काउंटर</strong> आहेत जिथे प्रवासी विविध मार्गांसाठी MSRTC तिकीट खरेदी करू शकतात. बस स्थानकात <strong>प्रवासी प्रतीक्षा कक्ष</strong> आणि बसण्याची सोय देखील उपलब्ध आहे.</p><p>बस स्थानकात विविध ठिकाणी <strong>टाईमटेबल बोर्ड</strong> लावलेले आहेत ज्यावर विविध मार्गांच्या बस वेळा स्पष्टपणे दर्शविलेल्या असतात. त्यामुळे प्रवाशांना त्यांचा प्रवास नियोजित करणे सोपे होते.</p><p>याशिवाय बस स्थानक परिसरात पिण्याच्या पाण्याची सोय, स्वच्छतागृहे आणि काही लहान दुकाने देखील उपलब्ध असतात. त्यामुळे प्रवाशांना प्रवास करताना आवश्यक सुविधा मिळतात.</p><p>एकंदरीत पाहता <strong>धारणी बस स्थानक</strong> हे मेलघाट परिसरातील अत्यंत महत्त्वाचे वाहतूक केंद्र आहे. परतवाडा, सेमाडोह, रांगुबेली, झिलंगपाटी, भुलोरी, बैऱागड आणि इतर गावांशी असलेली बस सेवा या भागातील लोकांसाठी अत्यंत उपयुक्त ठरते. नियमित MSRTC बस सेवा आणि सुव्यवस्थित बस वेळापत्रकामुळे दररोज हजारो प्रवासी सुरक्षित आणि सोयीस्कर प्रवास करतात.</p>",
+    "faqs": [
+      {
+        "question": "धारणी बस स्थानकावरून परतवाड्यासाठी सकाळी पहिली MSRTC बस नेमकी किती वाजता सुटते आणि दिवसभरात आणखी कोणत्या वेळांना बस सेवा उपलब्ध असते?",
+        "answer": "धारणी बस स्थानकावरून परतवाड्यासाठी पहिली बस सकाळी 6.00 वाजता सुटते. त्यानंतर 6.45, 8.30, 9.00, 10.30, 13.15, 16.45, 18.30 आणि 21.15 अशा विविध वेळांना बस उपलब्ध असतात."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून सेमाडोह या मेलघाट पर्यटन स्थळासाठी MSRTC बस कोणत्या वेळांना सुटतात आणि पर्यटकांसाठी कोणती वेळ अधिक सोयीची असते?",
+        "answer": "सेमाडोहसाठी धारणी बस स्थानकावरून 11.00 आणि 11.15 या वेळांना बस सुटतात. मेलघाट व्याघ्र प्रकल्प पाहण्यासाठी जाणाऱ्या पर्यटकांसाठी या बस सेवा उपयुक्त ठरतात."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून राणीगोळाई गावासाठी MSRTC बस सेवा कोणत्या वेळांना उपलब्ध आहे आणि दिवसात किती बस सुटतात?",
+        "answer": "राणीगोळाई गावासाठी धारणी बस स्थानकावरून 12.15 आणि 17.45 या वेळांना बस सुटतात. त्यामुळे दिवसात दोन वेळा प्रवासाची सुविधा उपलब्ध आहे."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून रांगुबेली गावासाठी MSRTC बस सेवा कोणत्या वेळांना चालते आणि प्रवाशांना सकाळी व संध्याकाळी बस मिळते का?",
+        "answer": "रांगुबेली मार्गावर 9.00 आणि 17.50 या वेळांना बस सुटतात. त्यामुळे प्रवाशांना सकाळी तसेच संध्याकाळी प्रवास करण्याची सोय उपलब्ध आहे."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून झिलंगपाटी गावासाठी MSRTC बस कोणत्या वेळांना सुटतात आणि दिवसात किती वेळा बस सेवा उपलब्ध आहे?",
+        "answer": "झिलंगपाटी मार्गावर 12.30, 15.00 आणि 18.45 या वेळांना बस सेवा उपलब्ध आहे. त्यामुळे दिवसात तीन वेळा प्रवासाची सुविधा मिळते."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून भुलोरी गावासाठी MSRTC बस सेवा कोणत्या वेळांना उपलब्ध आहे आणि प्रवाशांना कोणत्या वेळेला बस मिळते?",
+        "answer": "भुलोरी गावासाठी 8.15 आणि 16.15 या वेळांना बस सुटतात. या बस ग्रामीण प्रवाशांसाठी अत्यंत महत्त्वाच्या आहेत."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून सावलीखेडा गावासाठी MSRTC बस कोणत्या वेळांना सुटतात आणि दिवसात किती बस सेवा उपलब्ध आहे?",
+        "answer": "सावलीखेडा मार्गावर 9.00 आणि 13.00 या वेळांना बस सेवा उपलब्ध आहे. त्यामुळे प्रवाशांना दिवसात दोन वेळा प्रवास करता येतो."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून बैऱागड गावासाठी सकाळची MSRTC बस कोणत्या वेळेला सुटते आणि या मार्गावर नियमित बस सेवा आहे का?",
+        "answer": "बैऱागड गावासाठी धारणी बस स्थानकावरून सकाळी 8.00 वाजता बस सुटते. ही बस स्थानिक प्रवाशांसाठी महत्त्वाची सेवा आहे."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून धुळघाट गावासाठी MSRTC बस कोणत्या वेळेला सुटते आणि संध्याकाळी प्रवासाची सुविधा उपलब्ध आहे का?",
+        "answer": "धुळघाट मार्गावर धारणी बस स्थानकावरून संध्याकाळी 17.30 वाजता बस सुटते. त्यामुळे प्रवाशांना दिवसाच्या शेवटी प्रवास करता येतो."
+      },
+      {
+        "question": "धारणी बस स्थानकावरून कावलझिरी गावासाठी MSRTC बस सेवा कोणत्या वेळेला उपलब्ध आहे आणि प्रवासी या मार्गावर कसे प्रवास करू शकतात?",
+        "answer": "कावलझिरी गावासाठी 19.00 वाजता बस सुटते. ही बस संध्याकाळी ग्रामीण प्रवाशांसाठी महत्त्वाची सुविधा देते."
+      }
+    ],
+    "seo_content": {
+      "title": "Dharni Bus Stand Timetable 2026 | MSRTC Bus Timings",
+      "content": "<p><strong>Dharni Bus Stand Timetable 2026</strong> provides important information about MSRTC bus timings connecting Dharni in the Melghat region of Amravati district with nearby villages and towns. Dharni bus stand is one of the key transport hubs for tribal villages and remote areas where MSRTC buses provide daily connectivity for education, healthcare, markets, and government work.</p><p>The most important route from Dharni bus stand is the <strong>Dharni to Paratwada bus route</strong>. The first bus on this route departs around <strong>6.00 AM</strong>. Other buses run throughout the day at 6.45, 8.30, 9.00, 10.30, 11.30, 13.15, 13.30, 16.45, 17.00, 17.15, 18.30, 18.45 and 21.15. These frequent MSRTC bus services help passengers travel easily between Dharni and Paratwada for work, education and shopping.</p><p>Several rural routes operate from Dharni bus stand connecting villages inside the Melghat forest region. For example:</p><ul><li><strong>Semadoh Bus Timings:</strong> 11.00, 11.15</li><li><strong>Tarubandha Bus:</strong> 12.00</li><li><strong>Ranigolai Bus:</strong> 12.15, 17.45</li><li><strong>Rangubeli Bus:</strong> 9.00, 17.50</li><li><strong>Zilangpati Bus:</strong> 12.30, 15.00, 18.45</li></ul><p>Other villages connected through MSRTC buses include <strong>Tembhli, Bhulori, Kawalziri, Aaki, Khopmar, Sawlikheda, Bhavar, Bairagad and Dhulghat</strong>. These buses help people from remote villages travel to Dharni for markets, hospitals and administrative services.</p><p>Passengers visiting the bus stand can easily check the <strong>bus timetable</strong> displayed on schedule boards or inquire at the <strong>ticket booking counter</strong>. The availability of clear <strong>MSRTC bus timings</strong> and daily bus schedules helps travelers plan their journey in advance.</p><p>Overall, Dharni bus stand plays a vital role in connecting the Melghat region with nearby towns and villages. The regular <strong>bus schedule</strong> and reliable MSRTC services make transportation easier for thousands of passengers every day.</p>"
+    }
+  },
+  "seo": {
+    "title": "Dharni Bus Stand Timetable 2026 | MSRTC Bus Timings",
+    "description": "Check Dharni Bus Stand timetable 2026 with MSRTC bus timings for Amravati, Chikhaldara, Achalpur, Semadoh and nearby Melghat villages.",
+    "keywords": "Dharni bus stand, Dharni MSRTC timetable, Dharni ST bus timings, Dharni to Amravati bus"
+  }
+}

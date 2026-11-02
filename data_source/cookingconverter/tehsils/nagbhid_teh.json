@@ -1,0 +1,8 @@
+{
+  "id": "nagbhid_teh",
+  "name": "Nagbhid Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["nagbhid_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "nagpur_dist",
+  "name": "Nagpur District",
+  "alphabet": "N",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["nagpur_teh","kamptee_teh","hingna_teh","katol_teh","kalameshwar_teh","narkhed_teh","ramtek_teh","savner_teh","umred_teh","parseoni_teh","mauda_teh"]
+}

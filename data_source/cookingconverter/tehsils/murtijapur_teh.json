@@ -1,0 +1,8 @@
+{
+  "id": "murtijapur_teh",
+  "name": "Murtijapur Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "akola_dist",
+  "depots": ["murtijapur_teh_depot"]
+}

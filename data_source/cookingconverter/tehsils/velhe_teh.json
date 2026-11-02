@@ -1,0 +1,8 @@
+{
+  "id": "velhe_teh",
+  "name": "Velhe Tehsil",
+  "alphabet": "V",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["velhe_teh_depot"]
+}

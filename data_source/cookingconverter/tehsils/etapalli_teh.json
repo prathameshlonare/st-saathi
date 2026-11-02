@@ -1,0 +1,8 @@
+{
+  "id": "etapalli_teh",
+  "name": "Etapalli Tehsil",
+  "alphabet": "E",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["etapalli_teh_depot"]
+}

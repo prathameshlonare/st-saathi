@@ -1,0 +1,8 @@
+{
+  "id": "kalameshwar_teh",
+  "name": "Kalameshwar Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["kalameshwar_teh_depot"]
+}

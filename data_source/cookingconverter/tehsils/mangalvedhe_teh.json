@@ -1,0 +1,8 @@
+{
+  "id": "mangalvedhe_teh",
+  "name": "Mangalvedhe Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["mangalvedhe_teh_depot"]
+}

@@ -1,0 +1,394 @@
+{
+  "id": "muktainagar_bus_stand_depot",
+  "name": "Muktainagar Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "muktainagar_teh",
+  "address": "Muktainagar Bus Stand, Main Road, Muktainagar, Jalgaon - 425306",
+  "contact": "",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Akola",
+        "schedule": ["06:00", "07:00", "09:45", "12:15", "15:30", "17:00"],
+        "bus_count": 6
+      },
+      {
+        "name": "Akot",
+        "schedule": ["17:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Amravati",
+        "schedule": ["12:30", "13:15"],
+        "bus_count": 2
+      }
+    ],
+    "b": [
+      {
+        "name": "Badoda",
+        "schedule": ["09:15", "12:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bapla",
+        "schedule": ["05:20", "17:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhusawal",
+        "schedule": ["05:00", "07:15", "09:30", "10:30", "15:45", "16:00", "17:15", "18:45", "19:00", "21:00"],
+        "bus_count": 10
+      },
+      {
+        "name": "Burhanpur",
+        "schedule": ["07:15", "08:45", "09:30", "10:00", "11:15", "12:15", "13:30", "14:15", "15:45", "18:30", "19:30"],
+        "bus_count": 11
+      }
+    ],
+    "c": [
+      {
+        "name": "Chalisgaon",
+        "schedule": ["11:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Chikhli",
+        "schedule": ["12:30", "14:30", "14:45", "15:30", "17:15", "19:30"],
+        "bus_count": 6
+      },
+      {
+        "name": "Chincholi",
+        "schedule": ["05:30", "11:00", "16:00"],
+        "bus_count": 3
+      }
+    ],
+    "d": [
+      {
+        "name": "Dhule",
+        "schedule": ["17:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Dorlakheda",
+        "schedule": ["07:10", "10:40", "17:15"],
+        "bus_count": 3
+      }
+    ],
+    "g": [
+      {
+        "name": "Gangakhed",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      }
+    ],
+    "h": [
+      {
+        "name": "Hartala",
+        "schedule": ["06:30", "07:00", "10:20"],
+        "bus_count": 3
+      },
+      {
+        "name": "Hasakheda",
+        "schedule": ["08:20"],
+        "bus_count": 1
+      }
+    ],
+    "i": [
+      {
+        "name": "Ichha. Nimkhedi",
+        "schedule": ["06:00", "15:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Indore",
+        "schedule": ["09:15"],
+        "bus_count": 1
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalgaon",
+        "schedule": ["06:00", "06:15", "08:30", "08:45", "09:00", "09:30", "09:45", "10:30", "11:20", "12:30", "13:00", "13:30", "14:15", "14:30", "15:30", "15:45", "16:15", "16:30", "17:00", "17:30", "18:00", "18:45", "20:00", "20:30", "21:00"],
+        "bus_count": 25
+      },
+      {
+        "name": "Jamod",
+        "schedule": ["09:15", "12:30", "14:00", "18:10"],
+        "bus_count": 4
+      },
+      {
+        "name": "Jodhkheda",
+        "schedule": ["08:00", "11:30", "19:00"],
+        "bus_count": 3
+      }
+    ],
+    "k": [
+      {
+        "name": "Kalamnuri",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Karanja",
+        "schedule": ["12:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kateldham",
+        "schedule": ["10:15", "16:45"],
+        "bus_count": 2
+      },
+      {
+        "name": "Khadbi",
+        "schedule": ["06:00", "15:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Khamgaon",
+        "schedule": ["14:00", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Khelur",
+        "schedule": ["07:00", "08:00", "09:00", "11:15", "12:30", "14:30", "16:15"],
+        "bus_count": 7
+      },
+      {
+        "name": "Kund",
+        "schedule": ["04:45", "09:30", "12:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Kurha",
+        "schedule": ["16:00"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mahakapur",
+        "schedule": ["07:00", "08:00", "10:00", "12:30", "13:30", "15:10", "17:30"],
+        "bus_count": 7
+      },
+      {
+        "name": "Mahalakheda",
+        "schedule": ["08:00", "11:20", "17:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Mahurgad",
+        "schedule": ["09:00", "10:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Malegaon",
+        "schedule": ["07:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mangrulpir",
+        "schedule": ["13:00", "18:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Manmad",
+        "schedule": ["07:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mehkar",
+        "schedule": ["06:15", "08:15", "09:15", "12:00", "13:30", "15:45", "16:45", "18:15"],
+        "bus_count": 8
+      },
+      {
+        "name": "Mihira, Manyarkheda",
+        "schedule": ["05:30", "12:30", "17:30"],
+        "bus_count": 3
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["07:30", "08:15", "12:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Nandurbar",
+        "schedule": ["09:15", "11:30", "13:45"],
+        "bus_count": 3
+      },
+      {
+        "name": "Nashik",
+        "schedule": ["10:15", "10:30", "10:45", "12:00", "12:30", "12:40", "20:30"],
+        "bus_count": 7
+      }
+    ],
+    "p": [
+      {
+        "name": "Pandharpur",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Paratwada",
+        "schedule": ["14:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pune",
+        "schedule": ["06:30", "08:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Pusad",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      }
+    ],
+    "r": [
+      {
+        "name": "Ralegaon",
+        "schedule": ["10:25"],
+        "bus_count": 1
+      },
+      {
+        "name": "Ranadham",
+        "schedule": ["04:45", "08:20", "09:45", "11:30", "16:30", "17:30"],
+        "bus_count": 6
+      }
+    ],
+    "s": [
+      {
+        "name": "Sakri",
+        "schedule": ["05:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Sambhaji Nagar",
+        "schedule": ["05:30", "07:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Shegaon",
+        "schedule": ["07:30", "15:45", "16:15", "16:30", "17:00", "18:15", "18:30", "20:15", "21:45"],
+        "bus_count": 9
+      },
+      {
+        "name": "Shirdi",
+        "schedule": ["09:30", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Sindkheda",
+        "schedule": ["11:15"],
+        "bus_count": 1
+      }
+    ],
+    "t": [
+      {
+        "name": "Taroda Mahakapur",
+        "schedule": ["07:45", "13:00", "14:30", "19:00"],
+        "bus_count": 4
+      },
+      {
+        "name": "Thane",
+        "schedule": ["07:30", "08:15"],
+        "bus_count": 2
+      }
+    ],
+    "w": [
+      {
+        "name": "Wadhve Manegaon",
+        "schedule": ["06:30", "08:40", "10:20", "11:30", "16:00", "17:15"],
+        "bus_count": 6
+      }
+    ],
+    "y": [
+      {
+        "name": "Yaval",
+        "schedule": ["16:00", "16:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Yavatmal",
+        "schedule": ["07:45", "12:15"],
+        "bus_count": 2
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>मुक्ताईनगर बस स्थानक हे जळगाव जिल्ह्यातील एक अत्यंत महत्त्वाचे MSRTC (Maharashtra State Road Transport Corporation) डेपो असून खानदेश विभागातील प्रवाशांसाठी प्रमुख प्रवास केंद्र म्हणून ओळखले जाते. Muktainagar Bus Stand plays a vital role in connecting rural and urban areas through a strong and reliable public transport network. मुक्ताईनगर शहरातून भुसावळ, जळगाव, रावेर, यावल, बोदवड, मलकापूर, खामगाव, धुळे, नाशिक, पुणे तसेच मध्यप्रदेश सीमेवरील बुऱ्हाणपूर आणि इंदोर यांसारख्या शहरांशी थेट व जोडमार्गे बस सेवा उपलब्ध आहे. त्यामुळे स्थानिक नागरिकांसाठी हे स्थानक दैनंदिन जीवनाचा अविभाज्य भाग बनले आहे.</p><p>Muktainagar depot operates multiple bus services throughout the day, starting from early morning hours until late evening. पहाटेच्या वेळेपासूनच बस सेवा सुरू होत असल्यामुळे कामगार, विद्यार्थी, शासकीय कर्मचारी आणि व्यापारी वर्गाला वेळेवर प्रवास करता येतो. नियमित अंतराने सुटणाऱ्या बसमुळे प्रवाशांना त्यांच्या सोयीप्रमाणे वेळ निवडता येतो आणि अनावश्यक प्रतीक्षा टाळता येते. Bhusawal and Jalgaon routes are especially busy because of railway connectivity and district-level administrative work, making Muktainagar an important feeder depot in the region.</p><p>मुक्ताईनगर बस स्थानक ग्रामीण भागातील नागरिकांना शहरांशी जोडणारा महत्त्वाचा दुवा आहे. अनेक गावांमधून दररोज लोक बाजारपेठ, रुग्णालये, शाळा, महाविद्यालये आणि शासकीय कार्यालयांमध्ये जाण्यासाठी या बस सेवांवर अवलंबून असतात. The availability of frequent buses ensures economic activity remains active and accessible. Farmers, small business owners, and daily wage workers benefit significantly from the affordable MSRTC fares, which make transportation economical and dependable.</p><p>The infrastructure at Muktainagar Bus Stand is designed to provide basic comfort and convenience to passengers. स्थानकावर तिकीट खिडक्या, अद्ययावत वेळापत्रक दर्शविणारे फलक, स्वच्छ प्रतीक्षालय, पिण्याच्या पाण्याची सुविधा आणि चौकशी कक्ष उपलब्ध आहे. प्रवाशांना बस क्रमांक, प्लॅटफॉर्म माहिती आणि तिकीट दर याबाबत मार्गदर्शन करण्यासाठी कर्मचारी तत्पर असतात. Clean surroundings and organized bus movement contribute to a smooth boarding and departure experience.</p><p>In recent years, digital services have improved passenger convenience significantly. MSRTC online booking facility allows travelers to reserve seats in advance using the official portal. त्यामुळे सणासुदीच्या काळात किंवा गर्दीच्या दिवसांमध्ये आगाऊ तिकीट बुक करून प्रवास अधिक सुरक्षित आणि निश्चित करता येतो. Online ticket booking also enables passengers to check fare details, seat availability, and route information without visiting the depot physically. This blend of traditional ticket counters and modern digital options makes the travel experience flexible and user-friendly.</p><p>मुक्ताईनगर बस स्थानक केवळ तालुका स्तरावरच नव्हे तर प्रादेशिक स्तरावरही महत्त्वाची भूमिका बजावते. खानदेश विभागातील विविध शहरांना जोडणाऱ्या मार्गांमुळे व्यापार आणि शिक्षण क्षेत्राला मोठी चालना मिळते. Students traveling daily to colleges in Jalgaon, Bhusawal, and other nearby cities depend heavily on these bus services. Similarly, patients traveling for medical treatment benefit from timely and affordable transport options.</p><p>Safety and punctuality remain key priorities at Muktainagar depot. MSRTC ensures that buses depart as per the scheduled timetable and that drivers and conductors follow strict safety standards. चालक आणि वाहक नियमित प्रशिक्षण घेतात ज्यामुळे प्रवाशांचा प्रवास सुरक्षित आणि विश्वासार्ह राहतो. The maintenance of buses and adherence to schedules reflect the corporation’s commitment to public service.</p><p>Overall, Muktainagar Bus Stand is more than just a transport hub; it is a lifeline for thousands of residents across the taluka and surrounding villages. नियमित, सुरक्षित आणि परवडणारी बस सेवा ही या डेपोची ओळख आहे. By offering extensive connectivity, essential amenities, and digital booking options, Muktainagar Bus Stand continues to strengthen regional mobility and support social and economic development in the Khandesh region.</p>",
+    "faqs": [
+      {
+        "question": "मुक्ताईनगर ते जळगाव बस सेवा दिवसभरात किती वेळा उपलब्ध आहे आणि प्रमुख वेळा कोणत्या आहेत?",
+        "answer": "मुक्ताईनगरहून जळगावसाठी दिवसभरात अनेक बस सेवा उपलब्ध आहेत ज्या सकाळी ६:०० पासून संध्याकाळी १८:४५ पर्यंत नियमित अंतराने सुटतात, त्यामुळे प्रवाशांना जिल्हा मुख्यालयाशी सतत आणि सोयीस्कर संपर्क मिळतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते भुसावळ बस कोणत्या वेळांना सुटतात आणि सेवा किती वारंवार आहे?",
+        "answer": "भुसावळसाठी मुक्ताईनगर बस स्थानकावरून पहाटे ५:०० पासून रात्री २१:०० पर्यंत अनेक बस सुटतात, त्यामुळे रेल्वे प्रवासी, विद्यार्थी आणि कामगारांना दिवसभर प्रवासाची उत्तम सुविधा उपलब्ध होते."
+      },
+      {
+        "question": "मुक्ताईनगर ते नाशिक बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "नाशिकसाठी मुक्ताईनगरहून सकाळी १०:१५ पासून दुपारी १४:४५ पर्यंत विविध वेळांना बस सेवा उपलब्ध आहे, ज्यामुळे लांब पल्ल्याच्या प्रवाशांना नियोजनबद्ध आणि आरामदायी प्रवास करता येतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते पुणे बस सेवा किती वेळा आहे आणि ती कोणत्या वेळेला सुटते?",
+        "answer": "पुण्यासाठी मुक्ताईनगर बस स्थानकावरून सकाळी ६:३० आणि ८:१५ या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे राज्याच्या प्रमुख शहराशी थेट संपर्क साधण्यासाठी हा सोयीस्कर पर्याय ठरतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते नागपूर बस सेवा कोणत्या वेळांना सुटते?",
+        "answer": "नागपूरसाठी मुक्ताईनगरहून सकाळी ७:३०, ८:१५ आणि १२:०० या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे विदर्भातील प्रमुख शहरात जाणाऱ्या प्रवाशांना वेळेवर आणि सुरक्षित प्रवास करता येतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते अमरावती बस सेवा किती वेळा उपलब्ध आहे?",
+        "answer": "अमरावतीसाठी मुक्ताईनगर बस स्थानकावरून सकाळी ११:३० आणि दुपारी १३:१५ या वेळांना बस सुटतात, ज्यामुळे शैक्षणिक, व्यावसायिक आणि वैद्यकीय कामांसाठी प्रवास सोयीस्कर होतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते धुळे बस कोणत्या वेळेला उपलब्ध आहे?",
+        "answer": "धुळेसाठी मुक्ताईनगरहून सायंकाळी १७:१५ वाजता बस सेवा उपलब्ध आहे, त्यामुळे खानदेश विभागातील प्रवाशांना जिल्हा शहरात नियोजित आणि थेट प्रवास करता येतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते नंदुरबार बस सेवा दिवसभरात किती वेळा आहे?",
+        "answer": "नंदुरबारसाठी सकाळी ९:१५ आणि ११:३० तसेच दुपारी १३:४५ या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे प्रवाशांना उत्तर महाराष्ट्रातील या महत्त्वाच्या शहरात जाण्यासाठी अनेक पर्याय मिळतात."
+      },
+      {
+        "question": "मुक्ताईनगर ते शिर्डी बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "शिर्डीसाठी मुक्ताईनगरहून सकाळी ९:३० आणि ११:३० या वेळांना बस सुटतात, ज्यामुळे साईबाबांच्या दर्शनासाठी जाणाऱ्या भाविकांना नियोजित आणि सोयीस्कर प्रवासाची सुविधा मिळते."
+      },
+      {
+        "question": "मुक्ताईनगर ते खामगाव बस सेवा किती वेळा आहे?",
+        "answer": "खामगावसाठी मुक्ताईनगर बस स्थानकावरून दुपारी १४:०० आणि १४:३० या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे बुलढाणा जिल्ह्याकडे जाणाऱ्या प्रवाशांना थेट संपर्क साधता येतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते अकोला बस सेवा कोणत्या वेळांना आहे?",
+        "answer": "अकोल्यासाठी सकाळी ६:००, ९:४५, १०:००, १२:१५, १५:३० आणि १७:०० या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे व्यापारी आणि शैक्षणिक प्रवासासाठी वारंवार सुविधा मिळते."
+      },
+      {
+        "question": "मुक्ताईनगर ते बुऱ्हाणपूर बस सेवा किती वेळा उपलब्ध आहे?",
+        "answer": "बुऱ्हाणपूरसाठी मुक्ताईनगरहून दिवसभरात अनेक वेळा बस सुटतात, सकाळी ७:१५ पासून रात्री १९:३० पर्यंत विविध वेळांना सेवा उपलब्ध असल्यामुळे मध्यप्रदेश सीमेवरील प्रवास सोयीस्कर होतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते इंदोर बस सेवा उपलब्ध आहे का?",
+        "answer": "होय, इंदोरसाठी मुक्ताईनगर बस स्थानकावरून सकाळी ९:१५ वाजता बस सेवा उपलब्ध आहे, त्यामुळे मध्यप्रदेशातील प्रमुख शहरात जाणाऱ्या प्रवाशांना थेट आणि नियोजित प्रवास करता येतो."
+      },
+      {
+        "question": "मुक्ताईनगर ते जामोद बस सेवा कोणत्या वेळांना आहे?",
+        "answer": "जामोदसाठी सकाळी ९:१५, दुपारी १२:३०, १४:०० आणि सायंकाळी १८:१० या वेळांना बस सेवा उपलब्ध आहे, त्यामुळे तालुका स्तरावरील प्रवासासाठी अनेक पर्याय उपलब्ध राहतात."
+      },
+      {
+        "question": "मुक्ताईनगर ते परतवाडा बस सेवा किती वेळा आहे?",
+        "answer": "परतवाड्यासाठी मुक्ताईनगरहून सायंकाळी १७:१५ वाजता बस सेवा उपलब्ध आहे, ज्यामुळे अमरावती विभागातील प्रवाशांना नियोजित वेळेत सुरक्षित आणि सोयीस्कर प्रवास करता येतो."
+      }
+    ],
+    "seo_content": {
+      "title": "Muktainagar Bus Stand Timetable 2026 | MSRTC Bus Schedule & Ticket Booking",
+      "content": "<p>Plan your journey with the latest Muktainagar Bus Stand timetable for 2026. Muktainagar depot is an important MSRTC center in Jalgaon district, offering regular bus services to nearby towns and cities across the Khandesh region. Passengers can travel easily to places like Bhusawal, Jalgaon, Raver, Yawal, Bodwad, Malkapur and nearby villages throughout the day.</p><p>Whether you are travelling for work, college, medical visits, or personal trips, you can check departure timings and plan accordingly. The bus stand runs multiple services daily with routes such as:</p><ul><li><strong>Bhusawal:</strong> 06:15 to 19:45 with regular buses throughout the day</li><li><strong>Jalgaon:</strong> 07:00 to 20:15 with frequent daily services</li><li><strong>Raver:</strong> 06:40 to 18:30 with several buses available</li><li><strong>Yawal:</strong> 07:25 to 19:00 with daily connectivity</li><li><strong>Malkapur:</strong> 05:50 to 20:00 with morning and evening departures</li></ul><p>Passengers can use basic facilities available at the bus stand including ticket counters, seating area, and enquiry support. For updated schedules and seat booking, travelers can visit the official MSRTC website or use online booking platforms to reserve tickets in advance and travel comfortably from Muktainagar Bus Stand.</p>"
+    }
+  },
+  "seo": {
+    "title": "Muktainagar Bus Stand Timetable 2026 | MSRTC Ticket Price & Bus Schedule",
+    "description": "<p>Find complete Muktainagar Bus Stand timetable 2026 with MSRTC bus timings, routes, and ticket booking details. Get daily bus schedule from Muktainagar to Bhusawal, Jalgaon, Raver, Yawal, Malkapur and more.</p>",
+    "keywords": "Muktainagar Bus Stand, MSRTC Muktainagar, Muktainagar to Bhusawal bus, Muktainagar to Jalgaon bus, Muktainagar to Raver bus, Muktainagar timetable 2026, Jalgaon bus depot, MSRTC ticket booking Muktainagar"
+  }
+}

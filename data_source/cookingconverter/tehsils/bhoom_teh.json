@@ -1,0 +1,8 @@
+{
+  "id": "bhoom_teh",
+  "name": "Bhoom Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "dharashiv_dist",
+  "depots": ["bhoom_teh_depot"]
+}

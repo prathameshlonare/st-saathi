@@ -1,0 +1,8 @@
+{
+  "id": "georai_teh",
+  "name": "Georai Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["georai_teh_depot"]
+}

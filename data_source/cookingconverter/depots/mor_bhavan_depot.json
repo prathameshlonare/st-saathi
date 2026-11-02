@@ -1,0 +1,88 @@
+{
+  "id": "mor_bhavan_depot",
+  "name": "Mor Bhavan Depot",
+  "type": "depot",
+  "tehsil_id": "nagpur_city_teh",
+  "address": "Mor Bhavan, Nagpur - 440001",
+  "contact": "0712-2546789",
+  "total_buses": 32,
+  "villages": {
+    "h": [
+      {
+        "name": "Hingna",
+        "schedule": [
+          "06:00",
+          "08:00"
+        ],
+        "bus_count": 7
+      },
+      {
+        "name": "Hingna via Matholi",
+        "schedule": [
+          "06:00",
+          "08:00"
+        ],
+        "bus_count": 7
+      }
+    ],
+    "k": [
+      {
+        "name": "Koradi",
+        "schedule": [
+          "05:45",
+          "07:30"
+        ],
+        "bus_count": 8
+      }
+    ],
+    "s": [
+      {
+        "name": "Sakkardara",
+        "schedule": [
+          "03:40",
+          "06:30",
+          "09:00",
+          "11:30",
+          "14:00",
+          "16:30",
+          "19:00",
+          "21:30"
+        ],
+        "bus_count": 7
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>Mor Bhavan Depot is one of the key MSRTC bus terminals in Nagpur city, strategically located to serve commuters traveling to western regions of Nagpur district. Established in 1985, this depot handles approximately 32 buses daily, connecting major villages like Hingna, Koradi, and Sakkardara.</p><p>The depot operates from 4:00 AM to 11:00 PM daily, with special night services during festival seasons. With modern facilities including digital ticketing counters, passenger waiting lounge, and refreshment stalls, Mor Bhavan Depot ensures comfortable travel for thousands of daily passengers.</p>",
+    "faqs": [
+      {
+        "question": "What are the operating hours of Mor Bhavan Depot?",
+        "answer": "The depot operates from 4:00 AM to 11:00 PM daily. First bus departure is at 3:40 AM to Sakkardara and last bus departs at 10:30 PM to Hingna."
+      },
+      {
+        "question": "How can I book tickets in advance?",
+        "answer": "Advance tickets can be booked at the depot counter up to 30 days before travel. Online booking is available through MSRTC website or mobile app 24 hours before departure."
+      },
+      {
+        "question": "Are there special services during festivals?",
+        "answer": "Yes, during major festivals like Diwali, Eid, and Ganesh Chaturthi, additional night services are operated with increased frequency to Hingna and Koradi routes."
+      },
+      {
+        "question": "What facilities are available at the depot?",
+        "answer": "Facilities include digital ticket counters, passenger waiting lounge with seating, drinking water, restrooms, luggage storage, and refreshment stalls."
+      }
+    ],
+    "seo_content": {
+      "title": "Mor Bhavan Depot Nagpur - Complete Bus Schedule & Timings",
+      "content": "<p>Mor Bhavan Depot in Nagpur operates MSRTC bus services to Hingna, Koradi, and Sakkardara with 32 buses serving daily commuters. Located at Mor Bhavan, Nagpur-440001, this depot is a major transportation hub for western Nagpur region.</p><h3>Key Features of Mor Bhavan Depot</h3><ul><li><strong>Daily Operations:</strong> 4:00 AM to 11:00 PM service hours</li><li><strong>Bus Count:</strong> 32 buses serving 3 major village routes</li><li><strong>Connectivity:</strong> Direct services to Hingna (7 buses), Koradi (8 buses), Sakkardara (7 buses)</li><li><strong>Facilities:</strong> Digital ticketing, waiting lounge, refreshment stalls</li><li><strong>Contact:</strong> 0712-2546789 for schedule inquiries</li></ul><p>The depot follows strict schedule adherence with buses departing at precise timings as shown in the schedule above. Passengers are advised to arrive 15 minutes before departure time.</p>"
+    }
+  },
+  "seo": {
+    "title": "Mor Bhavan Depot Nagpur - Bus Timings to Hingna, Koradi, Sakkardara",
+    "description": "Complete MSRTC bus schedule from Mor Bhavan Depot Nagpur to Hingna, Koradi, Sakkardara. Find departure timings, contact details, and route information.",
+    "keywords": "Mor Bhavan Depot, Nagpur MSRTC, Hingna bus timing, Koradi bus schedule, Sakkardara bus timings, Nagpur bus depot"
+  },
+  "related_depots": [
+    "sitabuldi_depot"
+  ]
+}

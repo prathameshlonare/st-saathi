@@ -1,0 +1,8 @@
+{
+  "id": "ralegaon_teh",
+  "name": "Ralegaon Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "yavatmal_dist",
+  "depots": ["ralegaon_teh_depot"]
+}

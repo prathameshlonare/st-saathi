@@ -1,0 +1,8 @@
+{
+  "id": "madha_teh",
+  "name": "Madha Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["madha_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "narkhed_teh",
+  "name": "Narkhed Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["narkhed_teh_depot"]
+}

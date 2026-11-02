@@ -1,0 +1,8 @@
+{
+  "id": "ballarpur_teh",
+  "name": "Ballarpur Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["ballarpur_teh_depot"]
+}

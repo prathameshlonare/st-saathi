@@ -1,0 +1,8 @@
+{
+  "id": "mohadi_teh",
+  "name": "Mohadi Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "bhandara_dist",
+  "depots": ["mohadi_teh_depot"]
+}

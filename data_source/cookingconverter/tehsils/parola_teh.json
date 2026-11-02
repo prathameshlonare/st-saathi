@@ -1,0 +1,8 @@
+{
+  "id": "parola_teh",
+  "name": "Parola Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["parola_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "igatpuri_teh",
+  "name": "Igatpuri Tehsil",
+  "alphabet": "I",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["igatpuri_teh_depot"]
+}

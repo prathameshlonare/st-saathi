@@ -1,0 +1,8 @@
+{
+  "id": "yavatmal_dist",
+  "name": "Yavatmal District",
+  "alphabet": "Y",
+  "type": "district",
+  "division_id": "amravati_div",
+  "tehsils": ["yavatmal_teh","arni_teh","babhulgaon_teh","darwha_teh","digras_teh","ghatanji_teh","kalamb_teh","mahagaon_teh","maregaon_teh","ner_teh","pandharkawada_teh","ralegaon_teh","umarkhed_teh","wani_teh","zari_jamni_teh"]
+}

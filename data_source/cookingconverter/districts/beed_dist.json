@@ -1,0 +1,8 @@
+{
+  "id": "beed_dist",
+  "name": "Beed District",
+  "alphabet": "B",
+  "type": "district",
+  "division_id": "chhatrapati_sambhajinagar_div",
+  "tehsils": ["beed_teh","ashti_teh","georai_teh","majalgon_teh","patoda_teh","shirur_kasar_teh","wadwani_teh","kaij_teh","dharur_teh","parli_teh","ambajogai_teh"]
+}

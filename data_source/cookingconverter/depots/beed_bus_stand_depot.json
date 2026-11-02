@@ -1,0 +1,675 @@
+{
+  "id": "beed_bus_stand_depot",
+  "name": "Beed Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "beed_teh",
+  "address": "Beed Bus Stand, Nagar Road, Beed, Maharashtra - 431122",
+  "contact": "",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Akkalkot",
+        "schedule": ["10:30", "12:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Akluj",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Akola",
+        "schedule": ["07:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Amravati",
+        "schedule": ["06:30", "08:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Ambajogai",
+        "schedule": ["07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "23:00"],
+        "bus_count": 26
+      },
+      {
+        "name": "Ashti",
+        "schedule": ["17:30", "20:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Atpadi",
+        "schedule": ["12:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Ausa",
+        "schedule": ["07:30", "08:15", "09:30", "11:15"],
+        "bus_count": 4
+      }
+    ],
+    "b": [
+      {
+        "name": "Babalkhunta",
+        "schedule": ["06:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Baramati",
+        "schedule": ["09:00", "13:30", "15:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Barshi",
+        "schedule": ["12:45", "14:45"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhagwan-gad",
+        "schedule": ["17:00", "17:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhiwandi",
+        "schedule": ["07:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhokar",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhusawal",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bijapur",
+        "schedule": ["23:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Buldhana",
+        "schedule": ["10:30", "11:30"],
+        "bus_count": 2
+      }
+    ],
+    "c": [
+      {
+        "name": "Chh. Sambhaji Nagar",
+        "schedule": ["01:30", "03:00", "05:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Chiplun Baramati Satara",
+        "schedule": ["07:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "CIDCO",
+        "schedule": ["06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00"],
+        "bus_count": 28
+      }
+    ],
+    "d": [
+      {
+        "name": "Dannagar",
+        "schedule": ["08:45", "14:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Dharur-Wadwani",
+        "schedule": ["07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00"],
+        "bus_count": 23
+      },
+      {
+        "name": "Dhokewadi",
+        "schedule": ["08:00", "11:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Dhule",
+        "schedule": ["00:00", "06:00", "21:00"],
+        "bus_count": 3
+      }
+    ],
+    "g": [
+      {
+        "name": "Gangapur",
+        "schedule": ["12:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gevrai",
+        "schedule": ["16:00", "17:00", "18:00", "19:00", "20:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Gulbarga",
+        "schedule": ["08:15", "10:00", "11:15"],
+        "bus_count": 3
+      }
+    ],
+    "h": [
+      {
+        "name": "Hi. Pahadi",
+        "schedule": ["08:15", "12:30", "14:30", "18:30"],
+        "bus_count": 4
+      }
+    ],
+    "i": [
+      {
+        "name": "Ichalkaranji",
+        "schedule": ["10:45", "22:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Imampur / Wangi",
+        "schedule": ["07:00", "13:00"],
+        "bus_count": 2
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalgaon",
+        "schedule": ["11:00", "11:30", "12:30", "23:45"],
+        "bus_count": 4
+      },
+      {
+        "name": "Jalna",
+        "schedule": ["06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"],
+        "bus_count": 17
+      },
+      {
+        "name": "Jujam-gaon",
+        "schedule": ["08:15", "15:00"],
+        "bus_count": 2
+      }
+    ],
+    "k": [
+      {
+        "name": "K. Dhanora",
+        "schedule": ["08:00", "08:30", "15:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Kacherwadi",
+        "schedule": ["12:30", "18:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kalamnuri",
+        "schedule": ["06:45", "14:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kalegaon",
+        "schedule": ["12:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kallam",
+        "schedule": ["14:30", "18:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kalyan",
+        "schedule": ["07:30", "09:15", "10:00", "11:00", "18:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Ke. Parbhani",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Khadi",
+        "schedule": ["18:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kinwat",
+        "schedule": ["05:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kolhapur",
+        "schedule": ["07:00", "08:15", "18:30", "20:00", "21:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Kopargaon",
+        "schedule": ["07:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Koregaon",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kukkadgaon",
+        "schedule": ["13:30", "18:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kurduvadi",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      }
+    ],
+    "l": [
+      {
+        "name": "Latur",
+        "schedule": ["06:30", "07:30", "08:30", "09:30", "10:30", "11:30", "12:30", "13:30", "14:30", "15:30", "16:30", "17:30", "18:30", "19:30", "20:30", "21:30"],
+        "bus_count": 16
+      },
+      {
+        "name": "Limbarai",
+        "schedule": ["07:30"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Majalgaon E-Bus",
+        "schedule": ["20:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Malkapur",
+        "schedule": ["12:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mandangad",
+        "schedule": ["05:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Markadwadi",
+        "schedule": ["14:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Medha Satara",
+        "schedule": ["10:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Morgaon",
+        "schedule": ["09:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Morgaon Shala",
+        "schedule": ["07:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mukhed",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Muktainagar",
+        "schedule": ["09:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mumbai",
+        "schedule": ["10:00", "16:30", "18:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Mumbai via Paithan",
+        "schedule": ["19:00", "20:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mundhewadi Shala",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      }
+    ],
+    "n": [
+      {
+        "name": "Nandgaon",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nanded (Paithan) E-Bus",
+        "schedule": ["07:00", "08:00", "15:00", "16:00"],
+        "bus_count": 4
+      },
+      {
+        "name": "Nanded (Parbhani)",
+        "schedule": ["05:30", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Nanded (Parli)",
+        "schedule": ["06:00", "07:30", "08:30", "09:00", "12:00", "13:00", "15:00"],
+        "bus_count": 7
+      },
+      {
+        "name": "Nathapur",
+        "schedule": ["17:30", "19:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Nilanga",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nimgaon",
+        "schedule": ["08:30", "18:15"],
+        "bus_count": 2
+      }
+    ],
+    "o": [
+      {
+        "name": "Omerga",
+        "schedule": ["06:00", "14:30"],
+        "bus_count": 2
+      }
+    ],
+    "p": [
+      {
+        "name": "Padalsingi",
+        "schedule": ["10:30", "16:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Padalsingi-Shirur",
+        "schedule": ["06:30", "07:30", "10:00", "12:00", "15:00", "19:00"],
+        "bus_count": 6
+      },
+      {
+        "name": "Paithan via Padalsingi",
+        "schedule": ["10:30", "16:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Pandharpur",
+        "schedule": ["10:30", "11:30", "12:30", "13:30", "15:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Parbhani",
+        "schedule": ["06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"],
+        "bus_count": 12
+      },
+      {
+        "name": "Partur",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Patoda Bhawal",
+        "schedule": ["07:00", "10:30", "14:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Patoda Domari",
+        "schedule": ["07:00", "10:30", "14:30"],
+        "bus_count": 3
+      },
+      {
+        "name": "Patoda Sau",
+        "schedule": ["10:15", "10:45", "11:15", "14:00", "21:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Phulsangavi",
+        "schedule": ["12:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pippalner",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pippalwandi",
+        "schedule": ["11:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pune",
+        "schedule": ["05:30", "06:30", "07:00", "08:00", "09:00", "10:30", "11:00", "11:45", "13:00", "13:30", "14:00", "14:30", "16:00", "22:00", "23:00"],
+        "bus_count": 15
+      },
+      {
+        "name": "Pune E-Bus",
+        "schedule": ["06:00", "09:00", "11:00", "14:30", "22:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Pune E-Bus Swargate",
+        "schedule": ["06:15", "14:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Pune via Dharur",
+        "schedule": ["14:30", "15:30"],
+        "bus_count": 2
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajewadi",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Rajuri Shala",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Raver",
+        "schedule": ["09:00"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Sangamner",
+        "schedule": ["14:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Sangli",
+        "schedule": ["22:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shegaon",
+        "schedule": ["01:15", "10:30", "12:15", "13:30"],
+        "bus_count": 4
+      },
+      {
+        "name": "Shirapur Ghat",
+        "schedule": ["08:00", "15:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Shirsamarg",
+        "schedule": ["08:15", "13:30", "18:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Shiwani Shala",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shrigonda",
+        "schedule": ["14:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shrivardhan",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Solapur",
+        "schedule": ["06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:30"],
+        "bus_count": 18
+      },
+      {
+        "name": "Soygaon",
+        "schedule": ["07:00", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Sudi Pimpaladevi",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Surat",
+        "schedule": ["15:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Swargate",
+        "schedule": ["07:15", "08:15"],
+        "bus_count": 2
+      }
+    ],
+    "t": [
+      {
+        "name": "Talegaon Pune",
+        "schedule": ["15:00", "15:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Tokwadi",
+        "schedule": ["09:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Trimbakeshwar",
+        "schedule": ["08:00", "08:30"],
+        "bus_count": 2
+      }
+    ],
+    "u": [
+      {
+        "name": "Udgir",
+        "schedule": ["11:00", "12:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Umarkhed",
+        "schedule": ["10:15"],
+        "bus_count": 1
+      }
+    ],
+    "v": [
+      {
+        "name": "Vadgaon",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal",
+        "schedule": ["08:00", "09:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Yawal",
+        "schedule": ["10:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Yelamb",
+        "schedule": ["08:00", "11:30"],
+        "bus_count": 2
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>बीड बसस्थानक हे महाराष्ट्र राज्य मार्ग परिवहन महामंडळ अर्थात MSRTC चे मराठवाडा विभागातील एक अत्यंत महत्त्वाचे आणि व्यस्त बसस्थानक आहे. बीड शहर जिल्ह्याचे प्रशासकीय आणि व्यापारी केंद्र असल्यामुळे येथे दररोज हजारो प्रवासी विविध कारणांसाठी प्रवास करतात. शासकीय कामे, शिक्षण, व्यापार, वैद्यकीय सेवा, धार्मिक यात्रा आणि कौटुंबिक कारणांसाठी ये-जा करणाऱ्या प्रवाशांसाठी MSRTC ची बस सेवा येथे महत्त्वाची भूमिका बजावते. पहाटेपासून उशिरापर्यंत चालणाऱ्या बस सेवेमुळे बीड बसस्थानक हे मराठवाडा तसेच महाराष्ट्रातील इतर भागांशी जोडणारे एक महत्त्वाचे प्रवास केंद्र बनले आहे.</p>\n\n<p>बीड बसस्थानकातून राज्यातील अनेक प्रमुख शहरांसाठी तसेच ग्रामीण भागातील गावांसाठी नियमित MSRTC बस सेवा उपलब्ध आहे. पुणे, मुंबई, सोलापूर, कोल्हापूर, लातूर, परभणी, नांदेड, जालना, अंबाजोगाई आणि छत्रपती संभाजीनगर यांसारख्या मोठ्या शहरांसाठी येथे दररोज अनेक बस सुटतात. याशिवाय पाटोदा, धारूर, वडवणी, माजलगाव, आष्टी, गेवराई, शिरूर, पाडळसिंगी अशा तालुका आणि ग्रामीण भागातील मार्गांसाठी देखील MSRTC बस सेवा उपलब्ध आहे. त्यामुळे शहर आणि ग्रामीण भागातील लोकांना सुरक्षित आणि परवडणारा प्रवास करण्यासाठी मोठी सुविधा मिळते.</p>\n\n<p>बीड ते पुणे हा मार्ग बीड बसस्थानकातील सर्वाधिक वापरल्या जाणाऱ्या मार्गांपैकी एक आहे. पुणे शहर हे शिक्षण, नोकरी आणि व्यवसायासाठी महत्त्वाचे केंद्र असल्यामुळे या मार्गावर दिवसातून अनेक बस फेऱ्या चालतात. सकाळी लवकर सुरू होणाऱ्या बस सेवेमुळे विद्यार्थी, कर्मचारी आणि व्यावसायिक लोकांना वेळेवर प्रवास करता येतो. तसेच संध्याकाळी आणि रात्री उशिरापर्यंत बस सेवा असल्यामुळे परतीचा प्रवास देखील सोयीस्कर होतो.</p>\n\n<p>लातूर हा बीड जिल्ह्याच्या जवळील एक महत्त्वाचा शहर मार्ग आहे. बीड ते लातूर या मार्गावर MSRTC बस सेवा सकाळी लवकर सुरू होते आणि रात्रीपर्यंत नियमित अंतराने बस उपलब्ध असतात. त्यामुळे व्यापार, शिक्षण, वैद्यकीय सेवा आणि इतर कामांसाठी प्रवास करणाऱ्या लोकांना या मार्गावर दिवसभर बस मिळतात. लातूर व्यतिरिक्त औसा, उमरगा, निलंगा आणि उदगीर या शहरांसाठीही बीड बसस्थानकातून बस सेवा दिली जाते.</p>\n\n<p>मराठवाड्यातील अंबाजोगाई हे धार्मिक तसेच शैक्षणिकदृष्ट्या महत्त्वाचे शहर असल्यामुळे बीड ते अंबाजोगाई मार्गावर दररोज मोठ्या प्रमाणात प्रवासी प्रवास करतात. या मार्गावर MSRTC बस सेवा सकाळपासून संध्याकाळपर्यंत दर अर्ध्या तासाने उपलब्ध असल्यामुळे हा मार्ग अत्यंत व्यस्त मानला जातो. अंबाजोगाई येथे योगेश्वरी देवी मंदिर तसेच अनेक शैक्षणिक संस्था असल्यामुळे भाविक आणि विद्यार्थी या मार्गाचा मोठ्या प्रमाणावर वापर करतात.</p>\n\n<p>बीड ते जालना हा आणखी एक महत्त्वाचा मार्ग असून या मार्गावर साधारणपणे दर तासाला बस सेवा उपलब्ध असते. जालना शहर औद्योगिक आणि व्यापारी केंद्र म्हणून ओळखले जाते. त्यामुळे व्यापारी आणि व्यावसायिक लोकांसाठी या मार्गावरील MSRTC बस सेवा अत्यंत उपयुक्त ठरते. जालना मार्गाव्यतिरिक्त अकोला, शेगाव, बुलढाणा, जळगाव आणि भुसावळ या विदर्भ आणि खानदेश भागातील शहरांसाठी देखील बीड बसस्थानकातून बस सेवा उपलब्ध आहे.</p>\n\n<p>धार्मिक स्थळांमध्ये पंढरपूर, त्र्यंबकेश्वर आणि कोपरगाव या शहरांसाठी देखील बीड बसस्थानकातून बस सेवा चालते. पंढरपूर हे विठ्ठल-रुक्मिणी मंदिरासाठी प्रसिद्ध असल्यामुळे आषाढी आणि कार्तिकी यात्रांच्या काळात या मार्गावर प्रवाशांची संख्या मोठ्या प्रमाणावर वाढते. तसेच त्र्यंबकेश्वर हे बारा ज्योतिर्लिंगांपैकी एक असल्यामुळे भाविकांसाठी हा मार्ग महत्त्वाचा आहे. त्यामुळे MSRTC या मार्गांवर नियमित बस सेवा उपलब्ध करून देते.</p>\n\n<p>बीड ते मुंबई हा राज्यातील सर्वाधिक लोकप्रिय लांब पल्ल्याच्या मार्गांपैकी एक आहे. मुंबई हे महाराष्ट्राची आर्थिक राजधानी असल्यामुळे रोजगार, व्यापार आणि शिक्षणासाठी अनेक लोक या शहरात प्रवास करतात. बीड बसस्थानकातून दररोज मुंबईसाठी थेट बस सेवा उपलब्ध आहे. तसेच काही बस पैठण मार्गे मुंबईकडे जातात. यामुळे प्रवाशांना विविध पर्याय उपलब्ध होतात.</p>\n\n<p>सोलापूर, कोल्हापूर आणि सांगली या पश्चिम महाराष्ट्रातील शहरांसाठी देखील बीड बसस्थानकातून MSRTC बस सेवा दिली जाते. सोलापूरसाठी साधारणपणे दर तासाला बस उपलब्ध असल्यामुळे हा मार्ग देखील महत्त्वाचा मानला जातो. कोल्हापूर आणि सांगली या शहरांसाठी दिवसातून काही ठराविक वेळांना बस सुटतात, ज्यामुळे प्रवाशांना लांब पल्ल्याच्या प्रवासासाठी सोयीस्कर सेवा मिळते.</p>\n\n<p>आंतरराज्य प्रवासासाठी देखील बीड बसस्थानकातून काही बस सेवा चालतात. गुलबर्गा, गंगापूर आणि विजापूर या कर्नाटक राज्यातील शहरांसाठी बस उपलब्ध असल्यामुळे प्रवाशांना राज्याबाहेरही सोयीस्कर प्रवास करता येतो. अशा आंतरराज्य मार्गांमुळे व्यापार, शिक्षण आणि वैयक्तिक प्रवासासाठी मोठी मदत होते.</p>\n\n<p>ग्रामीण भागातील लोकांसाठी बीड बसस्थानक अत्यंत महत्त्वाचे आहे. पाडळसिंगी, शिरूर, येळंब, राजेवाडी, नाथापूर, ढोकेवाडी, पिंपळवंडी, कुक्कडगाव, निमगाव, शिरसमार्ग, धानोरा, फुलसांगवी, कचरवाडी, शिरपूर घाट, टोकवाडी, काळेगाव, मोरगाव, लिंबाराई, इमामपूर, वांगी, दाननगर आणि राजुरी शाळा अशा अनेक ग्रामीण मार्गांवर दररोज MSRTC बस सेवा चालते. या बस फेऱ्यांमुळे गावांतील लोकांना शहरात ये-जा करणे सोपे होते.</p>\n\n<p>ग्रामीण भागातील विद्यार्थ्यांसाठी ही बस सेवा अत्यंत उपयुक्त आहे. अनेक गावांमधून शाळा आणि महाविद्यालयांसाठी विद्यार्थ्यांना बीड शहरात यावे लागते. MSRTC च्या नियमित बस फेऱ्यांमुळे विद्यार्थ्यांना सुरक्षित आणि कमी खर्चात प्रवास करता येतो. त्यामुळे ग्रामीण शिक्षण व्यवस्थेला मोठी मदत मिळते.</p>\n\n<p>बीड बसस्थानकावर प्रवाशांसाठी अनेक सुविधा उपलब्ध आहेत. येथे तिकीट खिडक्या, चौकशी कक्ष, बस वेळापत्रक फलक, प्रतीक्षालय, पिण्याचे पाणी आणि स्वच्छतागृहे उपलब्ध आहेत. MSRTC कर्मचारी प्रवाशांना बस प्लॅटफॉर्म, वेळापत्रक आणि तिकीट याबाबत माहिती देतात. यामुळे प्रवाशांना योग्य बस शोधणे आणि वेळेवर प्रवास करणे सोपे होते.</p>\n\n<p>ऑनलाइन तिकीट बुकिंग सुविधेमुळे आता प्रवाशांना आगाऊ आरक्षण करणे अधिक सोपे झाले आहे. MSRTC च्या अधिकृत संकेतस्थळावर किंवा मोबाइल अॅपद्वारे प्रवासी आपल्या प्रवासासाठी तिकीट बुक करू शकतात. त्यामुळे गर्दीच्या काळात किंवा सणासुदीच्या दिवसांत देखील प्रवासाची खात्री मिळते.</p>\n\n<p>एकंदरीत बीड बसस्थानक हे केवळ प्रवासाचे केंद्र नसून संपूर्ण जिल्ह्याच्या सामाजिक आणि आर्थिक जीवनात महत्त्वाची भूमिका बजावते. MSRTC च्या विश्वासार्ह, सुरक्षित आणि परवडणाऱ्या बस सेवेमुळे शहर आणि ग्रामीण भागातील लोकांना रोजच्या प्रवासासाठी मोठी मदत मिळते. नियमित बस फेऱ्या, विविध शहरांशी मजबूत संपर्क आणि ग्रामीण भागासाठी उपलब्ध सेवा यामुळे बीड बसस्थानक हे मराठवाडा प्रदेशातील एक महत्त्वाचे वाहतूक केंद्र म्हणून ओळखले जाते.</p>",
+    "faqs": [
+      {
+        "question": "बीड ते अंबाजोगाई मार्गावर बस सेवा कधी सुरू होते आणि दिवसभर किती वेळाने बस उपलब्ध असते?",
+        "answer": "बीड ते अंबाजोगाई या मार्गावर बस सेवा सकाळी सुमारे ७:०० वाजता सुरू होते आणि संध्याकाळी १९:०० पर्यंत दर ३० मिनिटांनी बस सुटतात. रात्री २३:०० वाजताही एक अतिरिक्त बस उपलब्ध असल्यामुळे प्रवाशांना दिवसभर वारंवार सेवा मिळते."
+      },
+      {
+        "question": "बीड ते लातूर मार्गावर पहिली बस कधी सुटते आणि शेवटची बस कोणत्या वेळी असते?",
+        "answer": "बीड ते लातूर मार्गावर बस सेवा सकाळी ६:३० पासून सुरू होते आणि रात्री २२:०० पर्यंत जवळजवळ दर तासाला बस उपलब्ध असते. त्यामुळे विद्यार्थ्यांना, कामानिमित्त प्रवास करणाऱ्यांना आणि व्यापाऱ्यांना नियमित प्रवासाची सोय होते."
+      },
+      {
+        "question": "बीड ते जालना मार्गावर बस सेवा किती वारंवार उपलब्ध आहे?",
+        "answer": "बीड बसस्थानकावरून जालना या शहरासाठी सकाळपासून रात्रीपर्यंत साधारणपणे दर एक तासाने बस सुटते. त्यामुळे दिवसभरात अनेक फेऱ्या उपलब्ध असल्यामुळे प्रवाशांना त्यांच्या सोयीप्रमाणे वेळ निवडता येतो."
+      },
+      {
+        "question": "बीड ते पुणे मार्गावर बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "बीड ते पुणे या मार्गावर सकाळी ५:३० पासून रात्री २३:०० पर्यंत अनेक बस फेऱ्या उपलब्ध आहेत. दिवसभरात जवळजवळ १५ पेक्षा जास्त बस सुटतात, त्यामुळे हा मार्ग बीड बसस्थानकातील सर्वाधिक लोकप्रिय मार्गांपैकी एक आहे."
+      },
+      {
+        "question": "बीड ते सीडको नॉन-स्टॉप बस सेवा किती वेळाने उपलब्ध असते?",
+        "answer": "बीड ते CIDCO नॉन-स्टॉप बस सेवा सकाळी ६:३० पासून रात्री २०:०० पर्यंत दर ३० मिनिटांनी उपलब्ध असते. त्यामुळे या मार्गावर दिवसभर सतत बस सेवा मिळते आणि प्रवाशांना वारंवार प्रवासाची सोय होते."
+      },
+      {
+        "question": "बीड ते परभणी मार्गावर बस सेवा कधी सुरू होते आणि किती वेळाने बस मिळते?",
+        "answer": "बीड ते परभणी मार्गावर बस सेवा सकाळी ६:०० पासून सुरू होते आणि संध्याकाळी १७:०० पर्यंत साधारणपणे दर तासाला बस उपलब्ध असते. त्यामुळे या मार्गावर दिवसभर नियमित बस फेऱ्या मिळतात."
+      },
+      {
+        "question": "बीड ते सोलापूर मार्गावर बस सेवा किती वारंवार आहे?",
+        "answer": "बीड ते सोलापूर या मार्गावर साधारणपणे दर तासाला बस सेवा उपलब्ध असते. याशिवाय संध्याकाळी १८:०० आणि रात्री २३:३० वाजताही अतिरिक्त बस असल्यामुळे दिवसभर प्रवाशांना अनेक पर्याय मिळतात."
+      },
+      {
+        "question": "बीड ते पंढरपूर मार्गावर बस सेवा कोणत्या वेळांना मिळते?",
+        "answer": "बीड ते पंढरपूर मार्गावर दिवसभर अनेक वेळा बस उपलब्ध आहेत. १०:३०, ११:३०, १२:३०, १३:३० आणि १५:०० या वेळांना बस सुटतात, त्यामुळे भाविक आणि प्रवाशांना सोयीस्कर प्रवासाची सुविधा मिळते."
+      },
+      {
+        "question": "बीड ते कोल्हापूर मार्गावर बस सेवा कधी सुरू होते आणि शेवटची बस कधी आहे?",
+        "answer": "बीड ते कोल्हापूर मार्गावर सकाळी ७:०० पासून बस सेवा सुरू होते. ८:१५ वाजता दुसरी बस असून संध्याकाळी १८:३०, २०:०० आणि २१:०० या वेळांनाही बस सुटतात."
+      },
+      {
+        "question": "बीड ते मुंबई मार्गावर बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "बीड ते मुंबई या मार्गावर साधारणपणे १०:००, १६:३० आणि १८:०० या वेळांना बस सेवा उपलब्ध असते. तसेच मुंबई-पैठण मार्गे अतिरिक्त बस १९:०० आणि २०:३० वाजता सुटतात."
+      },
+      {
+        "question": "बीड ते नांदेड मार्गावर बस सेवा किती वेळा उपलब्ध आहे?",
+        "answer": "बीड ते नांदेड मार्गावर विविध मार्गांनी बस सेवा उपलब्ध आहे. पहिली बस साधारणपणे सकाळी ५:३० वाजता सुटते आणि दिवसभरात ७ ते ८ फेऱ्या उपलब्ध असल्यामुळे प्रवाशांना नियमित प्रवासाची सोय मिळते."
+      },
+      {
+        "question": "बीड ते अकोला मार्गावर बस कधी सुटते?",
+        "answer": "बीड ते अकोला या मार्गावर दररोज सकाळी ७:३० वाजता बस सेवा उपलब्ध असते. ही बस विदर्भ भागात जाणाऱ्या प्रवाशांसाठी महत्त्वाची असून नियमित प्रवासासाठी सोयीची ठरते."
+      },
+      {
+        "question": "बीड ते शेगाव मार्गावर बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "बीड ते शेगाव या मार्गावर १०:३०, १२:१५ आणि १३:३० या वेळांना बस उपलब्ध असतात. याशिवाय रात्री ०१:१५ वाजता एक बस असल्यामुळे भाविकांना धार्मिक प्रवासासाठी सोय होते."
+      },
+      {
+        "question": "बीड ते जळगाव मार्गावर बस सेवा किती वेळा उपलब्ध आहे?",
+        "answer": "बीड ते जळगाव या मार्गावर ११:००, ११:३०, १२:३० आणि रात्री २३:४५ या वेळांना बस सेवा उपलब्ध आहे. त्यामुळे दिवसभरात अनेक वेळा या मार्गावर बस मिळते."
+      },
+      {
+        "question": "बीड ते कळमनुरी मार्गावर बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "बीड ते कळमनुरी मार्गावर सकाळी ६:४५ वाजता पहिली बस सुटते आणि दुपारी १४:०० वाजता दुसरी बस उपलब्ध असते. त्यामुळे या मार्गावर दररोज किमान दोन नियमित फेऱ्या उपलब्ध आहेत."
+      }
+    ],
+    "seo_content": {
+      "title": "Beed Bus Stand Timetable 2026 | MSRTC Bus Schedule & Ticket Booking",
+      "content": "<p><strong>Beed Bus Stand</strong> is one of the important transport hubs in the Marathwada region of Maharashtra operated by <strong>MSRTC (Maharashtra State Road Transport Corporation)</strong>. Thousands of passengers travel every day from this depot for work, education, business, medical needs, and religious journeys. The <strong>Beed Bus Stand timetable 2026</strong> provides updated departure timings and route information so passengers can plan their journey easily and avoid waiting at the bus station.</p><p>The bus stand offers regular connectivity to many major cities across Maharashtra such as <strong>Pune, Mumbai, Latur, Jalna, Parbhani, Solapur, Kolhapur, Ambajogai, Nanded</strong> and many more destinations. MSRTC operates multiple buses throughout the day, starting from early morning and continuing till late night, ensuring convenient travel options for both short-distance and long-distance passengers.</p><p>Some of the most frequently used routes from Beed Bus Stand include <strong>Pune, Latur, Ambajogai, Jalna and Solapur</strong>. The Pune route has multiple departures throughout the day because many students, employees, and business travelers regularly travel between Beed and Pune. Similarly, the <strong>Ambajogai route</strong> has very frequent bus services as it connects an important educational and religious center in the region.</p><p>Below are examples of some major bus departures from Beed Bus Stand:</p><ul><li><strong>Pune (पुणे):</strong> 05:30, 06:30, 07:00, 08:00, 09:00, 10:30, 11:00, 11:45, 13:00, 13:30, 14:00, 14:30, 16:00, 22:00, 23:00</li><li><strong>Latur (लातूर):</strong> 06:30 to 22:00 (approximately every hour)</li><li><strong>Ambajogai (अंबाजोगाई):</strong> 07:00 to 19:00 (every 30 minutes) and 23:00</li><li><strong>Jalna (जालना):</strong> Regular buses available almost every hour</li><li><strong>Solapur (सोलापूर):</strong> Frequent departures throughout the day with additional evening and night buses</li><li><strong>Mumbai (मुंबई):</strong> 10:00, 16:30, 18:00</li></ul><p>In addition to major city routes, Beed Bus Stand also provides important connectivity to nearby towns and villages. Several <strong>rural MSRTC bus routes</strong> operate daily connecting places like <strong>Patoda, Dharur, Wadwani, Majalgaon, Ashti, Padalsingi, Shirur, Nimgaon and many other villages</strong>. These services help rural passengers travel to Beed for markets, hospitals, government work and education.</p><p>The bus stand also offers useful passenger facilities such as <strong>ticket counters, enquiry counters, waiting areas, drinking water, and display boards showing MSRTC bus timings</strong>. Travelers can also book tickets in advance through the official MSRTC online booking system for long-distance journeys.</p><p>Overall, the <strong>Beed Bus Stand MSRTC timetable</strong> ensures smooth connectivity between Beed district, major cities of Maharashtra, and nearby rural regions. With regular bus services, affordable ticket prices, and reliable schedules, MSRTC continues to be one of the most convenient and trusted travel options for passengers traveling from Beed.</p>"
+    }
+  },
+  "seo": {
+    "title": "Beed Bus Stand Timetable 2026 | MSRTC Ticket Price & Bus Schedule",
+    "description": "<p>Find complete Beed Bus Stand timetable 2026 with MSRTC bus timings, routes, and ticket booking details. Check daily bus schedule from Beed to Pune, Latur, Ahmednagar and more.</p>",
+    "keywords": "Beed Bus Stand, MSRTC Beed, Beed bus timetable 2026, Beed to Pune bus, Beed to Latur bus, Beed depot schedule"
+  }
+}

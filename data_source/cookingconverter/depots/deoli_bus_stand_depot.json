@@ -1,0 +1,416 @@
+{
+  "id": "deoli_bus_stand_depot",
+  "name": "Deoli Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "deoli_teh",
+  "address": "Deoli ST Bus Stand, Wardha District - 442101",
+  "contact": "07158-282008",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Ahmedpur via Yavatmal",
+        "schedule": ["07:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Aheri via Hinganghat",
+        "schedule": ["13:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Ajanti via Dighori/Mandgaon",
+        "schedule": ["09:15", "11:45", "14:30", "17:00", "20:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Akola via Amravati",
+        "schedule": ["06:30", "14:10", "15:45"],
+        "bus_count": 3
+      },
+      {
+        "name": "Ambejogai via Yavatmal",
+        "schedule": ["09:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Amravati via Pulgaon",
+        "schedule": ["06:30", "07:13", "08:00", "08:15", "08:30", "08:45", "09:15", "09:20", "09:45", "10:00", "10:30", "10:45", "11:00", "11:45", "12:30", "12:50", "13:30", "14:00", "14:10", "15:30", "15:30", "15:45", "17:00", "18:00", "18:30", "19:00", "20:30", "20:45"],
+        "bus_count": 28
+      },
+      {
+        "name": "Andori via Khamgaon/Shinde",
+        "schedule": ["08:00", "10:00", "14:30", "16:00", "17:00"],
+        "bus_count": 5
+      }
+    ],
+    "b": [
+      {
+        "name": "Babgaon (Kho.) / Babgaon via Tirpur/Babgaon",
+        "schedule": ["09:05", "10:35", "12:00", "17:00"],
+        "bus_count": 4
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandrapur via Hinganghat",
+        "schedule": ["06:35", "07:30", "09:00", "09:50", "11:30", "13:00", "15:45", "16:55"],
+        "bus_count": 8
+      },
+      {
+        "name": "Chimur via Hinganghat",
+        "schedule": ["14:55"],
+        "bus_count": 1
+      }
+    ],
+    "d": [
+      {
+        "name": "Darwha via Santod",
+        "schedule": ["07:00", "07:15", "09:30", "09:45", "12:15", "12:30", "15:45", "18:00", "18:30", "19:00"],
+        "bus_count": 10
+      },
+      {
+        "name": "Darwha via Yavatmal",
+        "schedule": ["13:20", "13:35", "13:45", "13:50", "14:15", "16:50", "18:10"],
+        "bus_count": 7
+      },
+      {
+        "name": "Degloor via Yavatmal",
+        "schedule": ["08:15", "08:30", "10:40"],
+        "bus_count": 3
+      },
+      {
+        "name": "Digras via Yavatmal",
+        "schedule": ["15:55", "16:45", "17:40", "18:40"],
+        "bus_count": 4
+      },
+      {
+        "name": "Dighori (Sherpur) via Mandgaon/Andori",
+        "schedule": ["06:35", "09:00", "12:00", "15:00", "17:00"],
+        "bus_count": 5
+      }
+    ],
+    "g": [
+      {
+        "name": "Gadchiroli via Hinganghat",
+        "schedule": ["07:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gawda via Mandgaon/Andori",
+        "schedule": ["08:00", "09:00", "12:00", "17:00", "19:30"],
+        "bus_count": 5
+      },
+      {
+        "name": "Gondia via Nagpur",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      }
+    ],
+    "h": [
+      {
+        "name": "Hinganghat",
+        "schedule": ["09:50", "10:50", "11:15", "11:30", "11:55", "14:15", "16:00"],
+        "bus_count": 7
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalna via Amravati",
+        "schedule": ["09:20"],
+        "bus_count": 1
+      }
+    ],
+    "k": [
+      {
+        "name": "Kandhar via Yavatmal",
+        "schedule": ["07:30", "10:40"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kapasni via Mandgaon/Andori",
+        "schedule": ["10:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Karanja via Yavatmal",
+        "schedule": ["15:30", "17:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Karanja Lad via Yavatmal",
+        "schedule": ["17:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kazalratta via Vijaygopal Route",
+        "schedule": ["09:00", "14:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kharda / Sherpur via Vijaygopal Route",
+        "schedule": ["10:00", "12:00", "15:30", "18:00"],
+        "bus_count": 4
+      },
+      {
+        "name": "Kinwat via Yavatmal",
+        "schedule": ["09:45", "18:30"],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Latur via Yavatmal",
+        "schedule": ["10:05"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mahur via Yavatmal",
+        "schedule": ["07:55", "08:15", "11:30", "14:40", "15:45", "16:55", "17:15", "18:55", "19:00"],
+        "bus_count": 9
+      },
+      {
+        "name": "Motinpur via Ekamba/Chikramat",
+        "schedule": ["09:45", "12:00"],
+        "bus_count": 2
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["05:00", "06:30", "07:15", "07:40", "08:10", "09:00", "09:15", "09:30", "09:45", "10:00", "10:15", "10:45", "11:00", "11:15", "11:30", "12:00", "12:15", "12:40", "13:00", "13:35", "13:45", "14:15", "14:45", "15:30", "16:15", "16:50", "17:15", "17:20", "17:45", "18:00", "18:10", "18:30", "19:00", "19:15", "19:30", "20:15", "20:30", "20:45", "21:00", "21:30"],
+        "bus_count": 40
+      },
+      {
+        "name": "Nanded via Yavatmal",
+        "schedule": ["07:30", "08:45", "09:40", "10:40", "11:15", "12:40", "15:40", "21:00", "21:35"],
+        "bus_count": 9
+      },
+      {
+        "name": "Ner-Babhal via Yavatmal",
+        "schedule": ["16:15"],
+        "bus_count": 1
+      }
+    ],
+    "p": [
+      {
+        "name": "Pandharpur via Yavatmal",
+        "schedule": ["23:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Paratwada via Amravati",
+        "schedule": ["09:15", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Partur via Yavatmal",
+        "schedule": ["09:35"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pusad via Yavatmal",
+        "schedule": ["06:40", "07:55", "10:15", "14:20", "15:15", "17:20", "17:30"],
+        "bus_count": 7
+      },
+      {
+        "name": "Pulgaon via Talni",
+        "schedule": ["06:30", "07:30", "07:45", "09:30", "10:30", "12:00", "12:15", "12:45", "13:45", "14:30", "16:30", "17:00", "17:45", "19:45", "20:45"],
+        "bus_count": 15
+      },
+      {
+        "name": "Pachgaon / Mandwa via Pachgaon/Mamdani",
+        "schedule": ["07:05", "11:00", "12:00", "13:00", "18:00"],
+        "bus_count": 5
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura via Hinganghat",
+        "schedule": ["15:30"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Sakoli via Nagpur",
+        "schedule": ["09:00", "12:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Sambhaji Nagar via Amravati",
+        "schedule": ["08:45", "10:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Sambhaji Nagar via Yavatmal",
+        "schedule": ["07:20", "07:25"],
+        "bus_count": 2
+      },
+      {
+        "name": "Savner via Nagpur",
+        "schedule": ["07:45", "11:15", "12:40"],
+        "bus_count": 3
+      },
+      {
+        "name": "Satoda / Nanora via Romenaon/Agartao",
+        "schedule": ["07:30", "10:00", "10:15", "12:00", "18:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Sarangdhir (Bank) via Vijaygopal Route",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shegaon via Amravati",
+        "schedule": ["12:50"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shegaon via Yavatmal",
+        "schedule": ["12:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shirasgaon / Chinchgaon via Mandgaon/Andori",
+        "schedule": ["08:00", "10:00", "13:00", "15:30", "17:30", "19:30"],
+        "bus_count": 6
+      },
+      {
+        "name": "Solapur via Yavatmal",
+        "schedule": ["18:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Sonegaon (Bai) via Mandgaon/Andori",
+        "schedule": ["08:45", "16:00"],
+        "bus_count": 2
+      }
+    ],
+    "t": [
+      {
+        "name": "Takli (Chate) via Mandgaon/Andori",
+        "schedule": ["07:00", "10:15", "14:00", "16:15"],
+        "bus_count": 4
+      },
+      {
+        "name": "Tiroda via Nagpur",
+        "schedule": ["12:00", "14:15", "14:45", "17:15"],
+        "bus_count": 4
+      },
+      {
+        "name": "Tumsar via Nagpur",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      }
+    ],
+    "u": [
+      {
+        "name": "Udgir via Yavatmal",
+        "schedule": ["09:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Umerkhed via Yavatmal",
+        "schedule": ["07:20", "10:40", "11:15"],
+        "bus_count": 3
+      }
+    ],
+    "v": [
+      {
+        "name": "Vasammat via Yavatmal",
+        "schedule": ["07:00", "10:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Vijaygopal",
+        "schedule": ["12:00"],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Wardha",
+        "schedule": ["05:00", "06:30", "07:15", "07:40", "08:10", "09:00", "09:15", "09:30", "09:45", "10:00", "10:15", "10:45", "11:00", "11:15", "11:30", "12:00", "12:15", "12:40", "13:00", "13:35", "13:45", "14:15", "14:45", "15:30", "16:15", "16:50", "17:15", "17:20", "17:45", "18:00", "18:10", "18:30", "19:00", "19:15", "19:30", "20:15", "20:30", "20:45", "21:00", "21:30"],
+        "bus_count": 40
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>देवळी बसस्थानक (Deoli Bus Stand)</strong> हे वर्धा जिल्ह्यातील एक महत्त्वाचे सार्वजनिक वाहतूक केंद्र असून ते महाराष्ट्र राज्य मार्ग परिवहन महामंडळ म्हणजेच <strong>MSRTC</strong> द्वारे चालवले जाते. वर्धा जिल्ह्यातील देवळी शहर हे आसपासच्या ग्रामीण भागांसाठी एक प्रमुख व्यापारी आणि वाहतूक केंद्र आहे. या बसस्थानकावरून दररोज अनेक बस सेवा चालतात ज्या जवळच्या गावांना तसेच मोठ्या शहरांना जोडतात. देवळी बसस्थानकामुळे ग्रामीण भागातील प्रवाशांना वर्धा, नागपूर आणि इतर शहरांपर्यंत सहज प्रवास करता येतो.</p>\n\n<p>देवळी बसस्थानकावरून चालणाऱ्या बस सेवांमध्ये <strong>एकांबा मार्ग (Ekamba Route)</strong> हा अत्यंत महत्त्वाचा आणि व्यस्त मार्ग मानला जातो. या मार्गावरून बस सेवा बोथीदुरा, अंटोरा, अंजी, गिरड, फुलगाव, निमबोळी आणि देवळी अशा अनेक गावांना जोडते. या मार्गावर दिवसभरात अनेक बस सुटतात जसे की 6:45, 8:00, 10:00, 11:30, 13:00, 15:00, 16:30, 17:15, 18:30 आणि 20:00. याशिवाय काही अतिरिक्त वेळांवर देखील बस सेवा उपलब्ध आहे ज्यामुळे ग्रामीण भागातील प्रवाशांना बाजारपेठ, शासकीय कार्यालये आणि इतर सेवांपर्यंत सहज पोहोचता येते.</p>\n\n<p><strong>शिरपूर मार्ग (Shirpur Route)</strong> हा देखील देवळी बसस्थानकासाठी एक महत्त्वाचा ग्रामीण मार्ग आहे. या मार्गावरून बाबुळगाव, खर्डा, विजयगोपाल, सावंगी आणि मुर्जापूर या गावांसाठी बस सेवा उपलब्ध आहे. या मार्गावर दिवसभर विविध वेळांना बस सुटतात जसे 9:05, 10:35, 15:00, 10:00, 12:00, 14:30 आणि 18:00. या बस सेवेमुळे या गावांमधील प्रवाशांना देवळी शहराशी नियमित संपर्क ठेवता येतो.</p>\n\n<p>देवळी बसस्थानकातून चालणारा <strong>सोनेगाव मार्ग (Sonegaon Route)</strong> हा देखील अनेक प्रवाशांसाठी उपयुक्त आहे. या मार्गावरून अलीपूर, बाबुळगाव, चक्रमान आणि मान्सरी या गावांसाठी बस सेवा उपलब्ध आहे. सकाळी 7:30 पासून या मार्गावर बस सेवा सुरू होते आणि दिवसभरात 10:05, 13:00, 18:00 तसेच इतर वेळांना बस सेवा उपलब्ध असते. या मार्गामुळे ग्रामीण भागातील लोकांना देवळी येथे येऊन बाजारपेठ आणि इतर सेवा वापरणे सोपे होते.</p>\n\n<p>देवळी बसस्थानकाची सर्वात मोठी खासियत म्हणजे <strong>MSRTC बस नेटवर्कद्वारे मिळणारी मजबूत ग्रामीण जोडणी</strong>. अनेक लहान गावे आणि वाड्या देवळी बसस्थानकाशी जोडलेले आहेत. त्यामुळे शेतकरी, व्यापारी आणि सामान्य प्रवाशांना त्यांच्या दैनंदिन कामांसाठी प्रवास करणे सोपे होते. ग्रामीण भागातील लोकांना देवळी येथे येऊन बाजारपेठ, आरोग्य सेवा, शिक्षण संस्था आणि शासकीय कार्यालये यांचा लाभ घेता येतो.</p>\n\n<p>या बसस्थानकावरून मोठ्या शहरांकडे जाणाऱ्या बस सेवा देखील उपलब्ध असतात. वर्धा, हिंगणघाट आणि नागपूर या शहरांपर्यंत प्रवास करणाऱ्या प्रवाशांसाठी देवळी बसस्थानक हे एक महत्त्वाचे केंद्र आहे. या शहरांमध्ये जाणाऱ्या बस सेवेमुळे देवळी आणि आसपासच्या गावांतील लोकांना मोठ्या शहरांशी संपर्क ठेवणे सोपे होते.</p>\n\n<p>देवळी बसस्थानकावर प्रवाशांसाठी अनेक आवश्यक सुविधा उपलब्ध आहेत. येथे <strong>तिकीट काउंटर, बसण्याची व्यवस्था, प्रतीक्षालय आणि बस वेळापत्रक फलक</strong> उपलब्ध आहे. प्रवासी येथे येऊन थेट बस वेळापत्रक पाहू शकतात आणि आपल्या प्रवासाचे नियोजन करू शकतात. काही प्रवासी ऑनलाइन माहितीचा वापर करून देखील बस वेळापत्रक तपासतात.</p>\n\n<p>सणासुदीच्या काळात, बाजाराच्या दिवशी किंवा विशेष कार्यक्रमांच्या वेळी देवळी बसस्थानकावर प्रवाशांची संख्या मोठ्या प्रमाणात वाढते. अशा वेळी <strong>MSRTC प्रशासन अतिरिक्त बस सेवा सुरू करण्याचा प्रयत्न करते</strong> जेणेकरून प्रवाशांना अडचण येऊ नये. त्यामुळे या बसस्थानकाचे स्थानिक अर्थव्यवस्थेत आणि सामाजिक जीवनात मोठे महत्त्व आहे.</p>\n\n<p>एकूणच पाहता, <strong>देवळी बसस्थानक</strong> हे वर्धा जिल्ह्यातील ग्रामीण आणि शहरी भागांना जोडणारे एक महत्त्वाचे सार्वजनिक वाहतूक केंद्र आहे. नियमित बस सेवा, परवडणारे तिकीट दर आणि विस्तृत मार्ग जाळे यामुळे MSRTC बस सेवा आजही हजारो प्रवाशांसाठी सुरक्षित आणि विश्वासार्ह प्रवासाचा पर्याय ठरतात.</p>",
+    "faqs": [
+      {
+        "question": "देवळी बसस्थानकावरून एकांबा मार्गावरील बस सेवा कोणत्या गावांपर्यंत जाते आणि त्या मार्गावरील प्रमुख थांबे कोणते आहेत?",
+        "answer": "एकांबा मार्गावरील बस सेवा बोथीदुरा, अंटोरा, अंजी, गिरड, फुलगाव, निमबोळी आणि देवळी अशा अनेक गावांना जोडते. दिवसभर विविध वेळांना बस उपलब्ध असतात."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून एकांबा मार्गासाठी पहिली आणि शेवटची बस साधारण कोणत्या वेळेला सुटते?",
+        "answer": "या मार्गावरील पहिली बस साधारण सकाळी 6:45 वाजता सुरू होते आणि शेवटची बस रात्री सुमारे 20:00 वाजेपर्यंत उपलब्ध असते."
+      },
+      {
+        "question": "शिरपूर मार्गावर देवळी बसस्थानकातून कोणत्या गावांसाठी बस सेवा उपलब्ध आहे आणि दिवसभरात किती वेळा बस सुटते?",
+        "answer": "शिरपूर मार्गावर बाबुळगाव, खर्डा, विजयगोपाल, सावंगी आणि मुर्जापूर या गावांसाठी बस सेवा उपलब्ध आहे. दिवसभर विविध वेळांना बस चालतात."
+      },
+      {
+        "question": "देवळी ते सोनेगाव मार्गावर बस सेवा कोणत्या गावांपर्यंत जाते आणि त्या मार्गावरील प्रमुख थांबे कोणते आहेत?",
+        "answer": "सोनेगाव मार्गावर अलीपूर, बाबुळगाव, चक्रमान आणि मान्सरी या गावांसाठी बस सेवा उपलब्ध आहे. दिवसभर काही ठराविक वेळांना बस चालतात."
+      },
+      {
+        "question": "देवळी बसस्थानकावर प्रवाशांसाठी कोणत्या मूलभूत सुविधा उपलब्ध आहेत आणि त्या सुविधा प्रवाशांसाठी कशा उपयुक्त आहेत?",
+        "answer": "देवळी बसस्थानकावर तिकीट काउंटर, प्रतीक्षालय, बसण्याची व्यवस्था आणि वेळापत्रक फलक उपलब्ध आहेत. त्यामुळे प्रवाशांना प्रवास नियोजन सोपे होते."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून आसपासच्या गावांपर्यंत MSRTC बस सेवा नियमितपणे उपलब्ध आहे का?",
+        "answer": "होय, देवळी बसस्थानकावरून अनेक लहान गावांसाठी नियमित MSRTC बस सेवा उपलब्ध आहे ज्यामुळे ग्रामीण प्रवास सोपा होतो."
+      },
+      {
+        "question": "देवळी बसस्थानकातून सकाळच्या वेळेत कोणत्या प्रमुख बस सेवा सुरू होतात?",
+        "answer": "सकाळी साधारण 6:45 पासून एकांबा मार्गावरील बस सेवा सुरू होते आणि त्यानंतर दिवसभर विविध वेळांना बस उपलब्ध असतात."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून बाजाराच्या दिवशी किंवा सणासुदीच्या काळात अतिरिक्त बस सेवा उपलब्ध असते का?",
+        "answer": "होय, प्रवाशांची संख्या वाढल्यास MSRTC प्रशासन अतिरिक्त बस सेवा सुरू करण्याचा प्रयत्न करते."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून बाबुळगावसाठी बस सेवा कोणत्या मार्गांवर उपलब्ध आहे?",
+        "answer": "बाबुळगावसाठी शिरपूर मार्ग आणि सोनेगाव मार्ग या दोन्ही मार्गांवर बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून ग्रामीण भागातील प्रवाशांसाठी बस सेवा का महत्त्वाची आहे?",
+        "answer": "ग्रामीण भागातील लोकांना बाजारपेठ, शासकीय कार्यालये आणि इतर सेवा वापरण्यासाठी देवळीपर्यंत सहज प्रवास करता येतो."
+      },
+      {
+        "question": "देवळी बसस्थानकावर बस वेळापत्रकाची माहिती कशी मिळू शकते?",
+        "answer": "प्रवासी बसस्थानकावर असलेल्या वेळापत्रक फलकावरून किंवा अधिकृत माहितीच्या माध्यमातून बस वेळापत्रक पाहू शकतात."
+      },
+      {
+        "question": "देवळी बसस्थानकातून दिवसभरात किती प्रमुख ग्रामीण मार्गांवर बस सेवा चालतात?",
+        "answer": "देवळी बसस्थानकातून एकांबा, शिरपूर आणि सोनेगाव अशा अनेक ग्रामीण मार्गांवर नियमित बस सेवा चालतात."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून गिरड आणि फुलगाव या गावांसाठी बस सेवा कोणत्या मार्गावर उपलब्ध आहे?",
+        "answer": "गिरड आणि फुलगाव या गावांसाठी बस सेवा एकांबा मार्गावर उपलब्ध आहे."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून अंटोरा आणि अंजी या गावांसाठी बस सेवा कोणत्या वेळांना मिळते?",
+        "answer": "या गावांसाठी बस सेवा एकांबा मार्गावर दिवसभर विविध वेळांना उपलब्ध असते."
+      },
+      {
+        "question": "देवळी बसस्थानकावरून मान्सरीसाठी बस सेवा कोणत्या मार्गावर उपलब्ध आहे?",
+        "answer": "मान्सरीसाठी बस सेवा सोनेगाव मार्गावर उपलब्ध आहे आणि त्या मार्गावर दिवसातून काही वेळा बस सुटतात."
+      }
+    ],
+    "seo_content": {
+      "title": "Deoli Bus Stand Timetable 2026 | MSRTC Deoli Bus Timings",
+      "content": "<p><strong>Deoli Bus Stand Timetable 2026</strong> provides updated information about MSRTC bus timings from Deoli to nearby villages and regional routes. The Deoli ST bus stand plays an important role in connecting rural areas with nearby towns through reliable <strong>MSRTC bus services</strong>.</p>\n\n<p>Several important rural routes operate from Deoli including the <strong>Ekamba Route, Shirpur Route, and Sonegaon Route</strong>. These routes connect passengers with villages such as Bothidura, Antora, Anji, Girad, Phulgaon, Nimboli, Babhulgaon, Kharda, Vijoygopal, Sawangi, Murzapur, Alipur, Chakramaan and Mansari.</p>\n\n<p>The <strong>Ekamba route</strong> is one of the most frequent routes from Deoli bus stand. Buses on this route start as early as <strong>6:45 AM</strong> and continue throughout the day until around <strong>8:00 PM</strong>. With multiple departure times like 8:00, 10:00, 11:30, 13:00, 15:00, 16:30 and 18:30, passengers can easily travel between villages and Deoli town.</p>\n\n<ul>\n<li>Early morning MSRTC buses starting from 6:45 AM.</li>\n<li>Regular rural connectivity to villages across Ekamba, Shirpur and Sonegaon routes.</li>\n<li>Multiple departures throughout the day ensuring travel flexibility.</li>\n<li>Affordable ticket prices through MSRTC public transport services.</li>\n</ul>\n\n<p>The <strong>Shirpur route</strong> connects villages like Babhulgaon, Kharda, Vijoygopal, Sawangi and Murzapur with Deoli town. Buses operate at different times such as 9:05, 10:35, 12:00, 14:30 and 18:00 which helps passengers travel conveniently for market visits and daily work.</p>\n\n<p>The <strong>Sonegaon route</strong> also plays an important role by connecting villages like Alipur, Babhulgaon, Chakramaan and Mansari. Buses run from early morning around 7:30 and continue until evening.</p>\n\n<p>Passengers can check the updated <strong>MSRTC bus timetable, bus schedule, and bus timings</strong> before planning their journey. Deoli bus stand provides reliable and affordable transportation for passengers traveling between rural villages and nearby towns using MSRTC bus services.</p>"
+    }
+  },
+  "seo": {
+    "title": "Deoli Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check complete Deoli Bus Stand timetable 2026 with MSRTC bus timings for Wardha, Nagpur, Hinganghat, Yavatmal and nearby routes.",
+    "keywords": "Deoli bus stand, Deoli MSRTC timetable, Deoli to Wardha bus, Deoli ST bus timings"
+  }
+}

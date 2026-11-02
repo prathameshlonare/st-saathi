@@ -1,0 +1,8 @@
+{
+  "id": "ambajogai_teh",
+  "name": "Ambajogai Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["ambajogai_teh_depot"]
+}

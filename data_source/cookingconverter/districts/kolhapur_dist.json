@@ -1,0 +1,8 @@
+{
+  "id": "kolhapur_dist",
+  "name": "Kolhapur District",
+  "alphabet": "K",
+  "type": "district",
+  "division_id": "pune_div",
+  "tehsils": ["kolhapur_teh","karvir_teh","panhala_teh","hatkanangale_teh","shirol_teh","kagal_teh","gadhinglaj_teh","ajra_teh","bhudargad_teh","chandgad_teh","radhanagari_teh","shahuwadi_teh"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "parner_teh",
+  "name": "Parner Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["parner_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "manwath_teh",
+  "name": "Manwath Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["manwath_teh_depot"]
+}

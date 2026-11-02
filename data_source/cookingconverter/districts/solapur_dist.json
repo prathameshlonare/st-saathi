@@ -1,0 +1,8 @@
+{
+  "id": "solapur_dist",
+  "name": "Solapur District",
+  "alphabet": "S",
+  "type": "district",
+  "division_id": "pune_div",
+  "tehsils": ["solapur_teh","akkalkot_teh","barshi_teh","karmala_teh","madha_teh","malshiras_teh","mohol_teh","pandharpur_teh","sangola_teh","mangalvedha_teh"]
+}

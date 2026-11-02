@@ -1,0 +1,8 @@
+{
+  "id": "wardha_dist",
+  "name": "Wardha District",
+  "alphabet": "W",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["wardha_teh","arvi_teh","ashti_wardha_teh","deoli_teh","hinganghat_teh","samudrapur_teh", "pulgaon_teh"]
+}

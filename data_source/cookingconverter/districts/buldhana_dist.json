@@ -1,0 +1,8 @@
+{
+  "id": "buldhana_dist",
+  "name": "Buldhana District",
+  "alphabet": "B",
+  "type": "district",
+  "division_id": "amravati_div",
+  "tehsils": ["buldhana_teh","chikhli_teh","deulgaon_raja_teh","jalgaon_jamod_teh","khamgaon_teh","lonar_teh","mehkar_teh","nandura_teh","shegaon_teh","sindkhed_raja_teh","motala_teh","sangrampur_teh","malakapur_teh"]
+}

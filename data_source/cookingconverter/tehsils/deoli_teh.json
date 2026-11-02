@@ -1,0 +1,8 @@
+{
+  "id": "deoli_teh",
+  "name": "Deoli Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["deoli_teh_depot"]
+}

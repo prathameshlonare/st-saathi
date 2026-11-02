@@ -1,0 +1,15 @@
+{
+  "id": "nagpur_div",
+  "name": "Nagpur Division",
+  "alphabet": "N",
+  "type": "division",
+  "description": "Nagpur Division covers a large part of eastern Maharashtra and is known for forests, mining areas, and administrative importance. Nagpur city acts as a major transport hub for the entire Vidarbha region. MSRTC ST buses provide strong connectivity between remote tribal districts and major towns. Many passengers depend on the bus time table for early morning and overnight journeys. Long-distance ST buses connect Nagpur Division to Mumbai, Pune, and Chhatrapati Sambhajinagar. The division sees heavy daily movement of government employees and students. During monsoon, reliable bus services become even more critical. Overall, MSRTC plays a key role in keeping the region connected.",
+  "districts": [
+    "nagpur_dist",
+    "wardha_dist",
+    "chandrapur_dist",
+    "gadchiroli_dist",
+    "bhandara_dist",
+    "gondia_dist"
+  ]
+}

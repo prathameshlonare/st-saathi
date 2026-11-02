@@ -1,0 +1,8 @@
+{
+  "id": "lohara_teh",
+  "name": "Lohara Tehsil",
+  "alphabet": "L",
+  "type": "tehsil",
+  "district_id": "dharashiv_dist",
+  "depots": ["lohara_teh_depot"]
+}

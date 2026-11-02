@@ -1,0 +1,8 @@
+{
+  "id": "kudal_teh",
+  "name": "Kudal Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "sindhudurg_dist",
+  "depots": ["kudal_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "purna_teh",
+  "name": "Purna Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["purna_teh_depot"]
+}

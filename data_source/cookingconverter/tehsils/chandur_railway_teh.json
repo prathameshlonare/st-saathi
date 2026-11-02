@@ -1,0 +1,8 @@
+{
+  "id": "chandur_railway_teh",
+  "name": "Chandur Railway Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["chandur_railway_teh_depot"]
+}

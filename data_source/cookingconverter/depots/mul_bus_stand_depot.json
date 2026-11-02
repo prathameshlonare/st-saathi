@@ -1,0 +1,109 @@
+{
+  "id": "mul_bus_stand_depot",
+  "name": "Mul Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "mul_teh",
+  "address": "Mul Bus Stand, Mul, Chandrapur District - 441224",
+  "contact": "07172-233344",
+  "total_buses": 0,
+  "villages": {
+    "b": [
+      { "name": "Bembal", "schedule": ["08:30", "10:30", "13:45", "18:15"], "bus_count": 4 },
+      { "name": "Bhandara", "schedule": ["14:10"], "bus_count": 1 },
+      { "name": "Bhejgaon", "schedule": ["06:30"], "bus_count": 1 },
+      { "name": "Brahmapuri", "schedule": ["08:00", "08:10", "08:40", "09:10", "09:40", "10:10", "10:40", "11:10", "11:40", "12:10", "12:40", "13:10", "13:40", "14:10", "14:40", "15:10", "15:40", "16:10", "16:40", "17:10", "17:40", "18:10", "18:40", "19:10", "19:40"], "bus_count": 25 },
+      { "name": "Brahmapuri (via Mudza)", "schedule": ["08:00", "12:10", "13:45", "17:00"], "bus_count": 4 }
+    ],
+    "c": [
+      { "name": "Chamorshi", "schedule": ["06:30", "07:00", "08:00", "09:00", "10:10", "10:25", "11:10", "11:30", "12:00", "12:30", "13:00", "13:15", "13:30", "14:30", "15:00", "15:15", "15:20", "15:30"], "bus_count": 18 },
+      { "name": "Chandrapur", "schedule": ["06:00", "06:55", "07:25", "07:55", "08:25", "08:55", "09:25", "09:55", "10:25", "10:55", "11:25", "11:55", "12:25", "12:55", "13:25", "13:55", "14:25", "14:55", "15:25", "15:55", "16:25", "16:55", "17:25", "17:55", "18:25", "18:55", "19:25", "19:55", "20:25", "21:05"], "bus_count": 30 },
+      { "name": "Chimur", "schedule": ["10:15", "16:00"], "bus_count": 2 }
+    ],
+    "d": [
+      { "name": "Dabgaon", "schedule": ["10:30"], "bus_count": 1 },
+      { "name": "Dhiroli", "schedule": ["09:30", "17:50"], "bus_count": 2 },
+      { "name": "Donala", "schedule": ["09:00"], "bus_count": 1 },
+      { "name": "Doni", "schedule": ["10:30", "17:15"], "bus_count": 2 },
+      { "name": "Durambha", "schedule": ["07:20", "14:40", "16:55"], "bus_count": 3 }
+    ],
+    "f": [
+      { "name": "Phulzhari", "schedule": ["10:00", "16:45"], "bus_count": 2 }
+    ],
+    "g": [
+      { "name": "Gadchiroli", "schedule": ["06:15", "06:45", "07:15", "07:45", "08:15", "08:45", "09:15", "09:45", "10:15", "10:45", "11:15", "11:45", "12:15", "12:45", "13:15", "13:45", "14:15", "14:45", "15:15", "15:45", "16:15", "16:45", "17:15", "17:45", "18:15", "18:45", "19:15", "19:45", "20:15", "20:45", "21:15", "21:55"], "bus_count": 32 },
+      { "name": "Gadisurla", "schedule": ["07:30", "07:35", "09:10", "10:30", "11:20"], "bus_count": 5 },
+      { "name": "Gevra", "schedule": ["14:15"], "bus_count": 1 },
+      { "name": "Gondpipari", "schedule": ["06:30", "07:35", "09:00", "09:30", "10:00", "12:00", "12:30", "13:00", "14:30", "16:00", "16:05", "18:00", "19:00"], "bus_count": 13 }
+    ],
+    "j": [
+      { "name": "Jipgaon", "schedule": ["06:30"], "bus_count": 1 }
+    ],
+    "k": [
+      { "name": "Kelzar", "schedule": ["09:30"], "bus_count": 1 }
+    ],
+    "m": [
+      { "name": "Morwahi", "schedule": ["08:30", "09:00", "16:35", "17:10"], "bus_count": 4 },
+      { "name": "Murmadi", "schedule": ["09:05", "17:50"], "bus_count": 2 }
+    ],
+    "n": [
+      { "name": "Nagpur", "schedule": ["09:45"], "bus_count": 1 },
+      { "name": "Nandgaon", "schedule": ["06:10", "15:10", "16:15"], "bus_count": 3 },
+      { "name": "Nanded", "schedule": ["09:45"], "bus_count": 1 },
+      { "name": "Naleshwar", "schedule": ["09:40", "17:05"], "bus_count": 2 }
+    ],
+    "p": [
+      { "name": "Pethgaon", "schedule": ["09:00", "15:15", "17:30"], "bus_count": 3 },
+      { "name": "Pipari Deshpande", "schedule": ["08:30", "17:20"], "bus_count": 2 },
+      { "name": "Pombhurna", "schedule": ["07:00", "07:30", "08:00", "10:10", "10:40", "11:00", "11:25", "12:00", "13:40", "14:30", "14:45", "15:15", "15:15", "15:30", "15:50", "16:30", "17:05", "17:20", "19:00", "19:00"], "bus_count": 20 },
+      { "name": "Pulgaon", "schedule": ["14:25"], "bus_count": 1 }
+    ],
+    "r": [
+      { "name": "Rajura", "schedule": ["10:30", "10:45", "14:45", "17:10"], "bus_count": 4 },
+      { "name": "Ratnapur", "schedule": ["18:40"], "bus_count": 1 }
+    ],
+    "s": [
+      { "name": "Sakoli", "schedule": ["09:25", "12:55", "14:25", "15:50"], "bus_count": 4 },
+      { "name": "Shivni", "schedule": ["12:10", "18:30"], "bus_count": 2 },
+      { "name": "Somnath", "schedule": ["17:00"], "bus_count": 1 }
+    ],
+    "t": [
+      { "name": "Tekadi", "schedule": ["10:40", "17:35"], "bus_count": 2 },
+      { "name": "Tumsar", "schedule": ["07:50", "15:25"], "bus_count": 2 }
+    ],
+    "u": [
+      { "name": "Umarkhed", "schedule": ["07:45", "08:45"], "bus_count": 2 }
+    ],
+    "v": [
+      { "name": "Wardha", "schedule": ["07:25", "08:10"], "bus_count": 2 },
+      { "name": "Warora", "schedule": ["18:25"], "bus_count": 1 },
+      { "name": "Washim", "schedule": ["06:25"], "bus_count": 1 }
+    ],
+    "y": [
+      { "name": "Yavatmal", "schedule": ["06:40", "11:45", "13:55"], "bus_count": 3 }
+    ]
+  },
+  "content": {
+    "about": "<p>मूल बस स्थानक (Mul Bus Stand) हे चंद्रपूर जिल्ह्यातील एक अत्यंत महत्त्वाचे MSRTC बस स्थानक असून गडचिरोली, ब्रम्हपूरी, चंद्रपूर आणि ग्रामीण भाग यांना जोडणारा प्रमुख दुवा मानले जाते. Mul is strategically located on the Mul–Chandrapur–Gadchiroli corridor, making it a critical transport hub for tribal, rural and semi-urban passengers. दररोज सकाळी लवकर बस सेवा सुरू होऊन रात्री उशिरापर्यंत विविध मार्गांवर बसेस धावतात. चंद्रपूरसाठी सकाळी 6:55 पासून दर 30 मिनिटांनी बस उपलब्ध असल्यामुळे कार्यालयीन, शैक्षणिक आणि वैद्यकीय प्रवासासाठी हे स्थानक अत्यंत उपयुक्त ठरते. गडचिरोली मार्गावर सकाळी 6:15 पासून दर अर्ध्या तासाने बस सेवा असून रात्री 9:55 ही शेवटची बस असल्यामुळे आदिवासी व दुर्गम भागातील प्रवाशांना मोठा आधार मिळतो. ब्रम्हपूरी मार्गावर नियमित वर्दळ असून त्या पुढे भंडारा, तुमसर आणि नागपूरकडे जाणाऱ्या प्रवाशांसाठी हे एक महत्त्वाचे कनेक्शन पॉइंट आहे. Mul Bus Stand also plays a key role in connecting villages like Pombhurna, Gondpipari, Chimur and Chamorshi, which depend heavily on MSRTC for daily mobility. सणासुदीच्या काळात आणि शालेय सुट्ट्यांमध्ये अतिरिक्त बस फेऱ्या लावल्या जातात. मूल बस स्थानक परिसर स्वच्छ, सुव्यवस्थित असून प्रवाशांसाठी आवश्यक प्राथमिक सुविधा उपलब्ध आहेत. ग्रामीण अर्थव्यवस्था, कृषी बाजारपेठा आणि कामगार वाहतुकीसाठी मूल बस स्थानकाचे योगदान अत्यंत महत्त्वाचे आहे.</p>",
+    "faqs": [
+      { "question": "मूल बस स्थानकातून पहिली बस किती वाजता सुटते?", "answer": "मूल बस स्थानकातून पहिल्या बसेस साधारणपणे सकाळी 6:00 वाजता सुटतात." },
+      { "question": "मूल ते चंद्रपूर बस किती वेळाने मिळते?", "answer": "मूल ते चंद्रपूर मार्गावर सकाळी 6:55 पासून दर 30 मिनिटांनी बस उपलब्ध आहे." },
+      { "question": "गडचिरोलीसाठी मूलवरून थेट बस आहे का?", "answer": "होय, गडचिरोलीसाठी सकाळी 6:15 पासून दर अर्ध्या तासाने थेट बस सेवा उपलब्ध आहे." },
+      { "question": "ब्रम्हपूरी मार्गावरील शेवटची बस कोणत्या वेळेत आहे?", "answer": "ब्रम्हपूरी मार्गावरील शेवटची बस सायंकाळी 7:40 वाजता आहे." },
+      { "question": "मूल ते यवतमाळ बस कोणत्या वेळेत मिळते?", "answer": "यवतमाळसाठी बसेस सकाळी 6:40, दुपारी 11:45 आणि 13:55 वाजता उपलब्ध आहेत." },
+      { "question": "नागपूरसाठी मूल बस स्थानकावरून बस आहे का?", "answer": "होय, नागपूरसाठी कनेक्टिंग बस सेवा उपलब्ध आहे." },
+      { "question": "चामोर्शी मार्गावर किती बस फेऱ्या आहेत?", "answer": "चामोर्शी मार्गावर दिवसभर अनेक नियमित बस फेऱ्या उपलब्ध आहेत." },
+      { "question": "ग्रामीण गावांसाठी मूल बस स्थानक कसे उपयुक्त आहे?", "answer": "आजूबाजूच्या अनेक गावांसाठी मूल हे मुख्य ट्रान्झिट केंद्र आहे." },
+      { "question": "सणासुदीच्या काळात अतिरिक्त बसेस मिळतात का?", "answer": "होय, प्रवासी वाढल्यास MSRTC कडून अतिरिक्त बस फेऱ्या लावल्या जातात." },
+      { "question": "मूल बस स्थानक गडचिरोली जिल्ह्यासाठी का महत्त्वाचे आहे?", "answer": "गडचिरोलीकडे जाणाऱ्या प्रवाशांसाठी मूल हे एक प्रमुख प्रवेशद्वार आहे." }
+    ],
+    "seo_content": {
+      "title": "Mul Bus Stand Timetable 2026 | MSRTC Buses to Chandrapur & Gadchiroli",
+      "content": "<p>Mul Bus Stand provides updated MSRTC timetable for Chandrapur, Gadchiroli, Bramhapuri, Yavatmal and nearby villages with frequent daily bus services.</p>"
+    }
+  },
+  "seo": {
+    "title": "Mul Bus Stand Timetable 2026 | MSRTC Ticket & Routes",
+    "description": "Check Mul Bus Stand MSRTC timetable with buses to Chandrapur, Gadchiroli, Bramhapuri, Yavatmal and rural routes.",
+    "keywords": "Mul bus stand, Mul MSRTC timetable, Mul to Chandrapur bus, Mul to Gadchiroli bus"
+  }
+}

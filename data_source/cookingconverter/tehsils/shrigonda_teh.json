@@ -1,0 +1,8 @@
+{
+  "id": "shrigonda_teh",
+  "name": "Shrigonda Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["shrigonda_teh_depot"]
+}

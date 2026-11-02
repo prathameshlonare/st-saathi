@@ -1,0 +1,8 @@
+{
+  "id": "hingna_teh",
+  "name": "Hingna Tehsil",
+  "alphabet": "H",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["hingna_teh_depot"]
+}

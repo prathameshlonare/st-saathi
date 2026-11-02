@@ -1,0 +1,8 @@
+{
+  "id": "dharmabad_teh",
+  "name": "Dharmabad Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["dharmabad_teh_depot"]
+}

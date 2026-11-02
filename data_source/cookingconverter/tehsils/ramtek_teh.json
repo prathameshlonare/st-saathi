@@ -1,0 +1,8 @@
+{
+  "id": "ramtek_teh",
+  "name": "Ramtek Tehsil",
+  "alphabet": "R",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["ramtek_teh_depot"]
+}

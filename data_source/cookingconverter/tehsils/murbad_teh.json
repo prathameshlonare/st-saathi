@@ -1,0 +1,8 @@
+{
+  "id": "murbad_teh",
+  "name": "Murbad Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["murbad_teh_depot"]
+}

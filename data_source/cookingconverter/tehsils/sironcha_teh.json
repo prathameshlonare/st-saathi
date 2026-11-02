@@ -1,0 +1,8 @@
+{
+  "id": "sironcha_teh",
+  "name": "Sironcha Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["sironcha_teh_depot"]
+}

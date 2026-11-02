@@ -1,0 +1,8 @@
+{
+  "id": "barshitakli_teh",
+  "name": "Barshitakli Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "akola_dist",
+  "depots": ["barshitakli_teh_depot"]
+}

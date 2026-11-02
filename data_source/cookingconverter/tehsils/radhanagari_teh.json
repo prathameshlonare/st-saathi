@@ -1,0 +1,8 @@
+{
+  "id": "radhanagari_teh",
+  "name": "Radhanagari Tehsil",
+  "alphabet": "R",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["radhanagari_teh_depot"]
+}

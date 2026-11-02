@@ -1,0 +1,8 @@
+{
+  "id": "gondpipri_teh",
+  "name": "Gondpipri Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["gondpipri_teh_depot"]
+}

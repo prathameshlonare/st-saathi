@@ -1,0 +1,8 @@
+{
+  "id": "badnera_teh",
+  "name": "Badnera Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["badnera_teh_depot"]
+}

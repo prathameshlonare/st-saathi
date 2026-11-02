@@ -1,0 +1,8 @@
+{
+  "id": "wai_teh",
+  "name": "Wai Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["wai_teh_depot"]
+}

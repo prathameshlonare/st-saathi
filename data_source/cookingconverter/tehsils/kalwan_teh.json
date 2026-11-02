@@ -1,0 +1,8 @@
+{
+  "id": "kalwan_teh",
+  "name": "Kalwan Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["kalwan_teh_depot"]
+}

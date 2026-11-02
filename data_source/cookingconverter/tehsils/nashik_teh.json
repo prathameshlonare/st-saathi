@@ -1,0 +1,8 @@
+{
+  "id": "nashik_teh",
+  "name": "Nashik Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["nashik_teh_depot"]
+}

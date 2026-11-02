@@ -1,0 +1,8 @@
+{
+  "id": "pune_dist",
+  "name": "Pune District",
+  "alphabet": "P",
+  "type": "district",
+  "division_id": "pune_div",
+  "tehsils": ["pune_teh","haveli_teh","mulshi_teh","bhor_teh","velhe_teh","junnar_teh","ambegaon_teh","khed_teh","shirur_teh","baramati_teh","indapur_teh","daund_teh","purandar_teh","maval_teh"]
+}

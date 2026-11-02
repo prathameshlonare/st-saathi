@@ -1,0 +1,8 @@
+{
+  "id": "mul_teh",
+  "name": "Mul Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["mul_teh_depot"]
+}

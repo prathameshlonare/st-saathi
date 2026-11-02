@@ -1,0 +1,8 @@
+{
+  "id": "khandala_satara_teh",
+  "name": "Khandala Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["khandala_satara_teh_depot"]
+}

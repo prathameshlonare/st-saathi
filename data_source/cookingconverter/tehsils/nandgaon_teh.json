@@ -1,0 +1,7 @@
+{
+  "id": "nandgaon_teh",
+  "name": "Nandgaon Tehsil",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["nandgaon_teh_depot"]
+}

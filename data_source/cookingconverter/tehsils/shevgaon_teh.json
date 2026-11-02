@@ -1,0 +1,8 @@
+{
+  "id": "shevgaon_teh",
+  "name": "Shevgaon Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["shevgaon_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "indapur_teh",
+  "name": "Indapur Tehsil",
+  "alphabet": "I",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["indapur_teh_depot"]
+}

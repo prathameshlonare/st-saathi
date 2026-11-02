@@ -1,0 +1,8 @@
+{
+  "id": "sinnar_teh",
+  "name": "Sinnar Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["sinnar_teh_depot"]
+}

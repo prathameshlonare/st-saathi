@@ -1,0 +1,8 @@
+{
+  "id": "biloli_teh",
+  "name": "Biloli Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["biloli_teh_depot"]
+}

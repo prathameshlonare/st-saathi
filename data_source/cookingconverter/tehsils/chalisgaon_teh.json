@@ -1,0 +1,8 @@
+{
+  "id": "chalisgaon_teh",
+  "name": "Chalisgaon Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["chalisgaon_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "mauda_teh",
+  "name": "Mauda Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["mauda_teh_depot"]
+}

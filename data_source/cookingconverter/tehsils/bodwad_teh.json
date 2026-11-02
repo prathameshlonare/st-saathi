@@ -1,0 +1,8 @@
+{
+  "id": "bodwad_teh",
+  "name": "Bodwad Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["bodwad_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "sangamner_teh",
+  "name": "Sangamner Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["sangamner_teh_depot"]
+}

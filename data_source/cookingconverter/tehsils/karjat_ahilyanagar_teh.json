@@ -1,0 +1,8 @@
+{
+  "id": "karjat_ahilyanagar_teh",
+  "name": "Karjat Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["karjat_ahilyanagar_teh_depot"]
+}

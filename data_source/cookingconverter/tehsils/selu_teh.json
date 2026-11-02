@@ -1,0 +1,8 @@
+{
+  "id": "selu_teh",
+  "name": "Selu Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["selu_teh_depot"]
+}

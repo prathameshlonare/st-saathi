@@ -1,0 +1,8 @@
+{
+  "id": "karmala_teh",
+  "name": "Karmala Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["karmala_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "degloor_teh",
+  "name": "Degloor Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["degloor_teh_depot"]
+}

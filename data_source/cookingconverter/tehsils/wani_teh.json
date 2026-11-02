@@ -1,0 +1,8 @@
+{
+  "id": "wani_teh",
+  "name": "Wani Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "yavatmal_dist",
+  "depots": ["wani_teh_depot"]
+}

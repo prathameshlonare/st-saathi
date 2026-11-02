@@ -1,0 +1,486 @@
+{
+  "id": "amravati_bus_stand_depot",
+  "name": "Amravati Bus Stand Timetable 2026 | Amravati MSRTC Bus",
+  "type": "depot",
+  "tehsil_id": "amravati_teh",
+  "address": "Amravati Central Bus Stand, Amravati District - 444601",
+  "contact": "0721-2662858",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Achalpur",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Aheri via Wardha",
+        "schedule": ["05:00", "08:45", "10:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Akola via Hissapur",
+        "schedule": ["08:00", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Akot",
+        "schedule": ["06:30", "06:45", "07:30", "08:00", "08:15", "08:45", "09:30", "09:45", "10:00", "10:15", "10:30", "11:15", "12:00", "12:30", "12:45", "13:00", "13:30", "13:45", "14:00", "15:00", "15:45", "16:00", "16:15", "16:30", "16:45", "17:15", "17:30", "18:18", "19:11", "20:30"],
+        "bus_count": 30
+      },
+      {
+        "name": "Anjangaon via Asegaon Asadpur",
+        "schedule": ["08:00", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Anjangaon via Khallar",
+        "schedule": ["08:00", "14:00", "17:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Anjangaon via Paratwada",
+        "schedule": ["19:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Arvi via Kurha",
+        "schedule": ["06:00", "07:00", "07:45", "08:15", "08:45", "09:30", "09:45", "10:00", "10:45", "11:00", "11:15", "11:30", "11:45", "12:00", "13:30", "13:45", "14:15", "14:45", "15:15", "15:45", "16:30", "17:00", "17:30"],
+        "bus_count": 23
+      },
+      {
+        "name": "Aurangabad",
+        "schedule": ["06:30", "07:30", "08:15", "09:15", "09:45", "10:15", "11:15", "11:45", "12:15", "12:45", "13:45", "14:15", "22:30"],
+        "bus_count": 13
+      }
+    ],
+    "b": [
+      {
+        "name": "Badnera",
+        "schedule": ["06:00", "06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00"],
+        "bus_count": 31
+      },
+      {
+        "name": "Betul",
+        "schedule": ["13:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhokarbaradi",
+        "schedule": ["14:00", "16:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhopal",
+        "schedule": ["07:30"],
+        "bus_count": 1
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandrapur",
+        "schedule": ["05:30", "09:20", "12:00", "13:30", "15:00", "16:00"],
+        "bus_count": 6
+      },
+      {
+        "name": "Chandur Railway",
+        "schedule": ["08:00", "10:45", "11:45", "12:00", "12:30", "13:00", "13:45", "15:45", "16:00", "16:30", "17:15", "17:30", "18:30", "19:30"],
+        "bus_count": 14
+      },
+      {
+        "name": "Chandur Railway via Palaskhed",
+        "schedule": ["07:45", "09:00", "15:15", "19:30"],
+        "bus_count": 4
+      },
+      {
+        "name": "Chandurbazar via Borala",
+        "schedule": ["06:00", "07:15", "07:45", "08:15", "08:45", "09:00", "09:30", "10:00", "10:45", "11:15", "11:30", "12:00", "12:45", "14:15", "14:45", "15:15", "15:45", "16:45", "18:00", "18:15", "18:45", "19:00", "19:15", "19:45", "20:15"],
+        "bus_count": 25
+      },
+      {
+        "name": "Chandurbazar via Valgaon",
+        "schedule": ["06:00", "07:15", "07:45", "08:30", "09:45", "10:15", "11:15", "11:45", "12:15", "12:45", "14:45", "15:30", "17:45", "18:15", "18:30", "19:00", "19:30", "20:15", "21:00", "21:45"],
+        "bus_count": 20
+      },
+      {
+        "name": "Chhindwara",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Chhindwara via Pandhurna",
+        "schedule": ["09:00", "16:45"],
+        "bus_count": 2
+      },
+      {
+        "name": "Chikhaldara via Dhamangaon Gadhi",
+        "schedule": ["17:15", "18:00"],
+        "bus_count": 2
+      }
+    ],
+    "d": [
+      {
+        "name": "Dabheri",
+        "schedule": ["10:15", "11:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Daryapur via Bhatkuli",
+        "schedule": ["07:00", "08:45", "10:45", "16:00", "19:30"],
+        "bus_count": 5
+      },
+      {
+        "name": "Daryapur via Kholapur",
+        "schedule": ["06:00", "07:00", "07:45", "08:30", "09:45", "10:00", "10:30", "10:45", "11:00", "11:45", "12:15", "13:00", "13:15", "14:15", "15:15", "15:45", "17:00", "18:15", "18:30", "21:00", "21:30"],
+        "bus_count": 21
+      },
+      {
+        "name": "Dhamangaon via Tivsa",
+        "schedule": ["09:45", "11:00", "12:30", "14:00", "16:00", "18:00", "22:00"],
+        "bus_count": 7
+      },
+      {
+        "name": "Dhamangaon via Virul",
+        "schedule": ["06:00", "07:00", "11:30", "16:30", "17:15", "19:45", "21:00"],
+        "bus_count": 7
+      },
+      {
+        "name": "Dharni",
+        "schedule": ["06:00"],
+        "bus_count": 1
+      }
+    ],
+    "h": [
+      {
+        "name": "Hatkhada Chinchkhed",
+        "schedule": ["08:15", "17:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Hinganghat",
+        "schedule": ["08:30", "11:15", "12:45", "14:00", "15:30", "17:15"],
+        "bus_count": 6
+      }
+    ],
+    "i": [
+      {
+        "name": "Indore via Paratwada Dharni",
+        "schedule": ["08:30"],
+        "bus_count": 1
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalgaon Jamod",
+        "schedule": ["10:30", "12:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Jalna",
+        "schedule": ["06:00"],
+        "bus_count": 1
+      }
+    ],
+    "k": [
+      {
+        "name": "Kakda Mukkam",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Katsur",
+        "schedule": ["10:10", "16:45"],
+        "bus_count": 2
+      },
+      {
+        "name": "Khandwa via Paratwada Dharni",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Khed",
+        "schedule": ["06:45", "14:15"],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Lonar via Mehkar",
+        "schedule": ["14:20"],
+        "bus_count": 1
+      },
+      {
+        "name": "Lonar via Risod",
+        "schedule": ["15:00"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mahur",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mahur via Chandur Railway",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mahimapur",
+        "schedule": ["08:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Morshi",
+        "schedule": ["07:00", "07:15", "07:45", "08:15", "08:45", "09:45", "11:15", "11:45", "13:15", "13:30", "14:15", "14:30", "15:45", "16:45", "17:30", "19:00", "20:00", "21:30"],
+        "bus_count": 18
+      },
+      {
+        "name": "Morshi via Argaon, Shirajgaon",
+        "schedule": ["17:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Morshi via Khambawada Govindpur",
+        "schedule": ["16:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Multai",
+        "schedule": ["06:00", "11:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Murtizapur via Aasra",
+        "schedule": ["09:30", "18:15"],
+        "bus_count": 2
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["02:15", "03:00", "03:30", "05:00", "05:30", "06:00", "06:30", "06:45", "06:55", "07:00", "07:05", "07:15", "07:20", "07:30", "07:35", "07:40", "07:50", "07:55", "08:00", "08:10", "08:15", "08:20", "08:25", "08:30", "08:35", "08:40", "08:45", "08:50", "08:55", "09:00", "09:05", "09:10", "09:15", "09:20", "09:25", "09:30", "09:40", "09:45", "09:50", "10:00", "10:10", "10:15", "10:20", "10:25", "10:30", "10:35", "10:40", "10:45", "11:00", "11:10", "11:15", "11:25", "11:30", "11:35", "11:45", "11:55", "12:10", "12:40", "12:50", "12:55", "13:05", "13:15", "13:30", "13:35", "13:40", "13:45", "13:50", "13:55", "14:00", "14:05", "14:10", "14:15", "14:30", "14:35", "14:40", "14:45", "14:50", "15:00", "15:05", "15:15", "15:20", "15:30", "15:35", "15:45", "15:55", "16:00", "16:10", "16:15", "16:30", "16:35", "16:40", "16:45", "16:55", "17:00", "17:05", "17:15", "17:30", "18:15", "18:25", "18:35", "18:45", "18:55", "19:11", "19:30", "19:40", "20:00", "20:10", "20:15", "20:30", "20:45", "21:15", "22:15"],
+        "bus_count": 101
+      },
+      {
+        "name": "Nagpur via Warud Katol",
+        "schedule": ["06:40", "06:45", "07:45", "11:15", "15:30", "16:45", "17:15"],
+        "bus_count": 7
+      },
+      {
+        "name": "Nanded",
+        "schedule": ["06:45", "12:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Nanded via Kholapur",
+        "schedule": ["07:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Narkhed via Warud",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nirul Gangamai",
+        "schedule": ["08:15", "16:30"],
+        "bus_count": 2
+      }
+    ],
+    "p": [
+      {
+        "name": "Pandharpur via Washim",
+        "schedule": ["06:00", "17:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Paratwada",
+        "schedule": ["06:00", "06:30", "06:45", "07:30", "07:45", "08:00", "08:15", "08:30", "08:45", "09:00", "09:15", "09:30", "09:45", "10:00", "10:15", "10:30", "10:45", "11:00", "11:15", "11:30", "11:45", "12:00", "12:15", "12:30", "12:45", "13:00", "13:15", "13:30", "13:45", "14:00", "14:15", "14:30", "14:45", "15:00", "15:15", "15:30", "15:45", "16:00", "16:15", "16:30", "16:45", "17:00", "17:15", "17:30", "17:45", "18:00", "18:15", "18:30", "18:45", "19:00", "19:15", "19:30", "19:45", "20:00", "20:15", "20:30", "20:45", "21:00", "21:30", "22:00"],
+        "bus_count": 60
+      },
+      {
+        "name": "Patur",
+        "schedule": ["08:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pulgaon",
+        "schedule": ["18:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pune via Akola",
+        "schedule": ["16:30", "18:00", "19:30"],
+        "bus_count": 3
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura",
+        "schedule": ["14:30"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Salora",
+        "schedule": ["10:00", "17:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Saur",
+        "schedule": ["08:15", "10:00", "14:15", "16:00", "19:30"],
+        "bus_count": 5
+      },
+      {
+        "name": "Shegaon via Akot",
+        "schedule": ["08:30", "16:45"],
+        "bus_count": 2
+      },
+      {
+        "name": "Shirajgaon Mozari",
+        "schedule": ["07:30", "10:30", "14:15", "15:00", "20:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Sonori Dabi",
+        "schedule": ["07:45", "10:00", "14:00", "16:30", "20:00"],
+        "bus_count": 5
+      }
+    ],
+    "t": [
+      {
+        "name": "Tapovaneshwar",
+        "schedule": ["08:15", "12:00", "17:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Telhara",
+        "schedule": ["07:45", "15:45", "16:45", "17:15"],
+        "bus_count": 4
+      },
+      {
+        "name": "Tivsa",
+        "schedule": ["10:30", "14:30", "17:30", "20:15"],
+        "bus_count": 4
+      },
+      {
+        "name": "Tivsa via Mardi Waha",
+        "schedule": ["09:15", "15:45"],
+        "bus_count": 2
+      }
+    ],
+    "v": [
+      {
+        "name": "Vishnora",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Waki Vathoda Shukleshwar",
+        "schedule": ["06:15", "07:15", "10:00", "13:30", "16:45"],
+        "bus_count": 5
+      },
+      {
+        "name": "Wardha",
+        "schedule": ["06:00", "06:45", "07:15", "09:00", "09:30", "10:15", "11:00", "11:45", "12:30", "12:45", "14:45", "15:15", "15:30", "16:15", "17:00", "17:15", "18:00", "19:00", "19:15", "19:30"],
+        "bus_count": 20
+      },
+      {
+        "name": "Wardha via Kurha Arvi",
+        "schedule": ["10:30", "16:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Warud",
+        "schedule": ["06:00", "06:45", "07:00", "07:45", "08:15", "08:30", "09:00", "09:45", "10:00", "10:15", "10:30", "11:00", "11:15", "11:30", "11:45", "12:15", "12:45", "13:15", "13:30", "13:45", "14:00", "14:30", "14:45", "15:00", "15:15", "15:30", "15:45", "16:15", "16:45", "17:15", "17:45", "18:00", "18:45", "19:30", "19:45", "20:45", "21:30"],
+        "bus_count": 37
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal",
+        "schedule": ["06:00", "08:30", "09:15", "14:00", "14:30", "15:00", "19:00"],
+        "bus_count": 7
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>Amravati Bus Stand</strong> is one of the most important public transport hubs in the Vidarbha region of Maharashtra. Operated by <strong>MSRTC</strong> (Maharashtra State Road Transport Corporation), this bus station connects Amravati city with numerous towns, villages, and major cities across the state. Every day thousands of passengers depend on MSRTC bus services from Amravati Bus Stand to travel for work, business, education, and other purposes. Because of its strategic location, the bus stand plays a key role in connecting rural areas with major urban centers through reliable bus timing schedules.</p><p>The transport network from Amravati Bus Stand covers several major destinations including <strong>Paratwada</strong>, <strong>Nagpur</strong>, <strong>Warud</strong>, <strong>Chandrapur</strong>, <strong>Nanded</strong>, <strong>Washim</strong>, and <strong>Chhatrapati Sambhaji Nagar</strong>. These cities are connected through regular MSRTC bus services operating throughout the day. Passengers traveling between districts can easily access these routes from the Amravati bus station where updated bus timing information is displayed on timetable boards.</p><p>One of the busiest routes from Amravati Bus Stand is the Amravati to <strong>Paratwada</strong> route. This route operates very frequently with buses departing at regular intervals throughout the day. The first bus usually starts early in the morning around 6.00 AM and continues until late evening. Because Paratwada is a major town in the region, many passengers travel on this route daily, and therefore the MSRTC bus timing schedule includes numerous departures.</p><p>Another highly important route is the Amravati to <strong>Nagpur</strong> bus service. Nagpur is the largest city in the Vidarbha region and an important commercial and administrative center. Due to the high passenger demand, MSRTC operates many buses from Amravati to Nagpur every day. Early morning buses start around 2.15 AM and continue at frequent intervals until late night. These frequent bus timings allow passengers to travel conveniently between Amravati and Nagpur without long waiting times.</p><p>The Amravati to <strong>Warud</strong> route is also one of the most active rural transport routes served by MSRTC buses. Warud is known for its agricultural markets and trade activities, and many people travel between Amravati and Warud daily. The bus timing schedule includes several morning, afternoon, and evening departures ensuring that passengers always have a reliable travel option.</p><p>Amravati Bus Stand also provides important connectivity to longer distance destinations across Maharashtra. One such route connects Amravati with <strong>Chhatrapati Sambhaji Nagar</strong> (formerly Aurangabad). This route is used by passengers traveling for tourism, education, and administrative purposes. Regular MSRTC buses operate on this route and the bus timing schedule ensures that travelers can reach their destination comfortably.</p><p>Another significant route from Amravati Bus Stand is the Amravati to <strong>Nanded</strong> bus service. Nanded is an important religious and cultural center in Maharashtra and attracts many visitors every year. MSRTC buses connect Amravati with Nanded through scheduled departures that allow passengers to travel easily between these two cities.</p><p>In addition to these destinations, Amravati Bus Stand also connects travelers with towns such as <strong>Washim</strong> and <strong>Chandrapur</strong>. Washim is located in the western part of the Vidarbha region and many passengers travel from Amravati to Washim through MSRTC bus services. Chandrapur, which is known for its industrial and mining activities, is also connected by regular buses from Amravati. These routes further strengthen the transport network operated by MSRTC.</p><p>Along with major city routes, the bus stand also offers services to numerous small towns and villages across the district. These rural routes are extremely important because they provide transportation for people living in remote areas who need to travel to Amravati for markets, healthcare, and administrative work. By maintaining regular bus timing schedules, MSRTC ensures that rural passengers remain connected to the city.</p><p>The facilities available at Amravati Bus Stand make travel comfortable for passengers. The bus station includes ticket booking counters where travelers can purchase MSRTC tickets for various destinations. There are also waiting areas and seating arrangements where passengers can relax while waiting for their buses. Timetable boards are installed throughout the bus stand displaying updated bus timing information for different routes.</p><p>Passengers visiting the bus stand can easily check the MSRTC bus timing for routes such as Amravati to Paratwada, Amravati to Nagpur, Amravati to Warud, Amravati to Chandrapur, and Amravati to Nanded. The availability of clear timetable information helps travelers plan their journeys efficiently.</p><p>Overall, <strong>Amravati Bus Stand</strong> is a crucial transportation hub in Maharashtra that connects the city with major urban centers and rural destinations. Through its extensive network of <strong>MSRTC</strong> buses and well-organized bus timing schedules, the station supports daily travel for thousands of passengers. Whether traveling to Paratwada, Nagpur, Warud, Chhatrapati Sambhaji Nagar, Nanded, Washim, or Chandrapur, passengers can rely on the reliable services provided by the Amravati MSRTC bus stand.</p>",
+    "faqs": [
+      {
+        "question": "अमरावती बस स्थानकातून परतवाडा, नागपूर, वऱूड, मोर्शी आणि चांदूर रेल्वे या मार्गांवर एमएसआरटीसी बस सेवा दिवसभर किती वेळा उपलब्ध असते?",
+        "answer": "अमरावती बस स्थानकातून या मार्गांवर दिवसभर नियमित बस सेवा चालते. अनेक वेळा बस उपलब्ध असल्यामुळे प्रवाशांना सोयीस्कर प्रवास करता येतो."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून नागपूरसाठी पहिली बस कोणत्या वेळेला सुटते आणि रात्री उशिरापर्यंत बस सेवा उपलब्ध असते का?",
+        "answer": "नागपूरसाठी पहिली बस पहाटे साधारण 2.15 वाजता सुटते. दिवसभर अनेक बस उपलब्ध असून रात्री उशिरापर्यंत सेवा चालू असते."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून परतवाडा मार्गावर बस सेवा किती वेळा उपलब्ध असते आणि दिवसभर किती अंतराने बस सुटतात?",
+        "answer": "परतवाडा मार्ग हा सर्वात व्यस्त मार्ग आहे. साधारण काही मिनिटांच्या अंतराने दिवसभर बस सेवा उपलब्ध असते."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून मोर्शी आणि वऱूड या शहरांसाठी नियमित बस सेवा कोणत्या वेळांमध्ये उपलब्ध असते?",
+        "answer": "मोर्शी आणि वऱूड मार्गावर सकाळपासून संध्याकाळपर्यंत अनेक बस सुटतात. त्यामुळे प्रवाशांना दिवसभर सोयीस्कर प्रवास करता येतो."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून चांदूर रेल्वे आणि धमणगाव या मार्गांवर एमएसआरटीसी बस किती वेळा उपलब्ध असते?",
+        "answer": "या दोन्ही मार्गांवर दिवसभर अनेक बस सेवा चालतात. सकाळ, दुपार आणि संध्याकाळ अशा वेगवेगळ्या वेळांमध्ये बस उपलब्ध असतात."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून ग्रामीण भागातील गावांसाठी एमएसआरटीसी बस सेवा नियमितपणे उपलब्ध असते का?",
+        "answer": "होय, अमरावती बस स्थानकातून अनेक लहान गावांसाठीही बस सेवा चालते. त्यामुळे ग्रामीण भागातील प्रवाशांना शहराशी संपर्क ठेवणे सोपे होते."
+      },
+      {
+        "question": "अमरावती बस स्थानकात प्रवाशांसाठी तिकीट काउंटर आणि बस वेळापत्रक पाहण्याची सुविधा उपलब्ध आहे का?",
+        "answer": "होय, येथे तिकीट बुकिंग काउंटर उपलब्ध आहेत. तसेच बस वेळापत्रक दाखवणारे बोर्डही लावलेले आहेत."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून पुणे, औरंगाबाद आणि नांदेड सारख्या लांब पल्ल्याच्या शहरांसाठी बस सेवा उपलब्ध आहे का?",
+        "answer": "होय, अमरावती बस स्थानकातून अनेक लांब पल्ल्याच्या शहरांसाठी एमएसआरटीसी बस सेवा चालते."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून दररोज किती प्रवासी वेगवेगळ्या मार्गांवर प्रवास करतात?",
+        "answer": "दररोज हजारो प्रवासी अमरावती बस स्थानकातून विविध शहरांमध्ये आणि गावांमध्ये प्रवास करतात."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून चंद्रपूर, भोपाळ आणि खंडवा या शहरांसाठी थेट बस सेवा उपलब्ध आहे का?",
+        "answer": "होय, या शहरांसाठी अमरावती बस स्थानकातून थेट एमएसआरटीसी बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "अमरावती बस स्थानकात प्रवाशांसाठी बसची प्रतीक्षा करताना बसण्याची सोय उपलब्ध आहे का?",
+        "answer": "होय, बस स्थानकात प्रवाशांसाठी बसण्याची व्यवस्था आणि प्रतीक्षा कक्ष उपलब्ध आहे."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून यवतमाळ आणि अकोला या शहरांसाठी नियमित बस सेवा उपलब्ध आहे का?",
+        "answer": "होय, या दोन्ही शहरांसाठी दिवसभर नियमित बस सेवा उपलब्ध असते."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून चांदूर बाजार आणि दर्यापूर या शहरांसाठी बस सेवा किती वेळा उपलब्ध असते?",
+        "answer": "या मार्गांवर दिवसातून अनेक वेळा बस सेवा चालते. त्यामुळे प्रवाशांना अनेक पर्याय उपलब्ध असतात."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून लहान गावांसाठी जसे सौर, खेड, सलोरा आणि पातूर येथे बस सेवा उपलब्ध आहे का?",
+        "answer": "होय, या गावांसाठी नियमित बस सेवा चालते. ग्रामीण भागातील प्रवाशांसाठी ही सेवा खूप उपयुक्त आहे."
+      },
+      {
+        "question": "अमरावती बस स्थानकातून प्रवास करण्यासाठी तिकीट कसे घ्यावे आणि बसची माहिती कुठे मिळते?",
+        "answer": "प्रवासी बस स्थानकातील तिकीट काउंटरवरून तिकीट घेऊ शकतात. बस वेळापत्रक माहिती बोर्डवर उपलब्ध असते."
+      }
+    ],
+    "seo_content": {
+      "title": "Amravati Bus Stand Timetable 2026 | Amravati MSRTC Bus Schedule",
+      "content": "<p><strong>Amravati Bus Stand</strong> is one of the most important transport hubs in the Vidarbha region of Maharashtra. Operated by MSRTC, the bus stand connects Amravati city with major cities, towns, and nearby villages through a wide network of state transport buses. Thousands of passengers travel daily using MSRTC bus services for intercity and rural connectivity. The bus stand provides frequent departures throughout the day, making travel convenient for passengers.</p><p>Some of the most frequent MSRTC routes from Amravati include Paratwada, Nagpur, Warud, Morshi, Chandur Railway, Daryapur, Akot, and Chandurbazar. These routes operate multiple buses daily ensuring passengers have several travel options. For example, buses to <strong>Paratwada</strong> start as early as 6.00 AM and continue throughout the day with departures every few minutes until late evening. Similarly, buses to <strong>Nagpur</strong> operate frequently from early morning around 2.15 AM and continue until 10.15 PM, making it one of the busiest routes from Amravati Bus Stand.</p><p>Other major routes include Wardha, Dhamangaon, Warud, and Morshi which also have regular bus services. For example, buses to <strong>Wardha</strong> operate from early morning 6.00 AM and continue throughout the day with multiple departures. The route to <strong>Morshi</strong> also has frequent departures including 7.00, 7.15, 7.45, 8.15, 8.45, 9.45 and many more timings during the day.</p><p>Along with major routes, the bus stand also provides connectivity to many small villages and local destinations. These include Nirul Gangamai, Saur, Khed, Dabheri, Katsur, Salora, Patur, Vishnora and many other nearby rural locations. These services ensure that residents from smaller villages can easily reach Amravati city for daily travel needs.</p><ul><li><strong>Paratwada:</strong> 6.00, 6.30, 6.45, 7.30, 7.45, 8.00, 8.15, 8.30, 9.00, 9.15, 9.30, 10.00 and frequent buses throughout the day.</li><li><strong>Nagpur:</strong> 2.15, 3.00, 3.30, 5.00, 6.00, 7.00, 8.00, 9.00 and regular services until late night.</li><li><strong>Warud:</strong> 6.00, 6.45, 7.00, 7.45, 8.15, 8.30, 9.00, 9.45 and many more throughout the day.</li><li><strong>Morshi:</strong> 7.00, 7.15, 7.45, 8.15, 8.45, 9.45, 11.15, 11.45, 13.15, 14.15, 15.45 and evening buses.</li><li><strong>Chandur Railway:</strong> 8.00, 10.45, 11.45, 12.30, 13.00, 15.45, 16.00, 17.15 and evening departures.</li></ul><p>Amravati Bus Stand also connects passengers to long-distance destinations such as Pune, Aurangabad, Bhopal, Chandrapur, Nanded and Pandharpur. These buses provide important connectivity between Vidarbha and other parts of Maharashtra as well as neighboring states.</p><p>The bus stand is equipped with passenger-friendly facilities such as ticket booking counters, waiting areas, seating arrangements, and timetable boards displaying daily MSRTC bus schedules. Passengers can easily check the bus timetable before boarding and purchase tickets directly from the counters.</p><p>Overall, the <strong>Amravati Bus Stand Timetable 2026</strong> offers extensive connectivity through MSRTC bus services. With frequent buses to both major cities and nearby villages, passengers can rely on this transport hub for convenient and affordable travel across the region.</p>"
+    }
+  },
+  "seo": {
+    "title": "Amravati Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check complete Amravati Bus Stand timetable 2026 with MSRTC bus timings for Nagpur, Wardha, Achalpur, Paratwada and nearby villages.",
+    "keywords": "Amravati bus stand, Amravati MSRTC timetable, Amravati ST bus timings, Amravati to Nagpur bus"
+  }
+}

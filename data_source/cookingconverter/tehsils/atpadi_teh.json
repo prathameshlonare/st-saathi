@@ -1,0 +1,8 @@
+{
+  "id": "atpadi_teh",
+  "name": "Atpadi Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "sangli_dist",
+  "depots": ["atpadi_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "shirol_teh",
+  "name": "Shirol Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["shirol_teh_depot"]
+}

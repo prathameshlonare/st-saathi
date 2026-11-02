@@ -1,0 +1,8 @@
+{
+  "id": "rajura_teh",
+  "name": "Rajura Tehsil",
+  "alphabet": "R",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["rajura_teh_depot"]
+}

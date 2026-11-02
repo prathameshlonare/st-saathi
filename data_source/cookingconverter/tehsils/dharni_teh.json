@@ -1,0 +1,8 @@
+{
+  "id": "dharni_teh",
+  "name": "Dharni Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["dharni_teh_depot"]
+}

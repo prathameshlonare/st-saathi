@@ -1,0 +1,8 @@
+{
+  "id": "balapur_teh",
+  "name": "Balapur Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "akola_dist",
+  "depots": ["balapur_teh_depot"]
+}

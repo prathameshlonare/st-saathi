@@ -1,0 +1,8 @@
+{
+  "id": "nanded_teh",
+  "name": "Nanded Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["nanded_teh_depot"]
+}

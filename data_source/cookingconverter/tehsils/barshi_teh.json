@@ -1,0 +1,8 @@
+{
+  "id": "barshi_teh",
+  "name": "Barshi Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["barshi_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pandharpur_teh",
+  "name": "Pandharpur Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["pandharpur_teh_depot"]
+}

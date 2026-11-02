@@ -1,0 +1,8 @@
+{
+  "id": "guhagar_teh",
+  "name": "Guhagar Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["guhagar_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "thane_dist",
+  "name": "Thane District",
+  "alphabet": "T",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["thane_teh","kalyan_teh","ulhasnagar_teh","ambarnath_teh","bhiwandi_teh","shahapur_teh","murbad_teh"]
+}

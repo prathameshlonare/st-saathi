@@ -1,0 +1,8 @@
+{
+  "id": "dhule_dist",
+  "name": "Dhule District",
+  "alphabet": "D",
+  "type": "district",
+  "division_id": "nashik_div",
+  "tehsils": ["dhule_teh","sakri_teh","shirpur_teh","sindkheda_teh"]
+}

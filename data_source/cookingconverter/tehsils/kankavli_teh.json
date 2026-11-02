@@ -1,0 +1,8 @@
+{
+  "id": "kankavli_teh",
+  "name": "Kankavli Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "sindhudurg_dist",
+  "depots": ["kankavli_teh_depot"]
+}

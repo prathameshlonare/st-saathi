@@ -1,0 +1,8 @@
+{
+  "id": "seloo_teh",
+  "name": "Seloo Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["seloo_teh_depot"]
+}

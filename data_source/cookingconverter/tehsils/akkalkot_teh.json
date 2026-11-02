@@ -1,0 +1,8 @@
+{
+  "id": "akkalkot_teh",
+  "name": "Akkalkot Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["akkalkot_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "renapur_teh",
+  "name": "Renapur Tehsil",
+  "alphabet": "R",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["renapur_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "naigaon_teh",
+  "name": "Naigaon Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["naigaon_teh_depot"]
+}

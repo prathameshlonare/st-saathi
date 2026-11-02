@@ -1,0 +1,8 @@
+{
+  "id": "phaltan_teh",
+  "name": "Phaltan Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["phaltan_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "parseoni_teh",
+  "name": "Parseoni Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["parseoni_teh_depot"]
+}

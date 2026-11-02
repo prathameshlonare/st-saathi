@@ -1,0 +1,8 @@
+{
+  "id": "umred_teh",
+  "name": "Umred Tehsil",
+  "alphabet": "U",
+  "type": "tehsil",
+  "district_id": "nagpur_dist",
+  "depots": ["umred_teh_depot"]
+}

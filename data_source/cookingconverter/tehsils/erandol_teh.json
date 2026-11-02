@@ -1,0 +1,8 @@
+{
+  "id": "erandol_teh",
+  "name": "Erandol Tehsil",
+  "alphabet": "E",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["erandol_teh_depot"]
+}

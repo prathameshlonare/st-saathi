@@ -1,0 +1,8 @@
+{
+  "id": "sakoli_teh",
+  "name": "Sakoli Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "bhandara_dist",
+  "depots": ["sakoli_teh_depot"]
+}

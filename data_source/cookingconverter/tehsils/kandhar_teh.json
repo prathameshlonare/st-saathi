@@ -1,0 +1,8 @@
+{
+  "id": "kandhar_teh",
+  "name": "Kandhar Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["kandhar_teh_depot"]
+}

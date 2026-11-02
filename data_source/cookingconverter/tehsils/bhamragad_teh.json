@@ -1,0 +1,8 @@
+{
+  "id": "bhamragad_teh",
+  "name": "Bhamragad Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["bhamragad_teh_depot"]
+}

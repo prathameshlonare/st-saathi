@@ -1,0 +1,8 @@
+{
+  "id": "malvan_teh",
+  "name": "Malvan Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "sindhudurg_dist",
+  "depots": ["malvan_teh_depot"]
+}

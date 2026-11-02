@@ -1,0 +1,8 @@
+{
+  "id": "tumsar_teh",
+  "name": "Tumsar Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "bhandara_dist",
+  "depots": ["tumsar_teh_depot"]
+}

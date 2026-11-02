@@ -1,0 +1,8 @@
+{
+  "id": "chhatrapati_sambhajinagar_dist",
+  "name": "Chhatrapati Sambhajinagar District",
+  "alphabet": "C",
+  "type": "district",
+  "division_id": "chhatrapati_sambhajinagar_div",
+  "tehsils": ["chhatrapati_sambhajinagar_teh","gangapur_teh","vaijapur_teh","sillod_teh","soegaon_teh","phulambri_teh","khultabad_teh","kannad_teh","paithan_teh"]
+}

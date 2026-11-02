@@ -1,0 +1,8 @@
+{
+  "id": "ambad_teh",
+  "name": "Ambad Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "jalna_dist",
+  "depots": ["ambad_teh_depot"]
+}

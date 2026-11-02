@@ -1,0 +1,874 @@
+{
+  "id": "chandrapur_bus_stand_depot",
+  "name": "Chandrapur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "chandrapur_teh",
+  "address": "Chandrapur Bus Stand, Chandrapur - 442401",
+  "contact": "07172-252151",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Adilabad",
+        "schedule": [
+          "06:30",
+          "07:00",
+          "07:45",
+          "09:15",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:45"
+        ],
+        "bus_count": 11
+      },
+      {
+        "name": "Aheri",
+        "schedule": [
+          "06:45",
+          "07:45",
+          "08:45",
+          "09:45",
+          "10:45",
+          "11:45",
+          "12:45",
+          "13:45",
+          "14:45",
+          "15:45",
+          "16:45",
+          "17:45",
+          "18:45",
+          "19:30"
+        ],
+        "bus_count": 14
+      },
+      {
+        "name": "Ambe-Dhanora",
+        "schedule": [
+          "08:45"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Amravati (via Wardha)",
+        "schedule": [
+          "06:15",
+          "07:05",
+          "08:30",
+          "12:15",
+          "13:00",
+          "15:00",
+          "15:30"
+        ],
+        "bus_count": 7
+      },
+      {
+        "name": "Amravati (via Yavatmal)",
+        "schedule": [
+          "06:25",
+          "15:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Arvi",
+        "schedule": [
+          "07:45",
+          "10:00",
+          "15:10",
+          "15:40"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Ashti",
+        "schedule": [
+          "06:30",
+          "07:30",
+          "08:30",
+          "11:40",
+          "12:45",
+          "13:45",
+          "17:45",
+          "18:15"
+        ],
+        "bus_count": 8
+      },
+      {
+        "name": "Asifabad",
+        "schedule": [
+          "07:00",
+          "08:15",
+          "13:30"
+        ],
+        "bus_count": 3
+      }
+    ],
+    "b": [
+      {
+        "name": "Belsani (via Gadchiroli route)",
+        "schedule": [
+          "09:15",
+          "18:20"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Belsani (via Ghugus)",
+        "schedule": [
+          "08:40",
+          "16:15"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Bembal",
+        "schedule": [
+          "17:15"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhadrawati",
+        "schedule": [
+          "13:05",
+          "18:35"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhamragad",
+        "schedule": [
+          "06:15",
+          "15:20"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Bhandara",
+        "schedule": [
+          "13:10"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Borda",
+        "schedule": [
+          "09:30",
+          "17:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Bramhapuri",
+        "schedule": [
+          "07:00",
+          "07:45",
+          "08:15",
+          "08:45",
+          "09:15",
+          "09:45",
+          "10:15",
+          "10:45",
+          "11:15",
+          "11:45",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:45",
+          "14:15",
+          "14:45",
+          "15:15",
+          "15:45",
+          "16:15",
+          "16:45",
+          "17:15",
+          "17:45",
+          "18:15",
+          "18:45",
+          "19:15"
+        ],
+        "bus_count": 25
+      }
+    ],
+    "c": [
+      {
+        "name": "Chak Borda",
+        "schedule": [
+          "05:30",
+          "09:15",
+          "12:00",
+          "17:10"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Chimur",
+        "schedule": [
+          "07:30",
+          "09:30",
+          "10:30",
+          "11:00",
+          "12:30",
+          "14:00",
+          "15:00",
+          "15:30",
+          "18:00"
+        ],
+        "bus_count": 9
+      },
+      {
+        "name": "Chincholi",
+        "schedule": [
+          "07:00",
+          "13:00"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Chora",
+        "schedule": [
+          "06:30"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "d": [
+      {
+        "name": "Devada",
+        "schedule": [
+          "08:30",
+          "16:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Dhanora Phata",
+        "schedule": [
+          "06:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Dhanoti (via Pombhurna)",
+        "schedule": [
+          "06:00",
+          "08:35",
+          "10:30",
+          "14:00",
+          "15:40",
+          "17:40"
+        ],
+        "bus_count": 6
+      },
+      {
+        "name": "Durgapur",
+        "schedule": [
+          "16:00",
+          "18:50"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "g": [
+      {
+        "name": "Gadchiroli",
+        "schedule": [
+          "05:45",
+          "06:30",
+          "07:00",
+          "07:30",
+          "08:00",
+          "08:30",
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30",
+          "12:00",
+          "12:30",
+          "13:00",
+          "13:30",
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30",
+          "16:00",
+          "16:30",
+          "17:00",
+          "17:30",
+          "18:00",
+          "18:30",
+          "19:00",
+          "19:30",
+          "20:00",
+          "20:30",
+          "20:45"
+        ],
+        "bus_count": 31
+      },
+      {
+        "name": "Ghugus",
+        "schedule": [
+          "05:45",
+          "06:00"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Gondpipari",
+        "schedule": [
+          "06:00",
+          "16:00",
+          "17:30",
+          "19:30"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Govindpur",
+        "schedule": [
+          "05:45"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "h": [
+      {
+        "name": "Haranva",
+        "schedule": [
+          "06:10",
+          "14:45"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Hyderabad",
+        "schedule": [
+          "08:00",
+          "09:30",
+          "22:00"
+        ],
+        "bus_count": 3
+      }
+    ],
+    "i": [
+      {
+        "name": "Irai",
+        "schedule": [
+          "05:30",
+          "08:25",
+          "12:00",
+          "17:30"
+        ],
+        "bus_count": 4
+      }
+    ],
+    "j": [
+      {
+        "name": "Junona (via Pombhurna)",
+        "schedule": [
+          "06:15",
+          "07:15",
+          "08:40",
+          "13:00",
+          "14:10",
+          "19:00"
+        ],
+        "bus_count": 6
+      }
+    ],
+    "k": [
+      {
+        "name": "Kachrala",
+        "schedule": [
+          "09:15",
+          "17:00"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Lathi",
+        "schedule": [
+          "19:30"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Manjri",
+        "schedule": [
+          "07:30"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Manora",
+        "schedule": [
+          "07:50",
+          "08:00",
+          "15:30"
+        ],
+        "bus_count": 3
+      },
+      {
+        "name": "Marda (via Dhanora Section)",
+        "schedule": [
+          "09:00",
+          "14:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Moharli (via Bhadrawati)",
+        "schedule": [
+          "07:00",
+          "08:45",
+          "14:00"
+        ],
+        "bus_count": 3
+      },
+      {
+        "name": "Mudholi",
+        "schedule": [
+          "12:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Mulchera",
+        "schedule": [
+          "06:45",
+          "17:40"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "n": [
+      {
+        "name": "Nadgaon Pode",
+        "schedule": [
+          "06:00",
+          "10:45",
+          "11:55",
+          "17:00"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Nagpur",
+        "schedule": [
+          "05:15",
+          "05:45",
+          "06:15",
+          "06:45",
+          "07:15",
+          "07:45",
+          "08:15",
+          "08:45",
+          "09:15",
+          "09:45",
+          "10:15",
+          "10:45",
+          "11:15",
+          "11:45",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:45",
+          "14:15",
+          "14:45",
+          "15:15",
+          "15:45",
+          "16:15",
+          "16:45",
+          "17:15",
+          "17:45",
+          "18:15",
+          "18:45",
+          "19:15",
+          "19:45",
+          "20:00"
+        ],
+        "bus_count": 31
+      },
+      {
+        "name": "Nakoda",
+        "schedule": [
+          "06:40",
+          "18:30",
+          "19:30",
+          "21:20",
+          "22:00"
+        ],
+        "bus_count": 5
+      }
+    ],
+    "p": [
+      {
+        "name": "Patranpura",
+        "schedule": [
+          "10:20"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Pombhurna",
+        "schedule": [
+          "06:00",
+          "06:15",
+          "07:15",
+          "07:50",
+          "08:00",
+          "08:35",
+          "08:40",
+          "08:45",
+          "10:30",
+          "13:00",
+          "14:00",
+          "14:10",
+          "15:30",
+          "15:40",
+          "17:40",
+          "19:00"
+        ],
+        "bus_count": 16
+      },
+      {
+        "name": "Pulgaon",
+        "schedule": [
+          "11:30",
+          "13:25",
+          "15:20"
+        ],
+        "bus_count": 3
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura / Gadchandur",
+        "schedule": [
+          "06:00",
+          "06:15",
+          "06:45",
+          "07:15",
+          "07:45",
+          "08:15",
+          "08:45",
+          "09:15",
+          "09:45",
+          "10:15",
+          "10:45",
+          "11:15",
+          "11:45",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:45",
+          "14:15",
+          "14:45",
+          "15:15",
+          "15:45",
+          "16:15",
+          "16:45",
+          "17:15",
+          "17:45",
+          "18:15",
+          "18:45",
+          "19:15",
+          "19:45",
+          "20:15",
+          "20:45",
+          "21:15",
+          "21:45",
+          "22:00"
+        ],
+        "bus_count": 34
+      }
+    ],
+    "s": [
+      {
+        "name": "Sakoli",
+        "schedule": [
+          "08:25",
+          "13:30",
+          "14:15"
+        ],
+        "bus_count": 3
+      },
+      {
+        "name": "Shegaon",
+        "schedule": [
+          "06:15",
+          "07:00"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Sidur",
+        "schedule": [
+          "06:00",
+          "11:45",
+          "18:30"
+        ],
+        "bus_count": 3
+      },
+      {
+        "name": "Sironcha",
+        "schedule": [
+          "12:20",
+          "12:55"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Sonapur",
+        "schedule": [
+          "07:15",
+          "08:40",
+          "15:30",
+          "18:40"
+        ],
+        "bus_count": 4
+      }
+    ],
+    "t": [
+      {
+        "name": "Tiroda",
+        "schedule": [
+          "06:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Tirwanja",
+        "schedule": [
+          "06:00",
+          "10:35",
+          "11:30",
+          "18:00"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Tumsar",
+        "schedule": [
+          "06:40",
+          "06:50",
+          "14:25",
+          "15:05"
+        ],
+        "bus_count": 4
+      }
+    ],
+    "u": [
+      {
+        "name": "Urjanagar",
+        "schedule": [
+          "06:50",
+          "13:00"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Usegaon (Usgaon)",
+        "schedule": [
+          "05:45",
+          "08:45",
+          "17:30"
+        ],
+        "bus_count": 3
+      }
+    ],
+    "v": [
+      {
+        "name": "Vadoli",
+        "schedule": [
+          "08:00",
+          "17:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Vadegaon",
+        "schedule": [
+          "18:10"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Vikantpalli",
+        "schedule": [
+          "07:20"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Wadha",
+        "schedule": [
+          "10:00",
+          "16:40"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Wani (via Bhadrawati)",
+        "schedule": [
+          "06:30",
+          "07:30",
+          "09:30",
+          "10:30",
+          "10:45",
+          "12:00"
+        ],
+        "bus_count": 6
+      },
+      {
+        "name": "Wani (via Ghugus)",
+        "schedule": [
+          "06:00",
+          "06:30",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:30",
+          "12:00",
+          "12:30",
+          "13:30",
+          "14:30",
+          "16:00",
+          "16:30",
+          "17:00",
+          "18:00",
+          "19:00"
+        ],
+        "bus_count": 15
+      },
+      {
+        "name": "Wardha",
+        "schedule": [
+          "08:30",
+          "08:40",
+          "09:00",
+          "09:15",
+          "09:50",
+          "10:00",
+          "11:00",
+          "14:30",
+          "17:30"
+        ],
+        "bus_count": 9
+      },
+      {
+        "name": "Warora",
+        "schedule": [
+          "09:30",
+          "10:45",
+          "11:00",
+          "11:30",
+          "11:40",
+          "15:45",
+          "18:00",
+          "18:30",
+          "19:15",
+          "19:20",
+          "19:45",
+          "21:00"
+        ],
+        "bus_count": 12
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal",
+        "schedule": [
+          "07:45",
+          "08:15",
+          "09:10",
+          "12:00",
+          "13:15",
+          "14:20",
+          "15:00",
+          "15:10",
+          "16:00",
+          "17:30",
+          "18:00"
+        ],
+        "bus_count": 11
+      },
+      {
+        "name": "Yerur (via Ghugus)",
+        "schedule": [
+          "06:10",
+          "14:00",
+          "17:30"
+        ],
+        "bus_count": 3
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>चंद्रपूर बस स्थानक महाराष्ट्र राज्य परिवहन महामंडळ (MSRTC) अंतर्गत येणारे महत्त्वाचे प्रवासी केंद्र आहे. येथे दररोज शेकडो लोक नाशिक, नागपूर, यवतमाळ, अमरावती, वार्षा आणि इतर प्रमुख शहरांसाठी बस सेवांचा लाभ घेतात. स्थानकात बसांच्या वेळापत्रकांची संपूर्ण माहिती सहज उपलब्ध आहे, त्यामुळे प्रवाशांना त्यांची यात्रा नियोजन करणे खूप सोपे होते. चंद्रपूर बस स्थानक आधुनिक सुविधा, स्वच्छ वातावरण, बैठकीसाठी जागा आणि प्रवाशांसाठी सुरक्षितता यासाठी प्रसिद्ध आहे. येथे नियमित बस सेवा असलेल्या मार्गांवर, प्रत्येक प्रवासी आपले प्रवासाचे वेळापत्रक वेळेवर तपासू शकतो आणि तदनुसार प्रवास सुरू करू शकतो. यात नागपूर, यवतमाळ, अमरावती, वार्हा, ह्यदराबाद आणि आदिलाबाद यांसारख्या मोठ्या शहरांसाठी दररोजच्या बसांची माहिती दिली आहे. स्थानकातील कर्मचारी नेहमी मदतीसाठी उपलब्ध असतात. प्रवाशांना मार्गदर्शन आणि बस सल्ला मिळतो, जेणेकरून त्यांचा प्रवास सोपा, जलद आणि सुरक्षित होतो. या स्थानकाच्या माध्यमातून परिसरातील ग्रामीण भागांशी देखील उत्कृष्ट संपर्क साधला जातो. प्रवासी वेळापत्रकाच्या आधारे आपले प्रवासाचे वेळा निश्चित करतात आणि गरजेनुसार तिकिट बुकिंग करतात. स्थानकाच्या कार्यक्षम व्यवस्थापनामुळे, बस सेवा वेळेवर आणि सुरक्षित रीतीने चालतात. स्थानकाजवळील सुविधा, शौचालये, प्रतीक्षालये, किरकोळ दुकाने आणि अन्नपदार्थांची सुविधा प्रवाशांसाठी सोयीस्कर आहे. येथे प्रवाशांना मार्गदर्शन देणारी माहिती बोर्डे आणि वेळापत्रकांची स्पष्ट माहिती उपलब्ध आहे. त्यामुळे, चंद्रपूर बस स्थानक हा प्रवाशांसाठी अत्यंत उपयुक्त आणि विश्वासार्ह केंद्र मानला जातो.</p>",
+    "faqs": [
+      {
+        "question": "नागपूरसाठी पहिली बस किती वाजता जाते?",
+        "answer": "नागपूरसाठी चंद्रपूर बस स्थानकातून पहिली बस सकाळी 05:15 वाजता सुरू होते आणि शेवटची बस रात्री 20:00 वाजता उपलब्ध आहे."
+      },
+      {
+        "question": "गडचिरोलीसाठी बस वेळापत्रक काय आहे?",
+        "answer": "गडचिरोलीसाठी दररोज सकाळी 05:45 पासून रात्री 20:45 पर्यंत बस सेवा सुरू असते."
+      },
+      {
+        "question": "ब्राह्मापुरीला जाणारी पहिली बस कधी आहे?",
+        "answer": "ब्राह्मापुरीसाठी पहिली बस सकाळी 07:00 वाजता सुरू होते आणि शेवटची 19:15 वाजता जात आहे."
+      },
+      {
+        "question": "यवतमाळसाठी बस सेवा कधी सुरू होते?",
+        "answer": "यवतमाळसाठी बस सकाळी 07:45 पासून उपलब्ध आहे आणि शेवटची बस 18:00 वाजता जाते."
+      },
+      {
+        "question": "अमरावतीसाठी उपलब्ध मार्ग कोणते आहेत?",
+        "answer": "अमरावतीसाठी बस सेवा दोन मार्गांनी आहे: वर्धा मार्गाने सकाळी 06:15 पासून सुरु होते आणि यवतमाळ मार्गाने सकाळी 06:25 पासून उपलब्ध आहे."
+      },
+      {
+        "question": "वार्धा येथे बसची वेळ काय आहे?",
+        "answer": "वार्धा येथे बस सकाळी 08:30 पासून 17:30 पर्यंत दररोज उपलब्ध आहे."
+      },
+      {
+        "question": "हैदराबादसाठी बस सेवा काय आहे?",
+        "answer": "हैदराबादसाठी बस सकाळी 08:00 वाजता सुरू होते आणि रात्री 22:00 वाजता शेवटची सेवा आहे."
+      },
+      {
+        "question": "आदिलाबादसाठी बस वेळा काय आहेत?",
+        "answer": "आदिलाबादसाठी सकाळी 06:30 पासून संध्याकाळी 16:45 पर्यंत बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "राजूरा / गडचंदूरसाठी बस वेळापत्रक?",
+        "answer": "राजूरा / गडचंदूरसाठी पहिली बस सकाळी 06:00 वाजता आणि शेवटची 22:00 वाजता चालते."
+      },
+      {
+        "question": "चंद्रपूर बस स्थानकात प्रवाशांसाठी काय सुविधा आहेत?",
+        "answer": "स्थानकावर प्रतीक्षालय, स्वच्छ शौचालय, अन्नपदार्थांची दुकाने आणि तिकिट बुकिंग सुविधा उपलब्ध आहेत. तसेच प्रवाशांसाठी मार्गदर्शन माहिती आणि वेळापत्रक स्पष्टपणे उपलब्ध आहे."
+      }
+    ],
+    "seo_content": {
+      "title": "Chandrapur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+      "content": "<p>Chandrapur Bus Stand is one of the key hubs for travelers in the state of Maharashtra under MSRTC. Serving thousands of passengers daily, it connects Chandrapur to major cities like Nagpur, Yavatmal, Amravati, Wardha, Hyderabad, and Adilabad. The station provides comprehensive bus schedules for each route, making journey planning convenient and efficient. The environment is clean, organized, and equipped with modern facilities including seating areas, restrooms, and safety measures for travelers. Passengers can easily access the schedules, check departure and arrival times, and make informed travel decisions. Chandrapur Bus Stand also facilitates seamless connectivity to rural areas, ensuring that even passengers from remote locations can travel comfortably and safely. The management staff is always available to provide guidance, assist in ticketing, and answer queries about travel times and routes. With a structured timetable, buses operate reliably and efficiently, maintaining punctuality for daily commuters and long-distance travelers. Amenities like food stalls, clean waiting areas, and clearly displayed timetable boards contribute to a pleasant experience. The station plays a crucial role in the regional transport network by linking key economic and cultural centers, enhancing mobility for work, education, and leisure. Overall, Chandrapur Bus Stand provides a reliable, safe, and well-organized travel experience, catering to the diverse needs of its passengers and ensuring smooth intercity and intracity connectivity.</p>"
+    }
+  },
+  "seo": {
+    "title": "Chandrapur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check the latest Chandrapur Bus Stand timetable 2026 with detailed MSRTC ticket prices. Find schedules for major cities including Nagpur, Yavatmal, Amravati, Wardha, Hyderabad, and Adilabad.",
+    "keywords": "Chandrapur bus timetable 2026, MSRTC ticket price Chandrapur, Chandrapur to Nagpur bus schedule, MSRTC bus timings, Chandrapur transport"
+  },
+  "related_depots": []
+}

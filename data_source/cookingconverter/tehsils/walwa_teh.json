@@ -1,0 +1,8 @@
+{
+  "id": "walwa_teh",
+  "name": "Walwa Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "sangli_dist",
+  "depots": ["walwa_teh_depot"]
+}

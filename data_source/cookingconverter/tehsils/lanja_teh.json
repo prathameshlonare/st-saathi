@@ -1,0 +1,8 @@
+{
+  "id": "lanja_teh",
+  "name": "Lanja Tehsil",
+  "alphabet": "L",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["lanja_teh_depot"]
+}

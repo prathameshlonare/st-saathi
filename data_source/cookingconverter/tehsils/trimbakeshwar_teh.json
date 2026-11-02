@@ -1,0 +1,8 @@
+{
+  "id": "trimbakeshwar_teh",
+  "name": "Trimbakeshwar Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["trimbakeshwar_teh_depot"]
+}

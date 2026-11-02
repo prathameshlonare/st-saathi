@@ -1,0 +1,8 @@
+{
+  "id": "desaiganj_teh",
+  "name": "Desaiganj Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["desaiganj_teh_depot"]
+}

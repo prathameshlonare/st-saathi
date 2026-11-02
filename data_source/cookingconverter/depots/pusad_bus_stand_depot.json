@@ -1,0 +1,441 @@
+{
+  "id": "pusad_bus_stand_depot",
+  "name": "Pusad Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "pusad_teh",
+  "address": "Pusad Bus Stand, Pusad, Yavatmal District - 445204",
+  "contact": "07233-246789",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Adilabad",
+        "schedule": ["06:00", "09:00", "09:45"],
+        "bus_count": 3
+      },
+      {
+        "name": "Akola",
+        "schedule": ["07:00", "06:00", "06:45", "07:45", "08:45", "10:15", "11:15", "12:30", "14:00", "17:15", "18:00"],
+        "bus_count": 11
+      },
+      {
+        "name": "Ambajogai",
+        "schedule": ["02:00", "11:05", "13:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Amravati",
+        "schedule": ["06:30", "07:10", "08:00", "08:55", "09:35", "11:15", "12:45"],
+        "bus_count": 7
+      },
+      {
+        "name": "Ausa",
+        "schedule": ["07:45"],
+        "bus_count": 1
+      }
+    ],
+    "b": [
+      {
+        "name": "Banoli",
+        "schedule": ["09:30", "16:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Beed",
+        "schedule": ["09:15", "11:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Bramhapuri",
+        "schedule": ["07:25"],
+        "bus_count": 1
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandrapur",
+        "schedule": ["00:30", "09:00", "10:35", "11:35"],
+        "bus_count": 4
+      },
+      {
+        "name": "Chincholi",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      }
+    ],
+    "d": [
+      {
+        "name": "Darvha",
+        "schedule": ["16:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Deglur",
+        "schedule": ["13:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Digras",
+        "schedule": ["14:05", "17:00", "17:00", "18:30"],
+        "bus_count": 4
+      }
+    ],
+    "f": [
+      {
+        "name": "Fulsawangi",
+        "schedule": ["13:00"],
+        "bus_count": 1
+      }
+    ],
+    "g": [
+      {
+        "name": "Gadchiroli",
+        "schedule": ["08:55"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gevrai",
+        "schedule": ["06:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gondia",
+        "schedule": ["10:15"],
+        "bus_count": 1
+      }
+    ],
+    "h": [
+      {
+        "name": "Hadgaon",
+        "schedule": ["15:15", "16:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Hingoli",
+        "schedule": ["12:15", "19:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Hirked",
+        "schedule": ["10:30", "07:30", "10:30", "16:00", "18:00"],
+        "bus_count": 5
+      }
+    ],
+    "i": [
+      {
+        "name": "Isapur",
+        "schedule": ["10:15"],
+        "bus_count": 1
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalgaon",
+        "schedule": ["08:00", "12:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Jamnaik",
+        "schedule": ["07:30", "12:30", "17:15"],
+        "bus_count": 3
+      }
+    ],
+    "k": [
+      {
+        "name": "Kandhar",
+        "schedule": ["11:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kedarlin",
+        "schedule": ["07:45", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kinwat",
+        "schedule": ["12:30", "13:45", "14:30", "15:30", "16:00", "17:00"],
+        "bus_count": 6
+      },
+      {
+        "name": "Kothari",
+        "schedule": ["16:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kumbhari",
+        "schedule": ["08:00", "16:30"],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Latur",
+        "schedule": ["00:00", "07:00", "13:30"],
+        "bus_count": 3
+      }
+    ],
+    "m": [
+      {
+        "name": "Mahagaon",
+        "schedule": ["06:30", "11:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mahagaon Bevti",
+        "schedule": ["08:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mahur",
+        "schedule": ["06:30", "08:00", "09:15", "10:15", "11:15", "12:45", "13:00", "14:00", "16:15", "17:00", "17:30", "18:00"],
+        "bus_count": 12
+      },
+      {
+        "name": "Marwadi Phata",
+        "schedule": ["07:45", "16:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mop",
+        "schedule": ["07:45", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mumbai Central",
+        "schedule": ["15:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Mulava",
+        "schedule": ["10:00", "15:30", "19:00"],
+        "bus_count": 3
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["00:00", "01:30", "03:30", "05:15", "06:15", "07:00", "08:00", "08:30", "08:50", "09:00", "09:55", "10:35", "11:30", "11:55", "12:15", "13:00", "13:15", "13:45", "14:10", "14:15", "15:00", "15:45", "20:40"],
+        "bus_count": 23
+      },
+      {
+        "name": "Nanded",
+        "schedule": ["01:15", "01:30", "05:30", "06:00", "06:15", "08:40", "09:00", "09:45", "13:15", "13:45", "14:00", "14:25", "15:30", "16:50", "17:15", "18:00", "19:00"],
+        "bus_count": 17
+      },
+      {
+        "name": "Nanded-J",
+        "schedule": ["12:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nanded-K",
+        "schedule": ["07:45", "14:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Nanded-R",
+        "schedule": ["07:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nanded-S",
+        "schedule": ["17:00"],
+        "bus_count": 1
+      }
+    ],
+    "p": [
+      {
+        "name": "Pandharkawada",
+        "schedule": ["13:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Pandharpur",
+        "schedule": ["04:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Parbhani",
+        "schedule": ["05:30", "07:15", "12:15", "14:15", "17:00"],
+        "bus_count": 5
+      },
+      {
+        "name": "Parli",
+        "schedule": ["14:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Partwada",
+        "schedule": ["14:55"],
+        "bus_count": 1
+      },
+      {
+        "name": "Poharadevi",
+        "schedule": ["16:45", "20:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Pokhari",
+        "schedule": ["10:00", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Pune",
+        "schedule": ["08:30", "18:30"],
+        "bus_count": 2
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajana",
+        "schedule": ["07:30", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Rajura",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Rui",
+        "schedule": ["07:30", "15:30", "18:30"],
+        "bus_count": 3
+      }
+    ],
+    "s": [
+      {
+        "name": "Sakoli",
+        "schedule": ["07:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Sambhajinagar",
+        "schedule": ["07:30", "09:00", "09:30", "10:30", "12:45", "13:15", "14:15", "07:30", "08:30", "09:30", "10:45", "12:20"],
+        "bus_count": 12
+      },
+      {
+        "name": "Shegaon",
+        "schedule": ["07:15", "15:45", "16:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Shirdi",
+        "schedule": ["06:50"],
+        "bus_count": 1
+      },
+      {
+        "name": "Solapur",
+        "schedule": ["22:15"],
+        "bus_count": 1
+      }
+    ],
+    "t": [
+      {
+        "name": "Tiroda",
+        "schedule": ["06:45"],
+        "bus_count": 1
+      }
+    ],
+    "u": [
+      {
+        "name": "Umred",
+        "schedule": ["14:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Umarkhed",
+        "schedule": ["11:45", "11:50", "16:20", "16:30", "17:15", "17:45", "18:30", "18:45", "19:45"],
+        "bus_count": 9
+      }
+    ],
+    "v": [
+      {
+        "name": "Vakhatlur",
+        "schedule": ["16:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Vasmat",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Washim",
+        "schedule": ["09:55", "10:00", "10:10", "11:30", "13:00", "18:00"],
+        "bus_count": 6
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal",
+        "schedule": ["07:30", "08:40", "10:00", "16:30", "17:00", "17:15", "18:00", "07:45"],
+        "bus_count": 8
+      },
+      {
+        "name": "Yawal",
+        "schedule": ["07:00"],
+        "bus_count": 1
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>Pusad Bus Stand</strong> हे महाराष्ट्र राज्य मार्ग परिवहन महामंडळ (MSRTC) अंतर्गत येणारे यवतमाळ जिल्ह्यातील एक अत्यंत महत्त्वाचे आणि व्यस्त बसस्थानक आहे. विदर्भ आणि मराठवाडा या दोन प्रमुख विभागांना जोडणारा हा एक strategic transport hub म्हणून ओळखला जातो. Pusad शहर हे Yavatmal district च्या दक्षिण भागात स्थित असून नागपूर, अमरावती, यवतमाळ, नांदेड, परभणी, लातूर, संभाजीनगर (Aurangabad) आणि पुणे यांसारख्या मोठ्या शहरांना जोडणाऱ्या प्रमुख राज्य मार्गांवर वसलेले आहे. त्यामुळे Pusad Bus Stand वरून दररोज मोठ्या प्रमाणात प्रवासी वाहतूक होते.</p>\n\n<p>Pusad Bus Stand वरून दररोज सुमारे ८५ ते १०० पेक्षा अधिक MSRTC बसेस विविध दिशांना सुटतात. यामध्ये साध्या (Ordinary), निमआराम (Semi Luxury), शिवशाही (Shivshahi), आणि काही मार्गांवर रात्रीच्या वेळी Sleeper किंवा Express सेवांचा समावेश होतो. ग्रामीण भागातील गावांना तालुका व जिल्हा मुख्यालयाशी जोडण्याचे महत्त्वाचे काम हे बसस्थानक करत असून त्यामुळे शेतकरी, विद्यार्थी, कर्मचारी आणि व्यापारी वर्गासाठी हे एक विश्वासार्ह सार्वजनिक वाहतूक केंद्र ठरते.</p>\n\n<p>Pusad शहराची भौगोलिक स्थिती लक्षात घेता, हे बसस्थानक विशेषतः Yavatmal–Nanded, Pusad–Parbhani, Pusad–Latur आणि Pusad–Nagpur अशा महत्त्वाच्या मार्गांसाठी transit point म्हणून वापरले जाते. सकाळी लवकर सुटणाऱ्या बसेस या दैनिक प्रवाशांसाठी (daily commuters) अत्यंत उपयुक्त आहेत. अनेक प्रवासी नोकरी, शिक्षण, शासकीय कामकाज किंवा वैद्यकीय उपचारांसाठी दररोज Pusad Bus Stand वरून प्रवास करतात.</p>\n\n<p>लांब पल्ल्याच्या (Long Distance) प्रवासासाठी संध्याकाळी आणि रात्री विशेष बसेस उपलब्ध असतात. Pune, Sambhajinagar, Nanded, Latur आणि Parbhani या शहरांकडे जाणाऱ्या बसेस प्रामुख्याने रात्रीच्या वेळेत सुटतात, ज्यामुळे प्रवाशांना वेळेची बचत होते. MSRTC द्वारे वेळोवेळी timetable updates केले जातात आणि सणासुदीच्या काळात additional buses चालवून वाढती गर्दी नियंत्रित केली जाते.</p>\n\n<p>Pusad Bus Stand मधील सुविधा प्रवाशांच्या दृष्टीने अत्यंत उपयुक्त आहेत. येथे स्वतंत्र ticket counter, comfortable waiting area, drinking water facility, स्वच्छतागृहे (toilets) आणि खासगी वाहनांसाठी parking व्यवस्था उपलब्ध आहे. वृद्ध नागरिक, महिला आणि दिव्यांग प्रवाशांसाठी बसस्थानक परिसर तुलनेने सोयीस्कर ठेवण्यात आलेला आहे. बसस्थानक परिसरात स्थानिक दुकाने, चहाचे टपरे आणि छोट्या खाद्यगृहांचीही सुविधा आहे, ज्यामुळे प्रवाशांना मूलभूत गरजा सहज पूर्ण करता येतात.</p>\n\n<p>Pusad Bus Stand हे केवळ शहरापुरते मर्यादित नसून आजूबाजूच्या अनेक ग्रामीण गावांसाठी lifeline ठरते. तालुक्यातील शेकडो खेडी Pusad Bus Stand शी थेट किंवा अप्रत्यक्षपणे जोडलेली आहेत. विद्यार्थी उच्च शिक्षणासाठी, शेतकरी बाजारपेठेसाठी आणि ग्रामीण नागरिक जिल्हा व तालुका स्तरावरील सेवा मिळवण्यासाठी या बसस्थानकावर अवलंबून असतात. त्यामुळे MSRTC Pusad depot हे सामाजिक आणि आर्थिक दृष्ट्या महत्त्वाची भूमिका बजावते.</p>\n\n<p>Digital India उपक्रमाअंतर्गत MSRTC ने online ticket booking, mobile apps आणि SMS-based माहिती सेवा सुरू केल्यामुळे Pusad Bus Stand वरून प्रवास करणाऱ्या प्रवाशांना आता timetable, bus availability आणि seat booking याबाबत माहिती मिळवणे अधिक सोपे झाले आहे. तरीही ग्रामीण भागातील अनेक प्रवासी अजूनही counter-based ticketing वापरतात, त्यामुळे दोन्ही प्रणालींचा समतोल येथे पाहायला मिळतो.</p>\n\n<p>सणासुदीच्या काळात – जसे की दिवाळी, दसरा, होळी, गणेशोत्सव किंवा आषाढी एकादशी – प्रवाशांची संख्या मोठ्या प्रमाणात वाढते. अशा वेळी MSRTC Pusad Bus Stand वरून extra buses operate करून प्रवाशांची गैरसोय टाळण्याचा प्रयत्न करते. प्रशासन आणि स्थानिक कर्मचारी प्रवाशांच्या सुरक्षिततेसाठी आणि वेळापत्रक सुरळीत चालण्यासाठी विशेष लक्ष देतात.</p>\n\n<p>Pusad Bus Stand ची विश्वासार्हता ही अनेक वर्षांच्या अनुभवातून तयार झाली आहे. नियमित प्रवास करणारे प्रवासी वेळेवर बस सुटणे, चालक आणि वाहकांचा अनुभव, तसेच MSRTC ची शासकीय जबाबदारी यामुळे या बसस्थानकावर विश्वास ठेवतात. जरी खाजगी वाहतूक पर्याय उपलब्ध असले तरी, सुरक्षितता, परवडणारे भाडे आणि विस्तृत नेटवर्क यामुळे MSRTC आणि विशेषतः Pusad Bus Stand हे आजही प्राधान्याने निवडले जाते.</p>\n\n<p>एकंदर पाहता, <strong>Pusad Bus Stand</strong> हे दक्षिण यवतमाळ जिल्ह्यासाठी एक अत्यंत आवश्यक, विश्वासार्ह आणि कार्यक्षम transport hub आहे. ग्रामीण ते शहरी जोडणी, विदर्भ–मराठवाडा संपर्क, आणि लाखो प्रवाशांच्या दैनंदिन गरजांसाठी हे बसस्थानक महत्त्वाची भूमिका बजावत आहे. भविष्यात आधुनिक सुविधा, digital upgrades आणि सुधारित timetable management मुळे Pusad Bus Stand ची उपयुक्तता आणखी वाढेल, असा विश्वास प्रवासी आणि MSRTC प्रशासन दोघांनाही आहे.</p>\n",
+    "faqs": [
+      {
+        "question": "Pusad Bus Stand वरून सर्वात पहिली बस कोणत्या मार्गावर जाते?",
+        "answer": "Pusad Bus Stand वरून सर्वात पहिली बस साधारणपणे मध्यरात्री 00:00 वाजता नागपूर मार्गावर सुटते, जी लांब पल्ल्याच्या प्रवाशांसाठी अत्यंत उपयुक्त असते."
+      },
+      {
+        "question": "Pusad ते Nagpur बस किती वेळा उपलब्ध असतात?",
+        "answer": "Pusad ते Nagpur दरम्यान दिवसभर अनेक फेऱ्या उपलब्ध असून सकाळ, दुपार, संध्याकाळ आणि रात्री अशा सर्व वेळांमध्ये बस सेवा चालू असते."
+      },
+      {
+        "question": "Pusad Bus Stand वरून Pune साठी थेट बस आहे का?",
+        "answer": "होय, Pusad Bus Stand वरून पुण्यासाठी थेट MSRTC बस सेवा उपलब्ध असून त्या प्रामुख्याने सकाळी आणि संध्याकाळी सुटतात."
+      },
+      {
+        "question": "Pusad ते Nanded मार्गावर बस किती वेळा असतात?",
+        "answer": "Pusad ते Nanded मार्गावर दिवसभरात अनेक बसेस धावतात, विशेषतः सकाळी आणि संध्याकाळी प्रवाशांची संख्या जास्त असते."
+      },
+      {
+        "question": "Mahur साठी बस कोणत्या वेळेला मिळते?",
+        "answer": "Mahur साठी सकाळी लवकर, दुपारी आणि संध्याकाळी नियमित बस सेवा उपलब्ध असून धार्मिक प्रवाशांसाठी ही सेवा महत्त्वाची आहे."
+      },
+      {
+        "question": "सणासुदीच्या काळात अतिरिक्त बस सेवा मिळते का?",
+        "answer": "होय, दिवाळी, दसरा आणि यात्रेच्या काळात MSRTC द्वारे अतिरिक्त बसेस चालवल्या जातात."
+      },
+      {
+        "question": "तिकीट आगाऊ बुकिंगची सुविधा आहे का?",
+        "answer": "Pusad Bus Stand वर तिकीट काउंटरवर आगाऊ बुकिंग तसेच MSRTC ऑनलाइन पोर्टलद्वारे आरक्षण करता येते."
+      },
+      {
+        "question": "Pusad Bus Stand सकाळी किती वाजता सुरू होते?",
+        "answer": "बसस्थानक साधारणतः पहाटे 4:00 वाजता कार्यरत होते आणि रात्री उशिरापर्यंत सेवा सुरू असते."
+      },
+      {
+        "question": "विद्यार्थ्यांसाठी सवलत उपलब्ध आहे का?",
+        "answer": "होय, MSRTC नियमांनुसार विद्यार्थ्यांसाठी सवलतीचे पास आणि तिकीट सुविधा उपलब्ध आहेत."
+      },
+      {
+        "question": "Pusad Bus Stand वर मूलभूत सुविधा उपलब्ध आहेत का?",
+        "answer": "प्रवाशांसाठी प्रतीक्षालय, पाणी, स्वच्छतागृहे आणि माहिती काउंटर अशा मूलभूत सुविधा येथे उपलब्ध आहेत."
+      }
+    ],
+    "seo_content": {
+      "title": "Pusad Bus Stand Timetable – MSRTC Buses to Nagpur, Nanded, Pune",
+      "content": "<p>Pusad Bus Stand is a major MSRTC depot in Yavatmal district connecting Vidarbha and Marathwada regions. With direct bus services to Nagpur, Amravati, Yavatmal, Nanded, Parbhani, Latur and Pune, it serves as a crucial transit hub for daily commuters and long-distance travelers.</p><p>The bus stand handles more than 85 buses daily, offering early morning, daytime and night services. Facilities like ticket counters, waiting hall and seasonal special buses ensure smooth travel operations. Passengers are advised to reach the bus stand at least 15 minutes before departure for hassle-free boarding.</p>"
+    }
+  },
+  "seo": {
+    "title": "Pusad Bus Stand Timetable | MSRTC Bus Schedule from Pusad",
+    "description": "Complete MSRTC bus timetable from Pusad Bus Stand to Nagpur, Nanded, Amravati, Pune, Latur and Parbhani. View routes, timings and facilities.",
+    "keywords": "Pusad Bus Stand, Pusad MSRTC timetable, Pusad to Nagpur bus, Pusad to Nanded bus, Yavatmal district bus stand"
+  },
+  "related_depots": [
+    "yavatmal_bus_stand_depot",
+    "pusad_depot"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pombhurna_teh",
+  "name": "Pombhurna Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["pombhurna_teh_depot"]
+}

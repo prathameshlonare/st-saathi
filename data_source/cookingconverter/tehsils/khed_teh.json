@@ -1,0 +1,8 @@
+{
+  "id": "khed_teh",
+  "name": "Khed Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["khed_teh_depot"]
+}

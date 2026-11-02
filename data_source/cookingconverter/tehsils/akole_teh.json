@@ -1,0 +1,8 @@
+{
+  "id": "akole_teh",
+  "name": "Akole Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["akole_teh_depot"]
+}

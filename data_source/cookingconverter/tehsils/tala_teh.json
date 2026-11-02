@@ -1,0 +1,8 @@
+{
+  "id": "tala_teh",
+  "name": "Tala Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "raigad_dist",
+  "depots": ["tala_teh_depot"]
+}

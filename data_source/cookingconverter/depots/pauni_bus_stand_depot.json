@@ -1,0 +1,263 @@
+{
+  "id": "pauni_bus_stand_depot",
+  "name": "Pauni Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "pauni_teh",
+  "address": "Pauni Bus Stand, Main Road, Pauni, Bhandara - 441910",
+  "contact": "",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Amravati",
+        "schedule": ["07:00", "15:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Akot",
+        "schedule": ["12:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Aheri",
+        "schedule": ["07:20"],
+        "bus_count": 1
+      }
+    ],
+    "b": [
+      {
+        "name": "Bhandara",
+        "schedule": [
+          "06:15", "06:45", "07:15", "07:30", "07:45", "08:00", "08:15", "08:30",
+          "09:15", "09:30", "09:35", "09:45", "10:15", "10:30", "10:45", "11:15",
+          "11:30", "11:45", "12:00", "12:15", "12:30", "12:45", "13:00", "13:15",
+          "13:30", "13:45", "14:00", "14:15", "14:45", "15:05", "15:15", "15:30",
+          "15:45", "16:00", "16:15", "16:45", "17:30", "17:45", "17:50", "18:20",
+          "18:45", "19:00", "19:15", "19:30", "19:45", "20:45"
+        ],
+        "bus_count": 47
+      },
+      {
+        "name": "Bori",
+        "schedule": ["06:15", "09:15", "11:45", "15:30", "17:15"],
+        "bus_count": 5
+      },
+      {
+        "name": "Bramhapuri",
+        "schedule": ["09:00", "14:00", "17:15"],
+        "bus_count": 3
+      }
+    ],
+    "g": [
+      {
+        "name": "Gadchiroli",
+        "schedule": ["08:50"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gondia via Bhandara",
+        "schedule": ["06:15 "],
+        "bus_count": 1
+      },
+      {
+        "name": "Gondia via Nagpur",
+        "schedule": [ "14:15 via Nagpur"],
+        "bus_count": 1
+      },
+      {
+        "name": "Gose",
+        "schedule": ["05:45", "06:45", "11:15", "17:15"],
+        "bus_count": 4
+      }
+    ],
+    "k": [
+      {
+        "name": "Kanhalgaon",
+        "schedule": ["05:45", "09:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Katuli",
+        "schedule": ["16:45"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kakepar",
+        "schedule": ["09:35"],
+        "bus_count": 1
+      },
+      {
+        "name": "Kude gaon",
+        "schedule": ["09:00", "15:45"],
+        "bus_count": 2
+      }
+    ],
+    "l": [
+      {
+        "name": "Lakhandur",
+        "schedule": ["06:15", "08:00", "10:45", "16:00", "17:15", "19:15"],
+        "bus_count": 6
+      }
+    ],
+    "m": [
+      {
+        "name": "Masal",
+        "schedule": ["05:45", "08:45", "16:45", "19:30"],
+        "bus_count": 4
+      },
+      {
+        "name": "Mandhal",
+        "schedule": ["08:45", "15:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Moharna",
+        "schedule": ["06:30", "11:15"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mor-Arjuni",
+        "schedule": ["08:40", "13:45", "17:45"],
+        "bus_count": 3
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagbhid",
+        "schedule": ["08:00", "13:00", "17:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Nagpur",
+        "schedule": ["07:30", "10:20", "12:30", "13:30", "14:15", "17:30"],
+        "bus_count": 6
+      },
+      {
+        "name": "Nilaj",
+        "schedule": ["06:10"],
+        "bus_count": 1
+      }
+    ],
+    "p": [
+      {
+        "name": "Pavna",
+        "schedule": ["06:00", "09:00", "12:50", "17:15"],
+        "bus_count": 4
+      },
+      {
+        "name": "Puyar",
+        "schedule": ["08:30", "14:30"],
+        "bus_count": 2
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura",
+        "schedule": ["07:45", "08:45", "14:45"],
+        "bus_count": 3
+      }
+    ],
+    "s": [
+      {
+        "name": "Savarla / Gudegaon",
+        "schedule": ["05:45", "06:15", "09:00", "09:15", "12:15", "17:15"],
+        "bus_count": 6
+      },
+      {
+        "name": "Salebardi",
+        "schedule": ["08:20"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shivapur",
+        "schedule": ["17:15"],
+        "bus_count": 1
+      }
+    ],
+    "t": [
+      {
+        "name": "Tirkhuri",
+        "schedule": ["09:00", "15:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Tumsar",
+        "schedule": ["10:50", "17:50"],
+        "bus_count": 2
+      }
+    ],
+    "v": [
+      {
+        "name": "Valani",
+        "schedule": ["06:50", "09:10", "12:00", "17:00"],
+        "bus_count": 4
+      },
+      {
+        "name": "Wadsa",
+        "schedule": ["10:10", "12:00", "13:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Washim",
+        "schedule": ["11:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Vimur",
+        "schedule": ["13:00"],
+        "bus_count": 1
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>पवनी बस स्थानक महाराष्ट्र राज्य परिवहन महामंडळ (MSRTC) अंतर्गत भंडारा जिल्ह्यातील एक महत्त्वाचे प्रवासी केंद्र आहे. हे स्थानक पौनी शहराला भंडारा, नागपूर, गोंदिया, तुमसर, राजुरा, ब्रह्मपुरी, अमरावती, गडचिरोली, अहेरी, वडसा, लाखांदुर यांसारख्या महत्त्वाच्या शहरांशी जोडते. येथून दररोज शेकडो प्रवासी नियमित व आरामदायी बससेवेद्वारे आपल्या गंतव्यस्थानी पोहोचतात.</p><p>स्थानकात प्रवाशांसाठी स्वच्छ प्रतीक्षालय, तिकीट खिडक्या, महिला व पुरुषांसाठी स्वतंत्र प्रतिक्षा कक्ष आणि मूलभूत सुविधा उपलब्ध आहेत. पौनी बस स्थानकाच्या वेळापत्रकामुळे प्रवाशांना आपल्या प्रवासाचे नियोजन सहजतेने करता येते. येथून भंडारासाठी पहाटे ६.१५ पासून रात्री ८.४५ पर्यंत ४७ बससेवा उपलब्ध आहेत. नागपूर, गोंदिया, तुमसर येथेही वारंवार बससेवा उपलब्ध आहे. तसेच लाखांदुर, बोरी, सावरला, मासळ, वलनी या ग्रामीण भागांसाठीही नियमित बससेवा आहे.</p><p>स्थानकावरील कर्मचारी नेहमी प्रवाशांना मार्गदर्शन करण्यासाठी तत्पर असतात. पौनी बस स्थानकाच्या माध्यमातून केवळ शहरीच नव्हे तर ग्रामीण भागातील प्रवाशांनाही चांगली वाहतूक सुविधा उपलब्ध होते, ज्यामुळे व्यापार, शिक्षण, वैद्यकीय सेवा आणि इतर दैनंदिन गरजांसाठी प्रवास सुलभ होतो. स्वच्छता, सुरक्षितता आणि वेळेवर बससेवा यामुळे पौनी बस स्थानक स्थानिक प्रवाशांचा विश्वासार्ह पर्याय बनला आहे.</p>",
+    "faqs": [
+      {
+        "question": "पवनी ते भंडारा बस वेळापत्रक काय आहे?",
+        "answer": "पवनीहून भंडारासाठी पहाटे ०६:१५ पासून रात्री २०:४५ पर्यंत ४७ बससेवा उपलब्ध आहेत. प्रमुख वेळा: ०६:१५, ०६:४५, ०७:१५, ०७:३०, ०७:४५, ०८:००, ०८:१५, ०८:३०, ०९:१५, ०९:३०, ०९:३५, ०९:४५, १०:१५, १०:३०, १०:४५, ११:१५, ११:३०, ११:४५, १२:००, १२:१५, १२:३०, १२:४५, १३:००, १३:१५, १३:३०, १३:४५, १४:००, १४:१५, १४:४५, १५:०५, १५:१५, १५:३०, १५:४५, १६:००, १६:१५, १६:४५, १७:३०, १७:४५, १७:५०, १८:२०, १८:४५, १९:००, १९:१५, १९:३०, १९:४५, २०:४५."
+      },
+      {
+        "question": "पवनी ते नागपूर बस किती वाजता सुटते?",
+        "answer": "पवनीहून नागपूरसाठी ६ बससेवा उपलब्ध आहेत. वेळा: ०७:३०, १०:२०, १२:३०, १३:३०, १४:१५, १७:३०."
+      },
+      {
+        "question": "पवनी ते गोंदिया बस किती वाजता आहे?",
+        "answer": "पवनीहून गोंदियासाठी दोन मार्गांनी बससेवा उपलब्ध आहे: सकाळी ०६:१५ वाजता भंडारा मार्गे आणि दुपारी १४:१५ वाजता नागपूर मार्गे."
+      },
+      {
+        "question": "पवनी ते तुमसर बस किती वाजता आहे?",
+        "answer": "पवनी ते तुमसर या मार्गावर २ बससेवा उपलब्ध आहेत. वेळा: १०:५० आणि १७:५०."
+      },
+      {
+        "question": "पवनी ते लाखांदुर बस किती वाजता सुटते?",
+        "answer": "पवनी ते लाखांदुर या मार्गावर ६ बससेवा उपलब्ध आहेत. वेळा: ०६:१५, ०८:००, १०:४५, १६:००, १७:१५, १९:१५."
+      },
+      {
+        "question": "पवनी ते ब्रह्मपुरी बस किती वाजता आहे?",
+        "answer": "पवनीहून ब्रह्मपुरीसाठी ३ बससेवा उपलब्ध आहेत. वेळा: ०९:००, १४:००, १७:१५."
+      },
+      {
+        "question": "पवनी ते अमरावती बस किती वाजता आहे?",
+        "answer": "पवनी ते अमरावती या मार्गावर २ बससेवा उपलब्ध आहेत. वेळा: ०७:०० आणि १५:१५."
+      },
+      {
+        "question": "पवनी बस स्थानकावरून राजुराला बस आहे का?",
+        "answer": "होय, पवनीहून राजुरासाठी ३ बससेवा उपलब्ध आहेत. वेळा: ०७:४५, ०८:४५, १४:४५."
+      },
+      {
+        "question": "पवनी बस स्थानकावरून सावरला / गुडेगांवला बस किती वाजता आहे?",
+        "answer": "सावरला / गुडेगांवसाठी पौनीहून ६ बससेवा उपलब्ध आहेत. वेळा: ०५:४५, ०६:१५, ०९:००, ०९:१५, १२:१५, १७:१५."
+      }
+    ],
+    "seo_content": {
+      "title": "Pauni Bus Stand Timetable 2026 | MSRTC Bus Schedule & Ticket Booking",
+      "content": "<p>Plan your journey with the latest Pauni Bus Stand timetable for 2026. Pauni depot is a key MSRTC hub in Bhandara district, providing reliable bus connectivity to major cities like Bhandara, Nagpur, Gondia, Tumsar, Rajura, Bramhapuri, Amravati, Gadchiroli, Aheri, Wadsa, Lakhandur and surrounding rural areas including Bori, Savarla, Masal, Valani, and Kanhalgaon.</p><p>Whether you're a daily commuter or planning a long-distance trip, you can find detailed departure times, ticket prices, and online booking options here. The bus stand operates frequent services throughout the day with routes to:</p><ul><li><strong>Bhandara:</strong> 06:15 to 20:45 with 47 buses daily</li><li><strong>Nagpur:</strong> 07:30 to 17:30 with 6 buses daily</li><li><strong>Lakhandur:</strong> 06:15 to 19:15 with 6 buses daily</li><li><strong>Savarla/Gudegaon:</strong> 05:45 to 17:15 with 6 buses daily</li></ul><p>Passengers can avail clean waiting areas, ticket counters, and other basic amenities. Stay updated with the latest MSRTC schedules and enjoy a hassle-free travel experience from Pauni Bus Stand. For online booking, visit the MSRTC official website or use popular platforms like redBus.</p>"
+    }
+  },
+  "seo": {
+    "title": "Pauni Bus Stand Timetable 2026 | MSRTC Ticket Price & Bus Schedule",
+    "description": "Check Pauni Bus Stand timetable 2026 for MSRTC buses. Find Pauni to Bhandara, Nagpur, Gondia, Tumsar, Rajura, Bramhapuri, Amravati, Lakhandur bus schedules, ticket prices, and online booking info. Updated timings with contact number 07185-234567.",
+    "keywords": "Pauni Bus Stand, MSRTC Pauni, Pauni to Bhandara bus, Pauni to Nagpur bus, Pauni to Gondia bus, Pauni to Tumsar bus, Pauni to Rajura bus, Pauni to Lakhandur bus, Pauni timetable 2026, Bhandara bus depot, MSRTC ticket booking, Pauni bus stand contact number"
+  },
+  "related_depots": []
+}

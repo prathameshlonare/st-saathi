@@ -1,0 +1,8 @@
+{
+  "id": "patoda_teh",
+  "name": "Patoda Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["patoda_teh_depot"]
+}

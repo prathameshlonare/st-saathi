@@ -1,0 +1,8 @@
+{
+  "id": "shrirampur_teh",
+  "name": "Shrirampur Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["shrirampur_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "baramati_teh",
+  "name": "Baramati Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["baramati_teh_depot"]
+}

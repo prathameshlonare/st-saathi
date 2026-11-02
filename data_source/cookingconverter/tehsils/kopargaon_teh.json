@@ -1,0 +1,8 @@
+{
+  "id": "kopargaon_teh",
+  "name": "Kopargaon Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["kopargaon_teh_depot"]
+}

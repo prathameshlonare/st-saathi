@@ -1,0 +1,8 @@
+{
+  "id": "akola_teh",
+  "name": "Akola Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "akola_dist",
+  "depots": ["akola_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "partur_teh",
+  "name": "Partur Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "jalna_dist",
+  "depots": ["partur_teh_depot"]
+}

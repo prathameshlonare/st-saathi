@@ -1,0 +1,8 @@
+{
+  "id": "vikramgad_teh",
+  "name": "Vikramgad Tehsil",
+  "alphabet": "V",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["vikramgad_teh_depot"]
+}

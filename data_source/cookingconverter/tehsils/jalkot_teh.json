@@ -1,0 +1,8 @@
+{
+  "id": "jalkot_teh",
+  "name": "Jalkot Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["jalkot_teh_depot"]
+}

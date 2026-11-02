@@ -1,0 +1,8 @@
+{
+  "id": "kalyan_teh",
+  "name": "Kalyan Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["kalyan_teh_depot"]
+}

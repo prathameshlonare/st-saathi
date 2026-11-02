@@ -1,0 +1,8 @@
+{
+  "id": "mulchera_teh",
+  "name": "Mulchera Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["mulchera_teh_depot"]
+}

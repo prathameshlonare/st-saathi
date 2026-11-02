@@ -1,0 +1,8 @@
+{
+  "id": "tasgaon_teh",
+  "name": "Tasgaon Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "sangli_dist",
+  "depots": ["tasgaon_teh_depot"]
+}

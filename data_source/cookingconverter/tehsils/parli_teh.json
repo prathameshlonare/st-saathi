@@ -1,0 +1,8 @@
+{
+  "id": "parli_teh",
+  "name": "Parli Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["parli_teh_depot"]
+}

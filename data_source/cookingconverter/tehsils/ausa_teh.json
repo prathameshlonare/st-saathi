@@ -1,0 +1,8 @@
+{
+  "id": "ausa_teh",
+  "name": "Ausa Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["ausa_teh_depot"]
+}

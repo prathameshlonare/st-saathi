@@ -1,0 +1,8 @@
+{
+  "id": "sudharagad_teh",
+  "name": "Sudhagad Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "raigad_dist",
+  "depots": ["sudharagad_teh_depot"]
+}

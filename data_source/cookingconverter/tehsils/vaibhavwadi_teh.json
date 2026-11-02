@@ -1,0 +1,8 @@
+{
+  "id": "vaibhavwadi_teh",
+  "name": "Vaibhavwadi Tehsil",
+  "alphabet": "V",
+  "type": "tehsil",
+  "district_id": "sindhudurg_dist",
+  "depots": ["vaibhavwadi_teh_depot"]
+}

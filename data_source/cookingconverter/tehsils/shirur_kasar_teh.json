@@ -1,0 +1,8 @@
+{
+  "id": "shirur_kasar_teh",
+  "name": "Shirur Kasar Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "beed_dist",
+  "depots": ["shirur_kasar_teh_depot"]
+}

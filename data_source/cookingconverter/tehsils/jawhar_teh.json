@@ -1,0 +1,8 @@
+{
+  "id": "jawhar_teh",
+  "name": "Jawhar Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["jawhar_teh_depot"]
+}

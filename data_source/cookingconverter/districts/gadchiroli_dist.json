@@ -1,0 +1,8 @@
+{
+  "id": "gadchiroli_dist",
+  "name": "Gadchiroli District",
+  "alphabet": "G",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["gadchiroli_teh","aheri_teh","armori_teh","bhamragad_teh","chamorshi_teh","desaiganj_teh","dhanora_teh","etapalli_teh","korchi_teh","kurkheda_teh","mulchera_teh","sironcha_teh"]
+}

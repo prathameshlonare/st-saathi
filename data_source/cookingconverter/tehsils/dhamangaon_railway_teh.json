@@ -1,0 +1,8 @@
+{
+  "id": "dhamangaon_railway_teh",
+  "name": "Dhamangaon Railway Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["dhamangaon_railway_teh_depot"]
+}

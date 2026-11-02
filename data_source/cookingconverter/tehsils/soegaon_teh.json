@@ -1,0 +1,8 @@
+{
+  "id": "soegaon_teh",
+  "name": "Soegaon Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["soegaon_teh_depot"]
+}

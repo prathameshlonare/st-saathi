@@ -1,0 +1,425 @@
+{
+  "id": "bhadravati_bus_stand_depot",
+  "name": "Bhadravati Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "bhadravati_teh",
+  "address": "Bhadravati Bus Stand, Bhadravati, Chandrapur District - 442902",
+  "contact": "07175-222233",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Amravati",
+        "schedule": [
+          "07:00",
+          "16:30"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Amravati (via Wardha)",
+        "schedule": [
+          "06:45",
+          "07:40",
+          "09:00",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ],
+        "bus_count": 7
+      },
+      {
+        "name": "Aheri",
+        "schedule": [
+          "07:10",
+          "10:00",
+          "13:30",
+          "15:00",
+          "16:00",
+          "17:00"
+        ],
+        "bus_count": 6
+      },
+      {
+        "name": "Aheri (via Mulchera)",
+        "schedule": [
+          "16:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Akola",
+        "schedule": [
+          "10:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Ambejogai",
+        "schedule": [
+          "19:25"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "b": [
+      {
+        "name": "Bramhapuri",
+        "schedule": [
+          "13:15"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandrapur",
+        "schedule": [
+          "05:45",
+          "06:15",
+          "06:45",
+          "07:15",
+          "07:45",
+          "08:15",
+          "08:45",
+          "09:15",
+          "09:45",
+          "10:15",
+          "10:45",
+          "11:15",
+          "11:45",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:45",
+          "14:15",
+          "14:45",
+          "15:15",
+          "15:45",
+          "16:15",
+          "16:45",
+          "17:15",
+          "17:45",
+          "18:15",
+          "18:45",
+          "19:15",
+          "19:45",
+          "20:15"
+        ],
+        "bus_count": 30
+      }
+    ],
+    "d": [
+      {
+        "name": "Daryapur",
+        "schedule": [
+          "08:30"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Darwha",
+        "schedule": [
+          "08:20"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "g": [
+      {
+        "name": "Gadchandur",
+        "schedule": [
+          "12:15",
+          "13:15",
+          "14:00",
+          "15:00",
+          "15:25",
+          "15:40",
+          "16:30",
+          "17:10"
+        ],
+        "bus_count": 8
+      },
+      {
+        "name": "Gadchiroli",
+        "schedule": [
+          "10:10",
+          "11:35",
+          "14:45",
+          "15:25",
+          "18:30",
+          "19:25"
+        ],
+        "bus_count": 6
+      },
+      {
+        "name": "Ghatanji",
+        "schedule": [
+          "09:40",
+          "16:15"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": [
+          "05:45",
+          "06:15",
+          "06:45",
+          "07:15",
+          "07:45",
+          "08:15",
+          "08:45",
+          "09:15",
+          "09:45",
+          "10:15",
+          "10:45",
+          "11:15",
+          "11:45",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:45",
+          "14:15",
+          "14:45",
+          "15:15",
+          "15:45",
+          "16:15",
+          "16:45",
+          "17:15",
+          "17:45",
+          "18:15",
+          "18:45",
+          "19:15",
+          "19:45",
+          "20:00"
+        ],
+        "bus_count": 30
+      },
+      {
+        "name": "Nanded (via Mahur)",
+        "schedule": [
+          "11:30"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "p": [
+      {
+        "name": "Parbhani",
+        "schedule": [
+          "05:55"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Pulgaon",
+        "schedule": [
+          "11:00",
+          "13:30",
+          "15:30"
+        ],
+        "bus_count": 3
+      },
+      {
+        "name": "Pusad",
+        "schedule": [
+          "11:00"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura",
+        "schedule": [
+          "07:45",
+          "08:55",
+          "09:30",
+          "10:30",
+          "10:55",
+          "11:35",
+          "12:15",
+          "12:45",
+          "13:15",
+          "13:35",
+          "13:40"
+        ],
+        "bus_count": 11
+      },
+      {
+        "name": "Ralegaon",
+        "schedule": [
+          "12:00"
+        ],
+        "bus_count": 1
+      },
+      {
+        "name": "Risod",
+        "schedule": [
+          "07:20"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Shegaon",
+        "schedule": [
+          "06:30",
+          "07:25"
+        ],
+        "bus_count": 2
+      },
+      {
+        "name": "Saoner",
+        "schedule": [
+          "08:15"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "t": [
+      {
+        "name": "Tumsar",
+        "schedule": [
+          "07:10",
+          "15:00"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "u": [
+      {
+        "name": "Umarkhed",
+        "schedule": [
+          "09:25",
+          "10:30"
+        ],
+        "bus_count": 2
+      }
+    ],
+    "w": [
+      {
+        "name": "Wardha",
+        "schedule": [
+          "08:45",
+          "09:15",
+          "10:15",
+          "10:25",
+          "11:10",
+          "11:40",
+          "14:15"
+        ],
+        "bus_count": 7
+      },
+      {
+        "name": "Wardha (via Arvi)",
+        "schedule": [
+          "08:00",
+          "10:30",
+          "15:00",
+          "16:00"
+        ],
+        "bus_count": 4
+      },
+      {
+        "name": "Washim",
+        "schedule": [
+          "08:00"
+        ],
+        "bus_count": 1
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal (via Wani)",
+        "schedule": [
+          "05:55",
+          "06:30",
+          "07:00",
+          "07:25",
+          "07:35",
+          "08:00",
+          "08:25",
+          "08:30",
+          "08:40",
+          "09:25",
+          "09:40",
+          "10:30",
+          "11:00",
+          "11:30",
+          "12:15",
+          "13:30",
+          "13:35",
+          "14:25",
+          "15:15",
+          "16:30",
+          "16:45",
+          "17:15",
+          "18:00",
+          "18:30",
+          "20:00"
+        ],
+        "bus_count": 25
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>भद्रावती बसस्थानक हे चंद्रपूर जिल्ह्यातील एक अत्यंत महत्त्वाचे MSRTC वाहतूक केंद्र आहे. नागपूर, चंद्रपूर, वर्धा, अमरावती, यवतमाळ, गडचिरोली, राजुरा तसेच अनेक ग्रामीण भागांना जोडणाऱ्या बस सेवा येथून नियमितपणे चालतात. सकाळी लवकरपासून रात्री उशिरापर्यंत बस सेवा उपलब्ध असल्यामुळे विद्यार्थी, शासकीय कर्मचारी, व्यापारी, शेतकरी आणि सामान्य प्रवासी यांना मोठा लाभ होतो. भद्रावती हे औद्योगिक व शैक्षणिक दृष्ट्या महत्त्वाचे शहर असल्याने येथे दररोज हजारो प्रवासी ये-जा करतात.</p><p>बसस्थानकात तिकीट काउंटर, प्रतीक्षालय, स्वच्छतागृह, पिण्याच्या पाण्याची सुविधा तसेच प्रवाशांसाठी सूचना फलक उपलब्ध आहेत. MSRTC प्रशासन वेळापत्रकानुसार बस सेवा चालू ठेवण्याचा सातत्याने प्रयत्न करत असते. ग्रामीण भागातील प्रवाशांसाठी भद्रावती बसस्थानक हे जिल्ह्याशी संपर्काचे मुख्य माध्यम आहे. विशेषतः यवतमाळ (वणी मार्गे) मार्गावरील दुरुस्त व स्पष्ट वेळापत्रकामुळे प्रवाशांचा गोंधळ टळतो.</p><p>The Bhadravati Bus Stand functions as a crucial transportation hub in Chandrapur district, connecting major cities like Nagpur, Chandrapur, Wardha, Amravati, Yavatmal, Gadchiroli, and Rajura. With frequent services operating from early morning until late night, it supports daily commuters, students, industrial workers, and rural passengers. Bhadravati’s industrial background makes public transport reliability essential, and MSRTC plays a vital role in fulfilling this demand.</p><p>The bus stand offers essential passenger amenities such as ticket counters, waiting areas, drinking water facilities, and information boards displaying route and timing details. Timetables are structured to support both inter-city travel and village connectivity. The corrected routing information, especially for Yavatmal via Wani, improves clarity and travel planning for passengers. Overall, Bhadravati Bus Stand acts as a dependable link between urban centers and rural communities, strengthening regional mobility and economic activity.</p>",
+    "faqs": [
+      {
+        "question": "भद्रावती बसस्थानकावरून कोणत्या मुख्य शहरांसाठी बस सेवा उपलब्ध आहे?",
+        "answer": "Bhadravati Bus Stand वरून नागपूर, चंद्रपूर, वरोरा, यवतमाळ, अमरावती, वर्धा, गडचिरोली, अहेरी, राजुरा, परभणी, नांदेड, अकोला आणि शेगाव यांसारख्या प्रमुख शहरांसाठी नियमित MSRTC (ST) बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "भद्रावती ते नागपूर बस किती वेळाने मिळते?",
+        "answer": "भद्रावती ते नागपूर या मार्गावर सकाळी ५:४५ पासून रात्री ८:०० वाजेपर्यंत दर अर्धा तासाने (every 30 minutes) बस उपलब्ध असते, त्यामुळे प्रवाशांना वारंवार आणि सोयीस्कर सेवा मिळते."
+      },
+      {
+        "question": "यवतमाळ (वणी मार्गे) बसचे वेळापत्रक काय आहे?",
+        "answer": "Bhadravati to Yavatmal (via Wani) बस सेवा दिवसभर उपलब्ध असून सकाळी ५:५५ पासून रात्री ८:०० वाजेपर्यंत अनेक फेऱ्या आहेत. हा मार्ग ग्रामीण व शहरी प्रवाशांसाठी अत्यंत उपयुक्त आहे."
+      },
+      {
+        "question": "भद्रावती बसस्थानकावरून गडचिरोली व अहेरीकडे बस मिळते का?",
+        "answer": "होय, Bhadravati Bus Stand वरून गडचिरोली, अहेरी आणि अहेरी (मुलचेरा मार्गे) या आदिवासी व दुर्गम भागांसाठी दररोज ST बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "भद्रावती ते चंद्रपूर बस सेवा किती वेळ चालू असते?",
+        "answer": "भद्रावती ते चंद्रपूर या मार्गावर सकाळी ५:४५ पासून रात्री ८:३० वाजेपर्यंत दर ३० मिनिटांनी बस उपलब्ध आहे, ज्यामुळे ऑफिस, शिक्षण व दैनंदिन प्रवासासाठी हा मार्ग अत्यंत सोयीचा आहे."
+      },
+      {
+        "question": "भद्रावती बसस्थानकावरून अमरावती व वर्धा मार्गे बस आहेत का?",
+        "answer": "होय, Bhadravati Bus Stand वरून अमरावती (वर्धा मार्गे), अमरावती थेट, तसेच वर्धा आणि वर्धा (आर्वी मार्गे) या मार्गांवर दररोज बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "ग्रामीण गावांसाठी भद्रावती बसस्थानकावरून बस मिळते का?",
+        "answer": "होय, चंदनखेडा, वडेगाव, विसापूर, बिंजोनी, चोरा, चपराळा, मोहुर्ली, मुधोली आणि इतर अनेक ग्रामीण गावांसाठी Bhadravati Bus Stand वरून नियमित बस सेवा आहे."
+      },
+      {
+        "question": "भद्रावती बसस्थानकावर सकाळी लवकर बस मिळते का?",
+        "answer": "होय, भद्रावती बसस्थानकावरून पहिली बस साधारणतः सकाळी ५:४५ वाजता सुटते. काही लांब पल्ल्याच्या बसेस ५:५५ आणि ६:३० वाजताही उपलब्ध आहेत."
+      },
+      {
+        "question": "भद्रावती बसस्थानकावरून लांब पल्ल्याच्या बसेस कोणत्या आहेत?",
+        "answer": "Bhadravati Bus Stand वरून नांदेड (माहूर मार्गे), परभणी, अंबेजोगाई, गडचिरोली, अकोला आणि शेगाव यांसारख्या लांब पल्ल्याच्या शहरांसाठी ST बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "भद्रावती बसस्थानकाची माहिती ऑनलाइन तपासता येते का?",
+        "answer": "होय, Bhadravati Bus Stand चे वेळापत्रक, मार्ग आणि बस उपलब्धता MSRTC च्या अधिकृत वेबसाइटवर किंवा स्थानिक माहिती पोर्टल्सवर तपासता येते. प्रत्यक्ष वेळापत्रकात बदल होऊ शकतात."
+      }
+    ],
+    "seo_content": {
+      "title": "Bhadravati Bus Stand Timetable 2026 | MSRTC Ticket Price",
+      "content": "<p>Bhadravati Bus Stand provides comprehensive MSRTC connectivity across Chandrapur district and neighboring regions. The timetable includes inter-city, regional, and rural routes, enabling passengers to plan reliable travel. With structured schedules, essential facilities, and corrected route information, Bhadravati Bus Stand remains a dependable public transport hub for daily commuters and long-distance travelers.</p>"
+    }
+  },
+  "seo": {
+    "title": "Bhadravati Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check complete Bhadravati Bus Stand timetable 2026 including Nagpur, Chandrapur, Yavatmal (via Wani), Amravati, Wardha, Gadchiroli and rural MSRTC routes.",
+    "keywords": "Bhadravati bus stand, MSRTC timetable 2026, Bhadravati to Nagpur bus, Bhadravati to Yavatmal bus, Chandrapur district bus"
+  }
+}

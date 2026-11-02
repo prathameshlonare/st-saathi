@@ -1,0 +1,8 @@
+{
+  "id": "ghansawangi_teh",
+  "name": "Ghansawangi Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "jalna_dist",
+  "depots": ["ghansawangi_teh_depot"]
+}

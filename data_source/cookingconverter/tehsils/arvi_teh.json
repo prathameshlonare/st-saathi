@@ -1,0 +1,8 @@
+{
+  "id": "arvi_teh",
+  "name": "Arvi Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["arvi_teh_depot"]
+}

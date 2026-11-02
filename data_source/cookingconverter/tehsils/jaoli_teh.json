@@ -1,0 +1,8 @@
+{
+  "id": "jaoli_teh",
+  "name": "Jaoli Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["jaoli_teh_depot"]
+}

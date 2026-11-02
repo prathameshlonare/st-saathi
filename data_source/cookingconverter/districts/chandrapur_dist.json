@@ -1,0 +1,8 @@
+{
+  "id": "chandrapur_dist",
+  "name": "Chandrapur District",
+  "alphabet": "C",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["chandrapur_teh","ballarpur_teh","bhadravati_teh","brahmapuri_teh","chimur_teh","gondpipri_teh","mul_teh","nagbhid_teh","rajura_teh","warora_teh"]
+}

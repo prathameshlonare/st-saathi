@@ -1,0 +1,8 @@
+{
+  "id": "ratnagiri_dist",
+  "name": "Ratnagiri District",
+  "alphabet": "R",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["ratnagiri_teh","chiplun_teh","guhagar_teh","khed_teh","mandangad_teh","dapoli_teh","rajapur_teh","sangameshwar_teh","lanja_teh"]
+}

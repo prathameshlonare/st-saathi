@@ -1,0 +1,8 @@
+{
+  "id": "washim_dist",
+  "name": "Washim District",
+  "alphabet": "W",
+  "type": "district",
+  "division_id": "amravati_div",
+  "tehsils": ["washim_teh","malegaon_teh","risod_teh","manora_teh","karanja_teh","mangrulpir_teh"]
+}

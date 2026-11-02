@@ -1,0 +1,14 @@
+{
+  "id": "pune_div",
+  "name": "Pune Division",
+  "alphabet": "P",
+  "type": "division",
+  "description": "Pune Division is one of the most developed regions in Maharashtra, with a strong presence of education, industry, and IT sectors. Pune city acts as a central transport hub for surrounding districts. MSRTC ST buses are heavily used by students, office workers, and rural passengers. People regularly depend on the bus time table for daily commuting and inter-district travel. Long-route ST buses connect the division with Konkan, Marathwada, and Vidarbha regions. Weekend and festival travel sees a sharp rise in passenger numbers. MSRTC services help reduce dependence on private vehicles. Public transport remains essential for balanced regional growth.",
+  "districts": [
+    "pune_dist",
+    "satara_dist",
+    "sangli_dist",
+    "solapur_dist",
+    "kolhapur_dist"
+  ]
+}

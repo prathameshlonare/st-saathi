@@ -1,0 +1,8 @@
+{
+  "id": "dahanu_teh",
+  "name": "Dahanu Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["dahanu_teh_depot"]
+}

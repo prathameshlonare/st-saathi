@@ -1,0 +1,93 @@
+{
+  "id": "ralegaon_bus_stand_depot",
+  "name": "Ralegaon Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "ralegaon_teh",
+  "address": "Ralegaon Bus Stand, Ralegaon, Yavatmal District - 445402",
+  "contact": "07202-245678",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      { "name": "Akola", "schedule": ["07:15"], "bus_count": 1 },
+      { "name": "Amravati", "schedule": ["06:00", "06:30", "08:15", "10:30", "13:15", "17:42"], "bus_count": 6 },
+      { "name": "Ashta", "schedule": ["06:00", "10:30", "12:30", "17:30"], "bus_count": 4 }
+    ],
+    "c": [
+      { "name": "Chandrapur", "schedule": ["07:00", "10:00", "15:00"], "bus_count": 3 }
+    ],
+    "d": [
+      { "name": "Deoli", "schedule": ["08:30", "12:00", "15:00", "17:00"], "bus_count": 4 },
+      { "name": "Dongarkharda", "schedule": ["06:00", "06:50", "09:00", "13:30", "15:00", "17:00"], "bus_count": 6 }
+    ],
+    "h": [
+      { "name": "Hinganghat (Siras)", "schedule": ["08:15", "11:30", "13:00", "14:30", "17:30"], "bus_count": 5 }
+    ],
+    "j": [
+      { "name": "Jalgaon (Jamod)", "schedule": ["09:30"], "bus_count": 1 }
+    ],
+    "k": [
+      { "name": "Kapshi, Wardha", "schedule": ["06:00", "08:30", "09:30", "11:30", "12:45", "15:30", "16:30", "18:30", "19:30"], "bus_count": 9 }
+    ],
+    "n": [
+      { "name": "Nagpur", "schedule": ["07:00", "08:00", "12:30", "14:00"], "bus_count": 4 },
+      { "name": "Nidha", "schedule": ["08:15", "17:30"], "bus_count": 2 }
+    ],
+    "w": [
+      { "name": "Wadki-Wani via Wadhona", "schedule": ["05:45", "07:00", "08:00", "08:30", "09:00", "09:00", "10:10", "10:15", "11:00", "12:30", "13:00", "13:30", "14:15", "14:30", "16:00", "16:15", "16:30", "16:30", "17:45", "18:30", "19:30"], "bus_count": 21 }
+    ],
+    "y": [
+      { "name": "Yavatmal", "schedule": ["07:00", "07:45", "08:40", "09:45", "10:00", "11:00", "11:30", "12:00", "12:15", "12:45", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "15:45", "16:00", "16:15", "17:00", "18:15", "19:00", "20:00"], "bus_count": 23 },
+      { "name": "Yevati via Wadki", "schedule": ["06:00", "08:00", "11:30", "14:00", "14:30", "17:15", "17:30", "19:00"], "bus_count": 8 }
+    ]
+  },
+  "content": {
+    "about": "<p>राळेगाव बसस्थानक (Ralegaon Bus Stand) हे महाराष्ट्र राज्य मार्ग परिवहन महामंडळ म्हणजेच ST महामंडळ / MSRTC (Maharashtra State Road Transport Corporation) अंतर्गत कार्यरत असलेले यवतमाळ जिल्ह्यातील एक महत्त्वाचे तालुका स्तरावरील बसस्थानक आहे. राळेगाव हे कृषीप्रधान आणि वनपरिसरालगत वसलेले असल्यामुळे येथून ग्रामीण भागातील प्रवाशांची मोठ्या प्रमाणावर ये-जा सुरू असते. Ralegaon Bus Stand acts as a primary transport link connecting surrounding villages to Yavatmal district headquarters and nearby towns like Ghatanji, Maregaon and Kalamb.</p><p>राळेगाव येथून यवतमाळकडे जाणाऱ्या बस सेवा अत्यंत नियमित असून सकाळपासून संध्याकाळपर्यंत अनेक फेऱ्या उपलब्ध असतात. शासकीय कार्यालये, महाविद्यालये, रुग्णालये आणि प्रशासकीय कामांसाठी दररोज प्रवासी या मार्गाचा वापर करतात. नागपूर, अमरावती आणि चंद्रपूरसारख्या लांब पल्ल्याच्या मार्गांवर मर्यादित पण नियोजित सेवा उपलब्ध असतात.</p><p>MSRTC Ralegaon Depot अंतर्गत चालणाऱ्या बसेस ग्रामीण भागातील लहान गावे आणि बाजारपेठांना तालुका व जिल्हा केंद्रांशी जोडण्याचे महत्त्वाचे कार्य करतात. आठवडी बाजार, शालेय व महाविद्यालयीन शिक्षण, बँकिंग सेवा आणि आरोग्य सुविधा यासाठी राळेगाव बसस्थानक हे मुख्य वाहतूक केंद्र म्हणून ओळखले जाते. सकाळी लवकर सुटणाऱ्या बसेस शेतकरी, कर्मचारी आणि विद्यार्थ्यांसाठी उपयुक्त ठरतात, तर संध्याकाळी परतीच्या फेऱ्या दैनंदिन प्रवाशांसाठी सोयीस्कर असतात.</p><p>Ralegaon Bus Stand provides basic passenger amenities such as ticket counters, seating area, drinking water facility and displayed timetable boards. During festivals, exam seasons and peak travel periods, MSRTC may adjust schedules or operate additional buses depending on passenger demand.</p><p>एकूणच, राळेगाव बसस्थानक हे ग्रामीण आणि अर्ध-शहरी भागांना जोडणारे विश्वासार्ह सार्वजनिक वाहतूक केंद्र असून परवडणाऱ्या दरात सुरक्षित प्रवासाची सुविधा उपलब्ध करून देते.</p>",
+    "faqs": [
+      {
+        "question": "What is the earliest bus from Ralegaon Bus Stand?",
+        "answer": "The earliest buses from Ralegaon Bus Stand usually start around 5:30 AM, mainly towards Yavatmal and nearby towns."
+      },
+      {
+        "question": "What is the last bus timing from Ralegaon?",
+        "answer": "The last buses from Ralegaon generally depart around 7:00 PM to 7:30 PM depending on the route and demand."
+      },
+      {
+        "question": "Are there direct buses from Ralegaon to Nagpur?",
+        "answer": "Yes, limited direct MSRTC buses from Ralegaon to Nagpur are available, usually once or twice daily."
+      },
+      {
+        "question": "How frequent are buses from Ralegaon to Yavatmal?",
+        "answer": "Buses to Yavatmal are frequent throughout the day, making it the busiest route from Ralegaon Bus Stand."
+      },
+      {
+        "question": "Are village routes available from Ralegaon?",
+        "answer": "Yes, Ralegaon Bus Stand operates buses to nearby villages and towns like Ghatanji, Maregaon, Kalamb and Babhulgaon."
+      },
+      {
+        "question": "Does Ralegaon Bus Stand provide long-distance services?",
+        "answer": "Yes, selected long-distance services to cities like Amravati and Chandrapur are available on scheduled timings."
+      },
+      {
+        "question": "Do bus timings change during festivals?",
+        "answer": "During peak seasons and festivals, MSRTC may introduce additional buses or revise timings based on passenger demand."
+      },
+      {
+        "question": "Is Ralegaon Bus Stand suitable for daily commuters?",
+        "answer": "Yes, early morning and evening return buses are convenient for office workers, students and daily travelers."
+      },
+      {
+        "question": "Where can I check updated Ralegaon Bus Stand timings?",
+        "answer": "Updated timings can be checked at the local depot notice board, MSRTC inquiry counters or timetable information platforms."
+      }
+    ],
+    "seo_content": {
+      "title": "Ralegaon Bus Stand Timetable 2026 | MSRTC Ralegaon Bus Timings",
+      "content": "<p>Check complete Ralegaon Bus Stand timetable 2026 with updated MSRTC bus timings for Yavatmal, Nagpur, Ghatanji, Maregaon, Kalamb and nearby villages. Find earliest and last bus details here.</p>"
+    }
+  },
+  "seo": {
+    "title": "Ralegaon Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Find complete Ralegaon Bus Stand bus timings 2026 including routes to Yavatmal, Nagpur, Ghatanji, Maregaon and nearby rural areas.",
+    "keywords": "Ralegaon bus stand, Ralegaon MSRTC timetable, Ralegaon to Yavatmal bus, Ralegaon bus timings 2026"
+  }
+}

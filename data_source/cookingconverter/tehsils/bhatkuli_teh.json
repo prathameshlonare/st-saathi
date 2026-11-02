@@ -1,0 +1,8 @@
+{
+  "id": "bhatkuli_teh",
+  "name": "Bhatkuli Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["bhatkuli_teh_depot"]
+}

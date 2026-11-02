@@ -1,0 +1,8 @@
+{
+  "id": "pulgaon_teh",
+  "name": "Pulgaon Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["pulgaon_teh_depot"]
+}

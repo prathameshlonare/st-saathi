@@ -1,0 +1,8 @@
+{
+  "id": "chandgad_teh",
+  "name": "Chandgad Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["chandgad_teh_depot"]
+}

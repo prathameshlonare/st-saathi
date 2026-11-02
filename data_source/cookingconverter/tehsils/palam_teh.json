@@ -1,0 +1,8 @@
+{
+  "id": "palam_teh",
+  "name": "Palam Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["palam_teh_depot"]
+}

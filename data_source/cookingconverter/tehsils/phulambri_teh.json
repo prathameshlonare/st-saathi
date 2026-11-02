@@ -1,0 +1,8 @@
+{
+  "id": "phulambri_teh",
+  "name": "Phulambri Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["phulambri_teh_depot"]
+}

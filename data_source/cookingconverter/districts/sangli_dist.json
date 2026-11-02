@@ -1,0 +1,8 @@
+{
+  "id": "sangli_dist",
+  "name": "Sangli District",
+  "alphabet": "S",
+  "type": "district",
+  "division_id": "pune_div",
+  "tehsils": ["sangli_teh","miraj_teh","tasgaon_teh","jath_teh","kavathe_mahankal_teh","atpadi_teh","palus_teh","khanapur_teh","walwa_teh"]
+}

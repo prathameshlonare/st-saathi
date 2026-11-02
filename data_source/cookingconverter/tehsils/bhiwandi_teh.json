@@ -1,0 +1,8 @@
+{
+  "id": "bhiwandi_teh",
+  "name": "Bhiwandi Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["bhiwandi_teh_depot"]
+}

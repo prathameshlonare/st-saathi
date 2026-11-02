@@ -1,0 +1,8 @@
+{
+  "id": "mangaon_teh",
+  "name": "Mangaon Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "raigad_dist",
+  "depots": ["mangaon_teh_depot"]
+}

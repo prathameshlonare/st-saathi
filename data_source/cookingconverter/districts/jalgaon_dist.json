@@ -1,0 +1,8 @@
+{
+  "id": "jalgaon_dist",
+  "name": "Jalgaon District",
+  "alphabet": "J",
+  "type": "district",
+  "division_id": "nashik_div",
+  "tehsils": ["jalgaon_teh","bhusawal_teh","chalisgaon_teh","pachora_teh","jamner_teh","erandol_teh","yawalmale_teh","raver_teh","muktainagar_teh","bodwad_teh"]
+}

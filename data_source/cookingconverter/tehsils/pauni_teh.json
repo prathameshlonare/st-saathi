@@ -1,0 +1,8 @@
+{
+  "id": "pauni_teh",
+  "name": "Pauni Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "bhandara_dist",
+  "depots": ["pauni_teh_depot"]
+}

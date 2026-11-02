@@ -1,0 +1,8 @@
+{
+  "id": "tuljapur_teh",
+  "name": "Tuljapur Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "dharashiv_dist",
+  "depots": ["tuljapur_teh_depot"]
+}

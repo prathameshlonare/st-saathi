@@ -1,0 +1,8 @@
+{
+  "id": "solapur_north_teh",
+  "name": "Solapur North Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["solapur_north_teh_depot"]
+}

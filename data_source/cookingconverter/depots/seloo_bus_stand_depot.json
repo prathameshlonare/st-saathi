@@ -1,0 +1,188 @@
+{
+  "id": "seloo_bus_stand_depot",
+  "name": "Seloo Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "seloo_teh",
+  "address": "Seloo Bus Stand, Wardha District - 442104",
+  "contact": "07155-240123",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Amgaon",
+        "schedule": ["08:00", "17:15", "19:30"],
+        "bus_count": 3
+      }
+    ],
+    "b": [
+      {
+        "name": "Borkhedi",
+        "schedule": ["15:00"],
+        "bus_count": 1
+      }
+    ],
+    "c": [
+      {
+        "name": "City Railway",
+        "schedule": ["10:15"],
+        "bus_count": 1
+      }
+    ],
+    "g": [
+      {
+        "name": "Ganeshpur",
+        "schedule": ["09:30", "14:30"],
+        "bus_count": 2
+      }
+    ],
+    "h": [
+      {
+        "name": "Hatki",
+        "schedule": ["07:00", "12:15", "17:45"],
+        "bus_count": 3
+      },
+      {
+        "name": "Hingni",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      },
+      {
+        "name": "Hirani",
+        "schedule": ["08:00", "11:00"],
+        "bus_count": 2
+      }
+    ],
+    "k": [
+      {
+        "name": "Kanhapur",
+        "schedule": ["07:45", "14:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Khadki",
+        "schedule": ["07:00", "16:15"],
+        "bus_count": 2
+      }
+    ],
+    "m": [
+      {
+        "name": "Mankapur",
+        "schedule": ["05:00", "18:00"],
+        "bus_count": 2
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["06:30", "07:45", "08:15", "10:30", "11:00", "12:00", "16:30"],
+        "bus_count": 7
+      }
+    ],
+    "p": [
+      {
+        "name": "Phutana",
+        "schedule": ["08:30", "14:30", "19:00"],
+        "bus_count": 3
+      }
+    ],
+    "r": [
+      {
+        "name": "Ridhora",
+        "schedule": ["08:00", "10:15", "15:00", "20:00"],
+        "bus_count": 4
+      }
+    ],
+    "t": [
+      {
+        "name": "Tamaswadi",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      }
+    ],
+    "w": [
+      {
+        "name": "Wagdhati",
+        "schedule": ["11:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Wamansala",
+        "schedule": ["18:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Wardha",
+        "schedule": ["06:30", "07:45", "08:50", "09:10", "09:30", "09:30", "09:45", "10:40", "11:30", "11:50", "12:00", "12:30", "12:40", "14:30", "15:30", "16:30", "17:30", "18:15", "18:50", "19:00", "19:30"],
+        "bus_count": 21
+      }
+    ],
+    "y": [
+      {
+        "name": "Yela",
+        "schedule": ["09:00", "15:30"],
+        "bus_count": 2
+      }
+    ],
+    "z": [
+      {
+        "name": "Zadshi",
+        "schedule": ["10:10", "17:15"],
+        "bus_count": 2
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>सेलू बसस्थानक (Selu Bus Stand)</strong> हे महाराष्ट्र राज्य मार्ग परिवहन महामंडळ म्हणजेच <strong>MSRTC</strong> अंतर्गत चालणारे वर्धा जिल्ह्यातील एक महत्त्वाचे सार्वजनिक वाहतूक केंद्र आहे. या बसस्थानकावरून दररोज अनेक प्रवासी वर्धा, नागपूर आणि आसपासच्या ग्रामीण भागात प्रवास करतात. सेलू शहर व आसपासच्या गावांना जिल्ह्यातील प्रमुख शहरांशी जोडण्यात या बसस्थानकाची महत्त्वाची भूमिका आहे.</p>\n\n<p>सेलू बसस्थानकावरून नागपूर, वर्धा तसेच फावडे आणि फुटाणा मार्गे जाणाऱ्या बस सेवा उपलब्ध आहेत. नागपूरसाठी सकाळी 06:30 पासून 16:30 पर्यंत विविध वेळांना बस सेवा चालते. तसेच वर्धा मार्गावर दिवसभर वारंवार बस उपलब्ध असून त्यामुळे विद्यार्थी, कामगार, शेतकरी आणि व्यापारी वर्गासाठी प्रवास सोयीस्कर होतो.</p>\n\n<p>याशिवाय बोरखेडी, हिंगणी, रिधोरा, गणेशपूर, येळा, झाडशी, आमगाव, कान्हापूर, हाटकी, हिराणी, खडकी आणि वामनसाळा यांसारख्या ग्रामीण भागांसाठीही नियमित बस सेवा उपलब्ध आहे. या बस सेवेमुळे ग्रामीण भागातील लोकांना बाजारपेठ, शासकीय कार्यालये, रुग्णालये आणि शिक्षण संस्थांपर्यंत सहज पोहोचता येते.</p>\n\n<p>दररोज अनेक विद्यार्थी शिक्षणासाठी, कामगार नोकरीसाठी आणि शेतकरी बाजारपेठेसाठी <strong>MSRTC बस सेवांवर अवलंबून</strong> असतात. नियमित आणि परवडणाऱ्या तिकीट दरांमुळे ही सेवा ग्रामीण भागातील लोकांसाठी अत्यंत महत्त्वाची ठरते.</p>\n\n<p>सेलू बसस्थानकावर प्रवाशांसाठी तिकीट काउंटर, प्रतीक्षालय, बस वेळापत्रक फलक आणि बस पार्किंग व्यवस्था उपलब्ध आहे. प्रवासी येथे येऊन थेट वेळापत्रक पाहून आपला प्रवास नियोजित करू शकतात.</p>\n\n<p>एकूणच पाहता, सेलू बसस्थानक हे वर्धा जिल्ह्यातील महत्त्वाचे वाहतूक केंद्र असून ते ग्रामीण व शहरी भागांना जोडणारे प्रमुख स्थान आहे. नियमित बस सेवा, सुरक्षित प्रवास आणि विस्तृत मार्ग जाळ्यामुळे <strong>MSRTC बस सेवा</strong> आजही हजारो प्रवाशांसाठी विश्वासार्ह पर्याय ठरतात.</p>",
+    "faqs": [
+      {
+        "question": "सेलू बसस्थानकावरून नागपूरसाठी बस कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "सेलू बसस्थानकावरून नागपूरसाठी सकाळी 06:30, 07:45, 08:15, 10:30, 11:00, 12:00 आणि 16:30 या वेळांना बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू ते वर्धा बस सेवा किती वेळा उपलब्ध आहे?",
+        "answer": "वर्धासाठी सेलू बसस्थानकावरून दिवसभर वारंवार बस सेवा उपलब्ध आहे. सकाळपासून रात्रीपर्यंत अनेक वेळा बस सुटतात."
+      },
+      {
+        "question": "सेलू बसस्थानकावरून रिधोरा साठी बस आहे का?",
+        "answer": "होय, रिधोरा साठी सकाळी 08:00, 10:15 तसेच दुपारी 15:00 आणि रात्री 20:00 वाजता बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू ते गणेशपूर बस कोणत्या वेळांना आहे?",
+        "answer": "गणेशपूर साठी बस सेवा सकाळी 09:30 आणि दुपारी 14:30 या वेळांना उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू बसस्थानकावरून झाडशी साठी बस सेवा आहे का?",
+        "answer": "होय, झाडशी साठी सकाळी 10:10 आणि संध्याकाळी 17:15 वाजता MSRTC बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू ते आमगाव बस सेवा किती वेळा आहे?",
+        "answer": "आमगाव साठी सकाळी 08:00, संध्याकाळी 17:15 आणि रात्री 19:30 या वेळांना बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू बसस्थानकावरून हाटकी साठी बस आहे का?",
+        "answer": "हाटकी साठी सकाळी 07:00, दुपारी 12:15 आणि संध्याकाळी 17:45 या वेळांना बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू ते कान्हापूर बस सेवा कोणत्या वेळांना उपलब्ध आहे?",
+        "answer": "कान्हापूर साठी सकाळी 07:45 आणि दुपारी 14:00 वाजता बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू बसस्थानकावर कोणत्या सुविधा उपलब्ध आहेत?",
+        "answer": "येथे तिकीट काउंटर, प्रवाशांसाठी प्रतीक्षालय, बस वेळापत्रक फलक आणि बसण्याची व्यवस्था उपलब्ध आहे."
+      },
+      {
+        "question": "सेलू बसस्थानकावरून ग्रामीण भागासाठी बस सेवा आहे का?",
+        "answer": "होय, बोरखेडी, हिंगणी, रिधोरा, झाडशी, आमगाव आणि इतर अनेक गावांसाठी MSRTC बस सेवा उपलब्ध आहे."
+      }
+    ],
+    "seo_content": {
+      "title": "Seloo Bus Stand Timetable 2026 | MSRTC Seloo Bus Timings",
+      "content": "<p><strong>Selu Bus Stand Timetable 2026</strong> provides complete information about MSRTC bus timings from Selu to nearby cities and villages in Wardha district. The Selu ST bus stand connects passengers to important destinations such as Wardha, Nagpur, Ridhora, Ganeshpur, Yela and many surrounding rural areas.</p>\n\n<p>According to the latest timetable dated March 2026, buses operate from early morning starting at <strong>05:00 AM</strong> for routes like Mankapur. Regular buses also run to Nagpur via Fawade and Phutana routes throughout the day. The Wardha route has the most frequent service with many departures between morning and evening, making travel convenient for daily commuters.</p>\n\n<ul>\n<li>Regular MSRTC buses from Selu to Nagpur via Fawade and Phutana routes.</li>\n<li>Frequent connectivity to Wardha with multiple departures throughout the day.</li>\n<li>Village connectivity to places like Ridhora, Ganeshpur, Yela, Zadshi and Amgaon.</li>\n<li>Affordable MSRTC ticket pricing and reliable bus schedule for passengers.</li>\n</ul>\n\n<p>The Selu bus stand plays an important role for students, farmers, workers and business travelers who depend on <strong>MSRTC bus services</strong> every day. Many people use these buses to travel for education, work, hospital visits and local markets.</p>\n\n<p>Passengers can check the latest <strong>MSRTC bus timetable, bus schedule and bus timings</strong> before planning their journey. With its strong connectivity and affordable public transportation, Selu ST bus stand remains an important travel hub in the Wardha district.</p>"
+    }
+  },
+  "seo": {
+    "title": "Seloo Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check complete Seloo Bus Stand timetable 2026 with MSRTC bus timings for Wardha, Nagpur, Hinganghat and nearby routes.",
+    "keywords": "Seloo bus stand, Seloo MSRTC timetable, Seloo to Wardha bus, Seloo ST bus timings"
+  }
+}

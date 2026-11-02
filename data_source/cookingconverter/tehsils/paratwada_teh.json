@@ -1,0 +1,8 @@
+{
+  "id": "paratwada_teh",
+  "name": "Paratwada Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["paratwada_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "korchi_teh",
+  "name": "Korchi Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["korchi_teh_depot"]
+}

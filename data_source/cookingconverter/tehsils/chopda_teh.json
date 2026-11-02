@@ -1,0 +1,8 @@
+{
+  "id": "chopda_teh",
+  "name": "Chopda Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["chopda_teh_depot"]
+}

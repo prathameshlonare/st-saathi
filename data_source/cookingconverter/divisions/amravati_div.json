@@ -1,0 +1,14 @@
+{
+  "id": "amravati_div",
+  "name": "Amravati Division",
+  "alphabet": "A",
+  "type": "division",
+  "description": "Amravati Division is located in the Vidarbha region of Maharashtra and plays an important role in agriculture, education, and regional transport. The division includes both urban centres and large rural areas where public transport is a daily necessity. MSRTC operates extensive ST buses connecting villages, talukas, and district headquarters within the division. People regularly depend on the bus time table to plan travel for work, college, and government offices. Long-distance ST buses also connect Amravati Division to Nagpur, Pune, and Mumbai. Seasonal travel increases during festivals and market days, making bus services crucial. The division also supports interstate connectivity through MSRTC routes. Overall, reliable ST buses form the backbone of mobility for common citizens here.",
+  "districts": [
+    "amravati_dist",
+    "akola_dist",
+    "buldhana_dist",
+    "washim_dist",
+    "yavatmal_dist"
+  ]
+}

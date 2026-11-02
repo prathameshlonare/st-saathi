@@ -1,0 +1,8 @@
+{
+  "id": "kurha_teh",
+  "name": "Kurha Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["kurha_teh_depot"]
+}

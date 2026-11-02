@@ -1,0 +1,8 @@
+{
+  "id": "bhudargad_teh",
+  "name": "Bhudargad Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["bhudargad_teh_depot"]
+}

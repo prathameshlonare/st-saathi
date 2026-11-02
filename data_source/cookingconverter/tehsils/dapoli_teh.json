@@ -1,0 +1,8 @@
+{
+  "id": "dapoli_teh",
+  "name": "Dapoli Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["dapoli_teh_depot"]
+}

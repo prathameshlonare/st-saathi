@@ -1,0 +1,8 @@
+{
+  "id": "kurkheda_teh",
+  "name": "Kurkheda Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "gadchiroli_dist",
+  "depots": ["kurkheda_teh_depot"]
+}

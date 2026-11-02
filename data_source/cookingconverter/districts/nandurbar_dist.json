@@ -1,0 +1,8 @@
+{
+  "id": "nandurbar_dist",
+  "name": "Nandurbar District",
+  "alphabet": "N",
+  "type": "district",
+  "division_id": "nashik_div",
+  "tehsils": ["nandurbar_teh","akkalkuwa_teh","aikheda_teh","taloda_teh","shahada_teh","navapur_teh"]
+}

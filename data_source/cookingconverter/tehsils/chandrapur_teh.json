@@ -1,0 +1,8 @@
+{
+  "id": "chandrapur_teh",
+  "name": "Chandrapur Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["chandrapur_teh_depot"]
+}

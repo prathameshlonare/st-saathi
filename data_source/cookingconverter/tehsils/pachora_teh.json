@@ -1,0 +1,8 @@
+{
+  "id": "pachora_teh",
+  "name": "Pachora Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "jalgaon_dist",
+  "depots": ["pachora_teh_depot"]
+}

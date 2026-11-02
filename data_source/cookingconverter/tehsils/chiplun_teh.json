@@ -1,0 +1,8 @@
+{
+  "id": "chiplun_teh",
+  "name": "Chiplun Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["chiplun_teh_depot"]
+}

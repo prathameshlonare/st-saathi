@@ -1,0 +1,8 @@
+{
+  "id": "mantha_teh",
+  "name": "Mantha Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "jalna_dist",
+  "depots": ["mantha_teh_depot"]
+}

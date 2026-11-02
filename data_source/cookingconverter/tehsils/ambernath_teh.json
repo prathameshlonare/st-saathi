@@ -1,0 +1,8 @@
+{
+  "id": "ambernath_teh",
+  "name": "Ambernath Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "thane_dist",
+  "depots": ["ambernath_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pathardi_teh",
+  "name": "Pathardi Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["pathardi_teh_depot"]
+}

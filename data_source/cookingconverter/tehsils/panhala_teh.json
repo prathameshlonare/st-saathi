@@ -1,0 +1,8 @@
+{
+  "id": "panhala_teh",
+  "name": "Panhala Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["panhala_teh_depot"]
+}

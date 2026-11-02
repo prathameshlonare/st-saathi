@@ -1,0 +1,8 @@
+{
+  "id": "sindhudurg_dist",
+  "name": "Sindhudurg District",
+  "alphabet": "S",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["sawantwadi_teh","kudal_teh","malvan_teh","devgad_teh","vaibhavwadi_teh","dodamarg_teh","kankavli_teh"]
+}

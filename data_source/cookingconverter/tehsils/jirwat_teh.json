@@ -1,0 +1,8 @@
+{
+  "id": "jirwat_teh",
+  "name": "Jirwat Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["jirwat_teh_depot"]
+}

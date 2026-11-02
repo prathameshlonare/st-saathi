@@ -1,0 +1,8 @@
+{
+  "id": "purandar_teh",
+  "name": "Purandar Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["purandar_teh_depot"]
+}

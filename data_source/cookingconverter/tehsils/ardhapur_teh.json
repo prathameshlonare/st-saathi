@@ -1,0 +1,8 @@
+{
+  "id": "ardhapur_teh",
+  "name": "Ardhapur Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["ardhapur_teh_depot"]
+}

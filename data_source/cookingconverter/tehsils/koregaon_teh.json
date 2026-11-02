@@ -1,0 +1,8 @@
+{
+  "id": "koregaon_teh",
+  "name": "Koregaon Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["koregaon_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ambegaon_teh",
+  "name": "Ambegaon Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["ambegaon_teh_depot"]
+}

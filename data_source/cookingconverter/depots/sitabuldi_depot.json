@@ -1,0 +1,134 @@
+{
+  "id": "sitabuldi_depot",
+  "name": "Sitabuldi Main Depot",
+  "type": "depot",
+  "tehsil_id": "nagpur_city_teh",
+  "address": "Sitabuldi, Nagpur - 440012",
+  "contact": "0712-2563145",
+  "total_buses": 45,
+  "villages": {
+    "a": [
+      {
+        "name": "Amgaon",
+        "schedule": [
+          "05:30",
+          "07:15",
+          "09:00",
+          "11:30",
+          "13:45",
+          "15:30",
+          "17:15",
+          "19:00",
+          "21:45"
+        ],
+        "bus_count": 9
+      }
+    ],
+    "b": [
+      {
+        "name": "Besa",
+        "schedule": [
+          "06:00",
+          "08:30",
+          "10:15",
+          "12:45",
+          "14:30",
+          "16:15",
+          "18:00",
+          "20:30",
+          "22:15"
+        ],
+        "bus_count": 8
+      }
+    ],
+    "k": [
+      {
+        "name": "Kalmeshwar",
+        "schedule": [
+          "04:45",
+          "06:30",
+          "08:45",
+          "11:00",
+          "13:15",
+          "15:45",
+          "17:30",
+          "19:45",
+          "22:30"
+        ],
+        "bus_count": 9
+      }
+    ],
+    "m": [
+      {
+        "name": "Mouda",
+        "schedule": [
+          "05:15",
+          "07:45",
+          "09:30",
+          "12:00",
+          "14:15",
+          "16:00",
+          "17:45",
+          "20:15",
+          "23:00"
+        ],
+        "bus_count": 9
+      }
+    ],
+    "u": [
+      {
+        "name": "Umred",
+        "schedule": [
+          "05:30",
+          "06:45",
+          "08:15",
+          "10:00",
+          "12:30",
+          "14:45",
+          "16:30",
+          "18:15",
+          "20:00",
+          "21:45"
+        ],
+        "bus_count": 10
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>Sitabuldi Main Depot is the largest and busiest MSRTC depot in Nagpur city, centrally located at Sitabuldi. Operating since 1978, this depot manages 45 buses serving 5 major village routes in Nagpur district. As the primary transportation hub, it handles over 5000 passengers daily, connecting Nagpur city with surrounding rural areas.</p><p>The depot features state-of-the-art facilities including computerized reservation system, premium waiting lounge, food court, and dedicated parking area. With buses departing every 15-30 minutes during peak hours, Sitabuldi Depot ensures efficient connectivity to Amgaon, Besa, Kalmeshwar, Mouda, and Umred.</p>",
+    "faqs": [
+      {
+        "question": "What is the ticket booking procedure at Sitabuldi Depot?",
+        "answer": "Tickets can be booked through three methods: 1) Counter booking (opens 4:00 AM), 2) Online booking via MSRTC portal/app, 3) Automatic Ticket Vending Machines available at depot entrance."
+      },
+      {
+        "question": "Are there special buses for students and senior citizens?",
+        "answer": "Yes, student concession passes (40% discount) and senior citizen passes (50% discount) are available. Special early morning buses for students operate at 5:30 AM and 6:45 AM to all routes."
+      },
+      {
+        "question": "What are the luggage rules and charges?",
+        "answer": "Free luggage allowance: 20kg per passenger. Extra luggage charges: ₹10 per kg. Oversized luggage requires prior booking and additional charges apply."
+      },
+      {
+        "question": "Does the depot have parking facilities?",
+        "answer": "Yes, secure parking is available for two-wheelers (₹20/day) and four-wheelers (₹50/day). Parking operates from 4:00 AM to 12:00 midnight."
+      },
+      {
+        "question": "How often do buses depart during peak hours?",
+        "answer": "During peak hours (7:00-10:00 AM and 5:00-8:00 PM), buses depart every 15-20 minutes to all routes. Off-peak frequency is 30-45 minutes."
+      }
+    ],
+    "seo_content": {
+      "title": "Sitabuldi Main Depot Nagpur - Complete Bus Schedule & Route Information",
+      "content": "<p>Sitabuldi Main Depot in Nagpur operates 45 MSRTC buses daily to Amgaon, Besa, Kalmeshwar, Mouda, and Umred. Located centrally at Sitabuldi, this is the largest depot in Nagpur with comprehensive facilities for passengers.</p><h3>Sitabuldi Depot Key Information</h3><ul><li><strong>Total Buses:</strong> 45 buses serving 5 major routes</li><li><strong>Route Coverage:</strong> Amgaon (9 buses), Besa (8 buses), Kalmeshwar (9 buses), Mouda (9 buses), Umred (10 buses)</li><li><strong>Operating Hours:</strong> 4:00 AM to 11:30 PM daily</li><li><strong>Daily Passengers:</strong> Over 5000 commuters served</li><li><strong>Contact:</strong> 0712-2563145 for schedule and booking inquiries</li></ul><h3>Facilities Available</h3><p>Sitabuldi Depot offers computerized booking counters, premium waiting lounge with AC facility, food court serving snacks and beverages, clean restrooms, luggage storage, and secure vehicle parking. The depot is wheelchair accessible with dedicated assistance for disabled passengers.</p>"
+    }
+  },
+  "seo": {
+    "title": "Sitabuldi Main Depot Nagpur - Bus Timings to Amgaon, Besa, Kalmeshwar, Mouda, Umred",
+    "description": "Complete MSRTC bus schedule from Sitabuldi Main Depot Nagpur to Amgaon, Besa, Kalmeshwar, Mouda, Umred. Find departure timings, contact details, and facilities information.",
+    "keywords": "Sitabuldi Depot, Nagpur MSRTC, Amgaon bus, Besa bus timing, Kalmeshwar schedule, Mouda bus timings, Umred bus, Nagpur main depot"
+  },
+  "related_depots": [
+    "mor_bhavan_depot"
+  ]
+}

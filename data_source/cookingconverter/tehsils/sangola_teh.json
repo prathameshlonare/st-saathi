@@ -1,0 +1,8 @@
+{
+  "id": "sangola_teh",
+  "name": "Sangola Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["sangola_teh_depot"]
+}

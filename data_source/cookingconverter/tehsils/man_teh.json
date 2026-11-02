@@ -1,0 +1,8 @@
+{
+  "id": "man_teh",
+  "name": "Man Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["man_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "vasai_teh",
+  "name": "Vasai Tehsil",
+  "alphabet": "V",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["vasai_teh_depot"]
+}

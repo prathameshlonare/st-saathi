@@ -1,0 +1,8 @@
+{
+  "id": "pathri_teh",
+  "name": "Pathri Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["pathri_teh_depot"]
+}

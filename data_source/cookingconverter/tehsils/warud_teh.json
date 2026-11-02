@@ -1,0 +1,8 @@
+{
+  "id": "warud_teh",
+  "name": "Warud Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["warud_teh_depot"]
+}

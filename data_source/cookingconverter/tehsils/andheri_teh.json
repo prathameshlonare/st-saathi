@@ -1,0 +1,8 @@
+{
+  "id": "andheri_teh",
+  "name": "Andheri Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "mumbai_suburban_dist",
+  "depots": ["andheri_teh_depot"]
+}

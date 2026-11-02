@@ -1,0 +1,8 @@
+{
+  "id": "palghar_teh",
+  "name": "Palghar Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["palghar_teh_depot"]
+}

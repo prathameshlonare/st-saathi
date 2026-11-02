@@ -1,0 +1,8 @@
+{
+  "id": "shahuwadi_teh",
+  "name": "Shahuwadi Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "kolhapur_dist",
+  "depots": ["shahuwadi_teh_depot"]
+}

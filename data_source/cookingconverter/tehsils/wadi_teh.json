@@ -1,0 +1,8 @@
+{
+  "id": "wadi_teh",
+  "name": "Wada Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["wadi_teh_depot"]
+}

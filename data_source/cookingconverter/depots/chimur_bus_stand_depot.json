@@ -1,0 +1,116 @@
+{
+  "id": "chimur_bus_stand_depot",
+  "name": "Chimur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "chimur_teh",
+  "address": "Chimur Bus Stand, Chimur, Chandrapur District - 442903",
+  "contact": "07170-234567",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      { "name": "Amravati", "schedule": ["06:30", "07:30", "08:00", "14:00"], "bus_count": 4 }
+    ],
+    "b": [
+      { "name": "Bhandara", "schedule": ["08:30", "12:45", "14:30"], "bus_count": 3 },
+      { "name": "Bhiwapur", "schedule": ["09:00"], "bus_count": 1 },
+      { "name": "Bothli", "schedule": ["16:45"], "bus_count": 1 },
+      { "name": "Bramhapuri", "schedule": ["07:30", "08:15", "10:00", "12:00", "13:30", "18:30"], "bus_count": 6 }
+    ],
+    "c": [
+      { "name": "Chandrapur", "schedule": ["06:00", "06:30", "07:30", "08:00", "09:30", "10:00", "11:00", "12:00", "13:00", "14:00", "14:30", "15:15", "15:45", "17:00", "17:30", "18:30"], "bus_count": 16 }
+    ],
+    "d": [
+      { "name": "Doma Kampa", "schedule": ["08:45", "14:30"], "bus_count": 2 }
+    ],
+    "g": [
+      { "name": "Gadchiroli", "schedule": ["08:00"], "bus_count": 1 },
+      { "name": "Gird", "schedule": ["08:45", "14:45"], "bus_count": 2 }
+    ],
+    "h": [
+      { "name": "Hinganghat", "schedule": ["06:15", "06:30", "07:30", "08:30", "10:30", "12:15", "13:00", "13:15", "14:30", "15:30", "16:00", "17:30"], "bus_count": 12 }
+    ],
+    "k": [
+      { "name": "Kampa", "schedule": ["09:15", "10:30", "11:30", "13:00", "14:00", "16:00", "18:00"], "bus_count": 7 },
+      { "name": "Karva", "schedule": ["16:45"], "bus_count": 1 }
+    ],
+    "m": [
+      { "name": "Mahadawadi", "schedule": ["09:00", "16:30"], "bus_count": 2 },
+      { "name": "Mul", "schedule": ["07:50", "13:45"], "bus_count": 2 }
+    ],
+    "n": [
+      { "name": "Nagbhid", "schedule": ["06:30", "10:30", "15:00"], "bus_count": 3 },
+      { "name": "Nagpur", "schedule": ["06:00", "09:00", "10:00", "12:00", "13:00", "14:30", "15:00", "16:30", "18:30"], "bus_count": 9 },
+      { "name": "Navtala", "schedule": ["19:00"], "bus_count": 1 }
+    ],
+    "p": [
+      { "name": "Palsagaon", "schedule": ["06:00"], "bus_count": 1 },
+      { "name": "Pauni", "schedule": ["07:00"], "bus_count": 1 }
+    ],
+    "s": [
+      { "name": "Sindewahi", "schedule": ["06:30", "07:00", "07:30", "08:30", "09:30", "10:00", "10:15", "10:30", "12:00", "12:30", "13:00", "14:00", "14:30", "15:00", "16:00", "17:30", "18:15"], "bus_count": 17 }
+    ],
+    "t": [
+      { "name": "Talodhi", "schedule": ["06:00", "08:30", "11:45", "14:30"], "bus_count": 4 }
+    ],
+    "u": [
+      { "name": "Umred", "schedule": ["11:00"], "bus_count": 1 }
+    ],
+    "w": [
+      { "name": "Warora", "schedule": ["07:00", "08:15", "09:00", "09:15", "12:00"], "bus_count": 5 }
+    ]
+  },
+  "content": {
+    "about": "<p>चिमूर बसस्थानक हे चंद्रपूर जिल्ह्यातील एक महत्त्वाचे MSRTC वाहतूक केंद्र आहे. चंद्रपूर, भद्रावती, वरोरा, नागपूर, ब्रह्मपुरी, सिंदेवाही आणि आसपासच्या ग्रामीण भागांना जोडणाऱ्या नियमित बस सेवा येथून चालतात. सकाळी लवकर सुरू होणाऱ्या आणि संध्याकाळपर्यंत चालणाऱ्या बस फेऱ्यांमुळे विद्यार्थी, शेतकरी, व्यापारी व नोकरी करणाऱ्या प्रवाशांसाठी चिमूर बसस्थानक अत्यंत उपयुक्त ठरते.</p><p>Chimur Bus Stand serves as a reliable regional hub connecting rural areas with major towns of Chandrapur district. Basic passenger amenities such as ticket counters, waiting space, drinking water and route information boards are available. The bus schedules are aligned with office hours, school timings and market travel, making Chimur an important public transport node.</p>",
+    "faqs": [
+      {
+        "question": "Chimur ते Chandrapur पहिली बस किती वाजता असते?",
+        "answer": "Chimur ते Chandrapur पहिली बस साधारणतः सकाळी ५:४५ वाजता सुटते."
+      },
+      {
+        "question": "Chimur ते Bhadravati बस किती वेळाने मिळते?",
+        "answer": "Chimur ते Bhadravati या मार्गावर दिवसभरात अनेक फेऱ्या असून सरासरी दर १–२ तासांनी बस उपलब्ध असते."
+      },
+      {
+        "question": "Chimur ते Warora सकाळची बस आहे का?",
+        "answer": "होय, Chimur ते Warora सकाळी ६:१५ पासून नियमित बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "Nagpur साठी Chimur वरून बस मिळते का?",
+        "answer": "होय, Chimur वरून Chandrapur मार्गे Nagpur साठी थेट MSRTC बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "Chimur ते Yavatmal (via Wani) बस कधी असते?",
+        "answer": "या मार्गावर सकाळी ६:००, दुपारी १०:३० आणि सायंकाळी ३:३० वाजता बस आहेत."
+      },
+      {
+        "question": "Chimur Bus Stand वरून Gadchiroli बस आहे का?",
+        "answer": "होय, Chimur ते Gadchiroli साठी दररोज मर्यादित फेऱ्या उपलब्ध आहेत."
+      },
+      {
+        "question": "संध्याकाळी उशिरा Chandrapur साठी बस मिळते का?",
+        "answer": "होय, Chandrapur साठी शेवटची बस साधारणतः सायंकाळी ६:३० वाजेपर्यंत उपलब्ध असते."
+      },
+      {
+        "question": "Chimur Bus Stand ग्रामीण भागासाठी उपयुक्त आहे का?",
+        "answer": "होय, सिंदेवाही, वरोरा तालुक्यातील आणि आसपासच्या गावांसाठी Chimur हे मुख्य बस जोड केंद्र आहे."
+      },
+      {
+        "question": "तिकीट काउंटर सकाळी किती वाजता उघडतो?",
+        "answer": "Chimur Bus Stand वरील तिकीट काउंटर साधारणतः सकाळी ५:३० वाजता सुरू होतो."
+      },
+      {
+        "question": "Chimur Bus Stand चे वेळापत्रक बदलू शकते का?",
+        "answer": "होय, सण, सुट्टी किंवा प्रशासकीय कारणांमुळे वेळापत्रकात बदल होऊ शकतात."
+      }
+    ],
+    "seo_content": {
+      "title": "Chimur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+      "content": "<p>Chimur Bus Stand timetable 2026 includes MSRTC routes to Chandrapur, Bhadravati, Warora, Nagpur, Yavatmal and nearby villages. Passengers can plan daily and long-distance travel using updated schedules.</p>"
+    }
+  },
+  "seo": {
+    "title": "Chimur Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check Chimur Bus Stand timetable 2026 with MSRTC bus timings for Chandrapur, Bhadravati, Warora, Nagpur, Yavatmal and rural routes.",
+    "keywords": "Chimur bus stand, Chimur MSRTC timetable, Chimur to Chandrapur bus, Chimur to Bhadravati bus"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "darwha_teh",
+  "name": "Darwha Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "yavatmal_dist",
+  "depots": ["darwha_teh_depot"]
+}

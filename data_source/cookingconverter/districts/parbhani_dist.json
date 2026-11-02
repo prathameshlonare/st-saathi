@@ -1,0 +1,8 @@
+{
+  "id": "parbhani_dist",
+  "name": "Parbhani District",
+  "alphabet": "P",
+  "type": "district",
+  "division_id": "chhatrapati_sambhajinagar_div",
+  "tehsils": ["parbhani_teh","gangakhed_teh","jintur_teh","manwath_teh","pathri_teh","palam_teh","purna_teh","sonpeth_teh","selu_teh"]
+}

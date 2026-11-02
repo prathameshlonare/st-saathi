@@ -1,0 +1,8 @@
+{
+  "id": "paithan_teh",
+  "name": "Paithan Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["paithan_teh_depot"]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "dhamangaon_railway_bus_stand_depot",
+  "name": "Dhamangaon Railway Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "dhamangaon_railway_teh",
+  "address": "Dhamangaon Railway Bus Stand, Dhamangaon, District Amravati - 444709",
+  "contact": "07222-237045",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Amravati (अमरावती)",
+        "schedule": [
+          "07:00", "09:00", "09:45", "11:30", "14:15", "15:30", "17:45", "19:15", "19:55", "20:00"
+        ],
+        "bus_count": 10
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandur Railway via Virul (चांदुर रेल्वेमार्गे विरूळ)",
+        "schedule": [
+          "07:00", "08:00", "09:00", "11:30", "12:00", "12:15", "12:45", "14:30", "15:30", "17:45", "19:15", "19:30"
+        ],
+        "bus_count": 12
+      },
+      {
+        "name": "Chandur Railway via Tiwsa (चांदुर रेल्वेमार्गे तिवरा)",
+        "schedule": [
+          "07:00", "09:00", "09:45", "10:30", "12:15", "12:45", "13:15", "13:30", "14:15", "14:45", "16:30", "16:45", "17:45", "19:30", "20:00"
+        ],
+        "bus_count": 15
+      },
+      {
+        "name": "Chandur Railway via Wadgaon (चांदुर रेल्वेमार्गे वडगाव)",
+        "schedule": [
+          "09:15", "11:45", "18:00"
+        ],
+        "bus_count": 3
+      }
+    ],
+    "k": [
+      {
+        "name": "Kurha (कुऱ्हा)",
+        "schedule": [
+          "06:00", "07:10", "07:15", "08:00", "08:30", "09:00", "10:00", "11:15", "12:15", "14:30", "15:00", "15:15", "16:00", "17:15", "19:05", "19:15", "19:30"
+        ],
+        "bus_count": 17
+      }
+    ],
+    "y": [
+      {
+        "name": "Yavatmal (यवतमाळ)",
+        "schedule": [
+          "03:45", "05:50", "06:15", "06:30", "07:00", "07:15", "07:30", "07:45", "08:15", "08:45", "08:50", "09:15", "10:00", "10:15", "10:45", "11:15", "11:30", "11:45", "12:50", "13:05", "10:45", "11:15", "11:30", "11:45", "12:50", "13:05", "10:45", "11:15", "11:30", "11:45", "12:50", "13:05", "14:10", "14:30", "14:45", "15:00", "16:00", "16:15", "16:30", "17:00", "17:45", "18:00", "19:00", "20:30", "21:15"
+        ],
+        "bus_count": 45
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>धामणगाव रेल्वे बस स्थानक हे अमरावती जिल्ह्यातील एक महत्त्वाचे वाहतूक केंद्र आहे. हे स्थानक प्रामुख्याने यवतमाळ, अमरावती आणि चांदूर रेल्वे यांसारख्या प्रमुख शहरांना जोडते. रेल्वे स्थानकाच्या जवळ असल्यामुळे प्रवाशांना रेल्वे आणि बस प्रवासाचे उत्तम संकलन मिळते. येथे नियमितपणे चालणाऱ्या राज्य परिवहन (MSRTC) बसेस प्रवाशांना सुरक्षित आणि स्वस्त प्रवासाची सोय करून देतात. विशेषतः यवतमाळ मार्गावर येथे सर्वाधिक बस फेऱ्या उपलब्ध आहेत.</p>",
+    "faqs": [
+      {
+        "question": "यवतमाळसाठी पहिली बस कधी आहे?",
+        "answer": "यवतमाळसाठी धामणगाव येथून पहिली बस पहाटे 03:45 वाजता सुटते."
+      },
+      {
+        "question": "अमरावतीसाठी बसची वेळ काय आहे?",
+        "answer": "अमरावतीसाठी सकाळी 07:00 पासून रात्री 20:00 पर्यंत विविध फेऱ्या उपलब्ध आहेत."
+      },
+      {
+        "question": "कुऱ्हा जाण्यासाठी किती बसेस आहेत?",
+        "answer": "कुऱ्हा या गावासाठी दररोज एकूण 17 बस फेऱ्या उपलब्ध आहेत."
+      },
+      {
+        "question": "चांदूर रेल्वेला कोणत्या मार्गाने बसेस जातात?",
+        "answer": "चांदूर रेल्वेसाठी तिवरा, विरूळ आणि वडगाव अशा तीन वेगवेगळ्या मार्गांनी बस सेवा उपलब्ध आहे."
+      }
+    ],
+    "seo_content": {
+      "title": "Dhamangaon Railway Bus Stand Timetable 2026 | MSRTC Timings",
+      "content": "<p>Dhamangaon Railway Bus Stand serves as a vital transit point in Amravati district, offering seamless connectivity for commuters traveling between major hubs like Yavatmal, Amravati, and Wardha. Being strategically located near the railway station, it facilitates easy intermodal transport for thousands of daily passengers. The depot manages a high frequency of buses towards Yavatmal and Chandur Railway via multiple routes like Tiwsa and Virul. With MSRTC's reliable service, passengers can access the latest 2026 schedule for timely travel across the Vidarbha region.</p>"
+    }
+  },
+  "seo": {
+    "title": "Dhamangaon Railway Bus Stand Timetable 2026 | MSRTC Bus Timings",
+    "description": "Check the updated 2026 Dhamangaon Railway Bus Stand timetable. Find MSRTC bus timings for Yavatmal, Amravati, Chandur Railway, and Kurha. Plan your travel with detailed schedules.",
+    "keywords": "Dhamangaon Railway bus stand, Dhamangaon bus timetable 2026, MSRTC Dhamangaon, Dhamangaon to Yavatmal bus, Amravati to Dhamangaon bus timings"
+  },
+  "related_depots": [
+    "yavatmal_bus_stand_depot",
+    "amravati_bus_stand_depot"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "sonpeth_teh",
+  "name": "Sonpeth Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["sonpeth_teh_depot"]
+}

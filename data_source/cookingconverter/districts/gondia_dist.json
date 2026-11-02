@@ -1,0 +1,8 @@
+{
+  "id": "gondia_dist",
+  "name": "Gondia District",
+  "alphabet": "G",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["gondia_teh","amgaon_teh","arjuni_morgaon_teh","deori_teh","goregaon_teh","sadak_arjuni_teh","salekasa_teh","tirora_teh"]
+}

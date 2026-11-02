@@ -1,0 +1,8 @@
+{
+  "id": "bhandara_dist",
+  "name": "Bhandara District",
+  "alphabet": "B",
+  "type": "district",
+  "division_id": "nagpur_div",
+  "tehsils": ["bhandara_teh","lakhandur_teh","lakhani_teh","mohadi_teh","pauni_teh","sakoli_teh","tumsar_teh"]
+}

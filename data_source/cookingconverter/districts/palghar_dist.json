@@ -1,0 +1,8 @@
+{
+  "id": "palghar_dist",
+  "name": "Palghar District",
+  "alphabet": "P",
+  "type": "district",
+  "division_id": "mumbai_div",
+  "tehsils": ["palghar_teh","vasai_teh","dahanu_teh","talasari_teh","jawhar_teh","mokhada_teh","vikramgad_teh","wada_teh"]
+}

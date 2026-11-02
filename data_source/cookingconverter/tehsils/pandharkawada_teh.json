@@ -1,0 +1,8 @@
+{
+  "id": "pandharkawada_teh",
+  "name": "Pandharkawda Tehsil",
+  "alphabet": "P",
+  "type": "tehsil",
+  "district_id": "yavatmal_dist",
+  "depots": ["pandharkawada_teh_depot"]
+}

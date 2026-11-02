@@ -1,0 +1,8 @@
+{
+  "id": "sillod_teh",
+  "name": "Sillod Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["sillod_teh_depot"]
+}

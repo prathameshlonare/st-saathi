@@ -1,0 +1,360 @@
+{
+  "id": "nagpur_imamwada_bus_stand_depot",
+  "name": "Nagpur Imamwada Bus Stand Timetable 2026 | Nagpur MSRTC Bus",
+  "type": "depot",
+  "tehsil_id": "nagpur_city_teh",
+  "address": "Imamwada Bus Stand, Imamwada Square, Nagpur, Maharashtra - 440018",
+  "contact": "0712-2720125",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Amravati",
+        "schedule": ["06:45", "07:20", "07:25", "07:40", "07:55", "08:25", "09:10", "09:30", "09:45", "09:45", "10:10", "10:15", "10:25", "10:30", "10:30", "11:10", "11:20", "13:00", "14:10", "14:30", "15:10", "15:15", "16:30", "16:30", "16:45", "17:00", "17:10", "17:30", "17:40", "18:15", "18:20", "18:30", "19:30", "20:15"],
+        "bus_count": 34
+      },
+      {
+        "name": "Akola",
+        "schedule": ["06:45", "09:50", "11:50", "12:00", "12:30", "13:45", "14:10", "15:10", "17:10"],
+        "bus_count": 9
+      },
+      {
+        "name": "Akot",
+        "schedule": ["07:30", "08:00", "08:45", "12:10", "12:30", "13:40", "14:20", "14:25", "14:45"],
+        "bus_count": 9
+      },
+      {
+        "name": "Andhalgaon",
+        "schedule": ["17:40"],
+        "bus_count": 1
+      },
+      {
+        "name": "Anjangaon Surji",
+        "schedule": ["16:05"],
+        "bus_count": 1
+      },
+      {
+        "name": "Arvi",
+        "schedule": ["09:10", "09:50", "11:10", "12:40", "15:30", "16:25", "18:40"],
+        "bus_count": 7
+      },
+      {
+        "name": "Avalghat",
+        "schedule": ["07:10", "15:30"],
+        "bus_count": 2
+      }
+    ],
+    "b": [
+      {
+        "name": "Bazar Gaon",
+        "schedule": ["08:40", "16:40", "19:00"],
+        "bus_count": 3
+      },
+      {
+        "name": "Bhage Maheri",
+        "schedule": ["08:40"],
+        "bus_count": 1
+      },
+      {
+        "name": "Bhokarbadi",
+        "schedule": ["10:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Buldhana",
+        "schedule": ["06:10", "06:45", "09:20", "10:20", "12:40", "21:30"],
+        "bus_count": 6
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandur Bazar",
+        "schedule": ["12:10", "14:10", "16:10", "18:00"],
+        "bus_count": 4
+      },
+      {
+        "name": "Chandur Rly",
+        "schedule": ["13:00", "13:30"],
+        "bus_count": 2
+      },
+      {
+        "name": "Chhatrapati Sambhaji Nagar via Akola, Chikhli, Jalna",
+        "schedule": ["07:30", "11:10", "11:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Chhatrapati Sambhaji Nagar via Karanja Lad, Selu Bazar",
+        "schedule": ["06:25"],
+        "bus_count": 1
+      },
+      {
+        "name": "Chikhli",
+        "schedule": ["08:40"],
+        "bus_count": 1
+      }
+    ],
+    "d": [
+      {
+        "name": "Dahegaon Joshi",
+        "schedule": ["09:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Daryapur",
+        "schedule": ["06:20", "07:10", "08:15"],
+        "bus_count": 3
+      },
+      {
+        "name": "Degma",
+        "schedule": ["08:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Deutwada",
+        "schedule": ["16:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Dhanoli",
+        "schedule": ["15:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Dhule",
+        "schedule": ["06:10"],
+        "bus_count": 1
+      }
+    ],
+    "j": [
+      {
+        "name": "Jalgaon Jamod",
+        "schedule": ["08:45"],
+        "bus_count": 1
+      }
+    ],
+    "k": [
+      {
+        "name": "Kanholibara",
+        "schedule": ["06:10", "08:20", "09:10", "11:30", "13:55", "19:10"],
+        "bus_count": 6
+      },
+      {
+        "name": "Kanholibara Dhoki",
+        "schedule": ["08:20", "15:10"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kanholibara Dhokarda",
+        "schedule": ["09:10", "11:10"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kanholibara Marg Wardha",
+        "schedule": ["10:00", "16:40"],
+        "bus_count": 2
+      },
+      {
+        "name": "Karanja Lad",
+        "schedule": ["16:20"],
+        "bus_count": 1
+      },
+      {
+        "name": "Katol",
+        "schedule": ["06:10", "06:55", "07:10", "07:40", "08:05", "08:45", "09:10", "10:25", "11:10", "11:30", "12:05", "12:10", "12:25", "12:30", "13:15", "14:20", "15:30", "15:40", "17:00", "18:55", "19:30", "19:40", "20:40", "20:45", "22:05"],
+        "bus_count": 25
+      },
+      {
+        "name": "Kavadas Adengaon",
+        "schedule": ["08:55", "15:40"],
+        "bus_count": 2
+      },
+      {
+        "name": "Kavadas Wardha",
+        "schedule": ["07:25", "09:10", "13:10", "17:30"],
+        "bus_count": 4
+      },
+      {
+        "name": "Kondhali",
+        "schedule": ["06:20", "07:10", "08:10", "10:30", "11:00", "11:40", "12:00", "13:25", "14:00", "14:45", "16:30", "17:10", "18:30"],
+        "bus_count": 13
+      }
+    ],
+    "l": [
+      {
+        "name": "Lodha",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Lohari Sawangi",
+        "schedule": ["17:40"],
+        "bus_count": 1
+      },
+      {
+        "name": "Lonar",
+        "schedule": ["10:20"],
+        "bus_count": 1
+      },
+      {
+        "name": "Loni",
+        "schedule": ["17:40"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mehkar (Selu)",
+        "schedule": ["07:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Morshi",
+        "schedule": ["06:10", "06:30", "07:40", "08:25", "08:45", "10:40", "11:25", "11:40", "14:40", "16:40", "17:20"],
+        "bus_count": 11
+      },
+      {
+        "name": "Morshi via Amravati",
+        "schedule": ["07:50", "13:10"],
+        "bus_count": 2
+      },
+      {
+        "name": "Mowad",
+        "schedule": ["18:00"],
+        "bus_count": 1
+      }
+    ],
+    "n": [
+      {
+        "name": "Narkhed",
+        "schedule": ["07:55", "09:00", "14:10", "16:40"],
+        "bus_count": 4
+      }
+    ],
+    "p": [
+      {
+        "name": "Pandhurna",
+        "schedule": ["07:25", "08:55"],
+        "bus_count": 2
+      },
+      {
+        "name": "Paratwada",
+        "schedule": ["05:55", "08:20", "08:40", "09:20", "09:45", "11:10", "11:50", "14:20", "15:10", "15:20", "17:10", "17:40"],
+        "bus_count": 12
+      },
+      {
+        "name": "Parshiwani",
+        "schedule": ["05:55", "07:20", "08:10", "09:10", "10:10", "11:10", "11:30", "12:10", "15:25", "17:10", "19:30"],
+        "bus_count": 11
+      }
+    ],
+    "r": [
+      {
+        "name": "Ramtek",
+        "schedule": ["06:10", "06:25", "06:40", "06:55", "07:10", "07:30", "07:50", "08:10", "08:20", "09:05", "09:30", "10:15", "10:25", "10:40", "10:55", "11:00", "11:10", "11:20", "11:45", "12:10", "12:45", "13:30", "13:55", "14:10", "14:30", "14:40", "14:50", "15:00", "15:15", "16:10", "17:30", "18:00", "18:30", "18:40", "19:00", "19:45", "20:00", "20:30", "20:40", "21:30"],
+        "bus_count": 40
+      },
+      {
+        "name": "Risod",
+        "schedule": ["08:05"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Salaidhaba",
+        "schedule": ["11:40"],
+        "bus_count": 1
+      },
+      {
+        "name": "Sayner",
+        "schedule": ["06:30", "07:30", "07:40", "08:20", "08:40", "09:00", "09:30", "10:30", "10:40", "12:00", "12:30", "13:25", "13:30", "14:25", "15:00", "15:10", "15:45", "16:15", "16:25", "17:25", "18:45", "19:15", "20:40", "21:25"],
+        "bus_count": 24
+      },
+      {
+        "name": "Shegaon",
+        "schedule": ["06:30", "09:10", "10:25", "11:10", "11:30", "13:10", "14:25"],
+        "bus_count": 7
+      },
+      {
+        "name": "Shegaon via Daryapur, Akot",
+        "schedule": ["13:10"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shindi Vihiri",
+        "schedule": ["17:30"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shiva Adengaon",
+        "schedule": ["06:40", "09:10", "10:40", "11:00", "12:00", "14:30", "16:05"],
+        "bus_count": 7
+      }
+    ],
+    "t": [
+      {
+        "name": "Telhara",
+        "schedule": ["13:40", "13:55"],
+        "bus_count": 2
+      }
+    ],
+    "w": [
+      {
+        "name": "Warud",
+        "schedule": ["07:10", "09:00", "09:30", "09:40", "10:25", "11:30", "11:40", "13:10", "13:30", "14:00", "14:10", "14:40", "15:40", "17:30", "18:40", "20:15"],
+        "bus_count": 16
+      },
+      {
+        "name": "Washim",
+        "schedule": ["09:00", "12:30", "13:30", "15:30"],
+        "bus_count": 4
+      }
+    ]
+  },
+  "content": {
+    "about": "<p><strong>नागपूर इमामवाडा बस स्थानक</strong> हे नागपूर शहरातील अत्यंत महत्त्वाचे MSRTC बस स्थानक आहे. महाराष्ट्र राज्य मार्ग परिवहन महामंडळ (MSRTC) द्वारे चालवले जाणारे हे बस स्थानक विदर्भातील अनेक जिल्हे, तालुके आणि ग्रामीण भागांना जोडणारे एक प्रमुख सार्वजनिक वाहतूक केंद्र आहे. नागपूर शहराच्या मध्यवर्ती भागाजवळ असल्यामुळे दररोज हजारो प्रवासी येथून प्रवास करतात.</p><p>इमामवाडा बस स्थानकावरून <strong>अमरावती</strong> या महत्त्वाच्या शहरासाठी दिवसभरात मोठ्या प्रमाणात बस सेवा उपलब्ध आहेत. अमरावती मार्गावर सकाळी 6.45 वाजता पहिली बस सुटते. त्यानंतर 7.20, 7.25, 7.40, 7.55, 8.25, 9.10, 9.30, 9.45, 10.10, 10.15, 10.25, 10.30, 11.10, 11.20, 13.00, 14.10, 14.30, 15.10, 15.15, 16.30, 16.45, 17.00, 17.10, 17.30, 17.40, 18.15, 18.20, 18.30, 19.30 आणि 20.15 या वेळांना नियमित MSRTC बस उपलब्ध असतात.</p><p>नागपूर इमामवाडा बस स्थानकावरून <strong>अकोला</strong> शहरासाठी देखील नियमित बस सेवा आहे. अकोलासाठी सकाळी 6.45 वाजता बस सुटते आणि त्यानंतर 9.50, 11.50, 12.00, 12.30, 13.45, 14.10, 15.10 आणि 17.10 या वेळांना बस सेवा उपलब्ध आहे.</p><p>तसेच <strong>अकोट</strong> शहरासाठी 7.30, 8.00, 8.45, 12.10, 12.30, 13.40, 14.20, 14.25 आणि 14.45 या वेळांना बस सुटतात. त्यामुळे नागपूर आणि अकोट दरम्यान नियमित प्रवास करणे सोपे होते.</p><p>इमामवाडा बस स्थानकावरून <strong>परतवाडा</strong> मार्गावर देखील मोठ्या प्रमाणात बस सेवा उपलब्ध आहे. या मार्गावर 5.55, 8.20, 8.40, 9.20, 9.45, 11.10, 11.50, 14.20, 15.10, 15.20, 17.10 आणि 17.40 या वेळांना बस सेवा उपलब्ध आहे.</p><p>तसेच <strong>बुलढाणा</strong>, <strong>दर्यापूर</strong>, <strong>तेल्हारा</strong>, <strong>कारंजा लाड</strong>, <strong>अंजनगाव सुर्जी</strong> आणि इतर शहरांसाठी देखील येथेून बस सेवा चालतात. त्यामुळे विदर्भातील अनेक जिल्हे आणि ग्रामीण भाग नागपूरशी थेट जोडलेले आहेत.</p><p>नागपूर इमामवाडा बस स्थानकावरून <strong>रामटेक</strong> या महत्त्वाच्या धार्मिक आणि पर्यटन स्थळासाठी मोठ्या प्रमाणात बस सेवा उपलब्ध आहे. या मार्गावर सकाळी 6.10 पासून रात्री 21.30 पर्यंत अनेक वेळा बस सेवा चालते. त्यामुळे रामटेक येथे जाणाऱ्या भाविकांना आणि पर्यटकांना प्रवास करणे सोयीचे होते.</p><p>तसेच <strong>काटोल</strong>, <strong>वरुड</strong>, <strong>मोर्शी</strong>, <strong>नरखेड</strong>, <strong>पांढुर्णा</strong> आणि इतर ग्रामीण भागांसाठी देखील इमामवाडा बस स्थानकावरून नियमित बस सेवा आहे. या बस सेवेमुळे ग्रामीण भागातील नागरिकांना नागपूर शहराशी सहज संपर्क साधता येतो.</p><p>इमामवाडा बस स्थानकावर प्रवाशांसाठी अनेक सुविधा उपलब्ध आहेत. येथे <strong>MSRTC तिकीट बुकिंग काउंटर</strong> आहेत जिथे प्रवासी विविध मार्गांसाठी तिकीट खरेदी करू शकतात. तसेच बस स्थानकात प्रवाशांसाठी बसण्याची सोय असलेले प्रतीक्षा कक्ष उपलब्ध आहेत.</p><p>बस स्थानक परिसरात <strong>बस टाइमटेबल बोर्ड</strong> लावलेले असतात ज्यावर सर्व मार्गांच्या बस वेळा स्पष्टपणे दर्शविलेल्या असतात. त्यामुळे प्रवाशांना त्यांचा प्रवास नियोजनबद्ध पद्धतीने करता येतो.</p><p>एकंदरीत पाहता <strong>नागपूर इमामवाडा बस स्थानक</strong> हे विदर्भातील अत्यंत महत्त्वाचे MSRTC वाहतूक केंद्र आहे. अमरावती, अकोला, अकोट, परतवाडा, बुलढाणा, रामटेक, काटोल, वरुड, मोर्शी आणि इतर अनेक शहरांना जोडणारी बस सेवा येथेून उपलब्ध असल्यामुळे दररोज हजारो प्रवासी सुरक्षित आणि सोयीस्कर प्रवास करतात.</p>",
+    "faqs": [
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून अमरावतीसाठी सकाळी पहिली MSRTC बस नेमकी किती वाजता सुटते आणि त्यानंतर सकाळच्या वेळेत आणखी कोणत्या वेळांना बस सेवा उपलब्ध आहे?",
+        "answer": "नागपूर इमामवाडा बसस्थानकावरून अमरावतीसाठी पहिली बस सकाळी 6.45 वाजता सुटते. त्यानंतर 7.20, 7.25, 7.40, 7.55 आणि 8.25 या वेळांना देखील नियमित MSRTC बस सेवा उपलब्ध असते."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून अमरावती मार्गावर दिवसभरात कोणत्या वेळांना MSRTC बस सुटतात आणि प्रवाशांना किती वेळा बस सेवा मिळते?",
+        "answer": "अमरावती मार्गावर दिवसभरात अनेक बस सेवा उपलब्ध आहेत. सकाळपासून रात्रीपर्यंत 6.45 ते 20.15 दरम्यान विविध वेळांना बस सुटतात."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून अकोला शहरासाठी पहिली बस किती वाजता सुटते आणि दिवसभरात अकोलासाठी आणखी कोणत्या बस उपलब्ध आहेत?",
+        "answer": "अकोलासाठी पहिली बस सकाळी 6.45 वाजता सुटते. त्यानंतर 9.50, 11.50, 12.00, 12.30, 13.45, 14.10, 15.10 आणि 17.10 या वेळांना बस सेवा आहे."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून अकोट शहरासाठी सकाळ आणि दुपारच्या वेळेत MSRTC बस कोणत्या वेळांना उपलब्ध आहेत?",
+        "answer": "अकोट मार्गावर सकाळी 7.30, 8.00 आणि 8.45 या वेळांना बस सुटतात. दुपारी 12.10, 12.30, 13.40, 14.20, 14.25 आणि 14.45 या वेळांना बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून परतवाडा शहरासाठी पहिली बस किती वाजता सुटते आणि दिवसभरात आणखी कोणत्या वेळांना बस सेवा उपलब्ध आहे?",
+        "answer": "परतवाड्यासाठी पहिली बस सकाळी 5.55 वाजता सुटते. त्यानंतर 8.20, 8.40, 9.20, 9.45, 11.10, 11.50, 14.20, 15.10, 15.20, 17.10 आणि 17.40 या वेळांना बस उपलब्ध आहेत."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून रामटेक शहरासाठी पहिली MSRTC बस किती वाजता सुटते आणि दिवसभरात किती वेळा बस सेवा उपलब्ध आहे?",
+        "answer": "रामटेकसाठी पहिली बस सकाळी 6.10 वाजता सुटते. त्यानंतर दिवसभरात अनेक वेळा बस सुटतात आणि रात्री 21.30 पर्यंत सेवा उपलब्ध असते."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून काटोल शहरासाठी MSRTC बस कोणत्या वेळांना सुटतात आणि प्रवाशांना दिवसभरात किती वेळा प्रवास करता येतो?",
+        "answer": "काटोल मार्गावर 6.10 पासून रात्री 22.05 पर्यंत अनेक बस सेवा उपलब्ध आहेत. त्यामुळे प्रवाशांना दिवसभरात अनेक वेळा प्रवास करता येतो."
+      },
+      {
+        "question": "नागपूर इमामवाडा बसस्थानकावरून वरुड शहरासाठी पहिली बस किती वाजता सुटते आणि आणखी कोणत्या वेळांना बस सेवा उपलब्ध आहे?",
+        "answer": "वरुडसाठी पहिली बस सकाळी 7.10 वाजता सुटते. त्यानंतर 9.00, 9.30, 9.40, 10.25, 11.30, 11.40, 13.10, 13.30, 14.00, 14.10, 14.40, 15.40, 17.30, 18.40 आणि 20.15 या वेळांना बस सेवा उपलब्ध आहे."
+      }
+    ],
+    "seo_content": {
+      "title": "Nagpur Imamwada Bus Stand Timetable 2026 | MSRTC Bus Timings",
+      "content": "<p><strong>Nagpur Imamwada Bus Stand Timetable 2026</strong> provides complete information about MSRTC bus timings connecting Nagpur with major cities and rural areas across the Vidarbha region. Imamwada bus stand is one of the busiest MSRTC depots in Nagpur where thousands of passengers travel daily.</p><p>The most frequent route from the bus stand is the <strong>Nagpur to Amravati bus service</strong>. The first bus usually departs at <strong>6.45 AM</strong>. After that several buses run throughout the day at 7.20, 7.25, 7.40, 7.55, 8.25, 9.10, 9.30, 9.45, 10.10, 10.15, 10.25, 10.30, 11.10, 11.20 and later in the afternoon and evening.</p><p>Passengers can also travel to <strong>Akola, Akot and Paratwada</strong> from Imamwada bus stand. Regular buses operate on these routes allowing commuters to reach important cities for work, education and business.</p><ul><li><strong>Akola Bus Timings:</strong> 6.45 AM, 9.50 AM, 11.50 AM, 12.00 PM and evening buses</li><li><strong>Akot Bus Timings:</strong> 7.30 AM, 8.00 AM, 8.45 AM and several afternoon buses</li><li><strong>Paratwada Bus Timings:</strong> First bus at 5.55 AM followed by frequent services</li><li><strong>Ramtek Bus Timings:</strong> Frequent buses from 6.10 AM to 9.30 PM</li></ul><p>Other important routes from Imamwada bus stand include <strong>Katol, Warud, Morshi, Narkhed and Pandhurna</strong>. These routes help connect rural areas with Nagpur city.</p><p>Passengers visiting the bus stand can check the <strong>MSRTC bus timetable board</strong> installed at the station or inquire at the ticket booking counters. Regular bus schedules make travel convenient for daily commuters, students and tourists visiting nearby destinations.</p>"
+    }
+  },
+  "seo": {
+    "title": "Nagpur Imamwada Bus Stand Timetable 2026 | MSRTC Bus Timings",
+    "description": "Check Nagpur Imamwada Bus Stand timetable 2026 with MSRTC bus timings for Amravati, Bhandara, Chandrapur, Gondia and Wardha.",
+    "keywords": "Nagpur Imamwada bus stand, Imamwada MSRTC timetable, Nagpur ST bus timings, Imamwada bus depot Nagpur"
+  }
+}

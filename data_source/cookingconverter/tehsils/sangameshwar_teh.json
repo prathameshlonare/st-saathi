@@ -1,0 +1,8 @@
+{
+  "id": "sangameshwar_teh",
+  "name": "Sangameshwar Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "ratnagiri_dist",
+  "depots": ["sangameshwar_teh_depot"]
+}

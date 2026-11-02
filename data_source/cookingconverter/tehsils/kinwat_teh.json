@@ -1,0 +1,8 @@
+{
+  "id": "kinwat_teh",
+  "name": "Kinwat Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "nanded_dist",
+  "depots": ["kinwat_teh_depot"]
+}

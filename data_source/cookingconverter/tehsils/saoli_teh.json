@@ -1,0 +1,8 @@
+{
+  "id": "saoli_teh",
+  "name": "Saoli Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["saoli_teh_depot"]
+}

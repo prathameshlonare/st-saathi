@@ -1,0 +1,8 @@
+{
+  "id": "sindkheda_teh",
+  "name": "Sindkheda Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "dhule_dist",
+  "depots": ["sindkheda_teh_depot"]
+}

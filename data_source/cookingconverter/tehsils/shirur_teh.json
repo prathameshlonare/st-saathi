@@ -1,0 +1,8 @@
+{
+  "id": "shirur_teh",
+  "name": "Shirur Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["shirur_teh_depot"]
+}

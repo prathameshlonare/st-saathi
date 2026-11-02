@@ -1,0 +1,8 @@
+{
+  "id": "mohol_teh",
+  "name": "Mohol Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "solapur_dist",
+  "depots": ["mohol_teh_depot"]
+}

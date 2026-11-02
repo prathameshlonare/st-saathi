@@ -1,0 +1,8 @@
+{
+  "id": "daund_teh",
+  "name": "Daund Tehsil",
+  "alphabet": "D",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["daund_teh_depot"]
+}

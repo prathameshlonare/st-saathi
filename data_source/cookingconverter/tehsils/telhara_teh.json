@@ -1,0 +1,8 @@
+{
+  "id": "telhara_teh",
+  "name": "Telhara Tehsil",
+  "alphabet": "T",
+  "type": "tehsil",
+  "district_id": "akola_dist",
+  "depots": ["telhara_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "udgir_teh",
+  "name": "Udgir Tehsil",
+  "alphabet": "U",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["udgir_teh_depot"]
+}

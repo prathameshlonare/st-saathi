@@ -1,0 +1,156 @@
+{
+  "id": "pandharkawda_bus_stand_depot",
+  "name": "Pandharkawda Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "pandharkawada_teh",
+  "address": "Pandharkawda Bus Stand, Pandharkawda, Yavatmal District",
+  "contact": "",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      {
+        "name": "Adilabad (Telangana Buses)",
+        "schedule": ["06:15", "06:45", "07:15", "07:45", "08:15", "08:45", "09:15", "09:45", "10:15", "10:45", "11:15", "11:45", "12:15", "12:45", "13:15", "13:45", "14:15", "14:45", "15:15", "15:45", "16:15", "16:45", "17:15", "17:45", "18:15", "18:45", "19:15", "19:45", "20:15", "20:30"],
+        "bus_count": 30
+      },
+      {
+        "name": "Akola (via Parva)",
+        "schedule": ["08:15", "08:45", "11:30", "16:30"],
+        "bus_count": 4
+      },
+      {
+        "name": "Amravati, Yavatmal",
+        "schedule": ["06:00", "08:00"],
+        "bus_count": 2
+      },
+      {
+        "name": "Arni",
+        "schedule": ["07:00", "11:30", "17:15"],
+        "bus_count": 3
+      }
+    ],
+    "c": [
+      {
+        "name": "Chandrapur",
+        "schedule": ["08:15"],
+        "bus_count": 1
+      }
+    ],
+    "g": [
+      {
+        "name": "Ghatanji (via Titvi)",
+        "schedule": ["07:30", "08:30", "10:00", "12:30", "13:00", "13:30", "14:00", "15:00", "16:15", "17:15", "19:10", "19:30"],
+        "bus_count": 12
+      }
+    ],
+    "h": [
+      {
+        "name": "Hyderabad (R.P. Maharashtra)",
+        "schedule": ["09:30", "22:30"],
+        "bus_count": 2
+      }
+    ],
+    "i": [
+      {
+        "name": "Interstate (R.P. Maharashtra)",
+        "schedule": ["07:30", "09:00", "09:30", "10:30", "12:00", "13:30", "15:00"],
+        "bus_count": 7
+      }
+    ],
+    "k": [
+      {
+        "name": "Kinwat",
+        "schedule": ["16:30"],
+        "bus_count": 1
+      }
+    ],
+    "m": [
+      {
+        "name": "Mukutban",
+        "schedule": ["19:30"],
+        "bus_count": 1
+      }
+    ],
+    "n": [
+      {
+        "name": "Nagpur",
+        "schedule": ["06:00", "07:00", "08:15", "08:45", "09:15", "10:00", "12:30", "14:00", "14:30", "16:00", "17:00", "18:00", "02:30"],
+        "bus_count": 13
+      },
+      {
+        "name": "Nanded (via Arni)",
+        "schedule": ["13:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Nanded (via Parva)",
+        "schedule": ["14:00"],
+        "bus_count": 1
+      }
+    ],
+    "r": [
+      {
+        "name": "Rajura",
+        "schedule": ["14:15"],
+        "bus_count": 1
+      }
+    ],
+    "s": [
+      {
+        "name": "Saoner",
+        "schedule": ["07:00"],
+        "bus_count": 1
+      },
+      {
+        "name": "Shuttle Service (Yavatmal)",
+        "schedule": ["08:00", "08:30", "09:00", "09:30", "10:30", "11:00", "12:15", "13:00", "13:30", "13:45", "14:30", "15:00", "15:15", "15:30", "16:00", "17:00", "17:30", "18:00", "18:00", "19:00", "19:30", "20:30"],
+        "bus_count": 22
+      }
+    ],
+    "u": [
+      {
+        "name": "Umred",
+        "schedule": ["08:15", "08:45"],
+        "bus_count": 2
+      }
+    ],
+    "v": [
+      {
+        "name": "Wani",
+        "schedule": ["08:15", "10:15", "12:15", "14:15", "14:45", "18:15"],
+        "bus_count": 6
+      }
+    ],
+    "z": [
+      {
+        "name": "Zhari",
+        "schedule": ["07:45", "10:30", "13:30", "16:30", "19:30"],
+        "bus_count": 5
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>पांढरकवडा बस स्थानक (Pandharkawda Bus Stand) हे यवतमाळ जिल्ह्यातील एक अत्यंत महत्त्वाचे MSRTC (महाराष्ट्र राज्य मार्ग परिवहन महामंडळ) चे बस स्थानक असून विदर्भ आणि तेलंगणा सीमेवरील प्रवासासाठी एक प्रमुख वाहतूक केंद्र म्हणून ओळखले जाते. Pandharkawda is strategically located near the Maharashtra–Telangana border, making it a crucial transit point for passengers traveling between Yavatmal, Chandrapur, Nagpur, Adilabad and Hyderabad. दररोज सकाळी लवकर 5 वाजल्यापासून रात्री उशिरा 11 वाजेपर्यंत या बस स्थानकावरून बस सेवा सुरू असते आणि शासकीय कर्मचारी, विद्यार्थी, व्यापारी, शेतकरी, मजूर तसेच लांब पल्ल्याचे प्रवासी मोठ्या संख्येने या स्थानकाचा वापर करतात. पांढरकवडा ते यवतमाळ, वणी, केळापूर आणि आसपासच्या तालुक्यांसाठी नियमित बस सेवा उपलब्ध असल्यामुळे दैनंदिन प्रवासासाठी हे स्थानक अत्यंत महत्त्वाचे ठरते. Pandharkawda Bus Stand is widely known for its strong connectivity towards Telangana, especially Adilabad and Hyderabad routes, which are heavily used by business travelers, migrant workers and long-distance passengers. यवतमाळसाठी सकाळी पहिली बस साधारणपणे 5:30 ते 6 वाजेदरम्यान सुटते तर रात्री शेवटची बस 9 ते 10 वाजेपर्यंत उपलब्ध असते, त्यामुळे प्रवाशांना दिवसभर लवचिक प्रवास नियोजन करता येते. नागपूर मार्गावरील बसेस प्रामुख्याने सकाळी लवकर आणि संध्याकाळी उपलब्ध असून हा मार्ग शिक्षण, नोकरी आणि वैद्यकीय कारणांसाठी अत्यंत महत्त्वाचा आहे. Pandharkawda to Chandrapur bus services connect passengers to major industrial and administrative hubs, with multiple daily trips ensuring reliable connectivity. आदिलाबादसाठी थेट बस सेवा उपलब्ध असून या बसेस बहुतेक वेळा सकाळी लवकर सुटतात जेणेकरून प्रवासी दुपारपर्यंत गंतव्यस्थानी पोहोचू शकतील. Hyderabad route buses are generally long-distance services that depart in the evening or night, making overnight travel convenient for passengers heading to Telangana’s capital city. पांढरकवडा बस स्थानक ग्रामीण भागातील प्रवाशांसाठी एक मुख्य ट्रान्झिट पॉइंट असल्यामुळे आसपासच्या गावांमधून येणारे प्रवासी येथे उतरून पुढील प्रवासासाठी जोड बसेस पकडतात. बस स्थानक परिसर स्वच्छ, सुव्यवस्थित आणि प्रवाशांसाठी सुरक्षित असून तिकीट खिडक्या, प्रतीक्षा कक्ष, बस थांबे, वेळापत्रक फलक आणि प्राथमिक सुविधा उपलब्ध आहेत. Pandharkawda Bus Stand plays a vital role in supporting the regional economy by enabling smooth movement of agricultural produce, forest-based goods, small traders and daily wage workers to nearby markets and cities. सणासुदीच्या काळात, विशेषतः दिवाळी, दसरा आणि उन्हाळी सुट्ट्यांमध्ये प्रवाशांची संख्या मोठ्या प्रमाणात वाढते आणि त्या काळात अतिरिक्त बस फेऱ्या लावल्या जातात. महाराष्ट्र आणि तेलंगणा दरम्यान प्रवास करणाऱ्या प्रवाशांसाठी हे बस स्थानक एक विश्वासार्ह आणि किफायतशीर पर्याय मानले जाते. Pandharkawda Bus Stand continues to serve as a dependable MSRTC transport hub, balancing rural accessibility with long-distance interstate connectivity, and facilitating affordable, timely and well-connected bus services for thousands of passengers every day.</p>",
+    "faqs": [
+      { "question": "पांढरकवडा ते यवतमाळ पहिली बस किती वाजता सुटते?", "answer": "पांढरकवडा बस स्थानकातून यवतमाळसाठी पहिली ST बस साधारणपणे सकाळी 5:30 ते 6 वाजेदरम्यान सुटते." },
+      { "question": "यवतमाळसाठी शेवटची बस किती वाजेपर्यंत उपलब्ध असते?", "answer": "यवतमाळ मार्गावरील शेवटची बस साधारणपणे रात्री 9 ते 10 वाजेपर्यंत उपलब्ध असते." },
+      { "question": "पांढरकवडा ते नागपूर थेट बस आहे का?", "answer": "होय, पांढरकवडा बस स्थानकातून नागपूरसाठी थेट तसेच कनेक्टिंग MSRTC बस सेवा उपलब्ध आहे." },
+      { "question": "नागपूरसाठी सकाळची पहिली बस कधी मिळते?", "answer": "नागपूर मार्गावरील पहिली बस सामान्यतः सकाळी 6 ते 7 दरम्यान सुटते." },
+      { "question": "पांढरकवडा ते चंद्रपूर बस सेवा किती वेळाने असते?", "answer": "चंद्रपूरसाठी दिवसभरात अनेक बस फेऱ्या उपलब्ध असून प्रवाशांना नियमित कनेक्टिव्हिटी मिळते." },
+      { "question": "आदिलाबादसाठी पांढरकवडावरून थेट बस मिळते का?", "answer": "होय, आदिलाबादसाठी थेट बस सेवा उपलब्ध असून बहुतेक बसेस सकाळी लवकर सुटतात." },
+      { "question": "हैदराबादसाठी बस कोणत्या वेळेत असते?", "answer": "हैदराबादसाठी बसेस प्रामुख्याने संध्याकाळी किंवा रात्री सुटतात, ज्यामुळे रात्रीचा प्रवास सोयीचा ठरतो." },
+      { "question": "पांढरकवडा ते हैदराबाद प्रवास किती वेळाचा असतो?", "answer": "पांढरकवडा ते हैदराबाद प्रवास साधारणपणे 9 ते 12 तासांचा असतो, मार्ग व थांब्यांवर अवलंबून." },
+      { "question": "लांब पल्ल्याच्या बससाठी आगाऊ तिकीट बुकिंग गरजेचे आहे का?", "answer": "सणासुदीच्या काळात आणि लांब पल्ल्याच्या प्रवासासाठी आगाऊ तिकीट बुकिंग करणे फायदेशीर ठरते." },
+      { "question": "पांढरकवडा बस स्थानक तेलंगणा प्रवासासाठी का महत्त्वाचे आहे?", "answer": "तेलंगणा सीमेवर असल्यामुळे पांढरकवडा हे आदिलाबाद आणि हैदराबाद मार्गावरील प्रमुख जंक्शन मानले जाते." }
+    ],
+    "seo_content": {
+      "title": "Pandharkawda Bus Stand Timetable 2026 | MSRTC Going Buses",
+      "content": "<p>Pandharkawda Bus Stand provides updated MSRTC bus timetable for Yavatmal, Nagpur, Chandrapur, Adilabad, Hyderabad and nearby villages, helping passengers plan short and long-distance travel efficiently.</p>"
+    }
+  },
+  "seo": {
+    "title": "Pandharkawda Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check Pandharkawda Bus Stand going buses timetable including Nagpur, Yavatmal, Chandrapur, Adilabad, Hyderabad and interstate routes.",
+    "keywords": "Pandharkawda bus stand, Pandharkawda MSRTC timetable, Pandharkawda going buses"
+  }
+}

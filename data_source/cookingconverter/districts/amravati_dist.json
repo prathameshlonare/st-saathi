@@ -1,0 +1,8 @@
+{
+  "id": "amravati_dist",
+  "name": "Amravati District",
+  "alphabet": "A",
+  "type": "district",
+  "division_id": "amravati_div",
+  "tehsils": ["amravati_teh", "badnera_teh", "kurha_teh", "bhatkuli_teh","nandgaon_khandeshwar_teh","daryapur_teh","anjangaon_surji_teh","chandur_railway_teh","chandur_bazar_teh","dhamangaon_railway_teh","morshi_teh","warud_teh", "paratwada_teh"]
+}

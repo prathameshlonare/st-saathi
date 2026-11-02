@@ -1,0 +1,8 @@
+{
+  "id": "satara_dist",
+  "name": "Satara District",
+  "alphabet": "S",
+  "type": "district",
+  "division_id": "pune_div",
+  "tehsils": ["satara_teh","karad_teh","wai_teh","khandala_teh","phaltan_teh","man_teh","khatav_teh","patan_teh","jaoli_teh","mahabaleshwar_teh"]
+}

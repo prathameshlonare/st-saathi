@@ -1,0 +1,8 @@
+{
+  "id": "sakri_teh",
+  "name": "Sakri Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "dhule_dist",
+  "depots": ["sakri_teh_depot"]
+}

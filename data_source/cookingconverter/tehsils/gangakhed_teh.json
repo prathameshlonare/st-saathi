@@ -1,0 +1,8 @@
+{
+  "id": "gangakhed_teh",
+  "name": "Gangakhed Tehsil",
+  "alphabet": "G",
+  "type": "tehsil",
+  "district_id": "parbhani_dist",
+  "depots": ["gangakhed_teh_depot"]
+}

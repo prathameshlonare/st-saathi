@@ -1,0 +1,8 @@
+{
+  "id": "hinganghat_teh",
+  "name": "Hinganghat Tehsil",
+  "alphabet": "H",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["hinganghat_teh_depot"]
+}

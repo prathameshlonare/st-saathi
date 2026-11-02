@@ -1,0 +1,8 @@
+{
+  "id": "shirur_anantpal_teh",
+  "name": "Shirur Anantpal Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "latur_dist",
+  "depots": ["shirur_anantpal_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "kalamnuri_teh",
+  "name": "Kalamnuri Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "hingoli_dist",
+  "depots": ["kalamnuri_teh_depot"]
+}

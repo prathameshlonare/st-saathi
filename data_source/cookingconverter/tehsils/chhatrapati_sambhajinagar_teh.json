@@ -1,0 +1,8 @@
+{
+  "id": "chhatrapati_sambhajinagar_teh",
+  "name": "Chhatrapati Sambhajinagar Tehsil",
+  "alphabet": "C",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["chhatrapati_sambhajinagar_teh_depot"]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "wani_bus_stand_depot",
+  "name": "Wani Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "wani_teh",
+  "address": "Wani Bus Stand, Wani, Yavatmal District - 445304",
+  "contact": "07239-234567",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      { "name": "Adilabad", "schedule": ["06:00", "07:15", "13:00", "17:00"], "bus_count": 4 },
+      { "name": "Aheri", "schedule": ["08:30"], "bus_count": 1 },
+      { "name": "Akola", "schedule": ["06:30", "13:00", "14:00"], "bus_count": 3 },
+      { "name": "Ambejogai", "schedule": ["06:15", "20:45"], "bus_count": 2 },
+      { "name": "Amravati", "schedule": ["05:45", "07:40", "08:00", "09:45", "17:45"], "bus_count": 5 }
+    ],
+    "b": [
+      { "name": "Bordharan (Virkund)", "schedule": ["06:15", "09:00", "12:00", "17:00"], "bus_count": 4 },
+      { "name": "Bothli", "schedule": ["14:30", "19:30"], "bus_count": 2 },
+      { "name": "Bramhapuri", "schedule": ["12:30"], "bus_count": 1 }
+    ],
+    "c": [
+      { "name": "Chandrapur (via Ghugus)", "schedule": ["08:45", "09:45", "10:45", "11:45", "12:55", "13:15", "15:15", "16:15", "17:15", "18:45", "19:45", "20:45"], "bus_count": 12 },
+      { "name": "Chandrapur (via Warora)", "schedule": ["04:45", "05:45", "08:30", "08:50", "09:00", "09:30", "09:35", "10:15", "12:00", "13:00", "15:00", "16:45", "17:45"], "bus_count": 13 },
+      { "name": "Chimur", "schedule": ["20:00"], "bus_count": 1 }
+    ],
+    "d": [
+      { "name": "Darwha", "schedule": ["07:30"], "bus_count": 1 }
+    ],
+    "g": [
+      { "name": "Gadchiroli", "schedule": ["11:15", "14:15", "14:45", "15:30"], "bus_count": 4 },
+      { "name": "Ghatanji", "schedule": ["10:45", "11:45"], "bus_count": 2 },
+      { "name": "Ghugus", "schedule": ["05:30", "08:00", "10:00", "12:30", "15:30", "18:00"], "bus_count": 6 },
+      { "name": "Gondpipari", "schedule": ["06:00", "12:00", "17:15"], "bus_count": 3 }
+    ],
+    "h": [
+      { "name": "Hinganghat", "schedule": ["11:30"], "bus_count": 1 }
+    ],
+    "k": [
+      { "name": "Katol", "schedule": ["16:00"], "bus_count": 1 },
+      { "name": "Korpana", "schedule": ["07:00", "09:45", "11:45", "12:30", "13:00"], "bus_count": 5 }
+    ],
+    "m": [
+      { "name": "Manjri", "schedule": ["08:00", "11:15"], "bus_count": 2 },
+      { "name": "Mukutban", "schedule": ["08:30", "10:00", "12:30", "13:30", "14:00", "16:15"], "bus_count": 6 }
+    ],
+    "n": [
+      { "name": "Nagpur", "schedule": ["06:00", "07:00", "09:30", "11:30", "13:00", "14:00", "17:00"], "bus_count": 7 },
+      { "name": "Nanded", "schedule": ["10:40", "12:00"], "bus_count": 2 }
+    ],
+    "p": [
+      { "name": "Pandharkawada", "schedule": ["08:30", "13:00", "16:30"], "bus_count": 3 },
+      { "name": "Parbhani", "schedule": ["07:30"], "bus_count": 1 },
+      { "name": "Patan (Mukutban)", "schedule": ["18:30"], "bus_count": 1 },
+      { "name": "Pulgaon", "schedule": ["12:30"], "bus_count": 1 },
+      { "name": "Pusad", "schedule": ["12:30"], "bus_count": 1 }
+    ],
+    "r": [
+      { "name": "Rajura", "schedule": ["06:00", "12:45", "13:15", "15:15", "15:30", "17:30"], "bus_count": 6 },
+      { "name": "Ralegaon (via Kumbha)", "schedule": ["08:30", "08:30", "13:30", "15:30"], "bus_count": 4 },
+      { "name": "Ralegaon (via Nandepara)", "schedule": ["06:30", "10:00", "11:15", "15:45", "17:00"], "bus_count": 5 },
+      { "name": "Risod", "schedule": ["08:30"], "bus_count": 1 }
+    ],
+    "s": [
+      { "name": "Shegaon", "schedule": ["07:45", "08:45"], "bus_count": 2 },
+      { "name": "Shindola", "schedule": ["09:00", "11:30", "11:45", "14:15"], "bus_count": 4 },
+      { "name": "Shivni (Dhobe)", "schedule": ["08:00", "16:00"], "bus_count": 2 },
+      { "name": "Sukali (Bezgaon)", "schedule": ["05:30", "11:45"], "bus_count": 2 }
+    ],
+    "u": [
+      { "name": "Umarkhed", "schedule": ["10:40", "12:00"], "bus_count": 2 }
+    ],
+    "v": [
+      { "name": "Vadki", "schedule": ["11:45"], "bus_count": 1 }
+    ],
+    "w": [
+      { "name": "Wardha", "schedule": ["09:15"], "bus_count": 1 },
+      { "name": "Washim", "schedule": ["09:15"], "bus_count": 1 }
+    ],
+    "y": [
+      { "name": "Yavatmal", "schedule": ["05:00", "06:45", "07:00", "07:55", "09:00", "09:30", "10:15", "12:00", "13:00", "14:00", "15:00", "16:45", "17:45", "18:45", "19:45", "20:45"], "bus_count": 16 }
+    ],
+    "z": [
+      { "name": "Zhari", "schedule": ["14:00"], "bus_count": 1 },
+      { "name": "Zhari (Jamni)", "schedule": ["08:30", "10:15", "15:30", "21:00"], "bus_count": 4 },
+      { "name": "Zhari (Mukutban)", "schedule": ["07:30"], "bus_count": 1 }
+    ]
+  },
+  "content": {
+    "about": "<p>वणी बसस्थानक (Wani Bus Stand) हे महाराष्ट्र राज्य मार्ग परिवहन महामंडळ म्हणजेच ST महामंडळ / MSRTC (Maharashtra State Road Transport Corporation) अंतर्गत कार्यरत असलेले यवतमाळ जिल्ह्यातील एक अत्यंत महत्त्वाचे आणि कार्यक्षम वाहतूक केंद्र असून विदर्भातील औद्योगिक, व्यापारी, शैक्षणिक आणि ग्रामीण प्रवासासाठी मुख्य दुवा म्हणून ओळखले जाते. Wani town itself is a major coal mining hub with extensive WCL operations, and because of this industrial importance, daily passenger movement through Wani ST Bus Stand remains consistently high throughout the year. वणी बसस्थानकावरून यवतमाळ, चंद्रपूर, नागपूर, अमरावती, आर्णी, दारव्हा, पुसद, राजुरा, घुग्घुस, बल्लारपूर तसेच तेलंगणातील आदिलाबाद व हैदराबाद दिशेने जाणाऱ्या बस सेवा मोठ्या प्रमाणावर उपलब्ध असल्यामुळे हे बसस्थानक जिल्ह्याच्या दक्षिण-पूर्व भागातील प्रमुख transit hub म्हणून कार्य करते. सकाळी अतिशय लवकर सुरू होणाऱ्या ST बस सेवांमुळे खाण कामगार, औद्योगिक कर्मचारी, शासकीय अधिकारी, शिक्षक, विद्यार्थी, व्यापारी आणि ग्रामीण भागातील शेतकरी यांना वेळेत आणि परवडणाऱ्या दरात प्रवासाची सुविधा मिळते. MSRTC Wani Depot अंतर्गत चालणाऱ्या बसेस या केवळ शहर ते शहर प्रवासापुरत्या मर्यादित नसून आसपासच्या दुर्गम व आदिवासी भागातील गावांना जिल्हा मुख्यालयाशी आणि तालुका केंद्रांशी जोडण्याचे अत्यंत महत्त्वाचे काम करतात. वणी ते यवतमाळ हा मार्ग विशेषतः शैक्षणिक आणि प्रशासकीय दृष्टिकोनातून खूप महत्त्वाचा मानला जातो कारण जिल्हाधिकारी कार्यालय, शासकीय रुग्णालये, महाविद्यालये आणि विविध परीक्षा केंद्रे यवतमाळ येथे असल्यामुळे दररोज शेकडो प्रवासी या मार्गाचा वापर करतात. नागपूर मार्गावरील बस सेवा देखील वणी बसस्थानकाची ओळख ठरते कारण नागपूर हे विदर्भाचे प्रमुख आर्थिक, वैद्यकीय आणि शिक्षण केंद्र असून सकाळी, दुपारी आणि संध्याकाळी नियमित अंतराने नागपूरकडे जाणाऱ्या बसेस उपलब्ध असतात. Chandrapur and Ballarpur routes from Wani Bus Stand are heavily used by industrial workers and daily commuters, especially those associated with thermal power plants, cement industries and coal mines. तेलंगणा राज्याशी लागून असलेल्या भागात वसलेले असल्यामुळे वणी बसस्थानकावरून आदिलाबाद, असिफाबाद आणि हैदराबाद दिशेने जाणाऱ्या बसेस देखील मोठ्या प्रमाणात वापरल्या जातात आणि हे interstate connectivity साठी MSRTC ची भूमिका अधोरेखित करते. ST महामंडळाच्या धोरणानुसार वणी बसस्थानकावरून सुटणाऱ्या बस वेळापत्रकात सकाळी लवकर, दिवसा मध्यम वारंवारता आणि संध्याकाळी व रात्री उशिरा लांब पल्ल्याच्या फेऱ्यांचा समावेश केला जातो जेणेकरून विविध प्रवासी गटांच्या गरजा पूर्ण करता येतील. वणी बसस्थानक परिसरात तिकीट खिडक्या, प्रवासी प्रतीक्षालय, बस थांबे, वेळापत्रक सूचना फलक, पिण्याच्या पाण्याची सोय, स्वच्छतागृहे आणि स्थानिक मार्गदर्शन उपलब्ध असून MSRTC प्रशासनाकडून शिस्तबद्ध आणि सुरक्षित वाहतुकीवर भर दिला जातो. ग्रामीण भागातील प्रवाशांसाठी वणी हे मुख्य दळणवळण केंद्र असल्यामुळे आठवडी बाजार, शेती माल वाहतूक, बँकिंग, आरोग्य सेवा आणि प्रशासकीय कामांसाठी येणाऱ्या नागरिकांची संख्या मोठी असते. English context wise, Wani Bus Stand acts as a regional mobility anchor that links coal belt settlements, agrarian villages and semi-urban towns with district and divisional headquarters through a reliable ST Mahamandal network. The presence of early morning departures helps shift-based mine workers and students reach their destinations on time, while daytime services support trade, healthcare visits and administrative travel. Evening and late-night buses from Wani are particularly important for long-distance routes, enabling overnight journeys to major cities like Nagpur and Hyderabad at affordable fares compared to private transport. Seasonal peaks during festivals such as Diwali, Dasara and summer vacation periods witness increased passenger load, and during such times MSRTC often augments services or adjusts schedules to manage demand. वणी बसस्थानक हे केवळ प्रवासाचे ठिकाण नसून सामाजिक आणि आर्थिक हालचालींचे केंद्र आहे जिथे दररोज विविध पार्श्वभूमीतील लोक एकत्र येतात आणि सार्वजनिक वाहतुकीच्या माध्यमातून आपली जीवनशैली पुढे नेतात. Overall, Wani Bus Stand under ST Mahamandal and MSRTC framework plays a crucial role in strengthening regional connectivity, supporting industrial productivity, enabling educational access and ensuring inclusive mobility for rural, semi-urban and urban populations across Vidarbha and adjoining Telangana regions through an extensive, affordable and dependable public transport system operating throughout the day.</p>\n",
+    "faqs": [
+      {
+        "question": "What is the earliest bus from Wani Bus Stand?",
+        "answer": "The earliest MSRTC buses from Wani Bus Stand usually start around 5:00 AM. Early morning services are available for routes like Yavatmal, Rajura and nearby rural areas."
+      },
+      {
+        "question": "What is the last bus timing from Wani Bus Stand?",
+        "answer": "The last buses from Wani generally depart between 8:45 PM and 9:00 PM, depending on the route. Night services are commonly available for Yavatmal, Nagpur and Chandrapur."
+      },
+      {
+        "question": "Are there direct buses from Wani to Nagpur?",
+        "answer": "Yes, Wani Bus Stand has direct MSRTC buses to Nagpur. These usually run multiple times a day, including morning, afternoon and evening slots."
+      },
+      {
+        "question": "How frequently are buses available from Wani to Yavatmal?",
+        "answer": "Buses from Wani to Yavatmal are very frequent. There are multiple services starting early morning till late evening, making it one of the busiest routes from this depot."
+      },
+      {
+        "question": "Are there long-distance buses from Wani to Nanded or Amravati?",
+        "answer": "Yes, long-distance MSRTC buses to Nanded and Amravati are available from Wani, usually as scheduled services during daytime hours."
+      },
+      {
+        "question": "Does Wani Bus Stand have night bus services?",
+        "answer": "Yes, night bus services are available from Wani for selected routes such as Yavatmal, Nagpur and Chandrapur, depending on the day and demand."
+      },
+      {
+        "question": "Are buses available from Wani to nearby villages?",
+        "answer": "Wani Bus Stand operates regular buses to nearby villages like Shivni, Sukli, Vadki, Zari (Jamni), Korpana and Gondpipari. Some village routes may have limited daily trips."
+      },
+      {
+        "question": "Is Wani Bus Stand suitable for daily office or college commuters?",
+        "answer": "Yes, many early morning and evening buses are timed for daily commuters traveling to Yavatmal, Chandrapur and nearby towns."
+      },
+      {
+        "question": "Do bus timings from Wani change during festivals or peak seasons?",
+        "answer": "During festivals, exams and peak travel seasons, MSRTC may add extra buses or adjust timings based on passenger demand."
+      },
+      {
+        "question": "Where can I check the latest Wani Bus Stand timetable?",
+        "answer": "You can check updated Wani Bus Stand timings on MSRTC-related websites, local depot notice boards, or timetable-based informational platforms."
+      }
+    ],
+
+    "seo_content": {
+      "title": "Wani Bus Stand Timetable 2026 | MSRTC Wani Bus Timings",
+      "content": "<p>Find complete and updated Wani Bus Stand timetable 2026 with MSRTC bus timings for Yavatmal, Nagpur, Chandrapur, Amravati, Nanded and nearby villages. Check earliest bus, last bus and long-route services from Wani.</p>"
+    }
+  },
+  "seo": {
+    "title": "Wani Bus Stand Timetable 2026 | MSRTC Ticket Price",
+    "description": "Check complete Wani Bus Stand timetable 2026 with going bus timings for Nagpur, Yavatmal, Chandrapur, Amravati, Gadchiroli and rural routes.",
+    "keywords": "Wani bus stand, Wani MSRTC timetable, Wani to Nagpur bus, Wani to Yavatmal bus"
+  }
+}

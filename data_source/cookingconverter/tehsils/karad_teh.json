@@ -1,0 +1,8 @@
+{
+  "id": "karad_teh",
+  "name": "Karad Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "satara_dist",
+  "depots": ["karad_teh_depot"]
+}

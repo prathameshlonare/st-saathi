@@ -1,0 +1,98 @@
+{
+  "id": "ghuggus_bus_stand_depot",
+  "name": "Ghuggus Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "chandrapur_teh",
+  "address": "Ghuggus Bus Stand, Ghuggus, Chandrapur District - 442505",
+  "contact": "07172-245678",
+  "total_buses": 0,
+  "villages": {
+    "c": [
+      {
+        "name": "Chandrapur",
+        "schedule": [
+          "06:00", "06:50", "07:20", "07:50", "08:20", "08:50", "09:20", "09:50",
+          "10:20", "10:50", "11:20", "11:50", "12:20", "12:50", "13:20", "13:50",
+          "14:20", "14:50", "15:20", "15:50", "16:20", "16:50", "17:20", "17:50",
+          "18:20", "18:50", "19:20", "19:30", "20:25", "20:45", "22:20"
+        ],
+        "bus_count": 31
+      }
+    ],
+    "n": [
+      {
+        "name": "Nakoda",
+        "schedule": ["07:20", "19:10", "20:10", "21:55"],
+        "bus_count": 4
+      }
+    ],
+    "u": [
+      {
+        "name": "Usgaon",
+        "schedule": ["06:25", "09:25", "18:15"],
+        "bus_count": 3
+      }
+    ],
+    "y": [
+      {
+        "name": "Yerur (via Chandrapur)",
+        "schedule": ["06:10", "08:10", "10:20", "12:35", "14:30", "18:45"],
+        "bus_count": 6
+      }
+    ]
+  },
+  "content": {
+    "about": "<p>घुग्घुस बस स्थानक (Ghuggus Bus Stand) हे चंद्रपूर जिल्ह्यातील एक महत्त्वाचे MSRTC बस स्थानक असून औद्योगिक आणि निवासी भागाला जिल्हा मुख्यालयाशी जोडणारे प्रमुख वाहतूक केंद्र आहे. Ghuggus is well known for its coal mines, thermal power activity and heavy workforce movement, and this directly reflects in the high frequency of buses operating from the bus stand. सकाळी लवकरपासून रात्री उशिरापर्यंत घुग्घुस ते चंद्रपूर दर ३० मिनिटांनी बस सेवा उपलब्ध असल्यामुळे विद्यार्थी, कामगार, व्यापारी आणि शासकीय कर्मचारी यांना दैनंदिन प्रवासासाठी मोठी सोय होते. Chandrapur being the district headquarters, most passengers from Ghuggus depend on this route for hospitals, courts, railway station and administrative offices. येरूर मार्गे जाणाऱ्या बसेस ग्रामीण भागासाठी अत्यंत उपयुक्त असून सकाळी, दुपारी आणि संध्याकाळी ठराविक वेळांना उपलब्ध आहेत. नकोडा आणि उसगावसारख्या गावांसाठी थेट बस सेवा असल्यामुळे आजूबाजूच्या लहान गावांचा संपर्क घुग्घुसशी मजबूत राहतो. Ghuggus Bus Stand plays a vital role in last-mile connectivity by linking nearby villages with Chandrapur city transport network. बस स्थानक परिसरात तिकीट खिडक्या, बस थांबे, वेळापत्रक फलक आणि प्राथमिक प्रवासी सुविधा उपलब्ध आहेत. सणासुदीच्या काळात आणि उद्योगांतील शिफ्ट बदलाच्या वेळेत प्रवाशांची संख्या लक्षणीय वाढते आणि त्यानुसार बस फेऱ्यांचा उपयोग मोठ्या प्रमाणात होतो. Affordable fares, frequent services and predictable timings make Ghuggus Bus Stand a dependable transit point for daily commuters and long-distance travelers alike.</p>",
+    "faqs": [
+      {
+        "question": "घुग्घुस बस स्थानकातून पहिली बस किती वाजता सुटते?",
+        "answer": "घुग्घुस बस स्थानकातून पहिली बस साधारणपणे सकाळी 06:00 वाजता चंद्रपूरकडे सुटते."
+      },
+      {
+        "question": "घुग्घुस ते चंद्रपूर बस किती वेळाने मिळते?",
+        "answer": "घुग्घुस ते चंद्रपूर दर 30 मिनिटांनी नियमित बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "घुग्घुस बस स्थानकावरून शेवटची बस कोणती आहे?",
+        "answer": "घुग्घुस बस स्थानकावरून शेवटची चंद्रपूरकडे जाणारी बस रात्री 22:20 वाजता सुटते."
+      },
+      {
+        "question": "येरूरसाठी घुग्घुसवरून थेट बस आहे का?",
+        "answer": "होय, घुग्घुस बस स्थानकावरून चंद्रपूर मार्गे येरूरसाठी थेट बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "नकोडासाठी घुग्घुस बस स्थानकावरून किती बस आहेत?",
+        "answer": "नकोडासाठी घुग्घुस बस स्थानकावरून दररोज 4 बस फेऱ्या उपलब्ध आहेत."
+      },
+      {
+        "question": "उसगाव मार्गासाठी बस कोणत्या वेळेला मिळते?",
+        "answer": "उसगावसाठी सकाळी, दुपारी आणि संध्याकाळी बस सेवा उपलब्ध आहे."
+      },
+      {
+        "question": "घुग्घुस बस स्थानक औद्योगिक भागासाठी का महत्त्वाचे आहे?",
+        "answer": "कोळसा खाणी आणि औद्योगिक कामगारांच्या दैनंदिन प्रवासासाठी घुग्घुस बस स्थानक अत्यंत महत्त्वाचे आहे."
+      },
+      {
+        "question": "घुग्घुस ते चंद्रपूर प्रवासाला किती वेळ लागतो?",
+        "answer": "घुग्घुस ते चंद्रपूर साधारणपणे 30 ते 45 मिनिटांत पोहोचता येते."
+      },
+      {
+        "question": "सणासुदीच्या काळात अतिरिक्त बस मिळतात का?",
+        "answer": "होय, सणासुदीच्या काळात प्रवाशांच्या मागणीनुसार अतिरिक्त बस फेऱ्या लावल्या जातात."
+      },
+      {
+        "question": "घुग्घुस बस स्थानक ग्रामीण प्रवाशांसाठी कसे उपयुक्त आहे?",
+        "answer": "आजूबाजूच्या गावांसाठी घुग्घुस हे मुख्य कनेक्शन पॉइंट असल्यामुळे ग्रामीण प्रवाशांना सहज प्रवास करता येतो."
+      }
+    ],
+    "seo_content": {
+      "title": "Ghuggus Bus Stand Timetable 2026 | MSRTC Buses to Chandrapur",
+      "content": "<p>Ghuggus Bus Stand provides frequent MSRTC bus services to Chandrapur, Yerur, Nakoda and Usgaon with updated daily timetable.</p>"
+    }
+  },
+  "seo": {
+    "title": "Ghuggus Bus Stand Timetable 2026 | MSRTC Routes & Tickets",
+    "description": "Check Ghuggus Bus Stand MSRTC timetable with frequent buses to Chandrapur, Yerur, Nakoda and nearby villages.",
+    "keywords": "Ghuggus bus stand, Ghuggus MSRTC timetable, Ghuggus to Chandrapur bus"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "yavatmal_teh",
+  "name": "Yavatmal Tehsil",
+  "alphabet": "Y",
+  "type": "tehsil",
+  "district_id": "yavatmal_dist",
+  "depots": ["yavatmal_teh_depot"]
+}

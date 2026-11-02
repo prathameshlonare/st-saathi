@@ -1,0 +1,8 @@
+{
+  "id": "khultabad_teh",
+  "name": "Khultabad Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "chhatrapati_sambhajinagar_dist",
+  "depots": ["khultabad_teh_depot"]
+}

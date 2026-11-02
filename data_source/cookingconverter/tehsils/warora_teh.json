@@ -1,0 +1,8 @@
+{
+  "id": "warora_teh",
+  "name": "Warora Tehsil",
+  "alphabet": "W",
+  "type": "tehsil",
+  "district_id": "chandrapur_dist",
+  "depots": ["warora_teh_depot"]
+}

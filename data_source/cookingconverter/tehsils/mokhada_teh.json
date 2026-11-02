@@ -1,0 +1,8 @@
+{
+  "id": "mokhada_teh",
+  "name": "Mokhada Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "palghar_dist",
+  "depots": ["mokhada_teh_depot"]
+}

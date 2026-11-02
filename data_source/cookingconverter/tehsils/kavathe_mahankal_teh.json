@@ -1,0 +1,8 @@
+{
+  "id": "kavathe_mahankal_teh",
+  "name": "Kavathe Mahankal Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "sangli_dist",
+  "depots": ["kavathe_mahankal_teh_depot"]
+}

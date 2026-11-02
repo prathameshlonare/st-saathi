@@ -1,0 +1,8 @@
+{
+  "id": "kurla_teh",
+  "name": "Kurla Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "mumbai_suburban_dist",
+  "depots": ["kurla_teh_depot"]
+}

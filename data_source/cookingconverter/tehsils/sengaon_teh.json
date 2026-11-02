@@ -1,0 +1,8 @@
+{
+  "id": "sengaon_teh",
+  "name": "Sengaon Tehsil",
+  "alphabet": "S",
+  "type": "tehsil",
+  "district_id": "hingoli_dist",
+  "depots": ["sengaon_teh_depot"]
+}

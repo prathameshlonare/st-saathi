@@ -1,0 +1,8 @@
+{
+  "id": "mumbai_city_teh",
+  "name": "Mumbai City Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "mumbai_city_dist",
+  "depots": ["mumbai_city_teh_depot"]
+}

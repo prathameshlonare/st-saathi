@@ -1,0 +1,8 @@
+{
+  "id": "nandgaon_khandeshwar_teh",
+  "name": "Nandgaon Khandeshwar Tehsil",
+  "alphabet": "N",
+  "type": "tehsil",
+  "district_id": "amravati_dist",
+  "depots": ["nandgaon_khandeshwar_teh_depot"]
+}

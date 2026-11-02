@@ -1,0 +1,97 @@
+{
+  "id": "rajura_bus_stand_depot",
+  "name": "Rajura Bus Stand Timetable 2026 | MSRTC Ticket Price",
+  "type": "depot",
+  "tehsil_id": "rajura_teh",
+  "address": "Rajura Bus Stand, Rajura, Chandrapur District - 442905",
+  "contact": "07173-222233",
+  "total_buses": 0,
+  "villages": {
+    "a": [
+      { "name": "Adilabad", "schedule": ["06:45", "07:30", "08:15", "08:50", "10:15", "10:45", "11:45", "12:45", "13:15", "13:45", "14:45", "17:30"], "bus_count": 12 },
+      { "name": "Amravati", "schedule": ["06:05"], "bus_count": 1 },
+      { "name": "Amravati (via Ner)", "schedule": ["15:00"], "bus_count": 1 },
+      { "name": "Amrutguda (via Asifabad)", "schedule": ["09:15", "13:30", "14:30", "17:30"], "bus_count": 4 },
+      { "name": "Arvi", "schedule": ["06:20", "13:30", "14:30"], "bus_count": 3 },
+      { "name": "Asifabad (Ordinary)", "schedule": ["11:00", "12:15", "14:30", "17:00", "19:00"], "bus_count": 5 }
+    ],
+    "b": [
+      { "name": "Bhandara (via Mul)", "schedule": ["12:35", "13:30"], "bus_count": 2 },
+      { "name": "Bhurkunda", "schedule": ["06:00", "09:15", "12:15", "17:30"], "bus_count": 4 }
+    ],
+    "c": [
+      { "name": "Chandrapur (Ordinary)", "schedule": ["06:15", "07:10", "07:25", "07:35", "07:40", "07:50", "08:05", "08:40", "08:45", "08:50", "09:05", "09:40", "09:55", "10:40", "10:40", "11:00", "11:30", "12:45", "13:30", "14:00", "14:05", "14:10", "14:15", "14:25", "15:10", "15:35", "15:50", "16:00", "19:00", "19:15", "20:45"], "bus_count": 31 },
+      { "name": "Chincholi (via Asifabad)", "schedule": ["07:45", "12:15"], "bus_count": 2 }
+    ],
+    "d": [
+      { "name": "Darwha", "schedule": ["06:45"], "bus_count": 1 },
+      { "name": "Dhidshi", "schedule": ["06:00", "09:30", "12:15", "17:15"], "bus_count": 4 },
+      { "name": "Dongargaon (via Asifabad)", "schedule": ["10:00", "17:30"], "bus_count": 2 }
+    ],
+    "g": [
+      { "name": "Gadchandur (Ordinary)", "schedule": ["06:00", "06:15", "06:40", "07:00", "07:15", "07:30", "07:35", "07:45", "08:25", "09:50", "10:05", "10:30", "10:45", "10:50", "11:20", "11:30", "11:40", "12:50", "13:00", "13:15", "13:30", "13:45", "14:00", "14:15", "14:30", "14:40", "15:00", "15:10", "16:20", "16:45", "16:45", "18:30", "19:15", "19:30", "20:05", "20:45"], "bus_count": 36 },
+      { "name": "Ghatanji", "schedule": ["08:15"], "bus_count": 1 },
+      { "name": "Gondpipari (via Asifabad)", "schedule": ["06:30", "12:20"], "bus_count": 2 }
+    ],
+    "h": [
+      { "name": "Hyderabad (via Asifabad)", "schedule": ["08:40", "09:15", "10:00"], "bus_count": 3 }
+    ],
+    "k": [
+      { "name": "Kagaznagar (via Asifabad)", "schedule": ["10:05", "11:00", "17:05", "17:30"], "bus_count": 4 },
+      { "name": "Kinwat (via Adilabad Route)", "schedule": ["07:05", "09:15"], "bus_count": 2 },
+      { "name": "Koptala (via Asifabad)", "schedule": ["06:00", "09:00", "12:15", "15:00", "17:00"], "bus_count": 5 }
+    ],
+    "m": [
+      { "name": "Mancherial (via Asifabad)", "schedule": ["17:05"], "bus_count": 1 },
+      { "name": "Marda", "schedule": ["05:30", "09:30", "12:15", "17:00"], "bus_count": 4 }
+    ],
+    "n": [
+      { "name": "Nagpur", "schedule": ["05:30", "06:15", "06:45", "07:00", "08:00", "08:45", "09:30", "10:00", "10:30", "11:00", "12:30", "12:40", "13:15", "13:45", "15:20", "17:20", "17:30", "18:10"], "bus_count": 18 },
+      { "name": "Nagpur (Shivai)", "schedule": ["11:20", "16:15"], "bus_count": 2 }
+    ],
+    "p": [
+      { "name": "Pusad", "schedule": ["09:30"], "bus_count": 1 }
+    ],
+    "s": [
+      { "name": "Sakoli (via Mul)", "schedule": ["07:45"], "bus_count": 1 },
+      { "name": "Saoner", "schedule": ["06:50", "13:00"], "bus_count": 2 },
+      { "name": "Sindhi", "schedule": ["06:00", "09:00", "12:15", "17:30"], "bus_count": 4 },
+      { "name": "Sironcha (via Asifabad)", "schedule": ["08:00", "14:30", "15:00"], "bus_count": 3 },
+      { "name": "Subbai (via Asifabad)", "schedule": ["12:15", "17:30", "19:30"], "bus_count": 3 }
+    ],
+    "t": [
+      { "name": "Tumsar", "schedule": ["06:30"], "bus_count": 1 },
+      { "name": "Tumsar (Nagpur Route)", "schedule": ["13:20", "13:45"], "bus_count": 2 }
+    ],
+    "w": [
+      { "name": "Wardha", "schedule": ["09:00"], "bus_count": 1 }
+    ],
+    "y": [
+      { "name": "Yavatmal", "schedule": ["07:15", "13:50"], "bus_count": 2 }
+    ]
+  },
+  "content": {
+    "about": "<p>राजुरा बस स्थानक (Rajura Bus Stand) हे चंद्रपूर जिल्ह्यातील एक अत्यंत महत्त्वाचे MSRTC (महाराष्ट्र राज्य मार्ग परिवहन महामंडळ) चे बस स्थानक असून महाराष्ट्र–तेलंगणा सीमेवरील प्रवासासाठी प्रमुख प्रवेशद्वार म्हणून ओळखले जाते. Rajura is strategically located on the Chandrapur–Adilabad corridor, making it one of the busiest transit points for passengers traveling between Vidarbha and Telangana. दररोज सकाळी लवकर 5 वाजल्यापासून रात्री उशिरा 11 वाजेपर्यंत या बस स्थानकावरून बस सेवा सुरू असते आणि शासकीय कर्मचारी, विद्यार्थी, व्यापारी, खाण उद्योगाशी संबंधित कामगार, शेतकरी तसेच लांब पल्ल्याचे प्रवासी मोठ्या संख्येने या स्थानकाचा वापर करतात. राजुरा ते चंद्रपूर, गडचांदूर, कोरपणा आणि बल्लारपूर या औद्योगिक व प्रशासकीय भागांसाठी नियमित बस सेवा उपलब्ध असल्यामुळे दैनंदिन प्रवासासाठी हे स्थानक अत्यंत उपयुक्त ठरते. Rajura Bus Stand is especially known for its strong connectivity towards Telangana cities such as Adilabad, Asifabad, Mancherial and Hyderabad, which are heavily used by interstate travelers and daily commuters. आदिलाबादसाठी सकाळी लवकर अनेक बस फेऱ्या उपलब्ध असल्यामुळे प्रवाशांना त्याच दिवशी काम पूर्ण करून परत येणे शक्य होते. नागपूर मार्गावरील बसेस दिवसभर नियमित अंतराने धावतात आणि शिक्षण, वैद्यकीय तसेच प्रशासकीय कारणांसाठी हा मार्ग अत्यंत महत्त्वाचा आहे. Chandrapur route buses from Rajura provide seamless access to district headquarters, courts, hospitals and railway connectivity. यवतमाळ आणि अमरावतीकडे जाणाऱ्या बसेस मुख्यतः सकाळी व दुपारी उपलब्ध असून व्यापारी आणि शासकीय कामांसाठी जाणाऱ्या प्रवाशांना या सेवा उपयुक्त ठरतात. Hyderabad long-distance buses generally depart in the evening or late night, allowing overnight travel and early morning arrival in the city. राजुरा बस स्थानक हे कोळसा खाण क्षेत्राशी जोडलेले असल्यामुळे कामगार वर्गासाठी हे एक मुख्य ट्रान्झिट पॉइंट मानले जाते. बस स्थानक परिसर स्वच्छ, सुव्यवस्थित आणि सुरक्षित असून तिकीट खिडक्या, प्रतीक्षा कक्ष, वेळापत्रक फलक, बस थांबे आणि प्राथमिक सुविधा उपलब्ध आहेत. सणासुदीच्या काळात, विशेषतः दिवाळी, दसरा आणि उन्हाळी सुट्ट्यांमध्ये प्रवाशांची संख्या मोठ्या प्रमाणात वाढते आणि त्या काळात अतिरिक्त बस फेऱ्या लावल्या जातात. Rajura Bus Stand continues to play a vital role in regional mobility by connecting rural villages, industrial zones and interstate destinations, offering affordable, reliable and time-bound MSRTC bus services to thousands of passengers every day.</p>",
+    "faqs": [
+      { "question": "राजुरा बस स्थानकातून पहिली बस किती वाजता सुटते?", "answer": "राजुरा बस स्थानकातून पहिल्या बसेस साधारणपणे सकाळी 5:00 ते 5:30 दरम्यान सुटतात." },
+      { "question": "राजुरा ते चंद्रपूर बस किती वेळाने मिळते?", "answer": "राजुरा ते चंद्रपूर मार्गावर दिवसभर नियमित अंतराने अनेक बस फेऱ्या उपलब्ध आहेत." },
+      { "question": "आदिलाबादसाठी राजुरावरून थेट बस आहे का?", "answer": "होय, राजुरा बस स्थानकातून आदिलाबादसाठी थेट MSRTC बस सेवा उपलब्ध आहे." },
+      { "question": "हैदराबादसाठी बस कोणत्या वेळेत मिळते?", "answer": "हैदराबादसाठी बसेस प्रामुख्याने संध्याकाळी किंवा रात्री सुटतात, जेणेकरून रात्रीचा प्रवास सोयीचा होतो." },
+      { "question": "राजुरा ते नागपूर प्रवासासाठी किती वेळ लागतो?", "answer": "राजुरा ते नागपूर प्रवास साधारणपणे 6 ते 7 तासांचा असतो, मार्ग व थांब्यांवर अवलंबून." },
+      { "question": "गडचांदूर आणि कोरपणासाठी बस सेवा आहे का?", "answer": "होय, गडचांदूर व कोरपणा मार्गावर दिवसभर अनेक साध्या बस फेऱ्या उपलब्ध आहेत." },
+      { "question": "यवतमाळ आणि अमरावतीसाठी थेट बस मिळते का?", "answer": "यवतमाळ व अमरावतीसाठी थेट तसेच कनेक्टिंग बस सेवा राजुरा बस स्थानकावरून उपलब्ध आहे." },
+      { "question": "लांब पल्ल्याच्या प्रवासासाठी आगाऊ तिकीट बुकिंग आवश्यक आहे का?", "answer": "सणासुदीच्या काळात व हैदराबादसारख्या लांब पल्ल्याच्या मार्गांसाठी आगाऊ बुकिंग करणे फायदेशीर ठरते." },
+      { "question": "राजुरा बस स्थानक उद्योग क्षेत्रासाठी का महत्त्वाचे आहे?", "answer": "कोळसा खाण आणि औद्योगिक परिसराशी जोडलेले असल्यामुळे राजुरा बस स्थानक कामगारांसाठी अत्यंत महत्त्वाचे आहे." },
+      { "question": "राजुरा बस स्थानक ग्रामीण भागासाठी कसे उपयुक्त आहे?", "answer": "आजूबाजूच्या अनेक गावांसाठी राजुरा हे मुख्य ट्रान्झिट केंद्र असून येथून जोड बसेस सहज मिळतात." }
+    ],
+    "seo_content": {
+      "title": "Rajura Bus Stand Timetable 2026 | MSRTC Buses to Adilabad & Hyderabad",
+      "content": "<p>Rajura Bus Stand offers updated MSRTC bus timetable for Chandrapur, Nagpur, Adilabad, Hyderabad, Yavatmal and nearby villages with reliable daily connectivity.</p>"
+    }
+  },
+  "seo": {
+    "title": "Rajura Bus Stand Timetable 2026 | MSRTC Ticket & Routes",
+    "description": "Check Rajura Bus Stand MSRTC timetable with buses to Chandrapur, Nagpur, Adilabad, Hyderabad, Yavatmal and Telangana routes.",
+    "keywords": "Rajura bus stand, Rajura MSRTC timetable, Rajura to Adilabad bus, Rajura to Hyderabad bus"
+  }
+}

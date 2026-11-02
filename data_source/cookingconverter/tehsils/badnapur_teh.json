@@ -1,0 +1,8 @@
+{
+  "id": "badnapur_teh",
+  "name": "Badnapur Tehsil",
+  "alphabet": "B",
+  "type": "tehsil",
+  "district_id": "jalna_dist",
+  "depots": ["badnapur_teh_depot"]
+}

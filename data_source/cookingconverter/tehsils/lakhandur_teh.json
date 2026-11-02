@@ -1,0 +1,8 @@
+{
+  "id": "lakhandur_teh",
+  "name": "Lakhandur Tehsil",
+  "alphabet": "L",
+  "type": "tehsil",
+  "district_id": "bhandara_dist",
+  "depots": ["lakhandur_teh_depot"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ashti_wardha_teh",
+  "name": "Ashti Tehsil",
+  "alphabet": "A",
+  "type": "tehsil",
+  "district_id": "wardha_dist",
+  "depots": ["ashti_wardha_teh_depot"]
+}

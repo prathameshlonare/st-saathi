@@ -1,0 +1,8 @@
+{
+  "id": "rahata_teh",
+  "name": "Rahata Tehsil",
+  "alphabet": "R",
+  "type": "tehsil",
+  "district_id": "ahilyanagar_dist",
+  "depots": ["rahata_teh_depot"]
+}

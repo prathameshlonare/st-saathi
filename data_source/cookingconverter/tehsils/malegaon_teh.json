@@ -1,0 +1,8 @@
+{
+  "id": "malegaon_teh",
+  "name": "Malegaon Tehsil",
+  "alphabet": "M",
+  "type": "tehsil",
+  "district_id": "nashik_dist",
+  "depots": ["malegaon_teh_depot"]
+}

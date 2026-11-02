@@ -1,0 +1,8 @@
+{
+  "id": "khanapur_sangli_teh",
+  "name": "Khanapur Tehsil",
+  "alphabet": "K",
+  "type": "tehsil",
+  "district_id": "sangli_dist",
+  "depots": ["khanapur_sangli_teh_depot"]
+}

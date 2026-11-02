@@ -1,0 +1,16 @@
+{
+  "id": "mumbai_div",
+  "name": "Mumbai Division",
+  "alphabet": "M",
+  "type": "division",
+  "description": "Mumbai Division, also known as the Konkan region, includes the financial capital of India and the scenic coastal districts. The division has a unique mix of metro cities, industrial belts, and rural coastal areas. MSRTC ST buses play a vital role in connecting Konkan villages to Mumbai and Thane. Many travellers rely on the bus time table for long overnight journeys. During festivals like Ganesh Chaturthi, ST buses operate special services to handle heavy rush. MSRTC is often the preferred option due to safety and affordability. The division also supports tourism through reliable bus connectivity. Public transport remains a backbone despite high private vehicle usage.",
+  "districts": [
+    "mumbai_city_dist",
+    "mumbai_suburban_dist",
+    "thane_dist",
+    "palghar_dist",
+    "raigad_dist",
+    "ratnagiri_dist",
+    "sindhudurg_dist"
+  ]
+}

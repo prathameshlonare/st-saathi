@@ -1,0 +1,8 @@
+{
+  "id": "junnar_teh",
+  "name": "Junnar Tehsil",
+  "alphabet": "J",
+  "type": "tehsil",
+  "district_id": "pune_dist",
+  "depots": ["junnar_teh_depot"]
+}
