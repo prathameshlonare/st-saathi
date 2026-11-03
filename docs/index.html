@@ -1,116 +1,925 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ST Saathi — Download Offline Maharashtra ST Timetable</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ST Saathi - Offline Maharashtra ST Bus Timetable</title>
+  <meta name="description"
+    content="100% offline Maharashtra ST bus timetable for Android. 45 depots, 1,072 stations, 11,000+ scheduled departures with zero mobile data required." />
+  <meta property="og:title" content="ST Saathi - Offline Maharashtra ST Timetable" />
+  <meta property="og:description"
+    content="Direct bus schedules, departure countdowns, and connecting routes across Maharashtra. Works without internet." />
+  <meta property="og:image" content="https://prathameshlonare.github.io/st-saathi/icon.png" />
+  <meta name="theme-color" content="#8E1616" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <link rel="preload" href="./fonts/PlusJakartaSans.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="./fonts/Mukta-Bold.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <main class="container">
-    <header class="site-header" role="banner">
-      <div class="wordmark">
-        <span class="brand-en lang-en">ST Saathi</span>
-        <span class="brand-mr lang-mr mr">एसटी साथी</span>
-      </div>
-      <div class="header-actions">
-        <button id="lang-toggle" type="button" aria-pressed="false">EN | MR</button>
-        <a href="#download" class="download-link">Download</a>
-      </div>
-    </header>
-
-    <section id="hero" aria-labelledby="hero-heading">
-      <h1 id="hero-heading">
-        <span class="hero-en lang-en">ST Saathi</span>
-        <span class="hero-mr lang-mr mr">एसटी साथी</span>
-      </h1>
-      <p class="tagline">
-        <span class="tagline-en lang-en">Offline Maharashtra ST Timetable</span>
-        <span class="tagline-mr lang-mr mr">ऑफलाईन महाराष्ट्र एसटी वेळापत्रक</span>
-      </p>
-      <p class="sub-stat">
-        <span class="stat-en lang-en">100% Offline · 11,000+ Departures</span>
-        <span class="stat-mr lang-mr mr">१००% ऑफलाईन · ११,०००+ प्रस्थान</span>
-      </p>
-      <a id="download-btn" href="https://github.com/releases/latest" class="btn btn-primary" role="button">
-        <span class="btn-en lang-en">Download ST Saathi</span>
-        <span class="btn-mr lang-mr mr">एसटी साथी डाऊनलोड करा</span>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- Top Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrapper">
+      <a href="./" class="brand">
+        <img src="icon.png" alt="ST Saathi App Icon" class="brand-icon" width="40" height="40" />
+        <div class="brand-text">
+          <span class="brand-title">
+            <span class="lang-en">ST Saathi</span>
+            <span class="lang-mr mr">एसटी साथी</span>
+          </span>
+          <span class="brand-badge">
+            <span class="lang-en">Offline Timetable</span>
+            <span class="lang-mr mr">ऑफलाइन वेळापत्रक</span>
+          </span>
+        </div>
       </a>
-    </section>
 
-    <section class="download-ticket" id="download" aria-labelledby="ticket-heading">
-      <h2 id="ticket-heading" class="visually-hidden">Download</h2>
-      <div class="ticket-row">
-        <span class="badge">v1.0.0</span>
-        <a href="#changelog" class="changelog-link">Changelog</a>
-        <span class="filesize">~25 MB APK</span>
+      <nav class="nav-links" id="main-nav" aria-label="Main Navigation">
+        <a href="#features" class="nav-link">
+          <span class="lang-en">Features</span>
+          <span class="lang-mr mr">वैशिष्ट्ये</span>
+        </a>
+        <a href="#bus-types" class="nav-link">
+          <span class="lang-en">Bus Types</span>
+          <span class="lang-mr mr">बस प्रकार</span>
+        </a>
+        <a href="#coverage" class="nav-link">
+          <span class="lang-en">Coverage</span>
+          <span class="lang-mr mr">कव्हरेज</span>
+        </a>
+        <a href="#how-it-works" class="nav-link">
+          <span class="lang-en">Install Guide</span>
+          <span class="lang-mr mr">इन्स्टॉल</span>
+        </a>
+        <a href="#faq" class="nav-link">
+          <span class="lang-en">FAQ</span>
+          <span class="lang-mr mr">नेहमीचे प्रश्न</span>
+        </a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="langToggle" class="lang-btn" type="button" aria-label="Switch Language">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span class="lang-btn-text">मराठी</span>
+        </button>
+        <a href="#download" id="navDownloadBtn" class="btn-nav-download">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span class="nav-dl-full">
+            <span class="lang-en">Download APK</span>
+            <span class="lang-mr mr">डाऊनलोड करा</span>
+          </span>
+          <span class="nav-dl-short">
+            <span class="lang-en">APK</span>
+            <span class="lang-mr mr">एपीके</span>
+          </span>
+        </a>
+        <button id="navToggle" class="nav-toggle-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+          <svg class="hamburger-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6" class="ham-line ham-top"></line>
+            <line x1="3" y1="12" x2="21" y2="12" class="ham-line ham-mid"></line>
+            <line x1="3" y1="18" x2="21" y2="18" class="ham-line ham-bot"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="lang-en">Maharashtra ST Timetable in Your Pocket.
+              <span class="highlight">Zero Signal Needed.</span></span>
+            <span class="lang-mr mr">महाराष्ट्र एसटीचे वेळापत्रक आता खिशात.
+              <span class="highlight">इंटरनेटची मुळीच गरज नाही.</span></span>
+          </h1>
+
+          <p class="hero-desc">
+            <span class="lang-en">Departure times, intermediate stops, and connecting routes
+              across 45 depots and 1,072 stations. Works completely offline on
+              rural routes and highway ghats.</span>
+            <span class="lang-mr mr">४५ आगारे आणि १,०७२ स्थानकांमधील थेट बस, जंक्शन पर्याय आणि
+              वेळापत्रक. दुर्गम भागात आणि घाटातही पूर्णपणे ऑफलाइन चालते.</span>
+          </p>
+
+          <!-- Download Ticket Card -->
+          <div class="ticket-cta-card" id="download">
+            <div class="ticket-meta">
+              <span class="badge-version" id="versionBadge">
+                <span class="lang-en">Latest Release</span>
+                <span class="lang-mr mr">नवीन आवृत्ती</span>
+              </span>
+              <span>
+                <span class="lang-en">Free &amp; Open Source</span>
+                <span class="lang-mr mr">मोफत व ओपन सोर्स</span>
+              </span>
+            </div>
+
+            <div class="cta-button-group">
+              <a href="https://github.com/prathameshlonare/st-saathi/releases/latest" id="downloadBtn"
+                class="btn-primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span class="lang-en">Download ST Saathi APK</span>
+                <span class="lang-mr mr">एसटी साथी डाऊनलोड करा</span>
+              </a>
+
+              <a href="https://github.com/prathameshlonare/st-saathi" class="btn-secondary" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z">
+                  </path>
+                </svg>
+                <span class="lang-en">View on GitHub</span>
+                <span class="lang-mr mr">गिटहबवर कोड पहा</span>
+              </a>
+            </div>
+
+            <div class="ticket-notice">
+              <span class="lang-en">Direct standalone APK. Zero sign-up, zero tracking, verified
+                open timetable data.</span>
+              <span class="lang-mr mr">थेट इन्स्टॉल करा. कोणतीही नोंदणी नाही, डेटा ट्रॅकिंग नाही,
+                खात्रीशीर वेळापत्रक.</span>
+            </div>
+          </div>
+
+          <!-- Hero Quick Stats -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">11,000+</span>
+              <span class="stat-label">
+                <span class="lang-en">Departures</span>
+                <span class="lang-mr mr">प्रस्थान वेळा</span>
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">45</span>
+              <span class="stat-label">
+                <span class="lang-en">Major Depots</span>
+                <span class="lang-mr mr">मुख्य आगारे</span>
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1,072</span>
+              <span class="stat-label">
+                <span class="lang-en">Stations</span>
+                <span class="lang-mr mr">बस स्थानके</span>
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">0 KB</span>
+              <span class="stat-label">
+                <span class="lang-en">Internet Needed</span>
+                <span class="lang-mr mr">इंटरनेट गरज</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Realistic Phone Device Frame -->
+        <div class="phone-mockup-wrapper">
+          <div class="phone-hardware">
+            <!-- Top Speaker Micro-Slit -->
+            <div class="phone-speaker-grill"></div>
+
+            <div class="phone-screen">
+              <!-- Front Camera Punch-Hole with Optical Glare -->
+              <div class="phone-camera-hole"></div>
+
+              <!-- Specular Curved Front Glass Reflection -->
+              <div class="phone-glass-glare"></div>
+
+              <!-- Real App Screenshot (cleanly cropped to physical aspect ratio) -->
+              <img src="screenshot.png" id="phoneScreenshot" alt="ST Saathi App Interface Screenshot"
+                class="phone-screenshot-img" width="1080" height="2305" fetchpriority="high" onerror="
+                    this.style.display = 'none';
+                    var m = document.getElementById('mockInteractiveUi');
+                    if (m) m.classList.remove('is-hidden');
+                  " />
+
+              <!-- Live Interactive UI Simulation (fallback if screenshot fails) -->
+              <div id="mockInteractiveUi" class="mock-interactive-ui is-hidden">
+                <div class="app-mock-header">
+                  <span class="mock-title">ST Saathi</span>
+                  <span class="mock-offline-chip">
+                    <span class="lang-en">Offline Ready</span>
+                    <span class="lang-mr mr">ऑफलाइन</span>
+                  </span>
+                </div>
+
+                <!-- Mock Search Box -->
+                <div class="mock-search-box">
+                  <div class="mock-station-row">
+                    <span class="mock-dot origin"></span>
+                    <div class="mock-station-name" id="originStation">
+                      <span class="lang-en">Pune (Swargate)</span>
+                      <span class="lang-mr mr">पुणे (स्वारगेट)</span>
+                    </div>
+                    <button type="button" id="mockSwapBtn" class="mock-swap-btn" aria-label="Swap Stations">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 16V4M7 4L3 8M7 4L11 8M17 8V20M17 20L21 16M17 20L13 16"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="mock-station-row">
+                    <span class="mock-dot dest"></span>
+                    <div class="mock-station-name" id="destStation">
+                      <span class="lang-en">Mumbai (Dadar)</span>
+                      <span class="lang-mr mr">मुंबई (दादर)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mock Bus Cards -->
+                <div class="mock-card-list">
+                  <div class="mock-bus-card shivneri">
+                    <div class="mock-card-top">
+                      <span class="mock-bus-type">Shivneri AC</span>
+                      <span class="mock-countdown">in 15m</span>
+                    </div>
+                    <div class="mock-card-time">06:30 AM</div>
+                    <div class="mock-card-route">
+                      Via: Express Highway, Maitri Park
+                    </div>
+                  </div>
+
+                  <div class="mock-bus-card ordinary">
+                    <div class="mock-card-top">
+                      <span class="mock-bus-type">Ordinary / Lal Dabba</span>
+                      <span class="mock-countdown">in 45m</span>
+                    </div>
+                    <div class="mock-card-time">07:00 AM</div>
+                    <div class="mock-card-route">
+                      Via: Talegaon, Khopoli, Panvel
+                    </div>
+                  </div>
+
+                  <div class="mock-bus-card shivshahi">
+                    <div class="mock-card-top">
+                      <span class="mock-bus-type">Shivshahi</span>
+                      <span class="mock-countdown">in 1h 15m</span>
+                    </div>
+                    <div class="mock-card-time">07:30 AM</div>
+                    <div class="mock-card-route">
+                      Via: Expressway Non-Stop
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Android Home Navigation Pill -->
+              <div class="phone-home-indicator"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="coverage" aria-labelledby="coverage-heading">
-      <h2 id="coverage-heading">
-        <span class="h-en lang-en">Coverage</span>
-        <span class="h-mr lang-mr mr">कव्हरेज</span>
-      </h2>
-      <p>
-        <span class="cov-en lang-en">45 Depots · 1,072 Stations · Western Corridors</span>
-        <span class="cov-mr lang-mr mr">४५ आगारे · १,०७२ स्थानके · पश्चिमे corridor</span>
-      </p>
-    </section>
+    <!-- Core Features Section -->
+    <section class="section section-alt" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="lang-en">Built for Zero Connectivity</span>
+            <span class="lang-mr mr">कधीही, कुठेही चालणारे वेळापत्रक</span>
+          </h2>
+          <p class="section-subtitle">
+            <span class="lang-en">Depot boards get faded and highway ghats lose mobile network.
+              ST Saathi stores the timetable directly on your phone.</span>
+            <span class="lang-mr mr">आगारातील बोर्ड वाचता येत नाहीत आणि महामार्गावर रेंज नसते. एसटी
+              साथी वेळापत्रक थेट फोनमध्ये साठवून ठेवते.</span>
+          </p>
+        </div>
 
-    <section id="bus-types" aria-labelledby="types-heading">
-      <h2 id="types-heading">
-        <span class="t-en lang-en">Bus Types</span>
-        <span class="t-mr lang-mr mr">बस प्रकार</span>
-      </h2>
-      <div class="chip-list">
-        <span class="chip chip-ordinary" title="Ordinary / Lal Dabba">
-          <span class="chip-en lang-en">Ordinary / Lal Dabba</span>
-          <span class="chip-mr lang-mr mr">साधी / लाल डब्बा</span>
-        </span>
-        <span class="chip chip-shivshahi" title="Shivshahi">
-          <span class="chip-en lang-en">Shivshahi</span>
-          <span class="chip-mr lang-mr mr">शिवशाही</span>
-        </span>
-        <span class="chip chip-shivneri" title="Shivneri">
-          <span class="chip-en lang-en">Shivneri</span>
-          <span class="chip-mr lang-mr mr">शिवनेरी</span>
-        </span>
-        <span class="chip chip-hirkani" title="Hirkani">
-          <span class="chip-en lang-en">Hirkani</span>
-          <span class="chip-mr lang-mr mr">हिरकणी</span>
-        </span>
-        <span class="chip chip-sleeper" title="Sleeper">
-          <span class="chip-en lang-en">Sleeper</span>
-          <span class="chip-mr lang-mr mr">शयनयान</span>
-        </span>
+        <div class="bento-grid">
+          <!-- Feature 1 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">1.24 MB SQLite</div>
+            <h3 class="bento-title">
+              <span class="lang-en">Offline Local Database</span>
+              <span class="lang-mr mr">स्थानिक ऑफलाइन डेटाबेस</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">All timetable records live in a compact SQLite file on your
+                storage. Search immediately in flight mode or remote areas
+                with zero network signal.</span>
+              <span class="lang-mr mr">सर्व वेळापत्रक तुमच्या फोनमधील १.२४ एमबी डेटाबेसमध्ये साठवले
+                जाते. घाटात किंवा दुर्गम भागात नेटवर्क नसतानाही बस शोधा.</span>
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">
+              <span class="lang-en">Countdown: in 15m</span>
+              <span class="lang-mr mr">वेळ: १५ मिनिटांत</span>
+            </div>
+            <h3 class="bento-title">
+              <span class="lang-en">Departure Countdowns</span>
+              <span class="lang-mr mr">सुटण्याच्या वेळेची थेट गणना</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">Departures are sorted chronologically with countdowns showing
+                minutes remaining, so you know exactly when to walk to the
+                platform.</span>
+              <span class="lang-mr mr">पुढील बस वेळेनुसार क्रमवारीने दिसतात आणि बस सुटायला किती
+                मिनिटे बाकी आहेत ते आपोआप समजते.</span>
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">
+              <span class="lang-en">Junction Routes</span>
+              <span class="lang-mr mr">जंक्शन कनेक्टिंग</span>
+            </div>
+            <h3 class="bento-title">
+              <span class="lang-en">1-Stop Connecting Routes</span>
+              <span class="lang-mr mr">जंक्शन कनेक्टिंग मार्ग</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">When no direct bus is scheduled between two towns, the engine
+                finds 1-stop transfer options through intermediate junction
+                depots.</span>
+              <span class="lang-mr mr">दोन गावांमध्ये थेट बस नसेल, तर अ‍ॅप आपोआप मधल्या मोठ्या
+                जंक्शन आगारामार्गे १-स्टॉप जोडणी मार्ग शोधून दाखवते.</span>
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">
+              <span class="lang-en">Published Schedules</span>
+              <span class="lang-mr mr">अधिकृत नोंदी</span>
+            </div>
+            <h3 class="bento-title">
+              <span class="lang-en">Direct Depot Schedules</span>
+              <span class="lang-mr mr">थेट आगारांचे वेळापत्रक</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">Only published timings, stations, and intermediate stops from
+                depot records. No guesses, no invented arrival times or
+                fares.</span>
+              <span class="lang-mr mr">फक्त अधिकृत आगारांमधून घेतलेल्या प्रस्थान वेळा, स्थानके आणि
+                मधले थांबे. कोणतीही खोटी माहिती किंवा अंदाज नाही.</span>
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">० १ २ ३ ४ ५ ६ ७ ८ ९</div>
+            <h3 class="bento-title">
+              <span class="lang-en">Complete Marathi Interface</span>
+              <span class="lang-mr mr">संपूर्ण मराठी भाषा</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">Full native Marathi support with Devanagari numerals, local
+                station names, and Mukta typography designed for clean
+                readability.</span>
+              <span class="lang-mr mr">मुक्ता फॉन्ट, देवनागरी आकडे आणि अस्सल मराठी भाषेचा वापर,
+                जेणेकरून वाचायला अत्यंत सोपे आणि स्पष्ट होते.</span>
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="bento-card">
+            <div class="feature-tag-chip">★ Star Bookmarks</div>
+            <h3 class="bento-title">
+              <span class="lang-en">Saved Commute Routes</span>
+              <span class="lang-mr mr">नेहमीचे मार्ग सेव्ह करा</span>
+            </h3>
+            <p class="bento-desc">
+              <span class="lang-en">Bookmark regular college, work, or village routes for
+                single-tap schedule lookup without re-typing station
+                names.</span>
+              <span class="lang-mr mr">कॉलेज, ऑफिस किंवा गावी जाण्याचे तुमचे रोजचे मार्ग स्टार करून
+                सेव्ह करा आणि पुन्हा टाईप न करता एका टॅपमध्ये वेळ पाहा.</span>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="disclaimer" aria-labelledby="disclaimer-heading">
-      <h2 id="disclaimer-heading" class="visually-hidden">
-        <span class="d-en lang-en">Disclaimer</span>
-        <span class="d-mr lang-mr mr">अस्वीकरण</span>
-      </h2>
-      <p class="disclaimer-text">
-        <span class="disc-en lang-en">Independent community tool. Always confirm departures at the depot enquiry counter.</span>
-        <span class="disc-mr lang-mr mr">स्वतंत्र संदर्भ साधन. प्रस्थान वेळेची खात्री आगार चौकशी खिडकीवर नक्की करा.</span>
-      </p>
+    <!-- Bus Types Section -->
+    <section class="section" id="bus-types">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="lang-en">MSRTC Bus Categories</span>
+            <span class="lang-mr mr">एसटी बसचे प्रकार</span>
+          </h2>
+          <p class="section-subtitle">
+            <span class="lang-en">Timetable cards match the authentic board colors used by
+              Maharashtra State Transport.</span>
+            <span class="lang-mr mr">वेळापत्रकातील कार्ड्स एसटीच्या मूळ फलकांच्या रंगांनुसार ओळखता
+              येतात.</span>
+          </p>
+        </div>
+
+        <div class="bus-fleet-grid">
+          <!-- Featured Anchor: Ordinary / Lal Dabba -->
+          <article class="fleet-card featured card-ordinary">
+            <div class="fleet-card-top">
+              <div class="fleet-badge badge-ordinary">
+                <span class="badge-code">ORD</span>
+                <span class="badge-en lang-en">Ordinary / Lal Dabba</span>
+                <span class="badge-mr mr lang-mr">साधी / लालपरी</span>
+              </div>
+              <span class="fleet-tier">
+                <span class="lang-en">Non-AC Seater</span>
+                <span class="lang-mr mr">विना-वातानुकूलित</span>
+              </span>
+            </div>
+            <div class="fleet-card-body">
+              <h3 class="fleet-name">
+                <span class="lang-en">Ordinary (Lal Dabba / Lal Pari)</span>
+                <span class="lang-mr mr">साधी बस (लाल डबा / लालपरी)</span>
+              </h3>
+              <p class="fleet-desc">
+                <span class="lang-en">The lifeline of Maharashtra. Operates regular taluka connections, rural routes, and village halts along state highways with direct conductor ticketing.</span>
+                <span class="lang-mr mr">महाराष्ट्रातील खेड्यापाड्यांची जीवनवाहिनी. तालुके आणि ग्रामीण भागात नियमित धावणारी, सर्व अधिकृत थांब्यांवर थांबणारी मुख्य सेवा.</span>
+              </p>
+            </div>
+            <div class="fleet-specs">
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Network</span><span class="lang-mr mr">मार्ग</span></span>
+                <span class="spec-val"><span class="lang-en">Talukas &amp; Rural Villages</span><span class="lang-mr mr">तालुके आणि गावे</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Seating</span><span class="lang-mr mr">बैठक</span></span>
+                <span class="spec-val"><span class="lang-en">3x2 Standard</span><span class="lang-mr mr">३x२ नेहमीची बैठक</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Stopping</span><span class="lang-mr mr">थांबे</span></span>
+                <span class="spec-val"><span class="lang-en">All Scheduled Stops</span><span class="lang-mr mr">सर्व अधिकृत थांबे</span></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Shivshahi -->
+          <article class="fleet-card card-shivshahi">
+            <div class="fleet-card-top">
+              <div class="fleet-badge badge-shivshahi">
+                <span class="badge-code">SSH</span>
+                <span class="badge-en lang-en">Shivshahi</span>
+                <span class="badge-mr mr lang-mr">शिवशाही</span>
+              </div>
+              <span class="fleet-tier">
+                <span class="lang-en">AC 2x2 Seater</span>
+                <span class="lang-mr mr">वातानुकूलित २x२</span>
+              </span>
+            </div>
+            <div class="fleet-card-body">
+              <h3 class="fleet-name">Shivshahi</h3>
+              <p class="fleet-desc">
+                <span class="lang-en">Air-conditioned intercity express coaches connecting district headquarters with pushback seating and mobile charging.</span>
+                <span class="lang-mr mr">जिल्ह्यांची प्रमुख शहरे आणि विभागीय मुख्यालये जोडणारी वातानुकूलित आरामदायी २x२ बस सेवा.</span>
+              </p>
+            </div>
+            <div class="fleet-specs">
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Network</span><span class="lang-mr mr">मार्ग</span></span>
+                <span class="spec-val"><span class="lang-en">District Headquarters</span><span class="lang-mr mr">जिल्हा मुख्यालये</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Seating</span><span class="lang-mr mr">बैठक</span></span>
+                <span class="spec-val"><span class="lang-en">2x2 AC Pushback</span><span class="lang-mr mr">२x२ पुशबॅक</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Stopping</span><span class="lang-mr mr">थांबे</span></span>
+                <span class="spec-val"><span class="lang-en">Major Depots Only</span><span class="lang-mr mr">मुख्य आगार थांबे</span></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Shivneri -->
+          <article class="fleet-card card-shivneri">
+            <div class="fleet-card-top">
+              <div class="fleet-badge badge-shivneri">
+                <span class="badge-code">SHN</span>
+                <span class="badge-en lang-en">Shivneri</span>
+                <span class="badge-mr mr lang-mr">शिवनेरी</span>
+              </div>
+              <span class="fleet-tier">
+                <span class="lang-en">Premium Volvo AC</span>
+                <span class="lang-mr mr">प्रीमियम व्होल्व्हो</span>
+              </span>
+            </div>
+            <div class="fleet-card-body">
+              <h3 class="fleet-name">Shivneri</h3>
+              <p class="fleet-desc">
+                <span class="lang-en">High-speed Volvo and Scania express connections operating on prime corridors like Pune to Mumbai with expressway non-stop priority.</span>
+                <span class="lang-mr mr">पुणे-मुंबई एक्सप्रेसवे व प्रमुख महानगरांमधील वेगवान प्रीमियम वातानुकूलित व्होल्व्हो सेवा.</span>
+              </p>
+            </div>
+            <div class="fleet-specs">
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Network</span><span class="lang-mr mr">मार्ग</span></span>
+                <span class="spec-val"><span class="lang-en">Express Corridors</span><span class="lang-mr mr">एक्सप्रेसवे मार्ग</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Seating</span><span class="lang-mr mr">बैठक</span></span>
+                <span class="spec-val"><span class="lang-en">Volvo Multi-Axle</span><span class="lang-mr mr">मल्टी-अ‍ॅक्सल व्होल्व्हो</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Stopping</span><span class="lang-mr mr">थांबे</span></span>
+                <span class="spec-val"><span class="lang-en">Point to Point</span><span class="lang-mr mr">थेट एक्सप्रेस थांबे</span></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Hirkani / Asiad -->
+          <article class="fleet-card card-hirkani">
+            <div class="fleet-card-top">
+              <div class="fleet-badge badge-hirkani">
+                <span class="badge-code">HIR</span>
+                <span class="badge-en lang-en">Hirkani / Asiad</span>
+                <span class="badge-mr mr lang-mr">हिरकणी / एशियाड</span>
+              </div>
+              <span class="fleet-tier">
+                <span class="lang-en">Semi-Luxury 2x2</span>
+                <span class="lang-mr mr">निमआराम २x२</span>
+              </span>
+            </div>
+            <div class="fleet-card-body">
+              <h3 class="fleet-name">Hirkani (Asiad)</h3>
+              <p class="fleet-desc">
+                <span class="lang-en">Non-AC semi-luxury pushback seating for fast medium-distance intercity travel across regional highways.</span>
+                <span class="lang-mr mr">मध्यम अंतराच्या मार्गांवर २x२ आरामदायी बैठक व्यवस्थेची वेगवान निमआराम सेवा.</span>
+              </p>
+            </div>
+            <div class="fleet-specs">
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Network</span><span class="lang-mr mr">मार्ग</span></span>
+                <span class="spec-val"><span class="lang-en">Intercity Corridors</span><span class="lang-mr mr">आंतरशहर मार्ग</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Seating</span><span class="lang-mr mr">बैठक</span></span>
+                <span class="spec-val"><span class="lang-en">2x2 Pushback</span><span class="lang-mr mr">२x२ पुशबॅक</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Stopping</span><span class="lang-mr mr">थांबे</span></span>
+                <span class="spec-val"><span class="lang-en">Express Bus Stands</span><span class="lang-mr mr">प्रमुख बस स्टँड</span></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Sleeper -->
+          <article class="fleet-card card-sleeper">
+            <div class="fleet-card-top">
+              <div class="fleet-badge badge-sleeper">
+                <span class="badge-code">SLP</span>
+                <span class="badge-en lang-en">Sleeper</span>
+                <span class="badge-mr mr lang-mr">शयनयान</span>
+              </div>
+              <span class="fleet-tier">
+                <span class="lang-en">Overnight Berths</span>
+                <span class="lang-mr mr">रात्रीची स्लीपर</span>
+              </span>
+            </div>
+            <div class="fleet-card-body">
+              <h3 class="fleet-name">
+                <span class="lang-en">Sleeper Coach</span>
+                <span class="lang-mr mr">शयनयान बस</span>
+              </h3>
+              <p class="fleet-desc">
+                <span class="lang-en">Overnight long-distance travel connecting coastal Konkan, Vidarbha, and interstate cities with comfortable sleeping berths.</span>
+                <span class="lang-mr mr">कोकण, विदर्भ आणि आंतरराज्य लांब पल्ल्याच्या रात्रीच्या प्रवासासाठी सोयीस्कर स्लीपर बर्थ असलेली बस.</span>
+              </p>
+            </div>
+            <div class="fleet-specs">
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Network</span><span class="lang-mr mr">मार्ग</span></span>
+                <span class="spec-val"><span class="lang-en">Overnight Long-Haul</span><span class="lang-mr mr">लांब पल्ल्याचे मार्ग</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Seating</span><span class="lang-mr mr">बैठक</span></span>
+                <span class="spec-val"><span class="lang-en">Single &amp; Double Berths</span><span class="lang-mr mr">सिंगल व डबल बर्थ</span></span>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label"><span class="lang-en">Stopping</span><span class="lang-mr mr">थांबे</span></span>
+                <span class="spec-val"><span class="lang-en">Scheduled Night Hubs</span><span class="lang-mr mr">नियोजित रात्रीचे थांबे</span></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer class="site-footer" role="contentinfo">
-      <p class="footer-copy">
-        <span class="copy-en lang-en">© 2026 ST Saathi. Independent community tool — not affiliated with MSRTC.</span>
-        <span class="copy-mr lang-mr mr">© २०२६ एसटी साथी. स्वतंत्र साधन — एसएमआरटीसीशी संबंध नाही.</span>
-      </p>
-      <p class="footer-links">
-        <a href="https://github.com" class="footer-link">GitHub repo</a>
-        <span class="divider">·</span>
-        <a href="#data-info">Data source &amp; freshness</a>
-      </p>
-    </footer>
+    <!-- Coverage Section -->
+    <section class="section section-alt" id="coverage">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="lang-en">45 Depots Across Maharashtra</span>
+            <span class="lang-mr mr">महाराष्ट्रातील ४५ मुख्य आगारे</span>
+          </h2>
+          <p class="section-subtitle">
+            <span class="lang-en">Verified schedules from published timetables across Western
+              Maharashtra, Konkan, Vidarbha, Khandesh, and Marathwada.</span>
+            <span class="lang-mr mr">पश्चिम महाराष्ट्र, कोकण, विदर्भ, खान्देश आणि मराठवाड्यातील
+              मुख्य आगारांचे संकलित वेळापत्रक.</span>
+          </p>
+        </div>
+
+        <div class="coverage-card">
+          <div class="coverage-stats-row">
+            <div>
+              <div class="cov-stat-val">45</div>
+              <div class="cov-stat-name">
+                <span class="lang-en">Active MSRTC Depots</span>
+                <span class="lang-mr mr">मुख्य एसटी आगारे</span>
+              </div>
+            </div>
+            <div>
+              <div class="cov-stat-val">1,072</div>
+              <div class="cov-stat-name">
+                <span class="lang-en">Cataloged Stations</span>
+                <span class="lang-mr mr">नोंदणीकृत बस स्थानके</span>
+              </div>
+            </div>
+            <div>
+              <div class="cov-stat-val">11,000+</div>
+              <div class="cov-stat-name">
+                <span class="lang-en">Daily Scheduled Runs</span>
+                <span class="lang-mr mr">दैनिक प्रस्थान फेऱ्या</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="depot-chips-title">
+            <span class="lang-en">Major Depots and Junction Hubs:</span>
+            <span class="lang-mr mr">प्रमुख आगारे व मध्यवर्ती जंक्शन्स:</span>
+          </div>
+
+          <div class="depot-pills">
+            <span class="depot-pill">Pune (Swargate &amp; Shivaji Nagar)</span>
+            <span class="depot-pill">Mumbai Central &amp; Dadar</span>
+            <span class="depot-pill">Nagpur (Ganeshpeth)</span>
+            <span class="depot-pill">Amravati</span>
+            <span class="depot-pill">Akola</span>
+            <span class="depot-pill">Kolhapur</span>
+            <span class="depot-pill">Ratnagiri</span>
+            <span class="depot-pill">Wardha</span>
+            <span class="depot-pill">Chandrapur</span>
+            <span class="depot-pill">Beed</span>
+            <span class="depot-pill">Bhusawal</span>
+            <span class="depot-pill">Yavatmal</span>
+            <span class="depot-pill">Jalgaon</span>
+            <span class="depot-pill">Nanded</span>
+            <span class="depot-pill">Kurundwad</span>
+            <span class="depot-pill">+ 30 more depots</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Installation Steps -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="lang-en">How to Install</span>
+            <span class="lang-mr mr">इन्स्टॉल कसे करावे</span>
+          </h2>
+          <p class="section-subtitle">
+            <span class="lang-en">Download and install the APK directly on any Android 8.0+
+              device.</span>
+            <span class="lang-mr mr">कोणत्याही अँड्रॉइड ८.०+ फोनवर एपीके थेट इन्स्टॉल करा.</span>
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-num">1</div>
+            <h3 class="step-title">
+              <span class="lang-en">Download the APK</span>
+              <span class="lang-mr mr">एपीके डाऊनलोड करा</span>
+            </h3>
+            <p class="step-desc">
+              <span class="lang-en">Tap the download button above to get the official release
+                file.</span>
+              <span class="lang-mr mr">वरील डाऊनलोड बटनावर टॅप करून अधिकृत रिलीज फाईल मिळवा.</span>
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">2</div>
+            <h3 class="step-title">
+              <span class="lang-en">Open File &amp; Install</span>
+              <span class="lang-mr mr">फाईल उघडा आणि इन्स्टॉल करा</span>
+            </h3>
+            <p class="step-desc">
+              <span class="lang-en">Open the downloaded file in notifications or downloads. If
+                prompted, permit install from this source.</span>
+              <span class="lang-mr mr">डाऊनलोड झालेली फाईल उघडा. विचारल्यास "Install from this
+                source" ला परवानगी द्या.</span>
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">3</div>
+            <h3 class="step-title">
+              <span class="lang-en">Pick Your Home Depot</span>
+              <span class="lang-mr mr">तुमचा डेपो निवडा</span>
+            </h3>
+            <p class="step-desc">
+              <span class="lang-en">Launch ST Saathi, choose Marathi or English, pick your main
+                departure depot, and search bus schedules immediately.</span>
+              <span class="lang-mr mr">अ‍ॅप उघडा, भाषा आणि मुख्य डेपो निवडा आणि लगेच ऑफलाइन बस
+                शोधा.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="lang-en">Frequently Asked Questions</span>
+            <span class="lang-mr mr">नेहमीचे प्रश्न</span>
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              <span class="lang-en">Does ST Saathi really work without internet?</span>
+              <span class="lang-mr mr">एसटी साथी खरोखर इंटरनेटशिवाय चालते का?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p class="lang-en">
+                Yes. All 11,000+ scheduled departures are bundled into a 1.24
+                MB local SQLite database on your device. You can search,
+                browse intermediate stops, and check saved routes in airplane
+                mode or remote areas with zero network signal.
+              </p>
+              <p class="lang-mr mr">
+                होय. सर्व ११,०००+ बस फेऱ्या आणि आगारांचे वेळापत्रक अ‍ॅपच्या आत
+                १.२४ एमबी स्थानिक SQLite डेटाबेसमध्ये साठवलेले असते. नेटवर्क
+                नसताना किंवा फ्लाईट मोडमध्येही बस शोधता येते.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="lang-en">How do timetable updates work?</span>
+              <span class="lang-mr mr">वेळापत्रकाचे नवीन अपडेट्स कसे मिळतात?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p class="lang-en">
+                When connected to the internet, ST Saathi checks for updated
+                database releases. If an update is available, the app updates
+                the local timetable database directly without requiring a full
+                APK reinstall.
+              </p>
+              <p class="lang-mr mr">
+                इंटरनेट जोडलेले असताना अ‍ॅप नवीन डेटाबेस तपासते. नवीन
+                वेळापत्रक आले असल्यास संपूर्ण अ‍ॅप पुन्हा इन्स्टॉल न करता
+                डेटाबेस अपडेट होतो.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="lang-en">Is ST Saathi an official MSRTC app?</span>
+              <span class="lang-mr mr">हे एसटी महामंडळाचे (MSRTC) अधिकृत अ‍ॅप आहे का?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p class="lang-en">
+                No. ST Saathi is an independent community project. While
+                records are compiled from verified depot sources, bus
+                operations can change due to depot schedules or maintenance.
+                Always confirm critical departures at the depot enquiry
+                window.
+              </p>
+              <p class="lang-mr mr">
+                नाही. हे स्वतंत्र साधन असून महाराष्ट्र राज्य मार्ग परिवहन
+                महामंडळाशी (MSRTC) याचा थेट संबंध नाही. प्रवासापूर्वी आगार
+                चौकशी खिडकीवर खात्री करणे योग्य ठरते.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="lang-en">Is the app free and does it have ads?</span>
+              <span class="lang-mr mr">अ‍ॅप मोफत आहे का आणि यात जाहिराती आहेत का?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p class="lang-en">
+                ST Saathi is 100% free with zero ads, zero sponsored trackers,
+                and zero in-app purchases. The code is public on GitHub.
+              </p>
+              <p class="lang-mr mr">
+                एसटी साथी १००% मोफत आहे. यामध्ये कोणत्याही जाहिराती, ट्रॅकर्स
+                किंवा शुल्क नाही. हा पूर्णपणे ओपन-सोर्स प्रकल्प आहे.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="lang-en">What Android versions are supported?</span>
+              <span class="lang-mr mr">कोणत्या अँड्रॉइड फोनवर हे चालते?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p class="lang-en">
+                Android 8.0 (Oreo) and newer. The app uses minimal memory and
+                runs smoothly on entry-level smartphones.
+              </p>
+              <p class="lang-mr mr">
+                अँड्रॉइड ८.० आणि त्यापुढील फोनवर चालते. हे कमी रॅम वापरते आणि
+                साध्या फोनवरही सहज चालते.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-disclaimer">
+        <span class="lang-en"><strong>Notice:</strong> ST Saathi is an independent community
+          project and is not affiliated with Maharashtra State Road Transport
+          Corporation (MSRTC). Schedules are compiled from published open
+          datasets. Confirm departures at depot enquiry counters.</span>
+        <span class="lang-mr mr"><strong>सूचना:</strong> एसटी साथी हे स्वतंत्र साधन असून महाराष्ट्र
+          राज्य मार्ग परिवहन महामंडळाशी (MSRTC) याचा संबंध नाही. प्रवासापूर्वी
+          आगार चौकशी खिडकीवर खात्री करा.</span>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 ST Saathi.
+          <span class="lang-en">Offline timetable for Maharashtra.</span>
+          <span class="lang-mr mr">महाराष्ट्रातील प्रवाशांसाठी समर्पित.</span>
+        </div>
+        <div>
+          <a href="https://github.com/prathameshlonare/st-saathi" target="_blank" rel="noopener noreferrer">GitHub
+            Repository</a>
+          &nbsp;•&nbsp;
+          <a href="https://github.com/prathameshlonare/st-saathi/releases" target="_blank"
+            rel="noopener noreferrer">Releases</a>
+          &nbsp;•&nbsp;
+          <a href="#hero">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,56 +1,50 @@
-/* ST Saathi — download landing page
-   Design tokens mirror lib/core/theme/app_theme.dart (Flutter app)
-   Visual tone: modern, minimal, restrained. Typography + spacing + colour,
-   no decorative cards, gradients, or animation. */
-:root {
-  /* Brand MSRTC Palette */
-  --color-msrtc-red: #8E1616;        /* Deep Heritage Crimson — primary */
-  --color-msrtc-red-dark: #6B0E0E;   /* Hero card gradient dark */
-  --color-msrtc-gold: #D97706;       /* Transport Ochre Gold — accent */
+/* ST Saathi - Offline Timetable Landing Page
+   Mobile-First Architecture: MSRTC Crimson, Parchment, Transport Gold
+   Zero heavy frameworks, pure modern CSS3, responsive, accessible */
 
-  /* Surface */
-  --color-parchment: #FAF7F2;        /* Warm terminal parchment background */
-  --color-outline: #DED6CD;          /* Card boundary outline */
-  --color-outline-strong: #C9BFB4;
+:root {
+  /* Brand Colors */
+  --color-msrtc-red: #8E1616;
+  --color-msrtc-red-hover: #731010;
+  --color-msrtc-red-light: #FDF2F2;
+  --color-msrtc-red-soft: rgba(142, 22, 22, 0.08);
+  --color-msrtc-gold: #D97706;
+  --color-msrtc-gold-light: #FEF3C7;
+
+  /* Surfaces & Canvas */
+  --color-parchment: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F4EFEB;
+  --color-outline: #E5DDD3;
+  --color-outline-dark: #CFC5B8;
+  --color-header-bg: rgba(250, 247, 242, 0.95);
+  --color-brand-text: #8E1616;
 
   /* Typography */
-  --color-ink: #1C1917;              /* Primary typography */
-  --color-ink-muted: #7A706C;        /* Subtitle / muted text */
+  --color-ink: #1C1917;
+  --color-ink-muted: #665E58;
+  --color-ink-light: #524C46;
 
-  /* Radius */
-  --radius-sm: 10px;
-  --radius-md: 14px;
+  /* Bus Type Accents */
+  --color-ordinary: #8E1616;
+  --color-shivshahi: #0F766E;
+  --color-shivneri: #1E3A8A;
+  --color-hirkani: #166534;
+  --color-sleeper: #6B21A8;
+
+  /* Spacing & Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
   --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.04);
+  --shadow-md: 0 4px 16px rgba(28, 25, 23, 0.08);
 }
 
-html {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-parchment);
-  color: var(--color-ink);
-  font-family: 'PlusJakartaSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 17px;
-  line-height: 1.55;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: var(--color-msrtc-red);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-a:hover {
-  border-bottom-color: var(--color-msrtc-red);
-}
-
-/* App fonts — copied from assets/fonts/ */
+/* Local Fonts */
 @font-face {
   font-family: 'Mukta';
   src: url('./fonts/Mukta-Regular.ttf') format('truetype');
@@ -75,323 +69,1469 @@ a:hover {
 @font-face {
   font-family: 'PlusJakartaSans';
   src: url('./fonts/PlusJakartaSans.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
 
-.container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 0 24px;
+/* Reset & Box Model */
+html {
+  box-sizing: border-box;
 }
 
-/* Language toggle: show the active language, hide the other */
-[data-lang="en"] .lang-mr,
-[data-lang="mr"] .lang-en {
-  display: none;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .fleet-card,
+  .btn-primary,
+  .btn-secondary,
+  .nav-toggle-btn,
+  .lang-btn,
+  .btn-nav-download,
+  .mock-swap-btn,
+  .bento-card,
+  .step-card {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
   padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  border: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: 'PlusJakartaSans', system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* ---------- Changelog link inside ticket ---------- */
-.changelog-link {
-  font-size: 13px;
-  color: var(--color-msrtc-red);
-  font-weight: 600;
-  padding: 6px 10px;
+button, a {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Accessible Focus-Visible & Themed Selection */
+:focus-visible {
+  outline: 2px solid var(--color-msrtc-red);
+  outline-offset: 3px;
+}
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-msrtc-red);
+  outline-offset: 3px;
   border-radius: var(--radius-sm);
 }
-.changelog-link:hover {
-  background: rgba(142, 22, 22, 0.06);
+
+::selection {
+  background: var(--color-msrtc-red);
+  color: #FFFFFF;
 }
 
-/* ---------- Divider ---------- */
-.divider {
-  margin: 0 8px;
-  color: var(--color-outline);
+/* Skip Link: visually hidden until keyboard focus */
+.skip-link {
+  position: fixed;
+  top: -60px;
+  left: 16px;
+  z-index: 120;
+  background: var(--color-msrtc-red);
+  color: #FFFFFF;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.mr { font-family: 'Mukta', serif; }
+.skip-link:focus {
+  top: 12px;
+}
 
-/* ---------- Header ---------- */
+/* Bilingual Switch Rules */
+[data-lang="en"] .lang-mr {
+  display: none !important;
+}
+[data-lang="mr"] .lang-en {
+  display: none !important;
+}
+[data-lang="mr"] {
+  font-family: 'Mukta', 'PlusJakartaSans', system-ui, sans-serif;
+}
+.mr, [data-lang="mr"] h1, [data-lang="mr"] h2, [data-lang="mr"] h3 {
+  font-family: 'Mukta', sans-serif;
+}
+
+/* Container (Mobile-First: 16px gutters) */
+.container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header & Navigation (Mobile-First) */
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-header-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-outline);
+}
+
+.nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0 16px;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.wordmark {
-  font-family: 'Mukta', serif;
-  font-weight: 700;
-  font-size: 30px;
-  color: var(--color-msrtc-red);
-  letter-spacing: -0.5px;
-}
-.wordmark .brand-mr {
-  font-weight: 600;
-}
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-}
-#lang-toggle {
-  background: transparent;
-  border: 1px solid var(--color-outline);
-  color: var(--color-ink-muted);
-  font-family: 'PlusJakartaSans', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  padding: 6px 10px;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-}
-#lang-toggle:hover {
-  border-color: var(--color-msrtc-red);
-  color: var(--color-msrtc-red);
-}
-.download-link {
-  font-family: 'PlusJakartaSans', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--color-msrtc-red);
-  padding: 6px 10px;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--color-msrtc-red);
-}
-.download-link:hover {
-  background: rgba(142, 22, 22, 0.06);
+  height: 62px;
+  position: relative;
 }
 
-/* ---------- Hero ---------- */
-#hero {
-  padding: 56px 0 40px;
-  border-bottom: 1px solid var(--color-outline);
-}
-#hero h1 {
-  font-family: 'Mukta', serif;
-  font-weight: 700;
-  font-size: 56px;
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
   color: var(--color-ink);
-  margin: 0 0 14px;
-  line-height: 1.08;
-  letter-spacing: -1px;
+  min-width: 0;
 }
-#hero h1 .brand-mr {
-  color: var(--color-msrtc-red);
+
+.brand-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 7px;
+  box-shadow: var(--shadow-sm);
+  display: block;
+  flex-shrink: 0;
 }
-.tagline {
-  font-family: 'PlusJakartaSans', sans-serif;
-  font-size: 20px;
-  color: var(--color-ink-muted);
-  margin: 0 0 10px;
-  font-weight: 500;
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
 }
-.sub-stat {
-  font-size: 14px;
-  color: var(--color-ink-muted);
-  margin: 0 0 26px;
+
+.brand-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-brand-text);
+  line-height: 1.1;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+.brand-badge {
+  display: none;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.2px;
+  color: var(--color-ink-muted);
+  letter-spacing: 0.3px;
 }
-.btn {
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid var(--color-outline-dark);
+  color: var(--color-ink);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+}
+
+.lang-btn:hover {
+  border-color: var(--color-msrtc-red);
+  color: var(--color-brand-text);
+  background: var(--color-msrtc-red-light);
+}
+
+.btn-nav-download {
+  background: var(--color-msrtc-red);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+}
+
+.btn-nav-download:hover {
+  background: var(--color-msrtc-red-hover);
+}
+
+.nav-dl-full {
+  display: none;
+}
+.nav-dl-short {
+  display: inline;
+}
+
+/* Mobile Menu Toggle Button */
+.nav-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-outline-dark);
+  background: transparent;
+  color: var(--color-ink);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.15s ease;
+}
+
+.nav-toggle-btn:hover,
+.nav-toggle-btn:active {
+  border-color: var(--color-msrtc-red);
+  color: var(--color-brand-text);
+  background: var(--color-msrtc-red-light);
+}
+
+/* Mobile Navigation Drawer */
+.nav-links {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-outline);
+  box-shadow: var(--shadow-md);
+  display: none;
+  flex-direction: column;
+  padding: 8px 16px 14px;
+  gap: 2px;
+}
+
+.nav-links.is-open {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-ink);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+  display: block;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background: var(--color-surface-subtle);
+  color: var(--color-brand-text);
+}
+
+/* Hero Section (Mobile-First: Stacked, Touch-Friendly) */
+.hero-section {
+  padding: 24px 0 36px;
+}
+
+.hero-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hero-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: clamp(26px, 7.2vw, 44px);
+  line-height: 1.16;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.hero-title span.highlight {
+  color: var(--color-brand-text);
+}
+
+.hero-desc {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--color-ink-muted);
+  margin: 0 0 20px;
+}
+
+/* Download Ticket Card (Mobile-First: 100% Width Buttons) */
+.ticket-cta-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.ticket-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+  color: var(--color-ink-muted);
+}
+
+.badge-version {
+  background: var(--color-msrtc-red-light);
+  color: var(--color-brand-text);
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(142, 22, 22, 0.2);
+}
+
+.cta-button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.btn-primary {
+  width: 100%;
+  min-height: 48px;
+  background: var(--color-msrtc-red);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 13px 18px;
+  border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: 'PlusJakartaSans', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  gap: 8px;
   border: none;
-  border-radius: var(--radius-md);
   cursor: pointer;
-  text-decoration: none;
-}
-.btn:active {
-  transform: scale(0.985);
-}
-.btn-primary {
-  background-color: var(--color-msrtc-red);
-  color: #ffffff;
-  padding: 16px 28px;
-  min-width: 270px;
-}
-.btn-primary:hover {
-  background-color: var(--color-msrtc-red-dark);
-}
-.btn-primary:active {
-  background-color: var(--color-msrtc-red-dark);
+  transition: background 0.15s ease;
 }
 
-/* ---------- Download ticket strip ---------- */
-.download-ticket {
-  margin: 48px 0 64px;
-  padding: 26px 28px;
-  border: 1px solid var(--color-outline);
-  border-radius: var(--radius-lg);
-  background: #ffffff;
+.btn-primary:hover {
+  background: var(--color-msrtc-red-hover);
+}
+
+.btn-secondary {
+  width: 100%;
+  min-height: 48px;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  border: 1px solid var(--color-outline-dark);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 18px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-ink);
+}
+
+.ticket-notice {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--color-ink-light);
+  line-height: 1.45;
+}
+
+/* Hero Stats Strip (Mobile-First: 2x2 Grid) */
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  padding-top: 18px;
+  border-top: 1px solid var(--color-outline);
+}
+
+.stat-item {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  position: relative;
-  overflow: hidden;
 }
-.download-ticket::before {
+
+.stat-number {
+  font-family: 'Mukta', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.1;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--color-ink-muted);
+  font-weight: 600;
+  margin-top: 3px;
+  line-height: 1.3;
+}
+
+/* Smartphone Device Frame (Mobile-First: Safe Proportions, Zero Overflow) */
+.phone-mockup-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 6px 0 0;
+  position: relative;
+}
+
+.phone-hardware {
+  position: relative;
+  width: 100%;
+  max-width: min(285px, 80vw);
+  background: #1C1B1A;
+  border-radius: 38px;
+  padding: 8px;
+  margin: 0 auto;
+  box-shadow:
+    0 0 0 1px #484440,
+    0 0 0 2px #262422,
+    0 18px 38px -10px rgba(28, 25, 23, 0.35),
+    0 8px 18px -6px rgba(142, 22, 22, 0.12);
+}
+
+/* Metallic Volume Buttons (Left Edge) */
+.phone-hardware::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--color-msrtc-red) 0%, var(--color-msrtc-gold) 100%);
+  left: -3px;
+  top: 90px;
+  width: 3px;
+  height: 38px;
+  background: #3B3835;
+  border-radius: 3px 0 0 3px;
+  box-shadow:
+    -1px 0 2px rgba(0, 0, 0, 0.6),
+    0 48px 0 0 #3B3835;
 }
-.ticket-row {
+
+/* Metallic Power / Lock Key (Right Edge) */
+.phone-hardware::after {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: 110px;
+  width: 3px;
+  height: 50px;
+  background: #3B3835;
+  border-radius: 0 3px 3px 0;
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Earpiece Speaker Slit */
+.phone-speaker-grill {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2.5px;
+  background: #0E0D0C;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px #000000;
+  z-index: 30;
+}
+
+/* OLED Screen Bezel & Display Viewport */
+.phone-screen {
+  position: relative;
+  background: #000000;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 2px solid #000000;
+  aspect-ratio: 1080 / 2305;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Front Punch-Hole Camera with Optical Glare */
+.phone-camera-hole {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 30;
+  box-shadow: inset 0 0 0 1px #1E293B, 0 0 2px rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.phone-camera-hole::after {
+  content: '';
+  width: 3px;
+  height: 3px;
+  background: radial-gradient(circle, #38BDF8 25%, #1E3A8A 65%, transparent 95%);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/* Specular Curved Front Glass Reflection */
+.phone-glass-glare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    128deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.03) 30%,
+    transparent 30.1%
+  );
+  pointer-events: none;
+  z-index: 25;
+}
+
+/* Bottom Android Home Navigation Pill */
+.phone-home-indicator {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 3px;
+  background: rgba(28, 25, 23, 0.28);
+  border-radius: 3px;
+  z-index: 30;
+  pointer-events: none;
+}
+
+/* Real Screenshot Image Placement */
+.phone-screenshot-img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1080 / 2305;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+/* Mock Interactive UI (Fallback) */
+.mock-interactive-ui {
+  background: var(--color-parchment);
+  padding: 24px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 12px;
+}
+
+.mock-interactive-ui.is-hidden {
+  display: none !important;
+}
+
+.app-mock-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-.badge {
-  font-family: 'PlusJakartaSans', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-msrtc-red);
-  border: 1px solid var(--color-msrtc-red);
-  padding: 4px 10px;
-  border-radius: 20px;
-  white-space: nowrap;
-}
-.filesize {
-  font-size: 13px;
-  color: var(--color-ink-muted);
-  font-weight: 600;
-}
-.ticket-actions {
-  margin-top: 6px;
-}
-.btn-outline {
-  background: transparent;
-  color: var(--color-msrtc-red);
-  border: 1px solid var(--color-msrtc-red);
-  padding: 12px 22px;
-}
-.btn-outline:hover {
-  background: rgba(142, 22, 22, 0.06);
-}
-
-/* ---------- Coverage ---------- */
-#coverage {
-  padding: 0 0 64px;
-}
-#coverage h2 {
-  font-family: 'Mukta', serif;
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--color-ink);
-  margin: 0 0 8px;
-  letter-spacing: -0.5px;
-}
-#coverage p {
-  margin: 0;
-  font-size: 14px;
-  color: var(--color-ink-muted);
-  font-weight: 600;
-}
-
-/* ---------- Bus type chips ---------- */
-#bus-types {
-  padding: 0 0 72px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
   border-bottom: 1px solid var(--color-outline);
 }
-#bus-types h2 {
-  font-family: 'Mukta', serif;
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--color-ink);
-  margin: 0 0 14px;
-  letter-spacing: -0.5px;
+
+.mock-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-brand-text);
 }
-.chip-list {
+
+.mock-offline-chip {
+  background: #ECFDF5;
+  color: #065F46;
+  border: 1px solid #A7F3D0;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  align-items: center;
+  gap: 5px;
 }
-.chip {
+
+.mock-offline-chip::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #10B981;
+  border-radius: 50%;
+}
+
+.mock-search-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 10px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.mock-station-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+}
+
+.mock-station-row + .mock-station-row {
+  border-top: 1px dashed var(--color-outline);
+}
+
+.mock-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.mock-dot.origin { background: var(--color-msrtc-red); }
+.mock-dot.dest { background: var(--color-msrtc-gold); }
+
+.mock-station-name {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--color-ink);
+  flex: 1;
+}
+
+.mock-swap-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  margin: -6px -6px -6px 0;
   display: inline-flex;
   align-items: center;
-  font-family: 'PlusJakartaSans', sans-serif;
+  justify-content: center;
+  color: var(--color-brand-text);
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.mock-swap-btn:hover {
+  background: var(--color-msrtc-red-light);
+}
+
+.mock-swap-btn:active {
+  transform: rotate(180deg);
+}
+
+.mock-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mock-bus-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.mock-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.mock-bus-type {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.mock-bus-card.shivneri .mock-bus-type { color: var(--color-shivneri); }
+.mock-bus-card.ordinary .mock-bus-type { color: var(--color-ordinary); }
+.mock-bus-card.shivshahi .mock-bus-type { color: var(--color-shivshahi); }
+
+.mock-countdown {
+  background: var(--color-surface-subtle);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.mock-card-time {
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.mock-card-route {
+  font-size: 10.5px;
+  color: var(--color-ink-muted);
+}
+
+/* Sections (Mobile-First) */
+.section {
+  padding: 44px 0;
+}
+
+.section-alt {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-outline);
+  border-bottom: 1px solid var(--color-outline);
+}
+
+.section-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 28px;
+}
+
+.section-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: clamp(22px, 5.5vw, 32px);
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 10px;
+  letter-spacing: -0.4px;
+}
+
+.section-subtitle {
+  font-size: clamp(13.5px, 3.5vw, 16px);
+  color: var(--color-ink-muted);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* Substantive Feature Cards (Mobile-First: 1 Column) */
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.bento-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-tag-chip {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: var(--color-brand-text);
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-outline);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+}
+
+.bento-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 6px;
+}
+
+.bento-desc {
+  font-size: 13.5px;
+  color: var(--color-ink-muted);
+  margin: 0;
+  line-height: 1.55;
+  flex: 1;
+}
+
+/* Authentic Transit Fleet Grid (Mobile-First: Balanced Proportions & Specs) */
+.bus-fleet-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.fleet-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+/* Authentic Category Border Highlight on Hover (Replaces AI side-tab border tell) */
+.fleet-card.card-ordinary:hover { border-color: var(--color-ordinary); }
+.fleet-card.card-shivshahi:hover { border-color: var(--color-shivshahi); }
+.fleet-card.card-shivneri:hover { border-color: var(--color-shivneri); }
+.fleet-card.card-hirkani:hover { border-color: var(--color-hirkani); }
+.fleet-card.card-sleeper:hover { border-color: var(--color-sleeper); }
+
+.fleet-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.fleet-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  color: #FFFFFF;
+  text-align: center;
+  width: fit-content;
+  flex-shrink: 0;
+}
+
+.badge-ordinary { background: var(--color-ordinary); }
+.badge-shivshahi { background: var(--color-shivshahi); }
+.badge-shivneri { background: var(--color-shivneri); }
+.badge-hirkani { background: var(--color-hirkani); }
+.badge-sleeper { background: var(--color-sleeper); }
+
+.badge-code {
+  font-family: 'PlusJakartaSans', system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  padding: 5px 10px;
-  border-radius: var(--radius-sm);
-  border: 1px solid;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  opacity: 0.95;
+}
+
+.badge-en {
+  font-family: 'PlusJakartaSans', system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 1.1;
   white-space: nowrap;
-  color: currentColor;
 }
-.chip-ordinary { border-color: rgba(142, 22, 22, 0.35); color: #8E1616; background: rgba(142, 22, 22, 0.05); }
-.chip-shivshahi { border-color: rgba(15, 118, 110, 0.35); color: #0F766E; background: rgba(15, 118, 110, 0.05); }
-.chip-shivneri { border-color: rgba(30, 58, 138, 0.35); color: #1E3A8A; background: rgba(30, 58, 138, 0.05); }
-.chip-hirkani { border-color: rgba(21, 128, 61, 0.35); color: #15803D; background: rgba(21, 128, 61, 0.05); }
-.chip-sleeper { border-color: rgba(107, 33, 168, 0.35); color: #6B21A8; background: rgba(107, 33, 168, 0.05); }
 
-/* ---------- Disclaimer ---------- */
-#disclaimer {
-  padding: 0 0 56px;
+.badge-mr {
+  font-family: 'Mukta', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
 }
-.disclaimer-text {
+
+.fleet-tier {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-outline);
+  padding: 2.5px 8px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.2px;
+}
+
+.fleet-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fleet-name {
+  font-family: 'Mukta', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 6px;
+  letter-spacing: -0.3px;
+}
+
+.fleet-desc {
+  font-size: 13.5px;
+  color: var(--color-ink-muted);
   margin: 0;
-  font-size: 12px;
-  color: var(--color-ink-muted);
-  line-height: 1.6;
+  line-height: 1.55;
+  flex: 1;
 }
 
-/* ---------- Footer ---------- */
+/* Transit Attribute Specs */
+.fleet-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--color-outline);
+}
+
+.spec-chip {
+  flex: 1 1 calc(33.333% - 6px);
+  min-width: 80px;
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-sm);
+  padding: 5px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spec-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-ink-light);
+}
+
+.spec-val {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.25;
+}
+
+/* Coverage Card (Mobile-First) */
+.coverage-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 20px 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.coverage-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-outline);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.cov-stat-val {
+  font-family: 'Mukta', sans-serif;
+  font-size: clamp(22px, 6vw, 34px);
+  font-weight: 700;
+  color: var(--color-brand-text);
+  line-height: 1;
+}
+
+.cov-stat-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+.depot-chips-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin-bottom: 10px;
+}
+
+.depot-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.depot-pill {
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-outline);
+  color: var(--color-ink);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: var(--radius-full);
+}
+
+/* Installation Guide (Mobile-First: 1 Column) */
+.steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.step-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+}
+
+.step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--color-msrtc-red);
+  color: #FFFFFF;
+  font-family: 'Mukta', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.step-title {
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 4px;
+}
+
+.step-desc {
+  font-size: 13.5px;
+  color: var(--color-ink-muted);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* FAQ Section (Mobile-First: Tap-Target Friendly) */
+.faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.faq-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  list-style: none;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Mukta', sans-serif;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--color-ink);
+  user-select: none;
+  min-height: 48px;
+  gap: 10px;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-chevron {
+  width: 16px;
+  height: 16px;
+  stroke: var(--color-ink-muted);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.faq-item[open] .faq-chevron {
+  transform: rotate(180deg);
+  stroke: var(--color-msrtc-red);
+}
+
+.faq-answer {
+  padding: 0 16px 14px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--color-ink-muted);
+}
+
+/* Footer (Mobile-First) */
 .site-footer {
-  padding: 32px 0 48px;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-outline);
+  padding: 28px 0 20px;
   font-size: 12px;
   color: var(--color-ink-muted);
+}
+
+.footer-disclaimer {
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-outline);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--color-ink-muted);
+  margin-bottom: 16px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding-top: 14px;
   border-top: 1px solid var(--color-outline);
 }
-.footer-copy {
-  margin: 0 0 8px;
-}
-.footer-links {
-  margin: 0;
-}
-.footer-links a {
-  color: var(--color-msrtc-red);
+
+.footer-bottom a {
+  color: var(--color-brand-text);
+  text-decoration: none;
   font-weight: 600;
+  padding: 4px 0;
 }
 
-/* ---------- Responsive ---------- */
-@media (max-width: 560px) {
-  .container { padding: 0 20px; }
-  .site-header { padding: 32px 0 12px; }
-  .wordmark { font-size: 24px; }
-  #hero { padding: 40px 0 28px; }
-  #hero h1 { font-size: 42px; }
-  .tagline { font-size: 17px; }
-  .btn-primary { min-width: auto; width: 100%; }
-  .download-ticket { padding: 20px 22px; }
-  .ticket-row { flex-direction: column; align-items: flex-start; }
-  .ticket-actions { width: 100%; }
-  .btn-outline { width: 100%; }
-  #bus-types { border-bottom: none; padding-bottom: 64px; }
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   PROGRESSIVE ENHANCEMENT BREAKPOINTS (Mobile-First Min-Width)
+   ============================================================ */
+
+/* 1. Phablets / Large Phones (min-width: 480px) */
+@media (min-width: 480px) {
+  .brand-badge {
+    display: block;
+  }
+  .brand-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .brand-title {
+    font-size: 20px;
+  }
+  .nav-dl-full {
+    display: inline;
+  }
+  .nav-dl-short {
+    display: none;
+  }
+  .nav-actions {
+    gap: 8px;
+  }
+}
+
+/* 2. Tablets & Landscape (min-width: 640px) */
+@media (min-width: 640px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .nav-wrapper {
+    height: 66px;
+  }
+
+  .hero-section {
+    padding: 40px 0 48px;
+  }
+
+  .cta-button-group {
+    flex-direction: row;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: auto;
+    flex: 1;
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding-top: 20px;
+  }
+
+  .stat-number {
+    font-size: 24px;
+  }
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .bento-card {
+    padding: 22px;
+  }
+
+  .bus-fleet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .fleet-card {
+    padding: 20px 20px;
+  }
+
+  .fleet-card.featured {
+    grid-column: 1 / -1;
+    padding: 24px;
+  }
+
+  .fleet-card.featured .fleet-name {
+    font-size: 21px;
+  }
+
+  .fleet-card.featured .fleet-desc {
+    font-size: 14.5px;
+  }
+
+  .fleet-specs {
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 16px;
+    padding-top: 14px;
+  }
+
+  .spec-chip {
+    flex: 1;
+    padding: 7px 12px;
+  }
+
+  .spec-val {
+    font-size: 12.5px;
+  }
+
+  .coverage-card {
+    padding: 28px;
+  }
+
+  .coverage-stats-row {
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cov-stat-val {
+    font-size: 32px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .step-card {
+    padding: 24px 18px;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* 3. Desktops & Laptops (min-width: 900px) */
+@media (min-width: 900px) {
+  .nav-toggle-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    gap: 24px;
+  }
+
+  .nav-link {
+    padding: 0;
+    font-size: 14px;
+    color: var(--color-ink-muted);
+  }
+
+  .nav-link:hover {
+    background: transparent;
+    color: var(--color-brand-text);
+  }
+
+  .hero-section {
+    padding: 56px 0 60px;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .phone-hardware {
+    max-width: 320px;
+    border-radius: 46px;
+    padding: 10px;
+    box-shadow:
+      0 0 0 1px #484440,
+      0 0 0 2.5px #262422,
+      0 0 0 4px #151413,
+      0 30px 60px -15px rgba(28, 25, 23, 0.40),
+      0 14px 28px -10px rgba(142, 22, 22, 0.14),
+      0 6px 12px rgba(0, 0, 0, 0.10);
+  }
+
+  .phone-screen {
+    border-radius: 38px;
+    border-width: 3px;
+  }
+
+  .phone-camera-hole {
+    top: 9px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .bento-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .bus-fleet-grid {
+    gap: 20px;
+  }
+
+  .fleet-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-outline-dark);
+  }
+
+  .section {
+    padding: 72px 0;
+  }
+}
+
+/* ============================================================
+   PROGRESSIVE ENHANCEMENT: DARK MODE
+   High-contrast tokens preserving authentic MSRTC transport livery
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-parchment: #121110;
+    --color-surface: #1C1A18;
+    --color-surface-subtle: #262422;
+    --color-outline: #38342F;
+    --color-outline-dark: #4D4740;
+    --color-header-bg: rgba(18, 17, 16, 0.95);
+
+    --color-msrtc-red-light: rgba(248, 113, 113, 0.18);
+    --color-brand-text: #F87171;
+
+    --color-ink: #F5F2EB;
+    --color-ink-muted: #C4BCB3;
+    --color-ink-light: #A39B91;
+
+    /* Bus Type Text Accents (High Contrast on Dark Surfaces) */
+    --color-ordinary: #F87171;
+    --color-shivshahi: #2DD4BF;
+    --color-shivneri: #93C5FD;
+    --color-hirkani: #4ADE80;
+    --color-sleeper: #C084FC;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.40);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.60);
+  }
+
+  /* Physical Fleet Badges retain deep official livery for contrast against white text */
+  .badge-ordinary { background: #8E1616; }
+  .badge-shivshahi { background: #0F766E; }
+  .badge-shivneri { background: #1E3A8A; }
+  .badge-hirkani { background: #166534; }
+  .badge-sleeper { background: #6B21A8; }
+
+  .phone-hardware {
+    background: #0A0A09;
+    box-shadow:
+      0 0 0 1px #2B2825,
+      0 0 0 2px #1E1C1A,
+      0 18px 38px -10px rgba(0, 0, 0, 0.70);
+  }
+
+  .mock-offline-chip {
+    background: rgba(16, 185, 129, 0.15);
+    color: #6EE7B7;
+    border-color: rgba(16, 185, 129, 0.35);
+  }
 }
