@@ -21,7 +21,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.12.2'
+          flutter-version: '3.44.8'
           channel: 'stable'
 
       - name: Get dependencies
@@ -48,12 +48,14 @@ jobs:
 
       - name: Create metadata JSON
         run: |
+          VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}')
+          BUILD_NUMBER=${VERSION##*+}
           mkdir -p docs
           cat > docs/release-metadata.json << EOF
           {
-            "versionCode": 1,
-            "versionName": "${{ github.event.release.tag_name }}",
-            "downloadUrl": "${{ github.event.release.html_url }}",
+            "versionCode": ${BUILD_NUMBER},
+            "versionName": "${{ github.ref_name }}",
+            "downloadUrl": "https://github.com/${{ github.repository }}/releases/tag/${{ github.ref_name }}",
             "changelog": "See release notes on GitHub"
           }
           EOF

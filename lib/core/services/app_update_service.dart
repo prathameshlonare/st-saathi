@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Result of an app update check.
@@ -32,9 +34,12 @@ class AppUpdateService {
   factory AppUpdateService() => _instance;
   AppUpdateService._internal();
 
-  // Replace with your actual GitHub Pages URL after setup.
+  /// Where the update manifest lives on GitHub Pages.
   static const String _metadataUrl =
-      'https://<YOUR_GITHUB_USERNAME>.github.io/st-saathi/release-metadata.json';
+      'https://prathameshlonare.github.io/st-saathi/release-metadata.json';
+
+  @visibleForTesting
+  static String get metadataUrl => _metadataUrl;
 
   static const String _keyLastAppUpdateCheck = 'app_last_update_check';
   static const Duration _checkInterval = Duration(hours: 24);
@@ -88,7 +93,7 @@ class AppUpdateService {
       final downloadUrl = json['downloadUrl'] as String? ?? '';
       final changelog = json['changelog'] as String? ?? '';
 
-      final localVersionCode = getLocalVersionCode();
+      final localVersionCode = await getLocalVersionCode();
 
       return AppUpdateCheckResult(
         updateAvailable: remoteVersionCode > localVersionCode,
@@ -109,12 +114,20 @@ class AppUpdateService {
     }
   }
 
-  /// Returns the local version code from the package config.
-  int getLocalVersionCode() {
-    // This is read from pubspec.yaml version (build number).
-    // In a real build, this comes from the Gradle versionCode.
-    // For now we default to 1; GitHub Actions sets this during build.
-    return 1;
+  /// Returns the real version code of the installed build.
+  ///
+  /// On Android this is the Gradle `versionCode`, which comes from the build
+  /// number in `pubspec.yaml` (`version: 1.0.0+1` → 1). GitHub Actions builds
+  /// from the same file, so the app and the update manifest stay in step.
+  /// Falls back to 1 if the platform refuses to answer, so a broken update
+  /// check can never block startup.
+  Future<int> getLocalVersionCode() async {
+    try {
+      final info = await PackageInfo.fromPlatform();
+      return int.tryParse(info.buildNumber) ?? 1;
+    } catch (_) {
+      return 1;
+    }
   }
 
   /// Records that the user dismissed the update, so we don't nag again

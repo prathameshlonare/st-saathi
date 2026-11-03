@@ -47,7 +47,7 @@ class _STSaathiAppState extends State<STSaathiApp> {
     if (!Platform.isAndroid && !Platform.isIOS) return;
 
     final service = AppUpdateService();
-    final versionCode = service.getLocalVersionCode();
+    final versionCode = await service.getLocalVersionCode();
     final isDismissed = await service.isDismissed(versionCode);
     if (isDismissed) return;
 
