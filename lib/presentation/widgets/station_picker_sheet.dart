@@ -47,7 +47,7 @@ class _StationPickerSheetState extends State<StationPickerSheet> {
   Timer? _debounceTimer;
 
   // In-memory cache for ultra-fast initial display
-  static List<Station>? _cachedInitialStations;
+  static List<Station>? _cachedAllStations;
   List<Station> _stations = [];
   bool _isLoading = false;
   bool _onlyDepots = false;
@@ -55,17 +55,17 @@ class _StationPickerSheetState extends State<StationPickerSheet> {
   @override
   void initState() {
     super.initState();
-    if (_cachedInitialStations != null && _cachedInitialStations!.isNotEmpty) {
-      _stations = _cachedInitialStations!;
+    if (_cachedAllStations != null && _cachedAllStations!.isNotEmpty) {
+      _stations = _cachedAllStations!;
     } else {
-      _loadInitialStations();
+      _loadAllStations();
     }
   }
 
-  Future<void> _loadInitialStations() async {
+  Future<void> _loadAllStations() async {
     setState(() => _isLoading = true);
-    final list = await DatabaseHelper.instance.searchStations('', limit: 60);
-    _cachedInitialStations = list;
+    final list = await DatabaseHelper.instance.searchStations('', limit: 2000);
+    _cachedAllStations = List.from(list);
     if (mounted) {
       setState(() {
         _stations = list;
@@ -76,28 +76,45 @@ class _StationPickerSheetState extends State<StationPickerSheet> {
 
   void _onSearchInputChanged(String query) {
     _debounceTimer?.cancel();
-    _debounceTimer = Timer(const Duration(milliseconds: 180), () {
-      _executeSearch(query);
+    _debounceTimer = Timer(const Duration(milliseconds: 100), () {
+      _filterStations(query);
     });
   }
 
-  Future<void> _executeSearch(String query) async {
-    final cleanQ = query.trim();
-    final results = await DatabaseHelper.instance.searchStations(cleanQ, limit: 60);
-    if (mounted) {
-      setState(() {
-        _stations = _onlyDepots ? results.where((s) => s.isDepot).toList() : results;
-        _isLoading = false;
-      });
+  void _filterStations(String query) {
+    final cleanQ = query.trim().toLowerCase();
+    final all = _cachedAllStations ?? _stations;
+    if (cleanQ.isEmpty) {
+      _applyFilter(all);
+      return;
     }
+    final results = all.where((s) {
+      final nameEn = s.nameEn.toLowerCase();
+      final nameMr = s.nameMr.toLowerCase();
+      return nameEn.contains(cleanQ) || nameMr.contains(cleanQ);
+    }).toList()
+      ..sort((a, b) {
+        final aStarts = a.nameEn.toLowerCase().startsWith(cleanQ) || a.nameMr.toLowerCase().startsWith(cleanQ);
+        final bStarts = b.nameEn.toLowerCase().startsWith(cleanQ) || b.nameMr.toLowerCase().startsWith(cleanQ);
+        if (aStarts && !bStarts) return -1;
+        if (!aStarts && bStarts) return 1;
+        return a.nameEn.compareTo(b.nameEn);
+      });
+    _applyFilter(results);
+  }
+
+  void _applyFilter(List<Station> results) {
+    if (!mounted) return;
+    setState(() {
+      _stations = _onlyDepots ? results.where((s) => s.isDepot).toList() : results;
+      _isLoading = false;
+    });
   }
 
   void _toggleDepotFilter(bool selected) {
     HapticFeedback.selectionClick();
-    setState(() {
-      _onlyDepots = selected;
-    });
-    _executeSearch(_searchCtrl.text);
+    setState(() => _onlyDepots = selected);
+    _filterStations(_searchCtrl.text);
   }
 
   @override
@@ -159,19 +176,46 @@ class _StationPickerSheetState extends State<StationPickerSheet> {
             child: Row(
               children: [
                 Expanded(
-                  child: Text(
-                    widget.title,
-                    style: widget.isMarathi
-                        ? AppTheme.devanagari(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: colorScheme.onSurface,
-                          )
-                        : AppTheme.latin(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: colorScheme.onSurface,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        widget.title,
+                        style: widget.isMarathi
+                            ? AppTheme.devanagari(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: colorScheme.onSurface,
+                              )
+                            : AppTheme.latin(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: colorScheme.onSurface,
+                              ),
+                      ),
+                      if (_cachedAllStations != null)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 2),
+                          child: Text(
+                            '${_cachedAllStations!.length} stations'
+                            '${_cachedAllStations!.where((s) => s.isDepot).isNotEmpty
+                                ? ' • ${_cachedAllStations!.where((s) => s.isDepot).length} depots'
+                                : ''}',
+                            style: widget.isMarathi
+                                ? AppTheme.devanagari(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600,
+                                    color: colorScheme.onSurface.withValues(alpha: 0.6),
+                                  )
+                                : AppTheme.latin(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600,
+                                    color: colorScheme.onSurface.withValues(alpha: 0.6),
+                                  ),
                           ),
+                        ),
+                    ],
                   ),
                 ),
                 IconButton(
@@ -225,7 +269,7 @@ class _StationPickerSheetState extends State<StationPickerSheet> {
                           icon: const Icon(Icons.cancel_rounded, size: 18),
                           onPressed: () {
                             _searchCtrl.clear();
-                            _executeSearch('');
+                            _filterStations('');
                           },
                         )
                       : null,

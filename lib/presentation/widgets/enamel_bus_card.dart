@@ -186,7 +186,7 @@ class _EnamelBusCardState extends State<EnamelBusCard> {
                   children: [
                     // --- LEFT PILLAR: High-Contrast Time Container with Tabular Figures ---
                     Container(
-                      width: 78,
+                      width: 100,
                       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                       decoration: BoxDecoration(
                         color: isDark ? const Color(0xFF2E2220) : timeStatus.pillarBg,
@@ -202,6 +202,8 @@ class _EnamelBusCardState extends State<EnamelBusCard> {
                         children: [
                           Text(
                             depDisplay,
+                            softWrap: false,
+                            overflow: TextOverflow.visible,
                             style: widget.isMarathi
                                 ? AppTheme.devanagari(
                                     fontSize: 18,

@@ -213,7 +213,7 @@ class AppStrings {
     } else {
       final period = h >= 12 ? 'PM' : 'AM';
       final displayH = h == 0 ? 12 : (h > 12 ? h - 12 : h);
-      result = '$displayH:${m.toString().padLeft(2, '0')} $period';
+      result = '${displayH.toString().padLeft(2, '0')}:${m.toString().padLeft(2, '0')} $period';
     }
 
     return toDevanagariDigits(result, isMarathi);
